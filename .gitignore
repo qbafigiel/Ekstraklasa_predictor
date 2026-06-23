@@ -1,0 +1,82 @@
+# ==========================================
+# Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# ==========================================
+# IDE / Edytory
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Playwright / Browsers
+# ==========================================
+playwright/.cache/
+.playwright/
+*.log
+
+# ==========================================
+# Streamlit
+# ==========================================
+.streamlit/secrets.toml
+.streamlit/credentials.toml
+
+# ==========================================
+# Bazy danych
+# ==========================================
+db/*.db
+db/*.sqlite
+db/*.sqlite3
+*.db-journal
+
+# ==========================================
+# Sekrety i konfiguracja lokalna
+# ==========================================
+.env
+.env.local
+secrets.json
+config_local.py
+
+# ==========================================
+# Pliki tymczasowe i archiwa lokalne
+# ==========================================
+*.tmp
+*.bak
+*.swp
+checkpoint_*.csv
+
+# ==========================================
+# Jupyter
+# ==========================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ==========================================
+# Co ZOSTAWIAMY w repo (świadomie):
+# ==========================================
+# data/raw/         - dane źródłowe (część projektu)
+# data/processed/   - dane robocze (część projektu)
+# data/reports/     - raporty diagnostyczne
+# archive/          - historyczne wersje (część dokumentacji projektu)
