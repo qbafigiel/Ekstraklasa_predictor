@@ -1,0 +1,127 @@
+{
+  "mu_home": 1.5144,
+  "mu_away": 1.1411,
+  "home_advantage": 1.3271,
+  "druzyny": [
+    {
+      "druzyna": "Lech Poznań",
+      "atak": 1.3828,
+      "obrona": 0.843
+    },
+    {
+      "druzyna": "Jagiellonia Białystok",
+      "atak": 1.3612,
+      "obrona": 0.8956
+    },
+    {
+      "druzyna": "Lechia Gdańsk",
+      "atak": 1.2738,
+      "obrona": 1.3108
+    },
+    {
+      "druzyna": "Pogoń Szczecin",
+      "atak": 1.2111,
+      "obrona": 0.9263
+    },
+    {
+      "druzyna": "Raków Częstochowa",
+      "atak": 1.1576,
+      "obrona": 0.7182
+    },
+    {
+      "druzyna": "GKS Katowice",
+      "atak": 1.1455,
+      "obrona": 0.9538
+    },
+    {
+      "druzyna": "Legia Warszawa",
+      "atak": 1.1242,
+      "obrona": 0.8408
+    },
+    {
+      "druzyna": "Radomiak Radom",
+      "atak": 1.1174,
+      "obrona": 1.1253
+    },
+    {
+      "druzyna": "Motor Lublin",
+      "atak": 1.0819,
+      "obrona": 1.1505
+    },
+    {
+      "druzyna": "Cracovia",
+      "atak": 1.0592,
+      "obrona": 0.9713
+    },
+    {
+      "druzyna": "Górnik Zabrze",
+      "atak": 1.0546,
+      "obrona": 0.8137
+    },
+    {
+      "druzyna": "Bruk-Bet Termalica Nieciecza",
+      "atak": 1.0025,
+      "obrona": 1.3485
+    },
+    {
+      "druzyna": "Śląsk Wrocław",
+      "atak": 0.9641,
+      "obrona": 0.9409
+    },
+    {
+      "druzyna": "Widzew Łódź",
+      "atak": 0.9265,
+      "obrona": 0.9266
+    },
+    {
+      "druzyna": "Zagłębie Lubin",
+      "atak": 0.9233,
+      "obrona": 0.9264
+    },
+    {
+      "druzyna": "Stal Mielec",
+      "atak": 0.9216,
+      "obrona": 1.1074
+    },
+    {
+      "druzyna": "Ruch Chorzów",
+      "atak": 0.9132,
+      "obrona": 1.1908
+    },
+    {
+      "druzyna": "Piast Gliwice",
+      "atak": 0.8948,
+      "obrona": 0.8411
+    },
+    {
+      "druzyna": "Korona Kielce",
+      "atak": 0.8839,
+      "obrona": 0.879
+    },
+    {
+      "druzyna": "Puszcza Niepołomice",
+      "atak": 0.8725,
+      "obrona": 1.2047
+    },
+    {
+      "druzyna": "ŁKS Łódź",
+      "atak": 0.7966,
+      "obrona": 1.613
+    },
+    {
+      "druzyna": "Arka Gdynia",
+      "atak": 0.7879,
+      "obrona": 1.2507
+    },
+    {
+      "druzyna": "Wisła Płock",
+      "atak": 0.7657,
+      "obrona": 0.7782
+    },
+    {
+      "druzyna": "Warta Poznań",
+      "atak": 0.7413,
+      "obrona": 0.9219
+    }
+  ]
+}

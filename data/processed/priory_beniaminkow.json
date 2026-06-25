@@ -1,0 +1,42 @@
+{
+  "2024/25": {
+    "prior_atak": 0.8,
+    "prior_obrona": 1.1,
+    "zrodlo": "domyslny (brak danych historycznych)",
+    "historia": []
+  },
+  "2025/26": {
+    "prior_atak": 0.7744,
+    "prior_obrona": 1.0648,
+    "zrodlo": "empiryczny z poprzednich sezonów",
+    "historia": [
+      {
+        "druzyna": "Lechia Gdańsk",
+        "sezon": "2024/25",
+        "avg_strzelone": 1.2,
+        "avg_stracone": 1.9,
+        "avg_ligowa": 1.3774509803921569,
+        "wspolczynnik_ataku": 0.8711743772241992,
+        "wspolczynnik_obrony": 1.3793594306049821
+      },
+      {
+        "druzyna": "Motor Lublin",
+        "sezon": "2024/25",
+        "avg_strzelone": 0.8,
+        "avg_stracone": 1.2,
+        "avg_ligowa": 1.3774509803921569,
+        "wspolczynnik_ataku": 0.5807829181494663,
+        "wspolczynnik_obrony": 0.8711743772241992
+      },
+      {
+        "druzyna": "GKS Katowice",
+        "sezon": "2024/25",
+        "avg_strzelone": 1.2,
+        "avg_stracone": 1.3,
+        "avg_ligowa": 1.3774509803921569,
+        "wspolczynnik_ataku": 0.8711743772241992,
+        "wspolczynnik_obrony": 0.9437722419928826
+      }
+    ]
+  }
+}
