@@ -80,3 +80,7 @@ checkpoint_*.csv
 # data/processed/   - dane robocze (część projektu)
 # data/reports/     - raporty diagnostyczne
 # archive/          - historyczne wersje (część dokumentacji projektu)
+
+data/__pycache__/
+**/__pycache__/
+*.pyc
