@@ -1,27 +1,17 @@
 """
-scrape_lineups_flashscore_v2.py
-===============================
-Scrapuje z Flashscore:
-1) starterów
-2) ławkę
-3) absencje / wykluczonych z gry
-4) trenerów
-5) zmiany w meczu
+scrape_lineups_2023_24.py
+=========================
+Dociąga składy, absencje, trenerów i zmiany dla sezonu 2023/24.
+Reszta sezonów (2024/25, 2025/26) już jest w bazie.
 
-Źródło:
-matches.flash_url
-np.
-https://www.flashscore.pl/mecz/pilka-nozna/.../szczegoly/statystyki/?mid=CCPtlaaU
-
-zamieniamy na:
-https://www.flashscore.pl/mecz/pilka-nozna/.../szczegoly/sklady/?mid=CCPtlaaU
+Oparty na scrape_lineups_flashscore_v2.py — ta sama logika.
 """
 
 import asyncio
 import re
 import sqlite3
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Optional
 
 from bs4 import BeautifulSoup
 from playwright.async_api import async_playwright
@@ -34,10 +24,7 @@ from playwright.async_api import async_playwright
 DB_PATH = Path("db/ekstraklasa.db")
 DEBUG_DIR = Path("data/debug_lineups")
 
-# Na start test:
-LIMIT_MATCHES = None
-# Po udanym teście:
-# LIMIT_MATCHES = None
+SEASON_FILTER = "2023/24"
 
 HEADLESS = True
 PAGE_TIMEOUT_MS = 60000
@@ -63,11 +50,11 @@ def ensure_schema(conn: sqlite3.Connection) -> None:
         CREATE TABLE IF NOT EXISTS lineups (
             sezon TEXT NOT NULL,
             match_id INTEGER NOT NULL,
-            team_side TEXT NOT NULL,          -- home / away
+            team_side TEXT NOT NULL,
             team_name TEXT NOT NULL,
             player_name TEXT NOT NULL,
             shirt_number TEXT,
-            is_starter INTEGER NOT NULL,      -- 1 starter, 0 bench
+            is_starter INTEGER NOT NULL,
             player_order INTEGER NOT NULL,
             is_goalkeeper INTEGER NOT NULL DEFAULT 0,
             is_captain INTEGER NOT NULL DEFAULT 0,
@@ -148,25 +135,27 @@ def get_matches(conn: sqlite3.Connection) -> List[sqlite3.Row]:
     conn.row_factory = sqlite3.Row
     cur = conn.cursor()
 
-    sql = """
+    cur.execute("""
         SELECT
-            match_id,
-            sezon,
-            data_meczu,
-            gospodarz,
-            gosc,
-            flash_id,
-            flash_url
-        FROM matches
-        WHERE flash_id IS NOT NULL
-          AND flash_url IS NOT NULL
-        ORDER BY data_meczu ASC, match_id ASC
-    """
+            m.match_id,
+            m.sezon,
+            m.data_meczu,
+            m.gospodarz,
+            m.gosc,
+            m.flash_id,
+            m.flash_url
+        FROM matches m
+        WHERE m.sezon = ?
+          AND m.flash_id IS NOT NULL
+          AND m.flash_url IS NOT NULL
+          AND NOT EXISTS (
+              SELECT 1 FROM lineups l
+              WHERE l.sezon = m.sezon
+                AND l.match_id = m.match_id
+          )
+        ORDER BY m.data_meczu ASC, m.match_id ASC
+    """, (SEASON_FILTER,))
 
-    if LIMIT_MATCHES is not None:
-        sql += f" LIMIT {int(LIMIT_MATCHES)}"
-
-    cur.execute(sql)
     return cur.fetchall()
 
 
@@ -182,7 +171,6 @@ def delete_existing_for_match(conn: sqlite3.Connection, sezon: str, match_id: in
 def save_parsed_data(conn: sqlite3.Connection, data: Dict) -> None:
     cur = conn.cursor()
 
-    # lineups
     cur.executemany("""
         INSERT INTO lineups (
             sezon, match_id, team_side, team_name,
@@ -199,7 +187,6 @@ def save_parsed_data(conn: sqlite3.Connection, data: Dict) -> None:
         for r in data["lineups"]
     ])
 
-    # absences
     cur.executemany("""
         INSERT INTO match_absences (
             sezon, match_id, team_side, team_name,
@@ -214,7 +201,6 @@ def save_parsed_data(conn: sqlite3.Connection, data: Dict) -> None:
         for r in data["absences"]
     ])
 
-    # substitutions
     cur.executemany("""
         INSERT INTO match_substitutions (
             sezon, match_id, team_side, team_name,
@@ -231,7 +217,6 @@ def save_parsed_data(conn: sqlite3.Connection, data: Dict) -> None:
         for r in data["substitutions"]
     ])
 
-    # coaches
     cur.execute("""
         INSERT INTO match_coaches (
             sezon, match_id, home_team, away_team,
@@ -305,12 +290,6 @@ def save_debug_html(sezon: str, match_id: int, html: str) -> None:
 # ============================================================
 
 def parse_numbered_player(parts: List[str]) -> Optional[Dict]:
-    """
-    Przykłady:
-    ["50", "Abramowicz S.", "(B)"]
-    ["6", "Romanczuk T.", "(C)"]
-    ["20", "Miki Villar"]
-    """
     if len(parts) < 2:
         return None
     if not RE_NUMBER.match(parts[0]):
@@ -343,11 +322,6 @@ def parse_numbered_player(parts: List[str]) -> Optional[Dict]:
 
 
 def parse_absence(parts: List[str]) -> Optional[Dict]:
-    """
-    Przykład:
-    ["Kidric R.", "Kontuzja"]
-    ["Thiago", "Czerwona kartka"]
-    """
     if not parts:
         return None
 
@@ -371,11 +345,6 @@ def parse_coach(parts: List[str]) -> Optional[str]:
 
 
 def parse_substitution(parts: List[str]) -> Optional[Dict]:
-    """
-    Przykłady:
-    ["Nene", "8.3", "Kubicki J.", "62'"]
-    ["Diaby-Fadiga L.", "Pululu A.", "81'"]
-    """
     if len(parts) < 3:
         return None
 
@@ -389,13 +358,10 @@ def parse_substitution(parts: List[str]) -> Optional[Dict]:
     player_in = None
     player_out = None
 
-    # wariant z ratingiem
     if len(core) >= 3 and RE_RATING.match(core[1]):
         player_in = clean_text(core[0])
         rating_raw = core[1]
         player_out = clean_text(" ".join(core[2:]))
-
-    # wariant bez ratingu
     else:
         player_in = clean_text(core[0])
         player_out = clean_text(" ".join(core[1:]))
@@ -441,7 +407,6 @@ def extract_match_data(
         team_name = node_team_name(side, home_team, away_team)
         classes = node.get("class", [])
 
-        # Zmiany
         if "lf__participantNew--substituedPlayer" in classes:
             sub = parse_substitution(parts)
             if sub:
@@ -454,7 +419,6 @@ def extract_match_data(
                 })
             continue
 
-        # Zawodnicy z numerem
         pl = parse_numbered_player(parts)
         if pl:
             numbered_candidates.append({
@@ -466,18 +430,12 @@ def extract_match_data(
             })
             continue
 
-        # Reszta = absencje i trenerzy
         other_by_side[side].append({
             "parts": parts,
             "raw_text": raw_from_parts(parts),
             "team_name": team_name,
         })
 
-    # --------------------------------------------------------
-    # LINEUPS
-    # pierwsze 22 ponumerowane rekordy = starterzy
-    # reszta ponumerowanych = ławka
-    # --------------------------------------------------------
     if len(numbered_candidates) < 22:
         raise ValueError(f"Za mało ponumerowanych zawodników: {len(numbered_candidates)}")
 
@@ -526,12 +484,6 @@ def extract_match_data(
             "player_order": order,
         })
 
-    # --------------------------------------------------------
-    # ABSENCES + COACHES
-    # logika:
-    # dla każdej strony ostatni nieponumerowany rekord = trener
-    # wcześniejsze = absencje
-    # --------------------------------------------------------
     absence_rows = []
     coach_home = None
     coach_away = None
@@ -594,7 +546,6 @@ async def scrape_one_match(
 ) -> Dict:
     url = build_lineups_url(flash_url)
 
-    # nowa sesja / context dla każdego meczu
     context = await browser.new_context(locale="pl-PL")
     page = await context.new_page()
 
@@ -641,11 +592,9 @@ async def main():
     matches = get_matches(conn)
 
     print("=" * 80)
-    print("SCRAPING FLASHSCORE /SKLADY")
+    print("SCRAPING SKŁADÓW — SEZON 2023/24 (BACKFILL)")
     print("=" * 80)
     print(f"Mecze do obrobienia: {len(matches)}")
-    print(f"HEADLESS: {HEADLESS}")
-    print(f"LIMIT_MATCHES: {LIMIT_MATCHES}")
     print()
 
     ok_count = 0
@@ -689,7 +638,7 @@ async def main():
                 away_coach = parsed["coaches"]["away_coach"]
 
                 print(
-                    f"[{i:03d}/{len(matches)}] OK  | {sezon} | {home_team} vs {away_team} | "
+                    f"[{i:03d}/{len(matches)}] OK  | {home_team} vs {away_team} | "
                     f"START {hs}-{as_} | BENCH {hb}-{ab} | ABS {ha}-{aa} | SUB {hsub}-{asub} | "
                     f"COACH {home_coach} / {away_coach}"
                 )
@@ -697,7 +646,7 @@ async def main():
 
             except Exception as e:
                 print(
-                    f"[{i:03d}/{len(matches)}] ERR | {sezon} | {home_team} vs {away_team} | "
+                    f"[{i:03d}/{len(matches)}] ERR | {home_team} vs {away_team} | "
                     f"{type(e).__name__}: {e}"
                 )
                 err_count += 1
@@ -714,7 +663,6 @@ async def main():
     print("=" * 80)
     print(f"OK : {ok_count}")
     print(f"ERR: {err_count}")
-    print(f"Debug HTML (błędy): {DEBUG_DIR}")
     print("=" * 80)
 
 
