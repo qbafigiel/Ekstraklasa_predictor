@@ -1,0 +1,141 @@
+==============================================================================
+AUDYT TOŻSAMOŚCI ZAWODNIKÓW + TRANSFERY + KANDYDACI DLA NIEDOPASOWANYCH
+==============================================================================
+
+1. EKSTRAKLASA.ORG — roster 3 sezony
+------------------------------------------------------------------------------
+Liczba unikalnych rekordów sezon-zawodnik-klub: 1552
+  2023/24:  499 rekordów | 499 unikalnych player_slug | 18 klubów
+  2024/25:  516 rekordów | 516 unikalnych player_slug | 18 klubów
+  2025/26:  537 rekordów | 537 unikalnych player_slug | 18 klubów
+
+2. TRANSFERY / ZMIANY KLUBOWE
+------------------------------------------------------------------------------
+Zawodnicy z >1 klubem w 3 sezonach: 113
+Top 30 przykładów:
+  dawid-abramowicz                         | arka-gdynia | puszcza-niepolomice | radomiak-radom
+  filip-rejczyk                            | gks-katowice | legia-warszawa | slask-wroclaw
+  jakub-ukowski                            | gks-katowice | korona-kielce | widzew-lodz
+  maksymilian-pingot                       | gornik-zabrze | lech-poznan | stal-mielec
+  marcin-cebula                            | korona-kielce | rakow-czestochowa | slask-wroclaw
+  mariusz-fornalczyk                       | korona-kielce | pogon-szczecin | widzew-lodz
+  serafin-jan-szota                        | arka-gdynia | slask-wroclaw | widzew-lodz
+  adam-zrelak                              | gks-katowice | warta-poznan
+  adrian-dalmau-vaquer                     | korona-kielce | piast-gliwice
+  adrian-dieguez-grande                    | jagiellonia-bialystok | radomiak-radom
+  alan-czerwinski                          | gks-katowice | lech-poznan
+  aleksander-buksa                         | gks-katowice | gornik-zabrze
+  aleksander-paluszek                      | gks-katowice | slask-wroclaw
+  alvis-jaunzems                           | lechia-gdansk | stal-mielec
+  antoni-klimek                            | puszcza-niepolomice | widzew-lodz
+  antoni-klukowski                         | pogon-szczecin | widzew-lodz
+  ariel-pawe-mosor                         | piast-gliwice | rakow-czestochowa
+  aurelien-thomas-nguiamba                 | arka-gdynia | jagiellonia-bialystok
+  bartomiej-kudka                          | lechia-gdansk | zagebie-lubin
+  bartosz-kopacz                           | nieciecza | zagebie-lubin
+  bartosz-nowak                            | gks-katowice | rakow-czestochowa
+  bojan-nastic                             | jagiellonia-bialystok | wisla-plock
+  damian-rasak                             | gks-katowice | gornik-zabrze
+  daniel-pacheco-lobato                    | gornik-zabrze | wisla-plock
+  dawid-drachal                            | jagiellonia-bialystok | rakow-czestochowa
+  dawid-kurminowski                        | lechia-gdansk | zagebie-lubin
+  dawid-szymonowicz                        | puszcza-niepolomice | warta-poznan
+  dawid-tkacz                              | stal-mielec | widzew-lodz
+  dominick-lukasz-zator                    | arka-gdynia | korona-kielce
+  dominik-hadun                            | legia-warszawa | zagebie-lubin
+
+3. FLASHSCORE 2025/26 — obecnie niedopasowani
+------------------------------------------------------------------------------
+Niedopasowanych po obecnym player_mapping.csv: 105
+  Arka Gdynia                    | 9
+  Bruk-Bet Termalica Nieciecza   | 5
+  Cracovia                       | 5
+  GKS Katowice                   | 9
+  Górnik Zabrze                  | 3
+  Jagiellonia Białystok          | 9
+  Korona Kielce                  | 3
+  Lech Poznań                    | 7
+  Lechia Gdańsk                  | 6
+  Legia Warszawa                 | 3
+  Motor Lublin                   | 2
+  Piast Gliwice                  | 4
+  Pogoń Szczecin                 | 7
+  Radomiak Radom                 | 6
+  Raków Częstochowa              | 8
+  Widzew Łódź                    | 6
+  Wisła Płock                    | 8
+  Zagłębie Lubin                 | 5
+
+4. KANDYDACI GLOBALNI DLA NIEDOPASOWANYCH
+------------------------------------------------------------------------------
+Niedopasowani z co najmniej 1 kandydatem globalnym: 65/105
+
+Top przykłady (najlepszy kandydat per zawodnik):
+  Arka Gdynia                    | Petrovic Z.               -> mauro-perkovic                      | cracovia             | 2025/26 | score= 86 | same_season_other_club
+  Bruk-Bet Termalica Nieciecza   | Janicki M.                -> rafa-janicki                        | gornik-zabrze        | 2025/26 | score=102 | same_season_other_club
+  Bruk-Bet Termalica Nieciecza   | Kozik M.                  -> miosz-kozak                         | ruch-chorzow         | 2023/24 | score= 82 | past_season_other_club
+  Bruk-Bet Termalica Nieciecza   | Mrosek N.                 -> bartosz-mrozek                      | lech-poznan          | 2025/26 | score= 80 | same_season_other_club
+  Cracovia                       | Janasik P.                -> patryk-janasik                      | cracovia             | 2024/25 | score=107 | past_season_same_club
+  Cracovia                       | Jugas J.                  -> jakub-jugas                         | cracovia             | 2023/24 | score=107 | past_season_same_club
+  Cracovia                       | Skovgaard A.              -> andreas-skovgaard-larsen            | cracovia             | 2023/24 | score= 93 | past_season_same_club
+  GKS Katowice                   | Jaroszek B.               -> bartosz-jaroszek                    | gks-katowice         | 2024/25 | score=107 | past_season_same_club
+  GKS Katowice                   | Jirka E.                  -> erik-jirka                          | piast-gliwice        | 2025/26 | score=106 | same_season_other_club
+  GKS Katowice                   | Marzec M.                 -> mateusz-marzec                      | gks-katowice         | 2024/25 | score=107 | past_season_same_club
+  GKS Katowice                   | Pankowski W.              -> kamil-dankowski                     | lks-lodz             | 2023/24 | score= 84 | past_season_other_club
+  GKS Katowice                   | Shkurin I.                -> ilya-shkurin                        | legia-warszawa       | 2025/26 | score=106 | same_season_other_club
+  GKS Katowice                   | Swatowski M.              -> pawe-kwiatkowski                    | widzew-lodz          | 2023/24 | score= 78 | past_season_other_club
+  GKS Katowice                   | Trepka L.                 -> oskar-repka                         | gks-katowice         | 2024/25 | score= 87 | past_season_same_club
+  GKS Katowice                   | Wdowiak M.                -> mateusz-wdowiak                     | zagebie-lubin        | 2025/26 | score=106 | same_season_other_club
+  Górnik Zabrze                  | Rakoczy M.                -> micha-miosz-rakoczy                 | cracovia             | 2025/26 | score= 98 | same_season_other_club
+  Jagiellonia Białystok          | Costa S. T.               -> tomas-costa-silva                   | jagiellonia-bialystok | 2024/25 | score= 93 | past_season_same_club
+  Jagiellonia Białystok          | Damasiewicz A.            -> grzegorz-tomasiewicz                | piast-gliwice        | 2025/26 | score= 80 | same_season_other_club
+  Jagiellonia Białystok          | Dieguez A.                -> adrian-dieguez-grande               | jagiellonia-bialystok | 2023/24 | score= 93 | past_season_same_club
+  Jagiellonia Białystok          | Konstantopoulos A.        -> apostolos-chrysovalantis-konstantopoulos | rakow-czestochowa    | 2025/26 | score= 98 | same_season_other_club
+  Jagiellonia Białystok          | Krasiewicz B.             -> arkadiusz-kasperkiewicz             | nieciecza            | 2025/26 | score= 80 | same_season_other_club
+  Jagiellonia Białystok          | Kuczynski M.              -> micha-kopczynski                    | warta-poznan         | 2023/24 | score= 82 | past_season_other_club
+  Jagiellonia Białystok          | Pankiewicz S.             -> bartosz-szczepankiewicz             | lechia-gdansk        | 2025/26 | score= 80 | same_season_other_club
+  Jagiellonia Białystok          | Szmyt K.                  -> kajetan-szmyt                       | zagebie-lubin        | 2025/26 | score=106 | same_season_other_club
+  Korona Kielce                  | Bąk D.                    -> daniel-bak                          | korona-kielce        | 2023/24 | score=107 | past_season_same_club
+  Korona Kielce                  | Mamla R.                  -> rafa-mamla                          | korona-kielce        | 2024/25 | score=107 | past_season_same_club
+  Lech Poznań                    | Andersson E.              -> nils-erik-elias-andersson           | lech-poznan          | 2023/24 | score= 95 | past_season_same_club
+  Lech Poznań                    | Baranski B.               -> bartomiej-pawe-baranski             | ruch-chorzow         | 2023/24 | score= 96 | past_season_other_club
+  Lech Poznań                    | Bąkowski K.               -> krzysztof-maciej-bakowski           | radomiak-radom       | 2023/24 | score= 96 | past_season_other_club
+  Lech Poznań                    | Ismaheel T.               -> taofeek-ajibade-ismaheel            | gornik-zabrze        | 2025/26 | score= 98 | same_season_other_club
+  Lech Poznań                    | Salamon B.                -> bartosz-salamon                     | lech-poznan          | 2023/24 | score=107 | past_season_same_club
+  Lechia Gdańsk                  | Brzek B.                  -> jakub-burek                         | wisla-plock          | 2025/26 | score= 80 | same_season_other_club
+  Lechia Gdańsk                  | Gutowski K.               -> jakub-ukowski                       | gks-katowice         | 2025/26 | score= 80 | same_season_other_club
+  Lechia Gdańsk                  | Kaczorowski M.            -> oskar-koprowski                     | lks-lodz             | 2023/24 | score= 78 | past_season_other_club
+  Lechia Gdańsk                  | Wendt K.                  -> karl-sydney-wendt                   | lechia-gdansk        | 2024/25 | score= 99 | past_season_same_club
+  Legia Warszawa                 | Gual M.                   -> marc-gual-huguet                    | legia-warszawa       | 2023/24 | score= 93 | past_season_same_club
+  Legia Warszawa                 | Kobylak G.                -> gabriel-kobylak                     | legia-warszawa       | 2023/24 | score=107 | past_season_same_club
+  Piast Gliwice                  | Daniel J.                 -> daniel-noel-mikael-hakans           | lech-poznan          | 2025/26 | score= 88 | same_season_other_club
+  Pogoń Szczecin                 | Bak M.                    -> mateusz-bak                         | pogon-szczecin       | 2024/25 | score=107 | past_season_same_club
+  Pogoń Szczecin                 | Jakubowski R.             -> jakub-ukowski                       | gks-katowice         | 2025/26 | score= 86 | same_season_other_club
+  Pogoń Szczecin                 | Peskovic A.               -> mauro-perkovic                      | cracovia             | 2025/26 | score= 86 | same_season_other_club
+  Pogoń Szczecin                 | Stanowski K.              -> jakub-sangowski                     | warta-poznan         | 2023/24 | score= 84 | past_season_other_club
+  Radomiak Radom                 | Guilherme                 -> guilherme-da-gama-zimovski          | radomiak-radom       | 2023/24 | score= 89 | past_season_same_club
+  Radomiak Radom                 | Koptas W.                 -> wiktor-koptas                       | radomiak-radom       | 2024/25 | score=107 | past_season_same_club
+  Radomiak Radom                 | Markiewicz O.             -> arkadiusz-kasperkiewicz             | nieciecza            | 2025/26 | score= 80 | same_season_other_club
+  Radomiak Radom                 | Molendowski M.            -> franciszek-lewandowski              | motor-lublin         | 2025/26 | score= 80 | same_season_other_club
+  Raków Częstochowa              | Diaz J.                   -> jesus-antonio-diaz-gomez            | rakow-czestochowa    | 2024/25 | score= 93 | past_season_same_club
+  Raków Częstochowa              | Mądrzyk J.                -> jakub-madrzyk                       | stal-mielec          | 2024/25 | score=104 | past_season_other_club
+  Raków Częstochowa              | Pieńko T.                 -> tomasz-pienko                       | zagebie-lubin        | 2025/26 | score=106 | same_season_other_club
+  Raków Częstochowa              | Silva J. C.               -> luis-silva                          | widzew-lodz          | 2023/24 | score=100 | past_season_other_club
+  Widzew Łódź                    | Gikiewicz R.              -> rafa-tadeusz-gikiewicz              | widzew-lodz          | 2023/24 | score= 99 | past_season_same_club
+  Widzew Łódź                    | Kapuadi S.                -> steve-nkanu-kapuadi                 | legia-warszawa       | 2025/26 | score= 98 | same_season_other_club
+  Widzew Łódź                    | Krzywanski J.             -> jan-krzywanski                      | widzew-lodz          | 2023/24 | score=107 | past_season_same_club
+  Widzew Łódź                    | Madej L.                  -> leon-madej                          | widzew-lodz          | 2024/25 | score=107 | past_season_same_club
+  Widzew Łódź                    | Volanakis P.              -> polydefkis-volanakis                | widzew-lodz          | 2024/25 | score=107 | past_season_same_club
+  Wisła Płock                    | Barnowski D.              -> pawe-baranowski                     | ruch-chorzow         | 2023/24 | score= 90 | past_season_other_club
+  Wisła Płock                    | Gallapeni D.              -> dion-gallapeni                      | widzew-lodz          | 2025/26 | score=106 | same_season_other_club
+  Wisła Płock                    | Lesniewski M.             -> przemysaw-wisniewski                | widzew-lodz          | 2025/26 | score= 80 | same_season_other_club
+  Wisła Płock                    | Pruszkowski S.            -> jakub-paszkowski                    | warta-poznan         | 2023/24 | score= 84 | past_season_other_club
+  Wisła Płock                    | Rogowski N.               -> micha-gogowski                      | lechia-gdansk        | 2025/26 | score= 86 | same_season_other_club
+
+5. WYGNEROWANE PLIKI
+------------------------------------------------------------------------------
+  data\processed\ekstra_player_roster_2023_2026.csv
+  data\processed\ekstra_player_transfers_2023_2026.csv
+  data\processed\flash_unmatched_2025_26.csv
+  data\processed\flash_unmatched_candidates_2025_26.csv
+  data\processed\flash_identity_transfer_audit_report.txt

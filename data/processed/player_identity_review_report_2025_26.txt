@@ -1,0 +1,139 @@
+==============================================================================
+PLAYER IDENTITY REVIEW 2025/26 — STRICT / TRANSFER-AWARE / NO FUZZY
+==============================================================================
+
+1. Statusy ogółem
+------------------------------------------------------------------------------
+  matched_existing             | 535
+  no_candidate                 | 65
+  auto_same_club_history       | 18
+  auto_transfer_candidate      | 13
+  review_needed                | 5
+  review_high_confidence       | 4
+
+2. Tylko unresolved
+------------------------------------------------------------------------------
+  unresolved łącznie: 105
+  no_candidate                 | 65
+  auto_same_club_history       | 18
+  auto_transfer_candidate      | 13
+  review_needed                | 5
+  review_high_confidence       | 4
+
+3. Auto-propozycje SAME CLUB HISTORY
+------------------------------------------------------------------------------
+  Cracovia                       | Janasik P.                -> patryk-janasik
+  Cracovia                       | Jugas J.                  -> jakub-jugas
+  GKS Katowice                   | Jaroszek B.               -> bartosz-jaroszek
+  GKS Katowice                   | Marzec M.                 -> mateusz-marzec
+  Jagiellonia Białystok          | Dieguez A.                -> adrian-dieguez-grande
+  Korona Kielce                  | Bąk D.                    -> daniel-bak
+  Korona Kielce                  | Mamla R.                  -> rafa-mamla
+  Lech Poznań                    | Andersson E.              -> nils-erik-elias-andersson
+  Lech Poznań                    | Salamon B.                -> bartosz-salamon
+  Lechia Gdańsk                  | Wendt K.                  -> karl-sydney-wendt
+  Legia Warszawa                 | Kobylak G.                -> gabriel-kobylak
+  Pogoń Szczecin                 | Bak M.                    -> mateusz-bak
+  Radomiak Radom                 | Koptas W.                 -> wiktor-koptas
+  Raków Częstochowa              | Diaz J.                   -> jesus-antonio-diaz-gomez
+  Widzew Łódź                    | Gikiewicz R.              -> rafa-tadeusz-gikiewicz
+  Widzew Łódź                    | Krzywanski J.             -> jan-krzywanski
+  Widzew Łódź                    | Madej L.                  -> leon-madej
+  Widzew Łódź                    | Volanakis P.              -> polydefkis-volanakis
+
+4. Auto-propozycje TRANSFER
+------------------------------------------------------------------------------
+  GKS Katowice                   | Jirka E.                  -> erik-jirka
+  GKS Katowice                   | Shkurin I.                -> ilya-shkurin
+  GKS Katowice                   | Wdowiak M.                -> mateusz-wdowiak
+  Górnik Zabrze                  | Rakoczy M.                -> micha-miosz-rakoczy
+  Jagiellonia Białystok          | Konstantopoulos A.        -> apostolos-chrysovalantis-konstantopoulos
+  Jagiellonia Białystok          | Szmyt K.                  -> kajetan-szmyt
+  Lech Poznań                    | Baranski B.               -> bartomiej-pawe-baranski
+  Lech Poznań                    | Bąkowski K.               -> krzysztof-maciej-bakowski
+  Lech Poznań                    | Ismaheel T.               -> taofeek-ajibade-ismaheel
+  Raków Częstochowa              | Mądrzyk J.                -> jakub-madrzyk
+  Raków Częstochowa              | Pieńko T.                 -> tomasz-pienko
+  Widzew Łódź                    | Kapuadi S.                -> steve-nkanu-kapuadi
+  Wisła Płock                    | Gallapeni D.              -> dion-gallapeni
+
+5. Wysoki review
+------------------------------------------------------------------------------
+  Bruk-Bet Termalica Nieciecza   | Janicki M.                -> rafa-janicki                        | all_flash_tokens_in_slug | suffix_exact | present_in_target_season
+  Cracovia                       | Skovgaard A.              -> andreas-skovgaard-larsen            | all_flash_tokens_in_slug | initial_match_any_given_token | same_club_history
+  Jagiellonia Białystok          | Costa S. T.               -> tomas-costa-silva                   | all_flash_tokens_in_slug | initial_match_any_given_token | same_club_history
+  Legia Warszawa                 | Gual M.                   -> marc-gual-huguet                    | all_flash_tokens_in_slug | initial_match_any_given_token | same_club_history
+
+6. Brak kandydata
+------------------------------------------------------------------------------
+  Arka Gdynia                    | Gohlike O.
+  Arka Gdynia                    | Gozdecki N.
+  Arka Gdynia                    | Krzepisz K.
+  Arka Gdynia                    | Percan
+  Arka Gdynia                    | Petrovic Z.
+  Arka Gdynia                    | Ratajczyk A.
+  Arka Gdynia                    | Stolc P.
+  Arka Gdynia                    | Vlad A.
+  Arka Gdynia                    | Zacharewicz W.
+  Bruk-Bet Termalica Nieciecza   | Kozik M.
+  Bruk-Bet Termalica Nieciecza   | Mrosek N.
+  Bruk-Bet Termalica Nieciecza   | Surowiec K.
+  Bruk-Bet Termalica Nieciecza   | Surowiec P.
+  Cracovia                       | Cymerys K.
+  Cracovia                       | Golonka K.
+  GKS Katowice                   | Pankowski W.
+  GKS Katowice                   | Swatowski M.
+  GKS Katowice                   | Szczuka P.
+  GKS Katowice                   | Trepka L.
+  Górnik Zabrze                  | Balabuch A.
+  Górnik Zabrze                  | Pietryga P.
+  Jagiellonia Białystok          | Damasiewicz A.
+  Jagiellonia Białystok          | Hirosawa T.
+  Jagiellonia Białystok          | Krasiewicz B.
+  Jagiellonia Białystok          | Kuczynski M.
+  Jagiellonia Białystok          | Pankiewicz S.
+  Korona Kielce                  | Niedbala M.
+  Lech Poznań                    | Gmur T.
+  Lech Poznań                    | Pruchniewski M.
+  Lechia Gdańsk                  | Bambecki I.
+  Lechia Gdańsk                  | Brzek B.
+  Lechia Gdańsk                  | Gutowski K.
+  Lechia Gdańsk                  | Kaczorowski M.
+  Lechia Gdańsk                  | Mavraj I.
+  Legia Warszawa                 | Mendes-Dudzinski M.
+  Motor Lublin                   | Brzozowski K.
+  Motor Lublin                   | Kukulski P.
+  Piast Gliwice                  | Daniel J.
+  Piast Gliwice                  | Grelich J.
+  Piast Gliwice                  | Lubowiecki K.
+  Piast Gliwice                  | Rychta D.
+  Pogoń Szczecin                 | Bochniarz K.
+  Pogoń Szczecin                 | Brzyski I.
+  Pogoń Szczecin                 | Jakubowski R.
+  Pogoń Szczecin                 | Peskovic A.
+  Pogoń Szczecin                 | Rojek S.
+  Pogoń Szczecin                 | Stanowski K.
+  Radomiak Radom                 | Jerke M.
+  Radomiak Radom                 | Markiewicz O.
+  Radomiak Radom                 | Molendowski M.
+  Radomiak Radom                 | Niziolek A.
+  Raków Częstochowa              | Burkiewicz A.
+  Raków Częstochowa              | Czeremski D.
+  Raków Częstochowa              | Napieraj J.
+  Raków Częstochowa              | Zolneczko W.
+  Widzew Łódź                    | Nawrocki K.
+  Wisła Płock                    | Barnowski D.
+  Wisła Płock                    | Kuchko G.
+  Wisła Płock                    | Lesniewski M.
+  Wisła Płock                    | Pruszkowski S.
+  Wisła Płock                    | Rogowski N.
+  Wisła Płock                    | Tomczyk O.
+  Zagłębie Lubin                 | Kłudka B.
+  Zagłębie Lubin                 | Matysek A.
+  Zagłębie Lubin                 | Sochan K.
+
+7. Pliki
+------------------------------------------------------------------------------
+  data\processed\player_identity_review_2025_26.csv
+  data\processed\player_identity_review_candidates_2025_26.csv
+  data\processed\player_identity_review_report_2025_26.txt

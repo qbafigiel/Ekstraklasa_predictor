@@ -1,0 +1,128 @@
+==============================================================================
+FINAL PLAYER MAPPING REPORT — FLASHSCORE <-> EKSTRAKLASA.ORG
+==============================================================================
+
+1. Statusy końcowe
+------------------------------------------------------------------------------
+  matched_existing                 | 535 |  83.6%
+  no_candidate                     |  65 |  10.2%
+  matched_auto_same_club_history   |  18 |   2.8%
+  matched_auto_transfer_candidate  |  13 |   2.0%
+  rejected_manual                  |   5 |   0.8%
+  matched_manual_review            |   4 |   0.6%
+
+2. Podsumowanie biznesowe
+------------------------------------------------------------------------------
+  Łącznie zawodników Flashscore 2025/26: 640
+  Finalnie dopasowanych:                570 (89.1%)
+  Bez dopasowania / odrzuconych:        70 (10.9%)
+
+3. Akceptowane transfery
+------------------------------------------------------------------------------
+  GKS Katowice                   | Jirka E.               -> erik-jirka                          | 2024/25:piast-gliwice | 2025/26:piast-gliwice
+  GKS Katowice                   | Shkurin I.             -> ilya-shkurin                        | 2023/24:stal-mielec | 2024/25:legia-warszawa | 2025/26:legia-warszawa
+  GKS Katowice                   | Wdowiak M.             -> mateusz-wdowiak                     | 2023/24:zagebie-lubin | 2024/25:zagebie-lubin | 2025/26:zagebie-lubin
+  Górnik Zabrze                  | Rakoczy M.             -> micha-miosz-rakoczy                 | 2023/24:cracovia | 2024/25:cracovia | 2025/26:cracovia
+  Jagiellonia Białystok          | Konstantopoulos A.     -> apostolos-chrysovalantis-konstantopoulos | 2025/26:rakow-czestochowa
+  Jagiellonia Białystok          | Szmyt K.               -> kajetan-szmyt                       | 2023/24:warta-poznan | 2024/25:zagebie-lubin | 2025/26:zagebie-lubin
+  Lech Poznań                    | Baranski B.            -> bartomiej-pawe-baranski             | 2023/24:ruch-chorzow
+  Lech Poznań                    | Bąkowski K.            -> krzysztof-maciej-bakowski           | 2023/24:radomiak-radom
+  Lech Poznań                    | Ismaheel T.            -> taofeek-ajibade-ismaheel            | 2024/25:gornik-zabrze | 2025/26:gornik-zabrze
+  Raków Częstochowa              | Mądrzyk J.             -> jakub-madrzyk                       | 2024/25:stal-mielec
+  Raków Częstochowa              | Pieńko T.              -> tomasz-pienko                       | 2023/24:zagebie-lubin | 2024/25:zagebie-lubin | 2025/26:zagebie-lubin
+  Widzew Łódź                    | Kapuadi S.             -> steve-nkanu-kapuadi                 | 2023/24:legia-warszawa | 2024/25:legia-warszawa | 2025/26:legia-warszawa
+  Wisła Płock                    | Gallapeni D.           -> dion-gallapeni                      | 2025/26:widzew-lodz
+
+4. Ręcznie zaakceptowane review
+------------------------------------------------------------------------------
+  Cracovia                       | Skovgaard A.           -> andreas-skovgaard-larsen            | manual_accept_review_high_confidence
+  Jagiellonia Białystok          | Costa S. T.            -> tomas-costa-silva                   | manual_accept_review_high_confidence
+  Legia Warszawa                 | Gual M.                -> marc-gual-huguet                    | manual_accept_review_high_confidence
+  Raków Częstochowa              | Silva J. C.            -> jean-carlos-silva-rocha             | manual_accept_review_needed
+
+5. Ręcznie odrzucone
+------------------------------------------------------------------------------
+  Bruk-Bet Termalica Nieciecza   | Janicki M.             | manual_reject_wrong_person_rafa_janicki_is_not_m_janicki
+  Radomiak Radom                 | Guilherme              | manual_reject_no_current_ekstraklasa_org_data
+  Wisła Płock                    | Zając F.               | manual_reject_wrong_person_jedrzej_zajac_is_not_f_zajac
+  Zagłębie Lubin                 | Marek S.               | manual_reject_wrong_person_marek_mroz_is_not_s_marek
+  Zagłębie Lubin                 | Urbański M.            | manual_reject_wrong_person_kacper_urbanski_is_not_m_urbanski
+
+6. Brak kandydata
+------------------------------------------------------------------------------
+  Arka Gdynia                    | Gohlike O.
+  Arka Gdynia                    | Gozdecki N.
+  Arka Gdynia                    | Krzepisz K.
+  Arka Gdynia                    | Percan
+  Arka Gdynia                    | Petrovic Z.
+  Arka Gdynia                    | Ratajczyk A.
+  Arka Gdynia                    | Stolc P.
+  Arka Gdynia                    | Vlad A.
+  Arka Gdynia                    | Zacharewicz W.
+  Bruk-Bet Termalica Nieciecza   | Kozik M.
+  Bruk-Bet Termalica Nieciecza   | Mrosek N.
+  Bruk-Bet Termalica Nieciecza   | Surowiec K.
+  Bruk-Bet Termalica Nieciecza   | Surowiec P.
+  Cracovia                       | Cymerys K.
+  Cracovia                       | Golonka K.
+  GKS Katowice                   | Pankowski W.
+  GKS Katowice                   | Swatowski M.
+  GKS Katowice                   | Szczuka P.
+  GKS Katowice                   | Trepka L.
+  Górnik Zabrze                  | Balabuch A.
+  Górnik Zabrze                  | Pietryga P.
+  Jagiellonia Białystok          | Damasiewicz A.
+  Jagiellonia Białystok          | Hirosawa T.
+  Jagiellonia Białystok          | Krasiewicz B.
+  Jagiellonia Białystok          | Kuczynski M.
+  Jagiellonia Białystok          | Pankiewicz S.
+  Korona Kielce                  | Niedbala M.
+  Lech Poznań                    | Gmur T.
+  Lech Poznań                    | Pruchniewski M.
+  Lechia Gdańsk                  | Bambecki I.
+  Lechia Gdańsk                  | Brzek B.
+  Lechia Gdańsk                  | Gutowski K.
+  Lechia Gdańsk                  | Kaczorowski M.
+  Lechia Gdańsk                  | Mavraj I.
+  Legia Warszawa                 | Mendes-Dudzinski M.
+  Motor Lublin                   | Brzozowski K.
+  Motor Lublin                   | Kukulski P.
+  Piast Gliwice                  | Daniel J.
+  Piast Gliwice                  | Grelich J.
+  Piast Gliwice                  | Lubowiecki K.
+  Piast Gliwice                  | Rychta D.
+  Pogoń Szczecin                 | Bochniarz K.
+  Pogoń Szczecin                 | Brzyski I.
+  Pogoń Szczecin                 | Jakubowski R.
+  Pogoń Szczecin                 | Peskovic A.
+  Pogoń Szczecin                 | Rojek S.
+  Pogoń Szczecin                 | Stanowski K.
+  Radomiak Radom                 | Jerke M.
+  Radomiak Radom                 | Markiewicz O.
+  Radomiak Radom                 | Molendowski M.
+  Radomiak Radom                 | Niziolek A.
+  Raków Częstochowa              | Burkiewicz A.
+  Raków Częstochowa              | Czeremski D.
+  Raków Częstochowa              | Napieraj J.
+  Raków Częstochowa              | Zolneczko W.
+  Widzew Łódź                    | Nawrocki K.
+  Wisła Płock                    | Barnowski D.
+  Wisła Płock                    | Kuchko G.
+  Wisła Płock                    | Lesniewski M.
+  Wisła Płock                    | Pruszkowski S.
+  Wisła Płock                    | Rogowski N.
+  Wisła Płock                    | Tomczyk O.
+  Zagłębie Lubin                 | Kłudka B.
+  Zagłębie Lubin                 | Matysek A.
+  Zagłębie Lubin                 | Sochan K.
+
+7. UWAGA DO DALSZEGO JOINA
+------------------------------------------------------------------------------
+  Dla zaakceptowanych transferów downstream join ma być po player_slug,
+  NIE po (player_slug, klub_slug).
+
+8. Zapisane pliki
+------------------------------------------------------------------------------
+  data\processed\player_mapping.csv
+  data\processed\player_mapping_status.csv
+  data\processed\player_mapping_report.txt

@@ -1,0 +1,114 @@
+player_slug,seasons,clubs,club_count,season_count,first_season,last_season,sample_name,season_club_path
+dawid-abramowicz,2023/24 | 2024/25 | 2025/26,arka-gdynia | puszcza-niepolomice | radomiak-radom,3,3,2023/24,2025/26,Dawid AbramowiczRadomiak Radom,2023/24:radomiak-radom || 2024/25:puszcza-niepolomice || 2025/26:arka-gdynia
+filip-rejczyk,2023/24 | 2024/25 | 2025/26,gks-katowice | legia-warszawa | slask-wroclaw,3,3,2023/24,2025/26,Filip RejczykLegia Warszawa,2023/24:legia-warszawa || 2024/25:slask-wroclaw || 2025/26:gks-katowice
+jakub-ukowski,2023/24 | 2024/25 | 2025/26,gks-katowice | korona-kielce | widzew-lodz,3,3,2023/24,2025/26,Jakub ŁukowskiKorona Kielce,2023/24:korona-kielce || 2024/25:widzew-lodz || 2025/26:gks-katowice
+maksymilian-pingot,2023/24 | 2024/25 | 2025/26,gornik-zabrze | lech-poznan | stal-mielec,3,3,2023/24,2025/26,Maksymilian PingotStal Mielec,2023/24:stal-mielec || 2024/25:lech-poznan || 2025/26:gornik-zabrze
+marcin-cebula,2023/24 | 2024/25 | 2025/26,korona-kielce | rakow-czestochowa | slask-wroclaw,3,3,2023/24,2025/26,Marcin CebulaRaków Częstochowa,2023/24:rakow-czestochowa || 2024/25:slask-wroclaw || 2025/26:korona-kielce
+mariusz-fornalczyk,2023/24 | 2024/25 | 2025/26,korona-kielce | pogon-szczecin | widzew-lodz,3,3,2023/24,2025/26,Mariusz FornalczykPogoń Szczecin,2023/24:pogon-szczecin || 2024/25:korona-kielce || 2025/26:widzew-lodz
+serafin-jan-szota,2023/24 | 2024/25 | 2025/26,arka-gdynia | slask-wroclaw | widzew-lodz,3,3,2023/24,2025/26,Serafin Jan SzotaWidzew Łódź,2023/24:widzew-lodz || 2024/25:slask-wroclaw || 2025/26:arka-gdynia
+adam-zrelak,2023/24 | 2024/25 | 2025/26,gks-katowice | warta-poznan,2,3,2023/24,2025/26,Adam ZreľákWarta Poznań,2023/24:warta-poznan || 2024/25:gks-katowice || 2025/26:gks-katowice
+adrian-dalmau-vaquer,2023/24 | 2024/25 | 2025/26,korona-kielce | piast-gliwice,2,3,2023/24,2025/26,Adrián Dalmau VaquerKorona Kielce,2023/24:korona-kielce || 2024/25:korona-kielce || 2025/26:piast-gliwice
+adrian-dieguez-grande,2023/24 | 2024/25 | 2025/26,jagiellonia-bialystok | radomiak-radom,2,3,2023/24,2025/26,Adrián Diéguez GrandeJagiellonia Białystok,2023/24:jagiellonia-bialystok || 2024/25:jagiellonia-bialystok || 2025/26:radomiak-radom
+alan-czerwinski,2023/24 | 2024/25 | 2025/26,gks-katowice | lech-poznan,2,3,2023/24,2025/26,Alan CzerwińskiLech Poznań,2023/24:lech-poznan || 2024/25:gks-katowice || 2025/26:gks-katowice
+aleksander-buksa,2024/25 | 2025/26,gks-katowice | gornik-zabrze,2,2,2024/25,2025/26,Aleksander BuksaGórnik Zabrze,2024/25:gornik-zabrze || 2025/26:gks-katowice
+aleksander-paluszek,2023/24 | 2024/25 | 2025/26,gks-katowice | slask-wroclaw,2,3,2023/24,2025/26,Aleksander PaluszekŚląsk Wrocław,2023/24:slask-wroclaw || 2024/25:slask-wroclaw || 2025/26:gks-katowice
+alvis-jaunzems,2023/24 | 2024/25 | 2025/26,lechia-gdansk | stal-mielec,2,3,2023/24,2025/26,Alvis JaunzemsStal Mielec,2023/24:stal-mielec || 2024/25:stal-mielec || 2025/26:lechia-gdansk
+antoni-klimek,2023/24 | 2024/25,puszcza-niepolomice | widzew-lodz,2,2,2023/24,2024/25,Antoni KlimekWidzew Łódź,2023/24:widzew-lodz || 2024/25:puszcza-niepolomice
+antoni-klukowski,2024/25 | 2025/26,pogon-szczecin | widzew-lodz,2,2,2024/25,2025/26,Antoni KlukowskiPogoń Szczecin,2024/25:pogon-szczecin || 2025/26:widzew-lodz
+ariel-pawe-mosor,2023/24 | 2024/25 | 2025/26,piast-gliwice | rakow-czestochowa,2,3,2023/24,2025/26,Ariel Paweł MosórPiast Gliwice,2023/24:piast-gliwice || 2024/25:piast-gliwice || 2025/26:rakow-czestochowa
+aurelien-thomas-nguiamba,2023/24 | 2024/25 | 2025/26,arka-gdynia | jagiellonia-bialystok,2,3,2023/24,2025/26,Aurélien Thomas NguiambaJagiellonia Białystok,2023/24:jagiellonia-bialystok || 2024/25:jagiellonia-bialystok || 2025/26:arka-gdynia
+bartomiej-kudka,2023/24 | 2024/25 | 2025/26,lechia-gdansk | zagebie-lubin,2,3,2023/24,2025/26,Bartłomiej KłudkaKGHM Zagłębie Lubin,2023/24:zagebie-lubin || 2024/25:zagebie-lubin || 2025/26:lechia-gdansk
+bartosz-kopacz,2023/24 | 2024/25 | 2025/26,nieciecza | zagebie-lubin,2,3,2023/24,2025/26,Bartosz KopaczKGHM Zagłębie Lubin,2023/24:zagebie-lubin || 2024/25:zagebie-lubin || 2025/26:nieciecza
+bartosz-nowak,2023/24 | 2024/25 | 2025/26,gks-katowice | rakow-czestochowa,2,3,2023/24,2025/26,Bartosz NowakRaków Częstochowa,2023/24:rakow-czestochowa || 2024/25:rakow-czestochowa || 2025/26:gks-katowice
+bojan-nastic,2023/24 | 2025/26,jagiellonia-bialystok | wisla-plock,2,2,2023/24,2025/26,Bojan NastićJagiellonia Białystok,2023/24:jagiellonia-bialystok || 2025/26:wisla-plock
+damian-rasak,2023/24 | 2024/25 | 2025/26,gks-katowice | gornik-zabrze,2,3,2023/24,2025/26,Damian RasakGórnik Zabrze,2023/24:gornik-zabrze || 2024/25:gornik-zabrze || 2025/26:gks-katowice
+daniel-pacheco-lobato,2023/24 | 2025/26,gornik-zabrze | wisla-plock,2,2,2023/24,2025/26,Dani PachecoGórnik Zabrze,2023/24:gornik-zabrze || 2025/26:wisla-plock
+dawid-drachal,2023/24 | 2024/25 | 2025/26,jagiellonia-bialystok | rakow-czestochowa,2,3,2023/24,2025/26,Dawid DrachalRaków Częstochowa,2023/24:rakow-czestochowa || 2024/25:rakow-czestochowa || 2025/26:jagiellonia-bialystok
+dawid-kurminowski,2023/24 | 2024/25 | 2025/26,lechia-gdansk | zagebie-lubin,2,3,2023/24,2025/26,Dawid KurminowskiKGHM Zagłębie Lubin,2023/24:zagebie-lubin || 2024/25:zagebie-lubin || 2025/26:lechia-gdansk
+dawid-szymonowicz,2023/24 | 2024/25,puszcza-niepolomice | warta-poznan,2,2,2023/24,2024/25,Dawid SzymonowiczWarta Poznań,2023/24:warta-poznan || 2024/25:puszcza-niepolomice
+dawid-tkacz,2023/24 | 2024/25,stal-mielec | widzew-lodz,2,2,2023/24,2024/25,Dawid TkaczWidzew Łódź,2023/24:widzew-lodz || 2024/25:stal-mielec
+dominick-lukasz-zator,2023/24 | 2024/25 | 2025/26,arka-gdynia | korona-kielce,2,3,2023/24,2025/26,Dominick Lukasz ZatorKorona Kielce,2023/24:korona-kielce || 2024/25:korona-kielce || 2025/26:arka-gdynia
+dominik-hadun,2023/24 | 2024/25 | 2025/26,legia-warszawa | zagebie-lubin,2,3,2023/24,2025/26,Dominik HładunLegia Warszawa,2023/24:legia-warszawa || 2024/25:zagebie-lubin || 2025/26:zagebie-lubin
+dominik-kun,2023/24 | 2025/26,widzew-lodz | wisla-plock,2,2,2023/24,2025/26,Dominik KunWidzew Łódź,2023/24:widzew-lodz || 2025/26:wisla-plock
+dominik-pia,2024/25 | 2025/26,cracovia | lechia-gdansk,2,2,2024/25,2025/26,Dominik PiłaLechia Gdańsk,2024/25:lechia-gdansk || 2025/26:cracovia
+dominik-sarapata,2024/25 | 2025/26,gornik-zabrze | wisla-plock,2,2,2024/25,2025/26,Dominik SarapataGórnik Zabrze,2024/25:gornik-zabrze || 2025/26:wisla-plock
+filip-borowski,2023/24 | 2025/26,piast-gliwice | warta-poznan,2,2,2023/24,2025/26,Filip BorowskiWarta Poznań,2023/24:warta-poznan || 2025/26:piast-gliwice
+filip-majchrowicz,2023/24 | 2024/25 | 2025/26,gornik-zabrze | radomiak-radom,2,3,2023/24,2025/26,Filip MajchrowiczRadomiak Radom,2023/24:radomiak-radom || 2024/25:gornik-zabrze || 2025/26:radomiak-radom
+german-barkovskiy,2024/25 | 2025/26,piast-gliwice | puszcza-niepolomice,2,2,2024/25,2025/26,German BarkovskiyPuszcza Niepołomice,2024/25:puszcza-niepolomice || 2025/26:piast-gliwice
+henrich-ravas,2023/24 | 2024/25 | 2025/26,cracovia | widzew-lodz,2,3,2023/24,2025/26,Henrich RavasWidzew Łódź,2023/24:widzew-lodz || 2024/25:cracovia || 2025/26:cracovia
+igor-strzaek,2023/24 | 2024/25 | 2025/26,legia-warszawa | nieciecza,2,3,2023/24,2025/26,Igor StrzałekLegia Warszawa,2023/24:legia-warszawa || 2024/25:legia-warszawa || 2025/26:nieciecza
+ilya-shkurin,2023/24 | 2024/25 | 2025/26,legia-warszawa | stal-mielec,2,3,2023/24,2025/26,Ilya ShkurinStal Mielec,2023/24:stal-mielec || 2024/25:legia-warszawa || 2025/26:legia-warszawa
+imad-rondic,2023/24 | 2024/25 | 2025/26,rakow-czestochowa | widzew-lodz,2,3,2023/24,2025/26,Imad RondićWidzew Łódź,2023/24:widzew-lodz || 2024/25:widzew-lodz || 2025/26:rakow-czestochowa
+jakub-lewicki,2023/24 | 2024/25 | 2025/26,jagiellonia-bialystok | piast-gliwice,2,3,2023/24,2025/26,Jakub LewickiJagiellonia Białystok,2023/24:jagiellonia-bialystok || 2024/25:piast-gliwice || 2025/26:piast-gliwice
+jakub-myszor,2023/24 | 2024/25,cracovia | rakow-czestochowa,2,2,2023/24,2024/25,Jakub MyszorCracovia,2023/24:cracovia || 2024/25:rakow-czestochowa
+jakub-sypek,2024/25 | 2025/26,widzew-lodz | zagebie-lubin,2,2,2024/25,2025/26,Jakub SypekWidzew Łódź,2024/25:widzew-lodz || 2025/26:zagebie-lubin
+jani-atanasov,2023/24 | 2024/25 | 2025/26,cracovia | puszcza-niepolomice,2,3,2023/24,2025/26,Jani AtanasovCracovia,2023/24:cracovia || 2024/25:puszcza-niepolomice || 2025/26:cracovia
+jarosaw-kubicki,2023/24 | 2024/25 | 2025/26,gornik-zabrze | jagiellonia-bialystok,2,3,2023/24,2025/26,Jarosław KubickiJagiellonia Białystok,2023/24:jagiellonia-bialystok || 2024/25:jagiellonia-bialystok || 2025/26:gornik-zabrze
+jedrzej-grobelny,2023/24 | 2025/26,arka-gdynia | warta-poznan,2,2,2023/24,2025/26,Jędrzej GrobelnyWarta Poznań,2023/24:warta-poznan || 2025/26:arka-gdynia
+jesus-antonio-diaz-gomez,2024/25 | 2025/26,rakow-czestochowa | zagebie-lubin,2,2,2024/25,2025/26,Jesús Antonio Díaz GómezRaków Częstochowa,2024/25:rakow-czestochowa || 2025/26:zagebie-lubin
+joao-gervasio-braganca-moutinho,2024/25 | 2025/26,jagiellonia-bialystok | lech-poznan,2,2,2024/25,2025/26,João MoutinhoJagiellonia Białystok,2024/25:jagiellonia-bialystok || 2025/26:lech-poznan
+jordan-aleksander-majchrzak,2023/24 | 2024/25,legia-warszawa | puszcza-niepolomice,2,2,2023/24,2024/25,Jordan Aleksander MajchrzakPuszcza Niepołomice,2023/24:puszcza-niepolomice || 2024/25:legia-warszawa
+jose-angel-pozo-la-rosa,2024/25 | 2025/26,pogon-szczecin | slask-wroclaw,2,2,2024/25,2025/26,José Ángel Pozo la RosaŚląsk Wrocław,2024/25:slask-wroclaw || 2025/26:pogon-szczecin
+jose-manuel-sanchez-guillen,2023/24 | 2024/25 | 2025/26,gornik-zabrze | ruch-chorzow,2,3,2023/24,2025/26,JosemaRuch Chorzów,2023/24:ruch-chorzow || 2024/25:gornik-zabrze || 2025/26:gornik-zabrze
+kaan-caliskaner,2023/24 | 2024/25,jagiellonia-bialystok | motor-lublin,2,2,2023/24,2024/25,Kaan ÇalışkanerJagiellonia Białystok,2023/24:jagiellonia-bialystok || 2024/25:motor-lublin
+kacper-chodyna,2023/24 | 2024/25 | 2025/26,legia-warszawa | zagebie-lubin,2,3,2023/24,2025/26,Kacper ChodynaKGHM Zagłębie Lubin,2023/24:zagebie-lubin || 2024/25:legia-warszawa || 2025/26:legia-warszawa
+kacper-trelowski,2023/24 | 2024/25 | 2025/26,rakow-czestochowa | slask-wroclaw,2,3,2023/24,2025/26,Kacper TrelowskiŚląsk Wrocław,2023/24:slask-wroclaw || 2024/25:rakow-czestochowa || 2025/26:rakow-czestochowa
+kacper-ukasiak,2024/25 | 2025/26,gks-katowice | pogon-szczecin,2,2,2024/25,2025/26,Kacper ŁukasiakPogoń Szczecin,2024/25:pogon-szczecin || 2025/26:gks-katowice
+kajetan-szmyt,2023/24 | 2024/25 | 2025/26,warta-poznan | zagebie-lubin,2,3,2023/24,2025/26,Kajetan SzmytWarta Poznań,2023/24:warta-poznan || 2024/25:zagebie-lubin || 2025/26:zagebie-lubin
+kamil-kruk,2023/24 | 2024/25,motor-lublin | zagebie-lubin,2,2,2023/24,2024/25,Kamil KrukKGHM Zagłębie Lubin,2023/24:zagebie-lubin || 2024/25:motor-lublin
+kamil-pestka,2023/24 | 2024/25,radomiak-radom | rakow-czestochowa,2,2,2023/24,2024/25,Kamil PestkaRaków Częstochowa,2023/24:rakow-czestochowa || 2024/25:radomiak-radom
+kamil-zapolnik,2023/24 | 2025/26,nieciecza | puszcza-niepolomice,2,2,2023/24,2025/26,Kamil ZapolnikPuszcza Niepołomice,2023/24:puszcza-niepolomice || 2025/26:nieciecza
+karol-knap,2023/24 | 2024/25 | 2025/26,cracovia | stal-mielec,2,3,2023/24,2025/26,Karol KnapCracovia,2023/24:cracovia || 2024/25:stal-mielec || 2025/26:cracovia
+konrad-matuszewski,2023/24 | 2024/25 | 2025/26,korona-kielce | warta-poznan,2,3,2023/24,2025/26,Konrad MatuszewskiWarta Poznań,2023/24:warta-poznan || 2024/25:korona-kielce || 2025/26:korona-kielce
+krystian-okoniewski,2023/24 | 2024/25,puszcza-niepolomice | radomiak-radom,2,2,2023/24,2024/25,Krystian OkoniewskiRadomiak Radom,2023/24:radomiak-radom || 2024/25:puszcza-niepolomice
+krzysztof-kaminski,2023/24 | 2025/26,pogon-szczecin | ruch-chorzow,2,2,2023/24,2025/26,Krzysztof KamińskiRuch Chorzów,2023/24:ruch-chorzow || 2025/26:pogon-szczecin
+krzysztof-kubica,2024/25 | 2025/26,motor-lublin | nieciecza,2,2,2024/25,2025/26,Krzysztof KubicaMotor Lublin,2024/25:motor-lublin || 2025/26:nieciecza
+leonardo-miramar-rocha,2023/24 | 2024/25 | 2025/26,radomiak-radom | zagebie-lubin,2,3,2023/24,2025/26,Leonardo RochaRadomiak Radom,2023/24:radomiak-radom || 2024/25:radomiak-radom || 2025/26:zagebie-lubin
+lucas-lima-linhares,2024/25 | 2025/26,legia-warszawa | radomiak-radom,2,2,2024/25,2025/26,LuquinhasLegia Warszawa,2024/25:legia-warszawa || 2025/26:radomiak-radom
+luka-zahovic,2023/24 | 2024/25 | 2025/26,gornik-zabrze | pogon-szczecin,2,3,2023/24,2025/26,Luka ZahovićPogoń Szczecin,2023/24:pogon-szczecin || 2024/25:gornik-zabrze || 2025/26:gornik-zabrze
+maciej-kikolski,2024/25 | 2025/26,radomiak-radom | widzew-lodz,2,2,2024/25,2025/26,Maciej KikolskiRadomiak Radom,2024/25:radomiak-radom || 2025/26:widzew-lodz
+maciej-rosoek,2023/24 | 2024/25 | 2025/26,gks-katowice | legia-warszawa,2,3,2023/24,2025/26,Maciej RosołekLegia Warszawa,2023/24:legia-warszawa || 2024/25:legia-warszawa || 2025/26:gks-katowice
+maksym-khlan,2024/25 | 2025/26,gornik-zabrze | lechia-gdansk,2,2,2024/25,2025/26,Maksym KhlanLechia Gdańsk,2024/25:lechia-gdansk || 2025/26:gornik-zabrze
+marcel-pieczek,2023/24 | 2024/25 | 2025/26,korona-kielce | puszcza-niepolomice,2,3,2023/24,2025/26,Marcel PięczekPuszcza Niepołomice,2023/24:puszcza-niepolomice || 2024/25:korona-kielce || 2025/26:korona-kielce
+marcel-wedrychowski,2023/24 | 2024/25 | 2025/26,gks-katowice | pogon-szczecin,2,3,2023/24,2025/26,Marcel WędrychowskiPogoń Szczecin,2023/24:pogon-szczecin || 2024/25:pogon-szczecin || 2025/26:gks-katowice
+matej-rodin,2023/24 | 2024/25 | 2025/26,lechia-gdansk | rakow-czestochowa,2,3,2023/24,2025/26,Matej RodinRaków Częstochowa,2023/24:rakow-czestochowa || 2024/25:rakow-czestochowa || 2025/26:lechia-gdansk
+mateusz-bartolewski,2023/24 | 2024/25,ruch-chorzow | slask-wroclaw,2,2,2023/24,2024/25,Mateusz BartolewskiRuch Chorzów,2023/24:ruch-chorzow || 2024/25:slask-wroclaw
+mateusz-skrzypczak,2023/24 | 2024/25 | 2025/26,jagiellonia-bialystok | lech-poznan,2,3,2023/24,2025/26,Mateusz SkrzypczakJagiellonia Białystok,2023/24:jagiellonia-bialystok || 2024/25:jagiellonia-bialystok || 2025/26:lech-poznan
+matias-nahuel-leiva-esquivel,2023/24 | 2024/25 | 2025/26,jagiellonia-bialystok | slask-wroclaw,2,3,2023/24,2025/26,Matías Nahuel Leiva EsquivelŚląsk Wrocław,2023/24:slask-wroclaw || 2024/25:slask-wroclaw || 2025/26:jagiellonia-bialystok
+micha-rzuchowski,2023/24 | 2025/26,arka-gdynia | slask-wroclaw,2,2,2023/24,2025/26,Michał RzuchowskiŚląsk Wrocław,2023/24:slask-wroclaw || 2025/26:arka-gdynia
+michael-ameyaw,2023/24 | 2024/25 | 2025/26,piast-gliwice | rakow-czestochowa,2,3,2023/24,2025/26,Michael AmeyawPiast Gliwice,2023/24:piast-gliwice || 2024/25:piast-gliwice || 2025/26:rakow-czestochowa
+michal-sacek,2023/24 | 2024/25 | 2025/26,gornik-zabrze | jagiellonia-bialystok,2,3,2023/24,2025/26,Michal SáčekJagiellonia Białystok,2023/24:jagiellonia-bialystok || 2024/25:jagiellonia-bialystok || 2025/26:gornik-zabrze
+michal-siplak,2023/24 | 2024/25,gornik-zabrze | puszcza-niepolomice,2,2,2023/24,2024/25,Michal SipľakGórnik Zabrze,2023/24:gornik-zabrze || 2024/25:puszcza-niepolomice
+michalis-kosidis,2024/25 | 2025/26,puszcza-niepolomice | zagebie-lubin,2,2,2024/25,2025/26,Michalis KosidisPuszcza Niepołomice,2024/25:puszcza-niepolomice || 2025/26:zagebie-lubin
+miosz-matysik,2023/24 | 2025/26,jagiellonia-bialystok | nieciecza,2,2,2023/24,2025/26,Miłosz MatysikJagiellonia Białystok,2023/24:jagiellonia-bialystok || 2025/26:nieciecza
+mohamed-lamine-diaby-fadiga,2024/25 | 2025/26,jagiellonia-bialystok | rakow-czestochowa,2,2,2024/25,2025/26,Mohamed Lamine Diaby-FadigaJagiellonia Białystok,2024/25:jagiellonia-bialystok || 2025/26:rakow-czestochowa
+norbert-wojtuszek,2023/24 | 2024/25 | 2025/26,gornik-zabrze | jagiellonia-bialystok,2,3,2023/24,2025/26,Norbert WojtuszekGórnik Zabrze,2023/24:gornik-zabrze || 2024/25:jagiellonia-bialystok || 2025/26:jagiellonia-bialystok
+oliwier-zych,2023/24 | 2025/26,puszcza-niepolomice | rakow-czestochowa,2,2,2023/24,2025/26,Oliwier ZychPuszcza Niepołomice,2023/24:puszcza-niepolomice || 2025/26:rakow-czestochowa
+oskar-repka,2024/25 | 2025/26,gks-katowice | rakow-czestochowa,2,2,2024/25,2025/26,Oskar RepkaGKS Katowice,2024/25:gks-katowice || 2025/26:rakow-czestochowa
+patryk-janasik,2023/24 | 2024/25,cracovia | slask-wroclaw,2,2,2023/24,2024/25,Patryk JanasikŚląsk Wrocław,2023/24:slask-wroclaw || 2024/25:cracovia
+patryk-makuch,2023/24 | 2024/25 | 2025/26,cracovia | rakow-czestochowa,2,3,2023/24,2025/26,Patryk MakuchCracovia,2023/24:cracovia || 2024/25:rakow-czestochowa || 2025/26:rakow-czestochowa
+patryk-sokoowski,2023/24 | 2024/25,cracovia | legia-warszawa,2,2,2023/24,2024/25,Patryk SokołowskiLegia Warszawa,2023/24:legia-warszawa || 2024/25:cracovia
+pawe-stolarski,2023/24 | 2024/25 | 2025/26,motor-lublin | pogon-szczecin,2,3,2023/24,2025/26,Paweł StolarskiPogoń Szczecin,2023/24:pogon-szczecin || 2024/25:motor-lublin || 2025/26:motor-lublin
+piotr-krawczyk,2023/24 | 2025/26,gornik-zabrze | wisla-plock,2,2,2023/24,2025/26,Piotr KrawczykGórnik Zabrze,2023/24:gornik-zabrze || 2025/26:wisla-plock
+rafa-adamski,2024/25 | 2025/26,legia-warszawa | zagebie-lubin,2,2,2024/25,2025/26,Rafał AdamskiKGHM Zagłębie Lubin,2024/25:zagebie-lubin || 2025/26:legia-warszawa
+rafa-leszczynski,2023/24 | 2024/25 | 2025/26,slask-wroclaw | wisla-plock,2,3,2023/24,2025/26,Rafał LeszczyńskiŚląsk Wrocław,2023/24:slask-wroclaw || 2024/25:slask-wroclaw || 2025/26:wisla-plock
+rafa-maciej-kurzawa,2023/24 | 2024/25 | 2025/26,nieciecza | pogon-szczecin,2,3,2023/24,2025/26,Rafał Maciej KurzawaPogoń Szczecin,2023/24:pogon-szczecin || 2024/25:pogon-szczecin || 2025/26:nieciecza
+rafa-tadeusz-gikiewicz,2023/24 | 2024/25 | 2025/26,widzew-lodz | zagebie-lubin,2,3,2023/24,2025/26,Rafał Tadeusz GikiewiczWidzew Łódź,2023/24:widzew-lodz || 2024/25:widzew-lodz || 2025/26:zagebie-lubin
+rahil-mmmdov,2023/24 | 2024/25,lks-lodz | radomiak-radom,2,2,2023/24,2024/25,Rahil MəmmədovŁKS Łódź,2023/24:lks-lodz || 2024/25:radomiak-radom
+renat-dadasov,2024/25 | 2025/26,motor-lublin | radomiak-radom,2,2,2024/25,2025/26,Renat DadaşovRadomiak Radom,2024/25:radomiak-radom || 2025/26:motor-lublin
+robert-dadok,2023/24 | 2024/25,ruch-chorzow | stal-mielec,2,2,2023/24,2024/25,Robert DadokRuch Chorzów,2023/24:ruch-chorzow || 2024/25:stal-mielec
+roman-yakuba,2023/24 | 2024/25 | 2025/26,puszcza-niepolomice | zagebie-lubin,2,3,2023/24,2025/26,Roman YakubaPuszcza Niepołomice,2023/24:puszcza-niepolomice || 2024/25:puszcza-niepolomice || 2025/26:zagebie-lubin
+said-hamulic,2024/25 | 2025/26,widzew-lodz | wisla-plock,2,2,2024/25,2025/26,Saïd HamulićWidzew Łódź,2024/25:widzew-lodz || 2025/26:wisla-plock
+sebastian-bergier,2024/25 | 2025/26,gks-katowice | widzew-lodz,2,2,2024/25,2025/26,Sebastian BergierGKS Katowice,2024/25:gks-katowice || 2025/26:widzew-lodz
+sebastian-kerk,2023/24 | 2024/25 | 2025/26,arka-gdynia | widzew-lodz,2,3,2023/24,2025/26,Sebastian KerkWidzew Łódź,2023/24:widzew-lodz || 2024/25:widzew-lodz || 2025/26:arka-gdynia
+sebastian-musiolik,2023/24 | 2024/25,gornik-zabrze | slask-wroclaw,2,2,2023/24,2024/25,Sebastian Karol MusiolikGórnik Zabrze,2023/24:gornik-zabrze || 2024/25:slask-wroclaw
+sebastian-oskar-kowalczyk,2023/24 | 2025/26,pogon-szczecin | zagebie-lubin,2,2,2023/24,2025/26,Sebastian Oskar KowalczykPogoń Szczecin,2023/24:pogon-szczecin || 2025/26:zagebie-lubin
+serhii-buletsa,2023/24 | 2024/25,lechia-gdansk | zagebie-lubin,2,2,2023/24,2024/25,Serhii BuletsaKGHM Zagłębie Lubin,2023/24:zagebie-lubin || 2024/25:lechia-gdansk
+szymon-weirauch,2023/24 | 2024/25 | 2025/26,lechia-gdansk | zagebie-lubin,2,3,2023/24,2025/26,Szymon WeirauchKGHM Zagłębie Lubin,2023/24:zagebie-lubin || 2024/25:lechia-gdansk || 2025/26:lechia-gdansk
+tomasz-loska,2024/25 | 2025/26,gornik-zabrze | slask-wroclaw,2,2,2024/25,2025/26,Tomasz LoskaŚląsk Wrocław,2024/25:slask-wroclaw || 2025/26:gornik-zabrze
+tomasz-wojtowicz,2023/24 | 2024/25 | 2025/26,lechia-gdansk | ruch-chorzow,2,3,2023/24,2025/26,Tomasz WójtowiczRuch Chorzów,2023/24:ruch-chorzow || 2024/25:lechia-gdansk || 2025/26:lechia-gdansk
+tornike-gaprindashvili,2023/24 | 2025/26,arka-gdynia | zagebie-lubin,2,2,2023/24,2025/26,Tornike GaprindashviliKGHM Zagłębie Lubin,2023/24:zagebie-lubin || 2025/26:arka-gdynia
+ukasz-gerstenstein,2023/24 | 2024/25,slask-wroclaw | stal-mielec,2,2,2023/24,2024/25,Łukasz GerstensteinStal Mielec,2023/24:stal-mielec || 2024/25:slask-wroclaw
+vahan-bichakhchyan,2023/24 | 2024/25 | 2025/26,legia-warszawa | pogon-szczecin,2,3,2023/24,2025/26,Vahan BichakhchyanPogoń Szczecin,2023/24:pogon-szczecin || 2024/25:legia-warszawa || 2025/26:legia-warszawa
+vladan-kovacevic,2023/24 | 2024/25,legia-warszawa | rakow-czestochowa,2,2,2023/24,2024/25,Vladan KovačevićRaków Częstochowa,2023/24:rakow-czestochowa || 2024/25:legia-warszawa
+wiktor-dugosz,2023/24 | 2024/25 | 2025/26,korona-kielce | ruch-chorzow,2,3,2023/24,2025/26,Wiktor DługoszRuch Chorzów,2023/24:ruch-chorzow || 2024/25:korona-kielce || 2025/26:korona-kielce
