@@ -84,3 +84,8 @@ checkpoint_*.csv
 data/__pycache__/
 **/__pycache__/
 *.pyc
+
+# ==========================================
+# Pliki debug (tymczasowe, do wyrzucenia)
+# ==========================================
+data/debug/

@@ -1,0 +1,365 @@
+﻿pozycja,player_slug,klub_slug,nazwa,wartosc
+1,hubert-adamczyk,zagebie-lubin,Hubert AdamczykKGHM Zagłębie Lubin,100%
+1,jean-kevin-augustin,motor-lublin,Jean-Kévin AugustinMotor Lublin,100%
+1,ukasz-bejger,slask-wroclaw,Łukasz BejgerŚląsk Wrocław,100%
+1,fabio-nunes,widzew-lodz,Fábio NunesWidzew Łódź,100%
+1,jean-franco-sarmiento,radomiak-radom,Jean Franco Sarmiento CampoRadomiak Radom,100%
+1,konrad-jan-gruszkowski,gks-katowice,Konrad Jan GruszkowskiGKS Katowice,100%
+1,wojciech-hajda,puszcza-niepolomice,Wojciech HajdaPuszcza Niepołomice,100%
+1,arttu-hoskonen,cracovia,Arttu HoskonenCracovia,100%
+1,wojciech-kaminski,korona-kielce,Wojciech KamińskiKorona Kielce,100%
+1,andreas-katsantonis,piast-gliwice,Andreas KatsantonisPiast Gliwice,100%
+1,jakub-lis,pogon-szczecin,Jakub LisPogoń Szczecin,100%
+1,filipe-nascimento,gornik-zabrze,Filipe NascimentoGórnik Zabrze,100%
+1,ivan-ricardo-neves-abreu-cavaleiro,stal-mielec,Ivan CavaleiroStal Mielec,100%
+1,miguel-nobrega,piast-gliwice,Miguel NóbregaPiast Gliwice,100%
+1,bogdan-racovitan,rakow-czestochowa,Bogdan RacovițanRaków Częstochowa,100%
+1,yehor-sharabura,slask-wroclaw,Yehor SharaburaŚląsk Wrocław,100%
+1,artur-siemaszko,puszcza-niepolomice,Artur SiemaszkoPuszcza Niepołomice,100%
+1,gasper-tratnik,motor-lublin,Gašper TratnikMotor Lublin,100%
+1,karl-sydney-wendt,lechia-gdansk,Karl Sydney WendtLechia Gdańsk,100%
+24,mateusz-mak,gks-katowice,Mateusz MakGKS Katowice,83%
+25,mateusz-bochnak,cracovia,Mateusz BochnakCracovia,80%
+25,marco-burch,legia-warszawa,Marco BurchLegia Warszawa,80%
+25,alexander-gorgon,pogon-szczecin,Alexander GorgonPogoń Szczecin,80%
+28,wojciech-urbanski,legia-warszawa,Wojciech UrbanskiLegia Warszawa,78%
+29,ante-crnac,rakow-czestochowa,Ante CrnacRaków Częstochowa,77%
+30,kornel-lisman,lech-poznan,Kornel LismanLech Poznań,75%
+30,luis-silva,widzew-lodz,Luís SilvaWidzew Łódź,75%
+30,konrad-matuszewski,korona-kielce,Konrad MatuszewskiKorona Kielce,75%
+30,miguel-munoz,piast-gliwice,Miguel Muñoz FernándezPiast Gliwice,75%
+34,afonso-gamelas-de-pinho-sousa,lech-poznan,Afonso SousaLech Poznań,73%
+35,jakov-blagaic,puszcza-niepolomice,Jakov BlagaićPuszcza Niepołomice,71%
+35,patryk-paryzek,pogon-szczecin,Patryk ParyzekPogoń Szczecin,71%
+35,kamil-pestka,radomiak-radom,Kamil PestkaRadomiak Radom,71%
+38,rafa-sylwester-augustyniak,legia-warszawa,Rafał Sylwester AugustyniakLegia Warszawa,67%
+38,sergio-barcia-laranxeira,legia-warszawa,Sergio Barcia LaranxeiraLegia Warszawa,67%
+38,marcin-cebula,slask-wroclaw,Marcin CebulaŚląsk Wrocław,67%
+38,bartosz-kapustka,legia-warszawa,Bartosz KapustkaLegia Warszawa,67%
+38,antoni-klimek,puszcza-niepolomice,Antoni KlimekPuszcza Niepołomice,67%
+38,dominik-marczuk,jagiellonia-bialystok,Dominik MarczukJagiellonia Białystok,67%
+38,ariel-pawe-mosor,piast-gliwice,Ariel Paweł MosórPiast Gliwice,67%
+38,tomas-pekhart,legia-warszawa,Tomáš PekhartLegia Warszawa,67%
+38,mateusz-radecki,puszcza-niepolomice,Mateusz RadeckiPuszcza Niepołomice,67%
+38,bradly-van-hoeven,motor-lublin,Bradly van HoevenMotor Lublin,67%
+38,kacper-weniak,motor-lublin,Kacper WełniakMotor Lublin,67%
+38,adam-zrelak,gks-katowice,Adam ZreľákGKS Katowice,67%
+51,afimico-pululu,jagiellonia-bialystok,Afimico PululuJagiellonia Białystok,66%
+52,efthymios-koulouris,pogon-szczecin,Efthymios KoulourisPogoń Szczecin,64%
+53,aleksander-buksa,gornik-zabrze,Aleksander BuksaGórnik Zabrze,63%
+53,marten-kuusk,gks-katowice,Märten KuuskGKS Katowice,63%
+53,yehor-matsenko,slask-wroclaw,Yehor MatsenkoŚląsk Wrocław,63%
+56,lucas-lima-linhares,legia-warszawa,LuquinhasLegia Warszawa,61%
+57,piotr-wlazo,stal-mielec,Piotr WlazłoStal Mielec,61%
+58,joao-gervasio-braganca-moutinho,jagiellonia-bialystok,João MoutinhoJagiellonia Białystok,60%
+58,artur-craciun,puszcza-niepolomice,Artur CrăciunPuszcza Niepołomice,60%
+58,matias-nahuel-leiva-esquivel,slask-wroclaw,Matías Nahuel Leiva EsquivelŚląsk Wrocław,60%
+58,kacper-ukasiak,pogon-szczecin,Kacper ŁukasiakPogoń Szczecin,60%
+58,jakub-ukowski,widzew-lodz,Jakub ŁukowskiWidzew Łódź,60%
+58,arkadiusz-najemski,motor-lublin,Arkadiusz NajemskiMotor Lublin,60%
+58,mauro-perkovic,cracovia,Mauro PerkovićCracovia,60%
+58,jose-manuel-sanchez-guillen,gornik-zabrze,JosemaGórnik Zabrze,60%
+58,ukasz-soowiej,puszcza-niepolomice,Łukasz SołowiejPuszcza Niepołomice,60%
+58,marcel-wedrychowski,pogon-szczecin,Marcel WędrychowskiPogoń Szczecin,60%
+58,ivan-zhelizko,lechia-gdansk,Ivan ZhelizkoLechia Gdańsk,60%
+69,tomasz-pienko,zagebie-lubin,Tomasz PieńkoKGHM Zagłębie Lubin,59%
+70,mikael-ishak,lech-poznan,Mikael IshakLech Poznań,59%
+71,dawid-banik,korona-kielce,Dawid BłanikKorona Kielce,59%
+72,benjamin-kallman,cracovia,Paul Benjamin Sven-Eber KällmanCracovia,59%
+73,camilo-andres-mena-marquez,lechia-gdansk,Camilo Andrés Mena MárquezLechia Gdańsk,59%
+73,samuel-mraz,motor-lublin,Samuel MrázMotor Lublin,59%
+73,marvin-senger-1,stal-mielec,Marvin SengerStal Mielec,59%
+76,filip-wojciech-jagieo,lech-poznan,Filip Wojciech JagiełłoLech Poznań,58%
+76,michalis-kosidis,puszcza-niepolomice,Michalis KosidisPuszcza Niepołomice,58%
+76,jakub-swierczok,slask-wroclaw,Jakub ŚwierczokŚląsk Wrocław,58%
+76,jens-patrik-walemark,lech-poznan,Jens Patrik WålemarkLech Poznań,58%
+80,ukasz-jozef-podolski,gornik-zabrze,Łukasz Józef PodolskiGórnik Zabrze,58%
+81,osvaldo-pedro-capemba,radomiak-radom,CapitaRadomiak Radom,58%
+82,ali-gholizadeh-nojedeh,lech-poznan,Ali Gholizadeh NojedehLech Poznań,57%
+82,kajetan-szmyt,zagebie-lubin,Kajetan SzmytKGHM Zagłębie Lubin,57%
+84,darko-churlinov,jagiellonia-bialystok,Darko ChurlinovJagiellonia Białystok,57%
+85,blaz-kramer,legia-warszawa,Blaž KramerLegia Warszawa,56%
+85,mateusz-matras,stal-mielec,Mateusz MatrasStal Mielec,56%
+85,marcin-wasielewski,gks-katowice,Marcin WasielewskiGKS Katowice,56%
+88,adriano-luis-amorim-santos,rakow-czestochowa,AdrianoRaków Częstochowa,56%
+88,jesus-antonio-diaz-gomez,rakow-czestochowa,Jesús Antonio Díaz GómezRaków Częstochowa,56%
+88,burak-ince,slask-wroclaw,Burak InceŚląsk Wrocław,56%
+88,rifet-kapic,lechia-gdansk,Rifet KapičLechia Gdańsk,56%
+92,jonatan-braut-brunes,rakow-czestochowa,Jonatan Braut BrunesRaków Częstochowa,55%
+92,ruben-goncalo-da-silva-nascimento-vinagre,legia-warszawa,Rúben VinagreLegia Warszawa,55%
+94,sylvester-jasper,slask-wroclaw,Sylvester Alexander Enitombra JasperŚląsk Wrocław,54%
+94,steve-nkanu-kapuadi,legia-warszawa,Steve Nkanu KapuadiLegia Warszawa,54%
+94,damian-rasak,gornik-zabrze,Damian RasakGórnik Zabrze,54%
+94,jean-carlos-silva-rocha,rakow-czestochowa,Jean Carlos Silva RochaRaków Częstochowa,54%
+98,micha-krol,motor-lublin,Michał KrólMotor Lublin,54%
+99,mateusz-wdowiak,zagebie-lubin,Mateusz WdowiakKGHM Zagłębie Lubin,53%
+100,imad-rondic,widzew-lodz,Imad RondićWidzew Łódź,53%
+101,dawid-abramowicz,puszcza-niepolomice,Dawid AbramowiczPuszcza Niepołomice,53%
+101,tomas-huk,piast-gliwice,Tomáš HukPiast Gliwice,53%
+103,piotr-ceglarz,motor-lublin,Piotr CeglarzMotor Lublin,53%
+103,serhij-krykun,piast-gliwice,Serhii Krykun WiktorowyczPiast Gliwice,53%
+103,ousmane-sow,gornik-zabrze,Ousmane SowGórnik Zabrze,53%
+103,miosz-szczepanski,piast-gliwice,Miłosz SzczepańskiPiast Gliwice,53%
+107,mateusz-zukowski,slask-wroclaw,Mateusz ŻukowskiŚląsk Wrocław,53%
+108,adrian-dalmau-vaquer,korona-kielce,Adrián Dalmau VaquerKorona Kielce,52%
+108,vaclav-sejk,zagebie-lubin,Václav SejkKGHM Zagłębie Lubin,52%
+110,borja-galan-gonzalez,gks-katowice,Borja Galán GonzálezGKS Katowice,52%
+110,dawid-kurminowski,zagebie-lubin,Dawid KurminowskiKGHM Zagłębie Lubin,52%
+110,jakub-sypek,widzew-lodz,Jakub SypekWidzew Łódź,52%
+113,maksym-khlan,lechia-gdansk,Maksym KhlanLechia Gdańsk,51%
+113,luka-zahovic,gornik-zabrze,Luka ZahovićGórnik Zabrze,51%
+115,jesus-imaz-balleste,jagiellonia-bialystok,Jesús Imaz BallestéJagiellonia Białystok,51%
+116,allan-migouel-alfarela,legia-warszawa,Allan Migouel AlfarelaLegia Warszawa,50%
+116,adriel-ba-loua,lech-poznan,Adriel D'Avila Ba LouaLech Poznań,50%
+116,daniel-bak,korona-kielce,Daniel BąkKorona Kielce,50%
+116,peter-barath,rakow-czestochowa,Péter BaráthRaków Częstochowa,50%
+116,jean-david-beauguel,stal-mielec,Jean-David BeauguelStal Mielec,50%
+116,rasmus-carstensen,lech-poznan,Rasmus Bjerregaard CarstensenLech Poznań,50%
+116,leonardo-borges-da-silva,pogon-szczecin,Léo BorgesPogoń Szczecin,50%
+116,fabian-bzdyl,cracovia,Fabian BzdylCracovia,50%
+116,kamil-cybulski,widzew-lodz,Kamil CybulskiWidzew Łódź,50%
+116,jakub-czerwinski,piast-gliwice,Jakub CzerwińskiPiast Gliwice,50%
+116,rui-filipe-da-cunha-correia,jagiellonia-bialystok,NenéJagiellonia Białystok,50%
+116,renat-dadasov,radomiak-radom,Renat DadaşovRadomiak Radom,50%
+116,adrian-dieguez-grande,jagiellonia-bialystok,Adrián Diéguez GrandeJagiellonia Białystok,50%
+116,dawid-drachal,rakow-czestochowa,Dawid DrachalRaków Częstochowa,50%
+116,paulius-golubickas,radomiak-radom,Paulius GolubickasRadomiak Radom,50%
+116,david-gonzalez-plata,korona-kielce,NonoKorona Kielce,50%
+116,gustav-niklas-henriksson,cracovia,Gustav Niklas HenrikssonCracovia,50%
+116,damian-jakubik,radomiak-radom,Damian JakubikRadomiak Radom,50%
+116,jakub-jezierski-1,slask-wroclaw,Jakub JezierskiŚląsk Wrocław,50%
+116,antoni-klukowski,pogon-szczecin,Antoni KlukowskiPogoń Szczecin,50%
+116,matus-kmet,gornik-zabrze,Matúš KmeťGórnik Zabrze,50%
+116,karol-knap,stal-mielec,Karol KnapStal Mielec,50%
+116,olaf-korczakowski,pogon-szczecin,Olaf Igor KorczakowskiPogoń Szczecin,50%
+116,peter-kovacik,jagiellonia-bialystok,Peter KováčikJagiellonia Białystok,50%
+116,lazaros-lamprou,rakow-czestochowa,Lazaros LamprouRaków Częstochowa,50%
+116,wojciech-lisowski,pogon-szczecin,Wojciech LisowskiPogoń Szczecin,50%
+116,marc-llinares-barragan,slask-wroclaw,Marc Llinares BarragánŚląsk Wrocław,50%
+116,ivan-lopez-alvarez,rakow-czestochowa,Ivi LópezRaków Częstochowa,50%
+116,tomasz-mokwa,piast-gliwice,Tomasz MokwaPiast Gliwice,50%
+116,shuma-nagamatsu,korona-kielce,Shuma NagamatsuKorona Kielce,50%
+116,kristoffer-hansen,jagiellonia-bialystok,Kristoffer Normann HansenJagiellonia Białystok,50%
+116,luiz-gustavo-oliveira-da-silva,pogon-szczecin,LuizãoPogoń Szczecin,50%
+116,pawe-mirosaw-olkowski,gornik-zabrze,Paweł Mirosław OlkowskiGórnik Zabrze,50%
+116,marcel-pieczek,korona-kielce,Marcel PięczekKorona Kielce,50%
+116,sran-plavsic,rakow-czestochowa,Srđan PlavšićRaków Częstochowa,50%
+116,arkadiusz-pyrka,piast-gliwice,Arkadiusz PyrkaPiast Gliwice,50%
+116,micha-miosz-rakoczy,cracovia,Michał Miłosz RakoczyCracovia,50%
+116,matej-rodin,rakow-czestochowa,Matej RodinRaków Częstochowa,50%
+116,paulo-henrique-rodrigues-cabral,radomiak-radom,Paulo HenriqueRadomiak Radom,50%
+116,sebastian-rudol,motor-lublin,Sebastian RudolMotor Lublin,50%
+116,kryspin-szczesniak,gornik-zabrze,Kryspin SzcześniakGórnik Zabrze,50%
+116,anton-tsarenko,lechia-gdansk,Anton TsarenkoLechia Gdańsk,50%
+116,henrik-udahl-1,slask-wroclaw,Henrik UdahlŚląsk Wrocław,50%
+116,fredrik-stense-ulvestad,pogon-szczecin,Fredrik Stensøe UlvestadPogoń Szczecin,50%
+116,kristoffer-velde,lech-poznan,Kristoffer VeldeLech Poznań,50%
+116,bohdan-viunnyk,lechia-gdansk,Bohdan ViunnykLechia Gdańsk,50%
+116,pawe-marek-wszoek,legia-warszawa,Paweł Marek WszołekLegia Warszawa,50%
+116,roman-yakuba,puszcza-niepolomice,Roman YakubaPuszcza Niepołomice,50%
+116,jan-ziokowski,legia-warszawa,Jan ZiółkowskiLegia Warszawa,50%
+165,taofeek-ajibade-ismaheel,gornik-zabrze,Taofeek Ajibade IsmaheelGórnik Zabrze,49%
+166,micha-ukasz-chrapek,piast-gliwice,Michał Łukasz ChrapekPiast Gliwice,48%
+167,ryoya-morishita,legia-warszawa,Ryoya MorishitaLegia Warszawa,48%
+168,sebastian-bergier,gks-katowice,Sebastian BergierGKS Katowice,48%
+168,matthew-guillaumier,stal-mielec,Matthew GuillaumierStal Mielec,48%
+170,kamil-lukoszek,gornik-zabrze,Kamil LukoszekGórnik Zabrze,48%
+171,vladyslav-kochergin,rakow-czestochowa,Vladyslav KocherginRaków Częstochowa,48%
+172,yosuke-furukawa,gornik-zabrze,Yosuke FurukawaGórnik Zabrze,47%
+172,maciej-rosoek,legia-warszawa,Maciej RosołekLegia Warszawa,47%
+174,maciej-domanski,stal-mielec,Maciej DomańskiStal Mielec,47%
+174,fabian-piasecki,piast-gliwice,Fabian PiaseckiPiast Gliwice,47%
+176,lukas-rafael-klemenz,gks-katowice,Lukas Rafael KlemenzGKS Katowice,47%
+176,bryan-benjamin-solhaug-fiabema,lech-poznan,Bryan Benjamin Solhaug FiabemaLech Poznań,47%
+178,kacper-chodyna,legia-warszawa,Kacper ChodynaLegia Warszawa,46%
+179,mariusz-fornalczyk,korona-kielce,Mariusz FornalczykKorona Kielce,46%
+179,marc-gual-huguet,legia-warszawa,Marc Gual HuguetLegia Warszawa,46%
+179,krzysztof-wokowicz,stal-mielec,Krzysztof WołkowiczStal Mielec,46%
+182,ajdin-hasic,cracovia,Ajdin HasićCracovia,46%
+183,michael-ameyaw,piast-gliwice,Michael AmeyawPiast Gliwice,45%
+183,tomas-bobcek,lechia-gdansk,Tomáš BobčekLechia Gdańsk,45%
+183,ukasz-wolsztynski,stal-mielec,Łukasz WolsztyńskiStal Mielec,45%
+183,mateusz-zyro,widzew-lodz,Mateusz ŻyroWidzew Łódź,45%
+188,kamil-pawe-grosicki,pogon-szczecin,Kamil Paweł GrosickiPogoń Szczecin,45%
+189,lukas-ambros,gornik-zabrze,Lukáš AmbrosGórnik Zabrze,45%
+189,konrad-stepien,puszcza-niepolomice,Konrad StępieńPuszcza Niepołomice,45%
+192,pedro-nuno-fernandes-ferreira,korona-kielce,Pedro NunoKorona Kielce,45%
+193,daniel-noel-mikael-hakans,lech-poznan,Daniel Noel Mikael HåkansLech Poznań,44%
+193,jarosaw-kubicki,jagiellonia-bialystok,Jarosław KubickiJagiellonia Białystok,44%
+193,ilya-shkurin,legia-warszawa,Ilya ShkurinLegia Warszawa,44%
+193,miguel-villar-alonso,jagiellonia-bialystok,Miguel Villar AlonsoJagiellonia Białystok,44%
+193,arkadiusz-wozniak,zagebie-lubin,Arkadiusz WoźniakKGHM Zagłębie Lubin,44%
+193,akim-zedadka,piast-gliwice,Akim ZedadkaPiast Gliwice,44%
+199,arnau-ortiz,slask-wroclaw,Arnau Ortiz SánchezŚląsk Wrocław,44%
+200,mateusz-cholewiak,puszcza-niepolomice,Mateusz CholewiakPuszcza Niepołomice,44%
+200,micha-jan-nalepa,zagebie-lubin,Michał Jan NalepaKGHM Zagłębie Lubin,44%
+202,piotr-samiec-talar,slask-wroclaw,Piotr Samiec-TalarŚląsk Wrocław,43%
+203,vahan-bichakhchyan,legia-warszawa,Vahan BichakhchyanLegia Warszawa,43%
+204,saad-agouzoul,radomiak-radom,Saad AgouzoulRadomiak Radom,43%
+204,karl-gustav-vilhelm-berggren,rakow-czestochowa,Karl Gustav Vilhelm BerggrenRaków Częstochowa,43%
+204,sebastian-musiolik,slask-wroclaw,Sebastian Karol MusiolikŚląsk Wrocław,43%
+204,leandro-rossi-pereira,radomiak-radom,LeândroRadomiak Radom,43%
+204,dominik-sarapata,gornik-zabrze,Dominik SarapataGórnik Zabrze,43%
+209,mateusz-kowalczyk,gks-katowice,Mateusz KowalczykGKS Katowice,42%
+209,rafa-maciej-kurzawa,pogon-szczecin,Rafał Maciej KurzawaPogoń Szczecin,42%
+209,joao-peglow,radomiak-radom,PeglowRadomiak Radom,42%
+212,mbaye-jacques-ndiaye,motor-lublin,Mbaye Jacques N'DiayeMotor Lublin,42%
+213,tihomir-kostadinov,piast-gliwice,Tihomir KostadinovPiast Gliwice,42%
+213,igor-orlikowski,zagebie-lubin,Igor OrlikowskiKGHM Zagłębie Lubin,42%
+213,efstratios-svarnas,rakow-czestochowa,Efstratios SvarnasRaków Częstochowa,42%
+213,rafa-wolski,radomiak-radom,Rafał WolskiRadomiak Radom,42%
+217,jin-hyun-lee,puszcza-niepolomice,Lee Jin-HyunPuszcza Niepołomice,41%
+218,wiktor-dugosz,korona-kielce,Wiktor DługoszKorona Kielce,41%
+219,mick-van-buren,cracovia,Mick van BurenCracovia,41%
+220,francisco-javier-alvarez-rodriguez,widzew-lodz,Francisco Javier Álvarez RodríguezWidzew Łódź,41%
+220,mikkel-maigaard-jakobsen,cracovia,Mikkel Maigaard JakobsenCracovia,41%
+222,tomas-costa-silva,jagiellonia-bialystok,Tomás SilvaJagiellonia Białystok,40%
+222,fryderyk-gerbowski,stal-mielec,Fryderyk GerbowskiStal Mielec,40%
+222,erik-janza,gornik-zabrze,Erik JanžaGórnik Zabrze,40%
+222,bartomiej-kudka,zagebie-lubin,Bartłomiej KłudkaKGHM Zagłębie Lubin,40%
+222,mateusz-marzec,gks-katowice,Mateusz MarzecGKS Katowice,40%
+222,rahil-mmmdov,radomiak-radom,Rahil MəmmədovRadomiak Radom,40%
+222,sebastian-milewski,gks-katowice,Sebastian MilewskiGKS Katowice,40%
+222,elias-oskar-olsson,lechia-gdansk,Elias Oskar OlssonLechia Gdańsk,40%
+222,jose-angel-pozo-la-rosa,slask-wroclaw,José Ángel Pozo la RosaŚląsk Wrocław,40%
+222,adrian-przyborek,pogon-szczecin,Adrian PrzyborekPogoń Szczecin,40%
+222,bartosz-salamon,lech-poznan,Bartosz SalamonLech Poznań,40%
+222,kacper-sezonienko,lechia-gdansk,Kacper SezonienkoLechia Gdańsk,40%
+222,jakub-stec,puszcza-niepolomice,Jakub StecPuszcza Niepołomice,40%
+222,dawid-tkacz,stal-mielec,Dawid TkaczStal Mielec,40%
+222,joel-vieira-pereira,lech-poznan,Joel PereiraLech Poznań,40%
+237,leonardo-miramar-rocha,radomiak-radom,Leonardo RochaRadomiak Radom,40%
+238,antoni-kozubal,lech-poznan,Antoni KozubalLech Poznań,39%
+238,filip-rozga,cracovia,Filip Jan RózgaCracovia,39%
+240,arkadiusz-jedrych,gks-katowice,Arkadiusz JędrychGKS Katowice,39%
+240,erik-jirka,piast-gliwice,Erik JirkaPiast Gliwice,39%
+242,thierry-gale,piast-gliwice,Thierry Mikael GalePiast Gliwice,38%
+242,jorge-felix-munoz-garcia,piast-gliwice,Jorge Félix Muñoz GarcíaPiast Gliwice,38%
+242,zie-mohamed-ouattara,radomiak-radom,Zié Mohamed OuattaraRadomiak Radom,38%
+242,adam-radwanski,zagebie-lubin,Adam RadwańskiKGHM Zagłębie Lubin,38%
+246,patrik-hellebrand,gornik-zabrze,Patrik HellebrandGórnik Zabrze,38%
+247,bartosz-nowak,rakow-czestochowa,Bartosz NowakRaków Częstochowa,38%
+248,german-barkovskiy,puszcza-niepolomice,German BarkovskiyPuszcza Niepołomice,38%
+248,kamil-jacek-glik,cracovia,Kamil Jacek GlikCracovia,38%
+248,micha-gogowski,lechia-gdansk,Michał GłogowskiLechia Gdańsk,38%
+248,jan-grzesik,radomiak-radom,Jan GrzesikRadomiak Radom,38%
+248,roberto-emanuel-oliveira-alves,radomiak-radom,Roberto Emanuel Oliveira AlvesRadomiak Radom,38%
+248,rafael-avelino-pereira-pinto-barbosa,radomiak-radom,Rafael BarbosaRadomiak Radom,38%
+248,bujar-pllana,lechia-gdansk,Bujar PllanaLechia Gdańsk,38%
+248,oskar-repka,gks-katowice,Oskar RepkaGKS Katowice,38%
+248,hubert-sobol,widzew-lodz,Hubert SobolWidzew Łódź,38%
+248,dusan-stojinovic,jagiellonia-bialystok,Dušan StojinovićJagiellonia Białystok,38%
+258,juljan-shehu,widzew-lodz,Juljan ShehuWidzew Łódź,37%
+259,rolf-linus-wahlqvist-egnell,pogon-szczecin,Rolf Linus Wahlqvist EgnellPogoń Szczecin,37%
+260,juan-fernandez-blanco,widzew-lodz,Juan IbizaWidzew Łódź,36%
+260,pau-resta-tell,korona-kielce,Pau Resta TellKorona Kielce,36%
+260,grzegorz-rogala,gks-katowice,Grzegorz RogalaGKS Katowice,36%
+263,patryk-sokoowski,cracovia,Patryk SokołowskiCracovia,36%
+263,dawid-szymonowicz,puszcza-niepolomice,Dawid SzymonowiczPuszcza Niepołomice,36%
+265,tommaso-guercio,slask-wroclaw,Tommaso GuercioŚląsk Wrocław,35%
+265,miosz-trojak,korona-kielce,Miłosz TrojakKorona Kielce,35%
+267,petr-schwarz,slask-wroclaw,Petr SchwarzŚląsk Wrocław,35%
+268,marek-kristian-bartos,motor-lublin,Marek Kristián BartošMotor Lublin,33%
+268,bartosz-biedrzycki,cracovia,Bartosz BiedrzyckiCracovia,33%
+268,hilary-gong,widzew-lodz,Hilary Chukwah GongWidzew Łódź,33%
+268,mateusz-cichocki,radomiak-radom,Mateusz CichockiRadomiak Radom,33%
+268,szymon-czyz,widzew-lodz,Szymon CzyżWidzew Łódź,33%
+268,joao-pedro-da-costa-gamboa,pogon-szczecin,João GamboaPogoń Szczecin,33%
+268,mohamed-lamine-diaby-fadiga,jagiellonia-bialystok,Mohamed Lamine Diaby-FadigaJagiellonia Białystok,33%
+268,vagner-dias,radomiak-radom,VagnerRadomiak Radom,33%
+268,bright-ede,motor-lublin,Bright EdeMotor Lublin,33%
+268,mario-gonzalez,lech-poznan,Mario GonzálezLech Poznań,33%
+268,koki-hinokio,stal-mielec,Koki HinokioStal Mielec,33%
+268,leonardo-pablo-koutris,pogon-szczecin,Leonárdo Páblo KoútrisPogoń Szczecin,33%
+268,jakub-jan-abojko,motor-lublin,Jakub Jan ŁabojkoMotor Lublin,33%
+268,danijel-loncar,pogon-szczecin,Danijel LončarPogoń Szczecin,33%
+268,luis-mata,zagebie-lubin,Luís MataKGHM Zagłębie Lubin,33%
+268,patryk-makuch,rakow-czestochowa,Patryk MakuchRaków Częstochowa,33%
+268,daniel-mikoajewski-1,zagebie-lubin,Daniel MikołajewskiKGHM Zagłębie Lubin,33%
+268,marek-mroz,zagebie-lubin,Marek MrózKGHM Zagłębie Lubin,33%
+268,piotr-mrozinski,puszcza-niepolomice,Piotr MrozińskiPuszcza Niepołomice,33%
+268,radosaw-pawe-murawski,lech-poznan,Radosław Paweł MurawskiLech Poznań,33%
+268,erick-ouma-otieno,rakow-czestochowa,Erick Ouma OtienoRaków Częstochowa,33%
+268,manuel-sanchez,gornik-zabrze,Manuel Sánchez GarcíaGórnik Zabrze,33%
+268,miosz-strzebonski,korona-kielce,Miłosz StrzebońskiKorona Kielce,33%
+268,lubomir-tupta,widzew-lodz,Ľubomír TuptaWidzew Łódź,33%
+268,bartosz-wolski,motor-lublin,Bartosz WolskiMotor Lublin,33%
+268,dominick-lukasz-zator,korona-kielce,Dominick Lukasz ZatorKorona Kielce,33%
+268,nikodem-zielonka,gornik-zabrze,Nikodem ZielonkaGórnik Zabrze,33%
+297,adrian-bad,gks-katowice,Adrian BłądGKS Katowice,32%
+297,christopher-serge-simon,motor-lublin,Christopher Serge SimonMotor Lublin,32%
+299,robert-dadok,stal-mielec,Robert DadokStal Mielec,31%
+299,mateusz-stepien,stal-mielec,Mateusz StępieńStal Mielec,31%
+301,samuel-kozlovsky,widzew-lodz,Samuel KozlovskýWidzew Łódź,30%
+301,pawe-stolarski,motor-lublin,Paweł StolarskiMotor Lublin,30%
+303,joaquim-claude-goncalves-araujo,legia-warszawa,Claude GonçalvesLegia Warszawa,29%
+303,davi-kristjan-olafsson,cracovia,Davíð Kristján ÓlafssonCracovia,29%
+305,damian-dabrowski,zagebie-lubin,Damian DąbrowskiKGHM Zagłębie Lubin,29%
+305,otar-kakabadze,cracovia,Otar KakabadzeCracovia,29%
+305,sebastian-kerk,widzew-lodz,Sebastian KerkWidzew Łódź,29%
+305,taras-romanczuk,jagiellonia-bialystok,Taras RomanczukJagiellonia Białystok,29%
+305,evgeni-shikavka,korona-kielce,Evgeni ShikavkaKorona Kielce,29%
+310,josip-corluka,zagebie-lubin,Josip ĆorlukaKGHM Zagłębie Lubin,29%
+310,said-hamulic,widzew-lodz,Saïd HamulićWidzew Łódź,29%
+310,alvis-jaunzems,stal-mielec,Alvis JaunzemsStal Mielec,29%
+310,marcel-krajewski,widzew-lodz,Marcel KrajewskiWidzew Łódź,29%
+310,jakub-serafin,puszcza-niepolomice,Jakub SerafinPuszcza Niepołomice,29%
+310,tomasz-wojtowicz,lechia-gdansk,Tomasz WójtowiczLechia Gdańsk,29%
+316,amir-fouad-aboud-al-ammari,cracovia,Amir Al AmmariCracovia,27%
+316,patryk-dziczek,piast-gliwice,Patryk DziczekPiast Gliwice,27%
+316,aleks-milenov-petkov,slask-wroclaw,Aleks Milenov PetkovŚląsk Wrocław,27%
+319,igor-drapinski,piast-gliwice,Igor DrapińskiPiast Gliwice,25%
+319,juergen-farid-elitim-sepulveda,legia-warszawa,Juergen Farid Elitim SepúlvedaLegia Warszawa,25%
+319,virgil-ghita,cracovia,Virgil Eugen GhițăCracovia,25%
+319,mateusz-grzybek,zagebie-lubin,Mateusz GrzybekKGHM Zagłębie Lubin,25%
+319,micha-gurgul,lech-poznan,Michał GurgulLech Poznań,25%
+319,rafa-janicki,gornik-zabrze,Rafał JanickiGórnik Zabrze,25%
+319,steve-kingue,radomiak-radom,Steve KingueRadomiak Radom,25%
+319,aleksander-komor,gks-katowice,Aleksander KomorGKS Katowice,25%
+319,krzysztof-kubica,motor-lublin,Krzysztof KubicaMotor Lublin,25%
+319,damian-michalski,zagebie-lubin,Damian MichalskiKGHM Zagłębie Lubin,25%
+319,francisco-ramos,radomiak-radom,Francisco RamosRadomiak Radom,25%
+319,jean-pierre-junior-nsame,legia-warszawa,Jean-Pierre Junior NsameLegia Warszawa,25%
+319,oskar-pietuszewski,jagiellonia-bialystok,Oskar PietuszewskiJagiellonia Białystok,25%
+319,martin-christophe-jannick-remacle,korona-kielce,Martin Christophe Jannick RemacleKorona Kielce,25%
+319,sergi-samper-montana,motor-lublin,Sergi Samper MontañaMotor Lublin,25%
+319,antonio-sefer,motor-lublin,Antonio Valentin SeferMotor Lublin,25%
+319,mateusz-skrzypczak,jagiellonia-bialystok,Mateusz SkrzypczakJagiellonia Białystok,25%
+319,bartomiej-smolarczyk,korona-kielce,Bartłomiej SmolarczykKorona Kielce,25%
+319,konstantinos-sotiriou,korona-kielce,Konstantinos SotiriouKorona Kielce,25%
+319,martin-yankov-minchev,cracovia,Martin Yankov MinchevCracovia,25%
+319,hubert-zwozny,korona-kielce,Hubert ZwoźnyKorona Kielce,25%
+341,damian-kadzior,piast-gliwice,Damian KądziorPiast Gliwice,24%
+341,grzegorz-tomasiewicz,piast-gliwice,Grzegorz TomasiewiczPiast Gliwice,24%
+343,bert-esselink,stal-mielec,Bert Johan EsselinkStal Mielec,24%
+343,abdoul-fessal-tapsoba,radomiak-radom,Abdoul Fessal TapsobaRadomiak Radom,24%
+345,aleks-awniczak,zagebie-lubin,Aleks ŁawniczakKGHM Zagłębie Lubin,23%
+346,tudor-baluta,slask-wroclaw,Tudor Cristian BăluțăŚląsk Wrocław,22%
+346,kaan-caliskaner,motor-lublin,Kaan ÇalışkanerMotor Lublin,22%
+346,radovan-pankov,legia-warszawa,Radovan PankovLegia Warszawa,22%
+349,norbert-wojtuszek,jagiellonia-bialystok,Norbert WojtuszekJagiellonia Białystok,21%
+350,antonio-milic,lech-poznan,Antonio MilićLech Poznań,21%
+351,zoran-arsenic,rakow-czestochowa,Zoran ArsenićRaków Częstochowa,20%
+351,bruno-andre-cavaco-jordao,radomiak-radom,Bruno JordãoRadomiak Radom,20%
+351,alan-czerwinski,gks-katowice,Alan CzerwińskiGKS Katowice,20%
+351,leon-maximilian-flach,jagiellonia-bialystok,Leon Maximilian FlachJagiellonia Białystok,20%
+351,pyry-hannola,stal-mielec,Pyry Petteri HannolaStal Mielec,20%
+351,jakub-jugas,cracovia,Jakub JugasCracovia,20%
+351,tomasz-neugebauer,lechia-gdansk,Tomasz NeugebauerLechia Gdańsk,20%
+351,marcel-wojciech-regua,zagebie-lubin,Marcel Wojciech RegułaKGHM Zagłębie Lubin,20%
+351,mathieu-scalet,motor-lublin,Mathieu ScaletMotor Lublin,20%
+351,filip-wojcik,motor-lublin,Filip WójcikMotor Lublin,20%
+362,aleksander-paluszek,slask-wroclaw,Aleksander PaluszekŚląsk Wrocław,18%
+362,peter-pokorny,slask-wroclaw,Peter PokornýŚląsk Wrocław,18%
+364,jani-atanasov,puszcza-niepolomice,Jani AtanasovPuszcza Niepołomice,18%
+365,christos-donis,radomiak-radom,Christos DonisRadomiak Radom,17%
+365,patryk-kusztal,zagebie-lubin,Patryk KusztalKGHM Zagłębie Lubin,17%
+365,tomasz-makowski,zagebie-lubin,Tomasz MakowskiKGHM Zagłębie Lubin,17%
+365,herve-jean-matthys,motor-lublin,Hervé Jean MatthysMotor Lublin,17%
+369,krystian-getinger,stal-mielec,Krystian GetingerStal Mielec,16%
+370,dominik-pia,lechia-gdansk,Dominik PiłaLechia Gdańsk,15%
+371,jarosaw-jach,zagebie-lubin,Jarosław Przemysław JachKGHM Zagłębie Lubin,14%
+372,marek-hanousek,widzew-lodz,Marek HanousekWidzew Łódź,13%
+372,serafin-jan-szota,slask-wroclaw,Serafin Jan SzotaŚląsk Wrocław,13%
+372,fran-tudor,rakow-czestochowa,Fran TudorRaków Częstochowa,13%
+375,jakub-kolan,zagebie-lubin,Jakub KolanKGHM Zagłębie Lubin,9%

@@ -1,0 +1,34 @@
+﻿pozycja,player_slug,klub_slug,nazwa,wartosc
+1,valentin-alexandru-cojocaru,pogon-szczecin,Valentin Alexandru CojocaruPogoń Szczecin,34
+1,rafa-tadeusz-gikiewicz,widzew-lodz,Rafał Tadeusz GikiewiczWidzew Łódź,34
+1,dawid-kuda,gks-katowice,Dawid KudłaGKS Katowice,34
+1,bartosz-mrozek,lech-poznan,Bartosz MrozekLech Poznań,34
+1,frantisek-plach,piast-gliwice,František PlachPiast Gliwice,34
+1,kacper-trelowski,rakow-czestochowa,Kacper TrelowskiRaków Częstochowa,34
+7,rafa-leszczynski,slask-wroclaw,Rafał LeszczyńskiŚląsk Wrocław,33
+8,sawomir-abramowicz,jagiellonia-bialystok,Sławomir AbramowiczJagiellonia Białystok,31
+8,maciej-kikolski,radomiak-radom,Maciej KikolskiRadomiak Radom,31
+10,dominik-hadun,zagebie-lubin,Dominik HładunKGHM Zagłębie Lubin,30
+10,kewin-komar,puszcza-niepolomice,Kewin KomarPuszcza Niepołomice,30
+12,jakub-madrzyk,stal-mielec,Jakub MądrzykStal Mielec,29
+13,henrich-ravas,cracovia,Henrich RavasCracovia,23
+14,micha-szromnik,gornik-zabrze,Michał SzromnikGórnik Zabrze,22
+14,kacper-tobiasz,legia-warszawa,Kacper TobiaszLegia Warszawa,22
+16,szymon-weirauch,lechia-gdansk,Szymon WeirauchLechia Gdańsk,20
+17,xavier-dziekonski,korona-kielce,Xavier DziekońskiKorona Kielce,17
+17,rafa-mamla,korona-kielce,Rafał MamlaKorona Kielce,17
+17,kacper-rosa,motor-lublin,Kacper RosaMotor Lublin,17
+20,bohdan-sarnavskyi,lechia-gdansk,Bohdan SarnavskyiLechia Gdańsk,14
+21,filip-majchrowicz,gornik-zabrze,Filip MajchrowiczGórnik Zabrze,12
+22,sebastian-madejski,cracovia,Sebastian MadejskiCracovia,11
+23,ivan-brkic,motor-lublin,Ivan BrkićMotor Lublin,10
+24,gabriel-kobylak,legia-warszawa,Gabriel KobylakLegia Warszawa,7
+24,gasper-tratnik,motor-lublin,Gašper TratnikMotor Lublin,7
+26,vladan-kovacevic,legia-warszawa,Vladan KovačevićLegia Warszawa,6
+27,jasmin-buric,zagebie-lubin,Jasmin BurićKGHM Zagłębie Lubin,4
+27,mateusz-kochalski,stal-mielec,Mateusz KochalskiStal Mielec,4
+27,micha-perchel,puszcza-niepolomice,Michał PerchelPuszcza Niepołomice,4
+30,wiktor-koptas,radomiak-radom,Wiktor KoptasRadomiak Radom,3
+30,maksymilian-stryjek,jagiellonia-bialystok,Maksymilian StryjekJagiellonia Białystok,3
+32,konrad-jaocha,stal-mielec,Konrad JałochaStal Mielec,1
+32,tomasz-loska,slask-wroclaw,Tomasz LoskaŚląsk Wrocław,1

@@ -1,0 +1,538 @@
+﻿player_slug,nazwa,klub_slug,gk_bramki-stracone,gk_czyste-konta,gk_gk-dlugie-podania-celne,gk_gk-mecze-rozegrane,gk_gk-minuty-rozegrane,gk_gk-piastkowania,gk_gk-podania-celne,gk_gk-podania,gk_gk-rzuty-karne-przeciwko,gk_obronione-rzuty-karne,gk_obronione-strzaly,pole_asysty,pole_celne-strzaly,pole_celnosc-strzalow,pole_dogodne-szanse,pole_dosrodkowania-celne,pole_dosrodkowania,pole_dryblingi,pole_faule-wywalczone,pole_faule,pole_gole-z-gry,pole_gole-z-pola-karnego,pole_gole-z-rzutow-karnych,pole_gole,pole_kanadyjska,pole_karne-wykonane,pole_kluczowe-podania,pole_konwersja-strzalow,pole_minuty,pole_odbiory,pole_podania-celne-w-polowie-przeciwnika,pole_podania-celne,pole_podania-w-polowie-przeciwnika,pole_podania,pole_pojedynki-obronne-wygrane,pole_pojedynki-wygrane,pole_przechwyty,pole_rzuty-rozne,pole_spalone,pole_strzaly,pole_stworzone-dogodne-szanse,pole_wybicia,pole_xa,pole_xg,pole_xgot,pole_zablokowane-strzaly
+alassane-sidibe,Alassane SidibeArka Gdynia,arka-gdynia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,4,11,28,24,0,0,0,0,0,0,5,0,1077,11,175,352,221,415,11,73,13,0,1,3,1,24,0.6,0.4,0,4
+aurelien-thomas-nguiamba,Aurélien Thomas NguiambaArka Gdynia,arka-gdynia,0,0,0,0,0,0,0,0,0,0,0,0,1,20,1,0,1,6,12,29,0,0,0,0,0,0,4,0,1658,15,339,683,395,770,15,84,33,0,0,5,1,43,0.4,0.3,0,0
+damian-weglarz,Damian WęglarzArka Gdynia,arka-gdynia,45,6,152,27,2430,8,482,806,4,2,72,0,0,0,0,0,0,1,5,0,0,0,0,0,0,0,0,0,2430,0,114,482,386,806,0,18,0,0,0,0,0,25,0.1,0,0,0
+dawid-abramowicz,Dawid AbramowiczArka Gdynia,arka-gdynia,0,0,0,0,0,0,0,0,0,0,0,1,3,38,2,3,22,2,14,11,0,1,0,1,2,0,6,13,895,4,121,237,184,307,4,37,5,0,2,8,1,54,0.6,0.7,1.1,1
+dawid-gojny,Dawid GojnyArka Gdynia,arka-gdynia,0,0,0,0,0,0,0,0,0,0,0,1,2,33,2,9,33,9,28,15,0,1,0,1,2,0,9,17,1671,21,266,561,390,707,21,99,17,3,1,6,2,66,1.6,1,0.8,1
+dawid-kocya,Dawid KocyłaArka Gdynia,arka-gdynia,0,0,0,0,0,0,0,0,0,0,0,0,9,39,5,3,23,90,60,28,3,3,0,3,3,0,11,13,1968,31,195,288,301,403,31,157,21,4,3,23,1,37,1,3.6,2.9,13
+diego-pertejo-canseco,Diego PercanArka Gdynia,arka-gdynia,0,0,0,0,0,0,0,0,0,0,0,1,1,50,2,0,0,3,6,5,0,0,0,0,1,0,1,0,280,1,17,28,29,43,1,16,1,0,0,2,0,8,0.1,0.8,0.4,0
+dominick-lukasz-zator,Dominick Lukasz ZatorArka Gdynia,arka-gdynia,0,0,0,0,0,0,0,0,0,0,0,0,2,50,1,4,23,7,11,8,0,0,0,0,0,0,8,0,1267,16,183,358,273,468,16,70,13,0,0,4,1,63,0.5,0.8,0.7,1
+eduardo-david-espiau-hernandez,Eduardo David Espiau HernándezArka Gdynia,arka-gdynia,0,0,0,0,0,0,0,0,0,0,0,0,14,58,6,0,1,22,27,18,6,6,0,6,6,0,7,25,1592,8,109,181,191,277,8,99,1,0,8,24,0,21,0.7,3.5,4.7,8
+hide-kengei-vitalucci,Hide Kengei VitalucciArka Gdynia,arka-gdynia,0,0,0,0,0,0,0,0,0,0,0,0,1,100,0,0,1,4,1,5,0,0,0,0,0,0,1,0,237,0,36,59,51,76,0,8,2,2,0,1,0,2,0.1,0.2,0,4
+joao-pedro-abreu-de-oliveira,João Pedro Abreu de OliveiraArka Gdynia,arka-gdynia,0,0,0,0,0,0,0,0,0,0,0,0,3,60,0,3,13,14,12,6,0,0,0,0,0,0,5,0,474,2,57,90,84,116,2,24,5,0,2,5,0,4,0.3,0.3,0.2,3
+julien-albert-marc-celestine,Julien Albert Marc CélestineArka Gdynia,arka-gdynia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,2,2,2,12,0,0,0,0,0,0,1,0,675,3,76,280,109,317,3,23,5,0,0,3,0,50,0.1,0.2,0,0
+jedrzej-grobelny,Jędrzej GrobelnyArka Gdynia,arka-gdynia,16,1,65,7,630,3,119,230,1,0,25,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,630,1,57,119,159,230,1,7,1,0,0,0,0,7,0,0,0,0
+kamil-jakubczyk,Kamil JakubczykArka Gdynia,arka-gdynia,0,0,0,0,0,0,0,0,0,0,0,1,5,26,1,1,1,36,81,54,0,1,0,2,3,0,16,11,2527,25,382,738,450,838,25,159,31,0,1,19,6,17,2.4,1.6,1.4,8
+enrique-gomez-hermoso,Kike HermosoArka Gdynia,arka-gdynia,0,0,0,0,0,0,0,0,0,0,0,2,3,21,3,1,3,7,6,28,0,1,0,1,3,0,5,7,1712,16,204,644,328,809,16,106,23,0,4,14,1,125,0.4,1.8,0.8,2
+luis-perea-hernandez,Luis Perea HernándezArka Gdynia,arka-gdynia,0,0,0,0,0,0,0,0,0,0,0,1,1,100,1,0,0,10,10,14,1,1,0,1,2,0,1,100,492,5,57,126,98,180,5,48,8,0,1,1,1,20,0.3,0.6,0.9,0
+marc-navarro-ceciliano,Marc Navarro CecilianoArka Gdynia,arka-gdynia,0,0,0,0,0,0,0,0,0,0,0,4,6,40,0,19,81,8,15,33,0,1,0,2,6,0,32,13,1978,29,274,471,559,692,29,114,18,50,3,15,5,82,4,1.2,0.8,13
+marcel-predenkiewicz,Marcel PredenkiewiczArka Gdynia,arka-gdynia,0,0,0,0,0,0,0,0,0,0,0,0,2,67,0,2,4,18,4,4,0,0,0,0,0,0,5,0,299,2,38,44,54,62,2,19,1,0,2,3,1,3,0.9,0.2,0.6,0
+micha-piotr-marcjanik,Michał Piotr MarcjanikArka Gdynia,arka-gdynia,0,0,0,0,0,0,0,0,0,0,0,0,4,36,4,0,10,5,8,36,0,2,0,2,2,0,6,18,2944,9,299,1180,475,1423,9,120,30,0,4,11,0,210,0.6,2.4,2.6,6
+micha-piotr-marcjanik-1,Michał Piotr MarcjanikArka Gdynia,arka-gdynia,0,0,0,0,0,0,0,0,0,0,0,0,1,17,1,0,9,3,4,21,0,1,0,1,1,0,4,17,1684,5,202,736,312,873,5,62,16,0,1,6,0,112,0,0,0,3
+micha-rzuchowski,Michał RzuchowskiArka Gdynia,arka-gdynia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,1,8,6,0,0,0,0,0,0,0,0,375,5,58,115,71,139,5,21,9,0,0,4,0,8,0.1,0.6,0,1
+nazarii-rusyn,Nazarii RusynArka Gdynia,arka-gdynia,0,0,0,0,0,0,0,0,0,0,0,0,11,61,8,2,23,24,29,34,4,3,0,4,4,0,3,22,1184,13,134,222,172,253,13,86,6,1,1,18,1,3,0.6,3.7,4,10
+oskar-kubiak,Oskar KubiakArka Gdynia,arka-gdynia,0,0,0,0,0,0,0,0,0,0,0,1,7,64,2,4,31,34,12,13,2,2,0,3,4,0,9,27,952,8,102,148,179,218,8,58,10,0,5,11,1,20,1.3,1,2.6,4
+patryk-konrad-szysz,Patryk Konrad SzyszArka Gdynia,arka-gdynia,0,0,0,0,0,0,0,0,0,0,0,1,4,40,3,3,9,35,14,15,0,0,0,0,1,0,11,0,851,2,99,167,146,222,2,42,5,1,2,10,2,1,1.3,1.2,0.7,1
+sebastian-kerk,Sebastian KerkArka Gdynia,arka-gdynia,0,0,0,0,0,0,0,0,0,0,0,7,18,55,5,20,70,19,18,22,2,2,0,4,11,0,49,12,2587,9,444,642,761,873,9,59,7,78,10,33,16,30,5.9,4,3.9,7
+serafin-jan-szota,Serafin Jan SzotaArka Gdynia,arka-gdynia,0,0,0,0,0,0,0,0,0,0,0,0,2,50,1,2,5,1,3,6,0,0,0,0,0,0,1,0,866,4,69,238,118,318,4,31,7,0,1,4,1,55,0.4,0.2,0.1,0
+szymon-sobczak,Szymon SobczakArka Gdynia,arka-gdynia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,3,3,5,0,0,0,0,0,0,1,0,144,0,7,11,10,15,0,9,1,0,0,2,0,3,0,0.5,0,1
+tornike-gaprindashvili,Tornike GaprindashviliArka Gdynia,arka-gdynia,0,0,0,0,0,0,0,0,0,0,0,1,1,10,1,7,30,15,12,11,0,0,0,0,1,0,7,0,764,8,86,126,135,159,8,35,10,1,3,10,1,8,0.8,0.5,0.1,2
+vladislavs-gutkovskis,Vladislavs GutkovskisArka Gdynia,arka-gdynia,0,0,0,0,0,0,0,0,0,0,0,1,15,65,8,1,1,17,25,20,3,3,0,4,5,0,3,17,1028,3,57,89,115,154,3,98,0,0,6,23,1,23,0.4,4.6,6.3,6
+ajdin-hasic,Ajdin HasićCracovia,cracovia,0,0,0,0,0,0,0,0,0,0,0,5,18,49,8,10,59,67,36,31,4,7,3,7,12,3,30,19,2039,20,416,537,621,721,20,108,17,26,1,37,7,21,4.3,5.2,6.4,18
+amir-fouad-aboud-al-ammari,Amir Al AmmariCracovia,cracovia,0,0,0,0,0,0,0,0,0,0,0,4,2,15,1,3,21,23,39,42,1,1,0,1,5,0,26,8,2505,26,627,1063,845,1304,26,130,32,39,0,13,6,58,3.1,1.4,1.1,8
+bartosz-biedrzycki,Bartosz BiedrzyckiCracovia,cracovia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,1,0,0,0,0,0,0,0,0,0,48,2,19,23,28,31,2,4,0,0,0,0,0,0,0,0,0,0
+beno-selan,Beno SelanCracovia,cracovia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,3,3,0,0,0,0,0,0,1,0,125,4,28,53,31,58,4,11,0,0,0,0,0,6,0,0.1,0,1
+bosko-sutalo,Boško ŠutaloCracovia,cracovia,0,0,0,0,0,0,0,0,0,0,0,0,1,11,0,8,33,32,20,28,0,0,0,0,0,0,7,0,2195,21,465,941,589,1103,21,130,33,0,1,9,0,95,1.8,0.5,0,2
+brahim-traore,Brahim TraoréCracovia,cracovia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,14,6,0,0,0,0,0,0,0,0,905,3,186,448,227,514,3,43,6,0,0,1,0,56,0.2,0.4,0,2
+davi-kristjan-olafsson,Davíð Kristján ÓlafssonCracovia,cracovia,0,0,0,0,0,0,0,0,0,0,0,0,1,25,0,5,19,2,9,6,0,0,0,0,0,0,4,0,507,6,59,106,105,153,6,26,8,0,0,4,0,21,0.3,0.2,0.3,0
+dijon-kameri,Dijon KameriCracovia,cracovia,0,0,0,0,0,0,0,0,0,0,0,1,7,54,1,1,7,16,21,13,1,2,0,2,3,0,10,15,636,4,118,160,164,208,4,39,3,3,3,13,4,7,0.8,1.6,3.1,6
+dominik-pia,Dominik PiłaCracovia,cracovia,0,0,0,0,0,0,0,0,0,0,0,1,2,29,1,3,21,17,15,19,0,0,0,0,1,0,6,0,1035,17,157,258,236,351,17,65,16,0,1,7,1,42,1,0.7,1,1
+fabian-bzdyl,Fabian BzdylCracovia,cracovia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,2,0,0,0,0,0,0,0,1,0,44,1,13,15,15,17,1,5,0,0,0,0,0,1,0,0,0,1
+filip-stojilkovic,Filip StojilkovićCracovia,cracovia,0,0,0,0,0,0,0,0,0,0,0,2,15,48,15,3,9,19,5,13,6,7,0,7,9,0,10,23,1525,1,78,113,147,187,1,35,3,0,16,31,2,13,1.3,8.2,7.5,16
+gabriel-andre-joseph-charpentier,Gabriel André Joseph CharpentierCracovia,cracovia,0,0,0,0,0,0,0,0,0,0,0,1,4,80,2,0,1,9,2,3,2,2,0,2,3,0,2,40,1,1,17,23,19,2,1,2,0,0,1,5,2,0,0.7,0.7,1.5,1
+gustav-niklas-henriksson,Gustav Niklas HenrikssonCracovia,cracovia,0,0,0,0,0,0,0,0,0,0,0,1,4,50,5,0,1,3,6,33,0,1,0,1,2,0,2,13,2537,14,289,1073,369,1208,14,113,26,0,1,8,1,167,0.4,1.3,1.2,1
+henrich-ravas,Henrich RavasCracovia,cracovia,8,1,15,4,360,1,53,91,2,0,9,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,360,0,5,53,37,91,0,3,0,0,0,0,0,1,0,0,0,0
+jani-atanasov,Jani AtanasovCracovia,cracovia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,4,0,0,0,0,0,0,0,0,24,0,3,4,5,6,0,1,0,0,1,2,0,0,0,0.2,0,0
+jean-florent-batoum-1,Jean Florent BatoumCracovia,cracovia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,3,0,4,0,0,0,0,0,0,1,0,187,0,11,18,14,23,0,5,1,0,2,1,0,2,0,0.1,0,1
+kahveh-zahiroleslam,Kahveh ZahiroleslamCracovia,cracovia,0,0,0,0,0,0,0,0,0,0,0,0,4,50,5,0,1,8,7,4,1,1,0,3,3,0,3,38,294,1,40,57,57,82,1,34,1,0,3,8,0,8,0.3,3.9,3,2
+kamil-jacek-glik,Kamil Jacek GlikCracovia,cracovia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,5,0,0,1,1,2,0,1,0,0,0,0,0,2,0,0,0,0
+karol-knap,Karol KnapCracovia,cracovia,0,0,0,0,0,0,0,0,0,0,0,1,3,30,2,8,18,3,16,13,0,0,0,0,1,0,6,0,542,9,86,140,156,217,9,44,6,0,1,10,1,9,1.1,1.1,0.4,1
+martin-yankov-minchev,Martin Yankov MinchevCracovia,cracovia,0,0,0,0,0,0,0,0,0,0,0,1,14,56,5,10,47,27,23,28,3,3,0,4,5,0,13,16,1632,32,168,218,282,310,32,110,2,0,8,25,3,20,2,3.9,4.4,9
+mateusz-andrzej-klich,Mateusz Andrzej KlichCracovia,cracovia,0,0,0,0,0,0,0,0,0,0,0,2,4,33,1,9,41,6,27,46,1,0,0,1,3,0,45,8,2048,19,767,1185,1035,1415,19,78,15,59,0,12,8,22,5.2,1.2,0.3,11
+mateusz-jakub-praszelik,Mateusz Jakub PraszelikCracovia,cracovia,0,0,0,0,0,0,0,0,0,0,0,0,6,40,0,1,14,14,12,18,2,0,0,2,2,0,4,13,996,8,205,305,278,379,8,46,5,2,1,15,0,12,0.5,1.1,1,5
+mateusz-tabisz,Mateusz TabiszCracovia,cracovia,0,0,0,0,0,0,0,0,0,0,0,0,1,33,1,0,1,7,2,1,0,0,0,0,0,0,3,0,180,0,23,30,28,36,0,13,0,0,0,3,0,3,0.2,0.7,0.4,2
+mauro-perkovic,Mauro PerkovićCracovia,cracovia,0,0,0,0,0,0,0,0,0,0,0,1,16,52,5,11,59,25,28,29,2,4,0,4,5,0,22,13,2190,29,396,684,598,903,29,169,32,0,0,31,7,89,2.3,3,3.5,6
+maxime-dominguez,Maxime DominguezCracovia,cracovia,0,0,0,0,0,0,0,0,0,0,0,0,1,50,0,0,2,7,12,9,0,0,0,0,0,0,3,0,467,6,103,176,137,213,6,29,10,1,0,2,0,3,0.2,0.3,0.1,2
+micha-miosz-rakoczy,Michał Miłosz RakoczyCracovia,cracovia,0,0,0,0,0,0,0,0,0,0,0,1,2,67,3,1,3,5,1,7,1,1,0,1,2,0,4,33,168,3,35,43,45,50,3,12,0,5,1,3,2,2,0.1,0,0,3
+mikkel-maigaard-jakobsen,Mikkel Maigaard JakobsenCracovia,cracovia,0,0,0,0,0,0,0,0,0,0,0,2,4,31,3,6,30,11,22,15,0,1,0,1,3,1,20,8,1502,10,428,690,584,826,10,58,11,33,0,13,4,16,2.6,2,1,12
+milan-aleksic,Milan AleksićCracovia,cracovia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,5,9,1,3,0,0,0,0,0,0,1,0,95,2,12,27,22,40,2,8,3,0,0,3,0,0,0.4,0.3,0,0
+oskar-wojcik,Oskar WójcikCracovia,cracovia,0,0,0,0,0,0,0,0,0,0,0,0,4,31,3,1,10,12,26,46,0,0,0,0,0,0,12,0,2752,25,521,1349,687,1565,25,177,56,0,0,13,2,195,1.3,2,1.4,5
+otar-kakabadze,Otar KakabadzeCracovia,cracovia,0,0,0,0,0,0,0,0,0,0,0,2,3,38,3,6,34,32,25,19,2,2,0,2,4,0,5,25,1067,12,169,275,273,385,12,74,15,0,0,8,3,39,1.8,1.5,1.8,5
+pau-sans-lopez,Pau Sans LópezCracovia,cracovia,0,0,0,0,0,0,0,0,0,0,0,0,7,50,7,1,18,46,27,12,1,1,0,1,1,0,9,7,860,5,116,158,156,188,5,68,4,0,2,14,0,4,0.5,2.7,1.5,15
+sebastian-madejski,Sebastian MadejskiCracovia,cracovia,34,13,150,30,2700,24,470,800,5,1,78,0,0,0,0,0,0,0,14,0,0,0,0,0,0,0,0,0,2700,2,97,470,355,800,2,27,0,0,0,0,0,44,0,0,0,0
+wiktor-bogacz,Wiktor BogaczCracovia,cracovia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,16,1,2,3,2,3,1,3,0,0,0,0,0,0,0,0,0,0
+adam-zrelak,Adam ZreľákGKS Katowice,gks-katowice,0,0,0,0,0,0,0,0,0,0,0,1,7,44,7,1,3,10,14,37,1,3,0,3,4,0,19,19,1302,12,105,173,174,267,12,78,8,0,12,16,1,15,0.7,3.3,2.5,6
+adrian-bad,Adrian BłądGKS Katowice,gks-katowice,0,0,0,0,0,0,0,0,0,0,0,0,2,33,0,2,14,4,5,10,0,0,0,0,0,0,5,0,600,8,110,156,170,214,8,23,1,3,1,6,0,6,0.4,0.4,0.5,3
+alan-brod,Alan BródGKS Katowice,gks-katowice,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0
+alan-czerwinski,Alan CzerwińskiGKS Katowice,gks-katowice,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,12,46,4,10,31,0,0,0,0,5,0,12,0,2306,12,379,892,572,1123,12,58,21,1,3,3,3,115,1.8,0.1,0,0
+aleksander-buksa,Aleksander BuksaGKS Katowice,gks-katowice,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,109,2,4,10,8,16,2,6,0,0,1,1,0,2,0.1,0.2,0,1
+aleksander-paluszek,Aleksander PaluszekGKS Katowice,gks-katowice,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,2,0,0,0,0,0,0,0,0,90,0,7,15,13,22,0,10,0,0,0,0,0,5,0,0,0,0
+arkadiusz-jedrych,Arkadiusz JędrychGKS Katowice,gks-katowice,0,0,0,0,0,0,0,0,0,0,0,0,14,54,10,0,3,6,15,19,0,6,1,6,6,1,9,23,2970,17,322,1343,540,1640,17,151,19,0,4,26,2,257,0.7,4.8,7.1,4
+bartosz-nowak,Bartosz NowakGKS Katowice,gks-katowice,0,0,0,0,0,0,0,0,0,0,0,12,38,66,6,9,44,71,21,11,7,7,0,9,21,0,79,16,3006,14,528,682,910,939,14,77,21,151,5,58,20,10,10.2,7.4,8.8,23
+borja-galan-gonzalez,Borja Galán GonzálezGKS Katowice,gks-katowice,0,0,0,0,0,0,0,0,0,0,0,3,15,47,8,11,63,40,45,29,2,2,0,3,6,0,23,9,2268,22,350,609,569,847,22,171,17,1,2,32,2,64,3,4.6,4.2,10
+damian-rasak,Damian RasakGKS Katowice,gks-katowice,0,0,0,0,0,0,0,0,0,0,0,0,2,40,0,3,3,4,9,11,0,0,0,0,0,0,6,0,642,3,154,261,179,304,3,26,11,0,0,5,2,16,0.6,0.4,0.1,6
+dawid-kuda,Dawid KudłaGKS Katowice,gks-katowice,24,0,71,12,1080,11,210,309,1,0,32,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0,1,0,1080,0,46,210,123,309,0,11,0,0,0,0,0,15,0,0,0,0
+eman-markovic,Eman MarkovićGKS Katowice,gks-katowice,0,0,0,0,0,0,0,0,0,0,0,1,13,72,7,15,35,29,8,10,6,7,0,8,9,0,11,44,1125,10,187,233,253,295,10,44,4,0,1,18,1,2,1.7,4.4,5.5,8
+filip-rejczyk,Filip RejczykGKS Katowice,gks-katowice,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,2,3,3,5,0,2,0,0,0,0,0,1,0,0,0,0
+grzegorz-rogala,Grzegorz RogalaGKS Katowice,gks-katowice,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,2,0,2,0,0,0,0,0,0,1,0,284,0,46,98,75,125,0,0,1,0,0,1,0,3,0,0.1,0,2
+jakub-kokosinski,Jakub KokosińskiGKS Katowice,gks-katowice,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,1,0,0,0,0,0,0,1,0,54,0,6,8,10,12,0,6,0,0,0,0,0,2,0,0,0,0
+jakub-ukowski,Jakub ŁukowskiGKS Katowice,gks-katowice,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,3,0,0,0,0,0,0,2,0,40,0,7,7,14,11,0,0,0,2,0,0,1,0,0.3,0,0,0
+jesse-bosch,Jesse BoschGKS Katowice,gks-katowice,0,0,0,0,0,0,0,0,0,0,0,0,2,67,0,0,3,3,5,13,0,0,0,0,0,0,6,0,651,7,104,214,137,266,7,23,9,0,0,3,0,16,0.1,0.4,0.4,2
+kacper-ukasiak,Kacper ŁukasiakGKS Katowice,gks-katowice,0,0,0,0,0,0,0,0,0,0,0,0,2,67,0,0,0,4,18,11,0,0,0,0,0,0,2,0,659,7,86,187,112,228,7,42,3,0,0,3,0,24,0.1,0.4,0.3,1
+konrad-jan-gruszkowski,Konrad Jan GruszkowskiGKS Katowice,gks-katowice,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,2,1,2,0,0,0,0,0,0,1,0,150,4,24,38,42,52,4,11,1,0,1,2,0,7,0,0.2,0,1
+lukas-rafael-klemenz,Lukas Rafael KlemenzGKS Katowice,gks-katowice,0,0,0,0,0,0,0,0,0,0,0,0,7,47,7,0,4,1,13,32,1,6,0,6,6,0,7,40,2241,19,276,806,379,979,19,118,25,0,4,15,0,156,0.5,3.1,4.6,0
+maciej-rosoek,Maciej RosołekGKS Katowice,gks-katowice,0,0,0,0,0,0,0,0,0,0,0,0,4,57,1,1,4,1,2,4,0,0,0,0,0,0,2,0,333,4,25,35,40,48,4,18,2,0,2,7,0,10,0.2,1.1,0.9,1
+marcel-wedrychowski,Marcel WędrychowskiGKS Katowice,gks-katowice,0,0,0,0,0,0,0,0,0,0,0,1,9,64,2,6,19,44,23,13,2,1,0,2,3,0,13,14,740,9,149,198,189,239,9,68,2,0,3,14,1,5,1.2,1.8,2,6
+marcin-wasielewski,Marcin WasielewskiGKS Katowice,gks-katowice,0,0,0,0,0,0,0,0,0,0,0,4,6,43,1,18,99,25,49,48,2,0,0,2,6,0,21,14,2937,43,437,817,660,1006,43,142,24,0,5,14,6,106,2.9,1.3,1.8,17
+marius-berntsen-olsen,Marius Berntsen OlsenGKS Katowice,gks-katowice,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,4,3,0,0,0,0,0,0,0,0,257,2,19,75,27,92,2,12,4,0,0,1,0,10,0,0,0,0
+mateusz-kowalczyk,Mateusz KowalczykGKS Katowice,gks-katowice,0,0,0,0,0,0,0,0,0,0,0,2,12,50,5,4,18,43,44,40,1,1,0,1,3,0,10,4,2196,41,301,643,429,812,41,156,30,0,1,24,2,61,1.5,2.4,2.1,10
+marten-kuusk,Märten KuuskGKS Katowice,gks-katowice,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3,4,3,10,0,0,0,0,0,0,2,0,851,15,103,302,149,363,15,60,8,0,0,4,0,61,0.1,0.4,0,1
+rafa-straczek,Rafał StrączekGKS Katowice,gks-katowice,21,9,98,22,1980,19,314,505,2,0,59,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,1,0,1980,0,89,314,245,505,0,19,1,0,0,0,0,34,0.1,0,0,0
+sebastian-milewski,Sebastian MilewskiGKS Katowice,gks-katowice,0,0,0,0,0,0,0,0,0,0,0,2,2,15,1,1,4,27,36,48,1,1,0,1,3,0,4,8,1783,26,290,521,386,646,26,111,16,0,0,13,2,41,0.6,0.9,0.6,4
+abbati-abdullahi,Abbati AbdullahiGórnik Zabrze,gornik-zabrze,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,4,0,3,0,0,0,0,0,0,0,0,27,0,9,13,10,13,0,2,0,0,0,0,0,0,0,0,0,0
+bastien-donio,Bastien DonioGórnik Zabrze,gornik-zabrze,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,3,4,0,0,0,0,0,0,1,0,193,6,51,109,66,127,6,12,3,0,0,1,1,6,0.1,0,0,0
+borislav-ivanov-rupanov,Borislav Ivanov RupanovGórnik Zabrze,gornik-zabrze,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,2,8,3,0,0,0,0,0,0,3,0,171,1,13,20,26,37,1,27,0,0,1,2,0,3,0,0.4,0,2
+brandon-jose-domingues,Brandon José DominguèsGórnik Zabrze,gornik-zabrze,0,0,0,0,0,0,0,0,0,0,0,0,4,67,2,0,10,6,6,4,0,0,0,0,0,0,3,0,283,2,58,75,81,97,2,22,3,0,0,6,0,4,0.1,0.8,0.8,2
+dominik-jerzy-szala,Dominik Jerzy SzalaGórnik Zabrze,gornik-zabrze,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+erik-janza,Erik JanžaGórnik Zabrze,gornik-zabrze,0,0,0,0,0,0,0,0,0,0,0,2,9,47,2,25,117,17,37,19,2,2,0,4,6,0,56,21,2706,23,768,1159,1086,1373,23,103,25,107,2,19,6,61,6.3,1.8,2.1,13
+gabriel-barbosa-avelino,Gabriel BarbosaGórnik Zabrze,gornik-zabrze,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,24,0,4,6,6,8,0,3,0,0,0,2,0,2,0,0.1,0,0
+young-jun-goh,Goh Young-JunGórnik Zabrze,gornik-zabrze,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,1,1,7,7,4,0,0,0,0,2,0,4,0,308,1,64,84,75,98,1,13,2,1,0,1,0,3,0.2,0.1,0,0
+jarosaw-kubicki,Jarosław KubickiGórnik Zabrze,gornik-zabrze,0,0,0,0,0,0,0,0,0,0,0,4,12,52,8,6,27,13,13,17,3,3,0,3,7,0,26,13,2190,11,454,749,575,864,11,68,22,25,2,23,7,45,3,6.2,5.2,9
+jose-manuel-sanchez-guillen,JosemaGórnik Zabrze,gornik-zabrze,0,0,0,0,0,0,0,0,0,0,0,0,3,23,1,3,13,7,19,25,0,0,0,0,0,0,10,0,2658,32,462,1201,613,1388,32,122,35,0,0,13,0,165,0.7,0.8,0.5,4
+kamil-lukoszek,Kamil LukoszekGórnik Zabrze,gornik-zabrze,0,0,0,0,0,0,0,0,0,0,0,1,3,43,0,3,20,6,9,5,1,1,0,1,2,0,7,14,541,2,124,165,170,196,2,17,5,4,1,7,2,7,0.9,0.7,0.8,7
+kryspin-szczesniak,Kryspin SzcześniakGórnik Zabrze,gornik-zabrze,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,9,3,7,13,0,0,0,0,1,0,5,0,882,11,121,310,179,376,11,44,8,0,0,3,0,56,0.3,0.3,0,2
+luka-zahovic,Luka ZahovićGórnik Zabrze,gornik-zabrze,0,0,0,0,0,0,0,0,0,0,0,0,1,50,0,0,1,2,0,5,1,1,0,1,1,0,4,50,203,0,51,70,58,81,0,3,1,0,0,2,0,2,0.1,0.2,0.5,1
+lukas-ambros,Lukáš AmbrosGórnik Zabrze,gornik-zabrze,0,0,0,0,0,0,0,0,0,0,0,5,8,36,2,3,14,46,18,34,1,1,0,1,6,0,42,5,1870,23,476,681,584,808,23,98,16,0,1,22,3,19,2.7,3.4,2.4,24
+lukas-sadilek,Lukáš SadílekGórnik Zabrze,gornik-zabrze,0,0,0,0,0,0,0,0,0,0,0,2,6,55,2,8,26,12,11,13,4,3,0,4,6,0,12,36,1084,18,230,366,298,427,18,57,17,11,3,11,3,15,2,1.3,2.5,3
+maksym-khlan,Maksym KhlanGórnik Zabrze,gornik-zabrze,0,0,0,0,0,0,0,0,0,0,0,4,21,40,4,2,34,113,36,28,6,5,0,6,10,0,20,12,1935,17,379,508,534,653,17,128,5,3,2,52,3,17,2.8,4.4,5.4,14
+maksymilian-pingot,Maksymilian PingotGórnik Zabrze,gornik-zabrze,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,0,0,0,0,0,0,0,0,151,0,33,98,40,106,0,8,2,0,0,0,0,10,0,0,0,0
+marcel-ubik,Marcel ŁubikGórnik Zabrze,gornik-zabrze,31,10,213,33,2937,13,559,969,6,1,62,0,0,0,0,0,0,1,6,0,0,0,0,0,0,0,2,0,2937,0,120,559,470,969,0,19,0,0,0,0,0,25,0.1,0,0,0
+mathias-dahl-sauer,Mathias Dahl SauerGórnik Zabrze,gornik-zabrze,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,16,0,3,5,5,6,0,1,0,0,0,0,0,0,0,0,0,0
+matus-kmet,Matúš KmeťGórnik Zabrze,gornik-zabrze,0,0,0,0,0,0,0,0,0,0,0,0,4,50,0,14,39,16,1,5,0,0,0,0,0,0,16,0,631,13,164,222,224,270,13,32,5,6,0,8,2,14,1.3,0.6,0.7,1
+michal-sacek,Michal SáčekGórnik Zabrze,gornik-zabrze,0,0,0,0,0,0,0,0,0,0,0,0,1,33,0,4,16,11,17,9,0,0,0,0,0,0,4,0,727,9,147,305,189,355,9,47,13,1,0,3,1,24,0.4,0.4,0.3,0
+natan-dziegielewski,Natan DzięgielewskiGórnik Zabrze,gornik-zabrze,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,7,3,2,0,0,0,0,0,0,2,0,88,2,11,13,25,25,2,13,0,2,0,2,0,4,0.1,0.1,0,2
+ondrej-zmrzly,Ondřej ZmrzlýGórnik Zabrze,gornik-zabrze,0,0,0,0,0,0,0,0,0,0,0,1,1,17,2,7,16,9,4,8,0,0,0,0,1,0,6,0,491,4,77,111,128,160,4,27,4,9,3,6,1,11,0,0,0,2
+ousmane-sow,Ousmane SowGórnik Zabrze,gornik-zabrze,0,0,0,0,0,0,0,0,0,0,0,2,17,53,8,4,37,72,15,20,6,5,0,7,9,1,14,22,1149,6,168,202,243,256,6,78,7,0,3,32,3,8,1.7,5.5,6.4,9
+patrik-hellebrand,Patrik HellebrandGórnik Zabrze,gornik-zabrze,0,0,0,0,0,0,0,0,0,0,0,1,14,33,1,1,6,20,49,26,3,2,0,4,5,0,24,9,2865,66,1175,2033,1279,2200,66,163,43,4,0,43,0,22,1.3,2.5,3.4,21
+pawe-mirosaw-olkowski,Paweł Mirosław OlkowskiGórnik Zabrze,gornik-zabrze,0,0,0,0,0,0,0,0,0,0,0,1,2,15,3,11,70,38,14,13,0,0,0,0,1,0,21,0,1490,18,330,551,482,680,18,104,18,11,0,13,2,48,1.2,1.3,0.3,4
+pawe-piotr-bochniewicz,Paweł Piotr BochniewiczGórnik Zabrze,gornik-zabrze,0,0,0,0,0,0,0,0,0,0,0,0,2,67,1,0,0,1,3,3,0,1,0,1,1,0,0,33,316,5,108,196,127,223,5,26,5,0,0,3,0,24,0.2,0.3,0.4,1
+rafa-janicki,Rafał JanickiGórnik Zabrze,gornik-zabrze,0,0,0,0,0,0,0,0,0,0,0,0,6,55,5,0,5,3,12,26,0,4,2,4,4,2,12,36,2784,21,460,1349,598,1526,21,138,20,0,3,11,2,186,0.5,2.8,3.2,7
+roberto-massimo,Roberto MassimoGórnik Zabrze,gornik-zabrze,0,0,0,0,0,0,0,0,0,0,0,0,4,57,4,1,2,20,7,7,0,0,0,0,0,0,4,0,467,8,60,76,77,95,8,29,2,0,1,7,0,6,0.2,1.4,1.1,6
+sondre-liseth,Sondre LisethGórnik Zabrze,gornik-zabrze,0,0,0,0,0,0,0,0,0,0,0,1,20,56,11,0,6,46,53,24,7,8,0,8,9,0,38,22,2352,5,183,256,259,340,5,97,3,0,14,36,1,25,2,7.4,8.1,16
+taofeek-ajibade-ismaheel,Taofeek Ajibade IsmaheelGórnik Zabrze,gornik-zabrze,0,0,0,0,0,0,0,0,0,0,0,2,13,43,3,10,31,47,37,14,1,0,0,1,3,0,19,3,1333,11,269,352,358,439,11,86,5,0,1,30,3,12,1,1.6,1.8,15
+theodoros-tsirigotis,Theodoros TsirigotisGórnik Zabrze,gornik-zabrze,0,0,0,0,0,0,0,0,0,0,0,1,4,50,0,0,1,4,3,3,0,0,0,0,1,0,0,0,271,0,13,21,20,30,0,11,0,0,2,8,0,1,0,0.9,0.2,3
+tomasz-loska,Tomasz LoskaGórnik Zabrze,gornik-zabrze,7,0,4,2,123,0,20,26,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,123,0,2,20,7,26,0,0,0,0,0,0,0,0,0,0,0,0
+yvan-ikia-dimi-1,Yvan Ikia DimiGórnik Zabrze,gornik-zabrze,0,0,0,0,0,0,0,0,0,0,0,1,2,25,2,3,13,39,12,12,1,1,0,1,2,0,6,13,704,10,98,120,132,153,10,55,2,0,2,8,0,6,0.6,1.8,1.2,8
+ukasz-jozef-podolski,Łukasz Józef PodolskiGórnik Zabrze,gornik-zabrze,0,0,0,0,0,0,0,0,0,0,0,0,1,13,0,1,4,2,5,6,0,0,0,0,0,0,4,0,268,3,98,143,129,173,3,16,0,2,1,8,0,3,0.3,0.5,0.1,3
+afimico-pululu,Afimico PululuJagiellonia Białystok,jagiellonia-bialystok,0,0,0,0,0,0,0,0,0,0,0,5,32,55,22,1,8,92,106,61,7,15,6,15,20,6,28,26,2359,11,292,405,412,538,11,180,3,0,21,58,7,2,3.8,14.9,13.8,16
+alejandro-pozo-pozo,Alejandro Pozo PozoJagiellonia Białystok,jagiellonia-bialystok,0,0,0,0,0,0,0,0,0,0,0,2,3,23,2,11,76,30,23,14,2,2,0,2,4,0,29,15,1852,17,440,643,613,805,17,79,21,5,1,13,2,21,4.2,1.6,1.5,5
+andy-joseph-pelmard,Andy Joseph PelmardJagiellonia Białystok,jagiellonia-bialystok,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,4,7,8,0,0,0,0,0,0,2,0,1390,11,313,881,368,967,11,39,10,0,1,2,0,65,0.3,0.1,0,2
+aziel-christopher-jackson,Aziel Christopher JacksonJagiellonia Białystok,jagiellonia-bialystok,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,7,4,1,0,0,0,0,0,0,3,0,129,1,37,51,43,55,1,12,1,3,0,0,0,0,0.6,0.1,0,1
+bartosz-mazurek,Bartosz MazurekJagiellonia Białystok,jagiellonia-bialystok,0,0,0,0,0,0,0,0,0,0,0,3,6,38,2,2,17,64,34,36,1,1,0,1,4,0,17,6,1426,18,371,568,470,687,18,111,9,3,0,16,2,25,1.2,2.2,1.4,6
+bartomiej-wdowik,Bartłomiej WdowikJagiellonia Białystok,jagiellonia-bialystok,0,0,0,0,0,0,0,0,0,0,0,4,7,37,0,19,72,16,13,22,0,0,0,0,4,0,49,0,2260,19,711,1151,1013,1404,19,81,25,91,1,19,7,58,5.7,1,0.8,7
+bernardo-maria-morais-cardoso-vital,Bernardo VitalJagiellonia Białystok,jagiellonia-bialystok,0,0,0,0,0,0,0,0,0,0,0,1,8,67,1,4,13,10,42,32,0,3,0,3,4,0,10,25,2211,17,553,1509,715,1742,17,141,22,0,1,12,2,144,1.2,0.5,1.5,3
+cezary-polak,Cezary PolakJagiellonia Białystok,jagiellonia-bialystok,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,1,0,0,0,0,0,0,0,0,0,46,2,19,24,22,30,2,5,0,0,0,0,0,2,0,0,0,0
+dawid-drachal,Dawid DrachalJagiellonia Białystok,jagiellonia-bialystok,0,0,0,0,0,0,0,0,0,0,0,2,4,80,2,1,3,16,26,19,1,1,0,1,3,0,8,20,800,12,145,239,195,297,12,58,6,1,2,5,2,18,1.5,0.9,1.5,3
+dimitris-rallis,Dimitris RallisJagiellonia Białystok,jagiellonia-bialystok,0,0,0,0,0,0,0,0,0,0,0,0,3,50,2,0,0,8,1,4,3,3,0,3,3,0,2,50,398,0,38,69,45,77,0,8,1,0,2,6,0,0,0.1,1.5,1.5,5
+dusan-stojinovic,Dušan StojinovićJagiellonia Białystok,jagiellonia-bialystok,0,0,0,0,0,0,0,0,0,0,0,1,2,29,1,0,7,2,7,11,0,0,0,0,1,0,2,0,1030,12,290,797,344,875,12,49,7,0,1,7,0,65,0.4,0.9,0.6,1
+eryk-kozowski,Eryk KozłowskiJagiellonia Białystok,jagiellonia-bialystok,0,0,0,0,0,0,0,0,0,0,0,0,1,100,0,0,0,0,2,4,0,0,0,0,0,0,1,0,180,2,21,67,28,77,2,5,4,0,0,1,0,6,0.1,0,0.1,0
+guilherme-manuel-serrao-montoia,Guilherme MontóiaJagiellonia Białystok,jagiellonia-bialystok,0,0,0,0,0,0,0,0,0,0,0,1,2,100,0,4,36,14,3,14,0,0,0,0,1,0,14,0,911,12,203,404,307,483,12,45,9,26,0,2,2,21,1.2,0.1,0.1,1
+jesus-imaz-balleste,Jesús Imaz BallestéJagiellonia Białystok,jagiellonia-bialystok,0,0,0,0,0,0,0,0,0,0,0,5,41,62,17,2,11,18,20,15,12,10,0,13,18,0,27,20,2136,14,431,626,579,816,14,66,4,0,13,66,5,27,4.5,12.4,14.7,15
+kamil-jan-jozwiak,Kamil Jan JóźwiakJagiellonia Białystok,jagiellonia-bialystok,0,0,0,0,0,0,0,0,0,0,0,0,3,50,2,2,13,13,12,16,0,0,0,0,0,0,11,0,648,15,137,183,181,227,15,50,1,0,3,6,1,8,1,1.1,0.4,2
+leon-maximilian-flach,Leon Maximilian FlachJagiellonia Białystok,jagiellonia-bialystok,0,0,0,0,0,0,0,0,0,0,0,0,2,50,0,1,2,1,11,9,1,0,0,1,1,0,5,25,827,19,176,307,232,379,19,60,12,0,2,4,0,24,0.7,0.1,0.8,0
+louka-daniel-prip-andreasen,Louka Daniel Prip AndreasenJagiellonia Białystok,jagiellonia-bialystok,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,8,29,10,4,1,0,0,0,0,1,0,10,0,431,3,86,98,131,118,3,19,3,11,0,4,0,6,1.1,0.6,0,5
+matias-nahuel-leiva-esquivel,Matías Nahuel Leiva EsquivelJagiellonia Białystok,jagiellonia-bialystok,0,0,0,0,0,0,0,0,0,0,0,1,1,25,1,4,13,18,15,5,0,0,0,0,1,0,12,0,643,8,171,222,237,279,8,43,5,18,1,4,2,9,1.4,0.8,0.2,6
+miguel-villar-alonso,Miguel Villar AlonsoJagiellonia Białystok,jagiellonia-bialystok,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+miosz-piekutowski,Miłosz PiekutowskiJagiellonia Białystok,jagiellonia-bialystok,5,1,1,1,90,1,30,35,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,90,0,3,30,4,35,0,1,0,0,0,0,0,2,0,0,0,0
+norbert-wojtuszek,Norbert WojtuszekJagiellonia Białystok,jagiellonia-bialystok,0,0,0,0,0,0,0,0,0,0,0,2,2,25,0,8,49,32,17,31,1,1,0,1,3,0,16,13,2414,56,630,1360,761,1530,56,150,35,0,2,8,4,75,2.7,0.5,0.9,5
+oskar-pietuszewski,Oskar PietuszewskiJagiellonia Białystok,jagiellonia-bialystok,0,0,0,0,0,0,0,0,0,0,0,1,11,38,2,5,18,52,30,22,2,2,0,3,4,0,12,10,1075,7,162,214,223,276,7,71,7,1,9,29,3,9,1.7,2.8,2.8,12
+samed-bazdar,Samed BaždarJagiellonia Białystok,jagiellonia-bialystok,0,0,0,0,0,0,0,0,0,0,0,0,9,69,6,2,6,12,6,7,3,3,0,3,3,0,8,23,396,3,60,83,99,125,3,24,0,0,2,13,0,4,0.3,2.4,2.8,1
+sergio-lozano-lluch,Sergio Lozano LluchJagiellonia Białystok,jagiellonia-bialystok,0,0,0,0,0,0,0,0,0,0,0,2,11,55,1,0,1,5,8,14,2,0,0,3,5,0,5,15,610,10,151,229,199,277,10,31,2,13,1,20,1,7,1.1,2.1,2.1,10
+sawomir-abramowicz,Sławomir AbramowiczJagiellonia Białystok,jagiellonia-bialystok,36,9,111,30,2700,9,615,855,7,1,94,0,0,0,0,0,0,1,14,0,0,0,0,0,0,0,0,0,2700,0,58,615,241,855,0,20,0,0,0,0,0,19,0,0,0,0
+taras-romanczuk,Taras RomanczukJagiellonia Białystok,jagiellonia-bialystok,0,0,0,0,0,0,0,0,0,0,0,0,8,33,2,1,3,7,10,22,1,3,0,3,3,0,21,13,1913,15,594,1038,748,1250,15,116,35,0,0,24,2,67,2.6,1.7,3.5,9
+youssuf-sylla,Youssuf SyllaJagiellonia Białystok,jagiellonia-bialystok,0,0,0,0,0,0,0,0,0,0,0,0,3,75,2,0,0,3,2,2,1,1,0,1,1,0,1,25,104,1,9,11,13,18,1,9,0,0,0,4,0,2,0.1,0.7,0.4,0
+yuki-kobayashi,Yuki KobayashiJagiellonia Białystok,jagiellonia-bialystok,0,0,0,0,0,0,0,0,0,0,0,0,2,67,1,0,1,0,6,8,0,1,0,1,1,0,1,33,1040,5,205,649,248,715,5,40,7,0,0,3,0,63,0.5,0.4,0.7,2
+zachary-zalewski,Zachary ZalewskiJagiellonia Białystok,jagiellonia-bialystok,0,0,0,0,0,0,0,0,0,0,0,0,1,100,0,1,3,6,1,2,0,0,0,0,0,0,2,0,55,2,18,22,23,26,2,6,0,0,0,1,0,0,0.1,0,0.1,1
+alejandro-cantero-sanchez,Álex CanteroJagiellonia Białystok,jagiellonia-bialystok,0,0,0,0,0,0,0,0,0,0,0,0,1,50,0,1,4,3,5,1,0,0,0,0,0,0,2,0,85,2,13,14,18,17,2,8,1,0,0,2,0,0,0.2,0,0,0
+adam-hancko,Adam HańćkoKorona Kielce,korona-kielce,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,2,0,1,2,2,4,0,0,0,0,0,0,0,0,0,0,0,0
+antonio-cortes-heredia,Antoñín CortésKorona Kielce,korona-kielce,0,0,0,0,0,0,0,0,0,0,0,1,16,48,14,6,39,61,18,22,2,3,0,3,4,1,11,9,1655,8,154,211,230,267,8,69,3,0,11,33,2,9,1.2,7.9,5.1,14
+bartomiej-smolarczyk,Bartłomiej SmolarczykKorona Kielce,korona-kielce,0,0,0,0,0,0,0,0,0,0,0,0,2,50,0,1,7,7,8,15,0,1,0,1,1,0,4,25,1574,17,159,473,246,601,17,79,13,0,0,4,1,87,0.4,0.6,1.2,4
+dawid-banik,Dawid BłanikKorona Kielce,korona-kielce,0,0,0,0,0,0,0,0,0,0,0,4,17,55,9,5,27,61,46,20,5,6,2,9,13,3,51,29,1895,13,273,317,459,415,13,107,11,91,9,31,9,13,6.2,6.3,8.2,17
+hubert-zwozny,Hubert ZwoźnyKorona Kielce,korona-kielce,0,0,0,0,0,0,0,0,0,0,0,0,1,20,1,3,23,14,16,19,0,0,0,0,0,0,2,0,963,16,74,159,143,237,16,64,6,0,0,5,0,19,0.2,0.4,0.2,1
+jakub-budnicki,Jakub BudnickiKorona Kielce,korona-kielce,0,0,0,0,0,0,0,0,0,0,0,0,1,50,1,1,1,0,4,5,0,0,0,0,0,0,3,0,380,1,39,94,53,116,1,19,4,0,0,2,0,31,0.1,0.4,0,0
+kacper-minuczyc,Kacper MinuczycKorona Kielce,korona-kielce,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,0,0,10,1,3,9,7,14,1,5,0,0,0,0,0,0,0,0,0,0
+konrad-ciszek,Konrad CiszekKorona Kielce,korona-kielce,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,10,5,3,2,0,0,0,0,0,0,0,0,248,3,41,65,64,83,3,11,3,0,0,2,0,5,0.1,0.1,0,1
+konrad-matuszewski,Konrad MatuszewskiKorona Kielce,korona-kielce,0,0,0,0,0,0,0,0,0,0,0,1,6,40,3,22,88,30,23,15,2,1,0,2,3,0,25,13,1968,17,348,509,504,637,17,89,20,1,5,15,7,47,2.3,2.1,2.2,8
+konstantinos-sotiriou,Konstantinos SotiriouKorona Kielce,korona-kielce,0,0,0,0,0,0,0,0,0,0,0,2,9,38,9,2,7,8,13,46,2,5,0,5,7,0,13,21,2463,28,340,993,490,1190,28,145,29,0,1,24,3,153,1.9,4.7,4.2,2
+marcel-pieczek,Marcel PięczekKorona Kielce,korona-kielce,0,0,0,0,0,0,0,0,0,0,0,2,8,62,7,12,43,22,12,21,0,4,0,4,6,0,23,31,2386,18,352,765,490,922,18,80,12,12,3,13,2,104,2.3,2.2,4,2
+marcin-cebula,Marcin CebulaKorona Kielce,korona-kielce,0,0,0,0,0,0,0,0,0,0,0,0,2,67,1,1,3,9,0,4,0,0,0,0,0,0,2,0,184,2,36,53,50,68,2,6,1,3,0,3,0,1,0.1,0.5,0.3,3
+mariusz-pawe-stepinski,Mariusz Paweł StępińskiKorona Kielce,korona-kielce,0,0,0,0,0,0,0,0,0,0,0,0,11,41,13,1,6,10,15,12,0,4,1,4,4,1,12,15,1231,9,85,134,136,202,9,72,2,0,12,27,2,25,0.4,6.1,6,16
+martin-christophe-jannick-remacle,Martin Christophe Jannick RemacleKorona Kielce,korona-kielce,0,0,0,0,0,0,0,0,0,0,0,1,13,37,5,5,35,49,56,39,1,3,1,3,4,1,32,9,2441,30,563,918,756,1125,30,148,29,5,0,35,4,48,3.3,5.5,4.1,33
+mateusz-gowinski,Mateusz GłowińskiKorona Kielce,korona-kielce,0,0,0,0,0,0,0,0,0,0,0,0,1,100,0,0,0,0,1,2,0,0,0,0,0,0,0,0,16,0,0,1,0,1,0,2,0,0,0,1,0,0,0,0,0.1,0
+miosz-strzebonski,Miłosz StrzebońskiKorona Kielce,korona-kielce,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,1,2,0,0,0,0,0,0,0,0,74,2,29,38,40,49,2,4,0,1,0,0,0,2,0.1,0,0,0
+nikodem-niski,Nikodem NiskiKorona Kielce,korona-kielce,0,0,0,0,0,0,0,0,0,0,0,2,2,40,1,3,26,34,3,4,0,0,0,0,2,0,8,0,394,6,51,75,114,100,6,27,5,14,1,5,3,4,1.3,0.5,0.6,4
+david-gonzalez-plata,NonoKorona Kielce,korona-kielce,0,0,0,0,0,0,0,0,0,0,0,2,2,29,0,9,36,16,30,22,0,0,0,0,2,0,14,0,1006,16,187,295,296,406,16,68,10,4,1,7,1,15,1.4,0.6,0,7
+pau-resta-tell,Pau Resta TellKorona Kielce,korona-kielce,0,0,0,0,0,0,0,0,0,0,0,1,7,30,3,0,4,7,5,19,0,2,0,2,3,0,5,9,2058,17,316,835,425,972,17,121,22,0,3,23,2,171,0.8,2.5,2.5,4
+simon-gustafson,Simon GustafsonKorona Kielce,korona-kielce,0,0,0,0,0,0,0,0,0,0,0,0,2,50,0,0,2,2,5,11,0,0,0,0,0,0,8,0,639,10,146,259,187,311,10,37,3,0,0,4,0,18,0.4,0.4,0.7,1
+slobodan-rubezic,Slobodan RubežićKorona Kielce,korona-kielce,0,0,0,0,0,0,0,0,0,0,0,1,4,50,2,2,10,11,4,25,0,0,0,0,1,0,2,0,1035,10,93,278,179,395,10,85,16,0,3,8,1,81,0.4,0.7,0.7,3
+stjepan-davidovic,Stjepan DavidovićKorona Kielce,korona-kielce,0,0,0,0,0,0,0,0,0,0,0,1,10,37,4,4,8,55,12,14,2,1,0,2,3,0,17,7,1287,9,153,220,220,295,9,67,9,6,3,27,3,21,1.9,4,2.2,14
+tamar-svetlin,Tamar SvetlinKorona Kielce,korona-kielce,0,0,0,0,0,0,0,0,0,0,0,1,5,31,2,14,34,52,65,27,1,0,0,1,2,0,33,6,2889,26,758,1277,908,1463,26,158,39,0,0,16,5,41,4.8,2.2,1.1,14
+viktor-nikolaev-popov,Viktor Nikolaev PopovKorona Kielce,korona-kielce,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,5,6,3,0,0,0,0,0,0,5,0,487,6,43,76,85,130,6,25,4,0,0,1,0,18,0.1,0.2,0,5
+vladimir-nikolaev-nikolov,Vladimir Nikolaev NikolovKorona Kielce,korona-kielce,0,0,0,0,0,0,0,0,0,0,0,1,2,33,2,1,1,17,9,20,0,0,0,0,1,0,9,0,649,3,54,80,111,146,3,58,3,0,8,6,2,13,0.7,1.2,0.4,3
+wiktor-dugosz,Wiktor DługoszKorona Kielce,korona-kielce,0,0,0,0,0,0,0,0,0,0,0,3,8,31,4,11,52,60,29,53,2,3,0,3,6,0,35,12,2066,13,218,332,383,472,13,112,19,29,4,26,7,39,3.9,3.4,3.7,17
+wojciech-kaminski,Wojciech KamińskiKorona Kielce,korona-kielce,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,1,0,0,0,0,0,0,9,0,415,6,87,155,114,189,6,23,2,0,0,3,0,18,0.7,0.2,0,0
+xavier-dziekonski,Xavier DziekońskiKorona Kielce,korona-kielce,40,9,222,34,3060,4,666,1164,6,1,117,0,0,0,0,0,0,0,16,1,0,0,0,0,0,0,1,0,3060,0,166,666,594,1164,0,26,1,0,0,0,0,31,0.1,0,0,0
+alex-raymond-douglas,Alex Raymond DouglasLech Poznań,lech-poznan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,2,3,0,0,0,0,0,0,0,0,499,4,149,290,163,316,4,19,2,0,0,0,0,22,0.1,0,0,0
+ali-gholizadeh-nojedeh,Ali Gholizadeh NojedehLech Poznań,lech-poznan,0,0,0,0,0,0,0,0,0,0,0,4,9,43,7,5,22,46,14,8,5,4,0,6,10,0,38,29,1137,8,371,495,478,579,8,43,5,31,2,21,6,2,5.5,5,4.2,14
+antoni-kozubal,Antoni KozubalLech Poznań,lech-poznan,0,0,0,0,0,0,0,0,0,0,0,1,8,47,5,0,2,29,30,44,1,0,0,1,2,0,18,6,2541,39,760,1351,904,1556,39,138,29,2,0,17,0,54,1.7,3.3,2.1,19
+antonio-milic,Antonio MilićLech Poznań,lech-poznan,0,0,0,0,0,0,0,0,0,0,0,1,4,33,2,3,5,6,5,30,1,2,0,2,3,0,9,17,1990,8,534,1434,637,1582,8,85,11,1,1,12,4,112,1.8,1.6,1.8,4
+bartosz-mrozek,Bartosz MrozekLech Poznań,lech-poznan,44,10,109,33,2970,20,740,920,5,2,89,0,0,0,0,0,0,0,8,1,0,0,0,0,0,0,0,0,2970,1,63,740,189,920,1,19,1,0,0,0,0,38,0,0,0,0
+bryan-benjamin-solhaug-fiabema,Bryan Benjamin Solhaug FiabemaLech Poznań,lech-poznan,0,0,0,0,0,0,0,0,0,0,0,0,3,75,2,0,2,6,3,4,1,1,0,2,2,0,3,50,265,1,20,41,34,59,1,17,0,0,1,4,1,4,0.2,1,1.3,2
+daniel-noel-mikael-hakans,Daniel Noel Mikael HåkansLech Poznań,lech-poznan,0,0,0,0,0,0,0,0,0,0,0,0,2,67,1,1,5,17,4,4,1,1,0,1,1,0,4,33,232,0,36,40,46,48,0,8,2,0,1,3,0,1,0.2,0.5,0.4,1
+erik-martin-leo-bengtsson,Erik Martin Leo BengtssonLech Poznań,lech-poznan,0,0,0,0,0,0,0,0,0,0,0,3,20,53,12,5,35,57,16,24,5,5,0,6,9,0,27,16,2081,13,370,473,508,607,13,80,9,0,5,38,6,21,4.6,6,6,16
+filip-szymczak,Filip SzymczakLech Poznań,lech-poznan,0,0,0,0,0,0,0,0,0,0,0,0,1,33,0,0,0,11,2,4,1,1,0,1,1,0,3,33,156,5,27,40,37,51,5,14,1,1,0,3,0,1,0.1,0.2,0,2
+filip-wojciech-jagieo,Filip Wojciech JagiełłoLech Poznań,lech-poznan,0,0,0,0,0,0,0,0,0,0,0,4,10,43,1,2,16,20,21,11,1,1,0,1,5,0,20,4,1657,7,528,821,675,980,7,55,6,3,2,23,3,20,3.6,2.7,1.7,16
+gisli-gottskalk-orarson,Gísli Gottskálk ÞórðarsonLech Poznań,lech-poznan,0,0,0,0,0,0,0,0,0,0,0,2,4,57,2,0,3,13,5,3,2,1,0,2,4,0,7,29,509,9,88,165,116,197,9,36,5,0,0,7,0,3,0.2,1,1.1,3
+hubert-janyszka,Hubert JanyszkaLech Poznań,lech-poznan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,4,5,5,6,0,0,0,0,0,0,0,0,0,0,0,0
+jens-patrik-walemark,Jens Patrik WålemarkLech Poznań,lech-poznan,0,0,0,0,0,0,0,0,0,0,0,1,13,45,7,8,17,40,16,12,2,2,0,2,3,0,19,7,911,6,151,163,232,225,6,49,0,29,2,29,4,7,2.6,5.5,5.1,13
+joel-vieira-pereira,Joel PereiraLech Poznań,lech-poznan,0,0,0,0,0,0,0,0,0,0,0,5,4,33,1,32,132,35,38,19,2,1,0,2,7,0,64,17,2351,37,747,1159,1156,1459,37,123,19,90,0,12,10,44,7.6,1.4,1.3,7
+joao-gervasio-braganca-moutinho,João MoutinhoLech Poznań,lech-poznan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,2,6,14,0,0,0,0,0,0,4,0,601,8,175,323,239,400,8,31,6,4,0,1,0,22,0.5,0,0,0
+kamil-jakobczyk,Kamil JakóbczykLech Poznań,lech-poznan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+kornel-lisman,Kornel LismanLech Poznań,lech-poznan,0,0,0,0,0,0,0,0,0,0,0,1,3,60,1,3,10,17,4,4,0,0,0,0,1,0,1,0,369,3,63,79,84,98,3,19,4,1,1,5,1,5,1.6,0.5,0.7,1
+luis-enrique-palma-oseguera,Luis Enrique Palma OsegueraLech Poznań,lech-poznan,0,0,0,0,0,0,0,0,0,0,0,6,36,59,8,12,78,57,18,12,9,8,0,10,16,0,44,16,1655,10,394,493,584,615,10,79,4,29,7,61,9,9,6.2,6,8.5,18
+mateusz-skrzypczak,Mateusz SkrzypczakLech Poznań,lech-poznan,0,0,0,0,0,0,0,0,0,0,0,0,2,40,3,0,0,2,16,12,0,1,0,1,1,0,9,20,1703,6,484,1199,534,1279,6,74,12,0,0,5,0,80,1.2,0.9,0.6,3
+mel-yannick-joel-agnero,Mel Yannick Joel AgneroLech Poznań,lech-poznan,0,0,0,0,0,0,0,0,0,0,0,0,12,71,7,0,0,8,11,15,3,2,0,3,3,0,6,18,583,3,42,67,56,85,3,36,0,0,1,17,1,10,0.4,3.3,4.2,5
+micha-gurgul,Michał GurgulLech Poznań,lech-poznan,0,0,0,0,0,0,0,0,0,0,0,4,3,38,1,11,47,12,17,18,1,1,0,1,5,0,25,13,2448,17,854,1457,1079,1738,17,63,29,16,0,8,5,75,3,0.9,1.2,2
+mikael-ishak,Mikael IshakLech Poznań,lech-poznan,0,0,0,0,0,0,0,0,0,0,0,5,43,54,27,4,14,20,45,33,8,16,5,16,21,6,29,20,2436,7,257,412,365,541,7,106,2,0,16,80,7,43,4,16.6,17.8,29
+pablo-rodriguez-delgado,Pablo Rodríguez DelgadoLech Poznań,lech-poznan,0,0,0,0,0,0,0,0,0,0,0,1,12,46,5,3,13,37,55,36,3,2,0,3,4,0,31,12,1647,13,300,445,399,558,13,100,8,1,4,26,6,21,3.8,4.7,4.7,15
+plamen-plamenov-andreev,Plamen Plamenov AndreevLech Poznań,lech-poznan,1,0,2,1,90,1,13,21,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,90,0,0,13,5,21,0,1,0,0,0,0,0,2,0,0,0,0
+radosaw-pawe-murawski,Radosław Paweł MurawskiLech Poznań,lech-poznan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,0,0,0,0,0,0,0,0,57,1,36,50,37,52,1,4,1,0,0,0,0,1,0,0,0,0
+robert-krzysztof-gumny,Robert Krzysztof GumnyLech Poznań,lech-poznan,0,0,0,0,0,0,0,0,0,0,0,0,4,31,3,3,18,18,14,36,0,0,0,0,0,0,10,0,1054,19,215,399,272,465,19,72,8,0,2,13,2,47,0.5,1.6,0.8,2
+sammy-dudek,Sammy DudekLech Poznań,lech-poznan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,6,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0
+timothy-noor-ouma,Timothy Noor OumaLech Poznań,lech-poznan,0,0,0,0,0,0,0,0,0,0,0,1,2,40,1,1,5,8,17,27,0,0,0,0,1,0,5,0,1099,16,286,485,373,604,16,64,14,0,1,5,2,29,0.9,0.6,0,2
+wojciech-monka,Wojciech MońkaLech Poznań,lech-poznan,0,0,0,0,0,0,0,0,0,0,0,0,1,25,0,0,0,12,9,6,0,0,0,0,0,0,8,0,1710,13,470,1080,529,1186,13,65,14,0,0,4,0,86,0.6,0.4,0.1,2
+aleksandar-cirkovic,Aleksandar ĆirkovićLechia Gdańsk,lechia-gdansk,0,0,0,0,0,0,0,0,0,0,0,5,17,61,6,16,62,55,16,15,4,4,0,4,9,0,38,14,1689,10,265,337,438,461,10,71,9,43,8,28,7,8,5,4.4,5.2,7
+alexander-noah-paulsen,Alexander Noah PaulsenLechia Gdańsk,lechia-gdansk,41,2,107,24,2160,8,336,539,5,0,64,0,0,0,0,0,0,3,6,0,0,0,0,0,0,0,0,0,2160,1,72,336,242,539,1,18,0,0,0,0,0,18,0.1,0,0,0
+alvis-jaunzems,Alvis JaunzemsLechia Gdańsk,lechia-gdansk,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,4,13,2,4,2,0,0,0,0,1,0,1,0,620,9,128,209,181,268,9,19,7,0,0,1,1,23,0.3,0,0,1
+anton-tsarenko,Anton TsarenkoLechia Gdańsk,lechia-gdansk,0,0,0,0,0,0,0,0,0,0,0,1,3,75,3,0,3,8,5,1,0,0,0,0,1,0,2,0,218,6,47,72,58,83,6,19,2,3,0,4,0,1,0.2,0.6,1.5,1
+bartosz-szczepankiewicz,Bartosz SzczepankiewiczLechia Gdańsk,lechia-gdansk,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+bartomiej-kudka,Bartłomiej KłudkaLechia Gdańsk,lechia-gdansk,0,0,0,0,0,0,0,0,0,0,0,0,1,9,0,7,41,11,18,15,1,0,0,1,1,0,4,9,1345,28,175,341,268,435,28,72,17,0,1,11,1,64,0.6,0.3,0.3,4
+bohdan-sarnavskyi,Bohdan SarnavskyiLechia Gdańsk,lechia-gdansk,2,0,4,1,90,2,23,29,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,90,0,3,23,8,29,0,0,0,0,0,0,0,2,0,0,0,0
+bohdan-viunnyk,Bohdan ViunnykLechia Gdańsk,lechia-gdansk,0,0,0,0,0,0,0,0,0,0,0,0,11,55,6,1,9,17,21,18,1,3,0,3,3,0,13,15,957,8,82,120,129,171,8,56,3,0,0,20,6,10,2.8,3.9,3.1,8
+bujar-pllana,Bujar PllanaLechia Gdańsk,lechia-gdansk,0,0,0,0,0,0,0,0,0,0,0,0,7,47,3,0,0,1,0,10,0,1,0,1,1,0,2,7,1200,15,178,450,239,538,15,60,14,0,0,15,1,60,1.1,1.7,1.3,3
+camilo-andres-mena-marquez,Camilo Andrés Mena MárquezLechia Gdańsk,lechia-gdansk,0,0,0,0,0,0,0,0,0,0,0,8,19,63,9,24,118,130,72,28,4,5,1,5,13,1,42,17,2701,22,611,826,844,998,22,186,25,4,0,30,13,16,8.1,5.6,5,20
+dawid-kurminowski,Dawid KurminowskiLechia Gdańsk,lechia-gdansk,0,0,0,0,0,0,0,0,0,0,0,1,6,40,5,1,2,18,10,15,2,2,0,3,4,0,5,20,813,4,59,80,88,116,4,42,3,0,2,15,1,14,1.2,3,1.9,2
+dorian-sinkiewicz,Dorian SinkiewiczLechia Gdańsk,lechia-gdansk,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,0,3,3,5,5,0,1,1,0,0,0,0,0,0,0.1,0,1
+elias-oskar-olsson,Elias Oskar OlssonLechia Gdańsk,lechia-gdansk,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,3,8,0,0,0,0,1,0,2,0,492,3,39,152,67,192,3,27,6,0,0,1,1,23,0.2,0,0,0
+ivan-zhelizko,Ivan ZhelizkoLechia Gdańsk,lechia-gdansk,0,0,0,0,0,0,0,0,0,0,0,5,18,51,1,5,21,29,21,32,2,0,0,7,12,0,34,20,2697,35,753,1235,1004,1498,35,144,36,46,0,35,10,63,4.1,3,3.4,22
+kacper-sezonienko,Kacper SezonienkoLechia Gdańsk,lechia-gdansk,0,0,0,0,0,0,0,0,0,0,0,2,9,53,7,5,16,26,19,41,3,5,0,5,7,0,21,29,1800,26,213,305,330,425,26,107,18,0,0,17,3,32,1.8,3,4,7
+maksym-diachuk,Maksym DiachukLechia Gdańsk,lechia-gdansk,0,0,0,0,0,0,0,0,0,0,0,1,3,30,5,0,1,0,3,15,0,1,0,1,2,0,6,10,2094,21,399,889,512,1040,21,77,10,0,0,10,2,143,0.7,2.5,1,7
+matej-rodin,Matej RodinLechia Gdańsk,lechia-gdansk,0,0,0,0,0,0,0,0,0,0,0,3,10,56,7,0,0,5,18,34,0,1,0,1,4,0,9,6,2295,21,460,1037,604,1235,21,147,24,0,6,18,4,157,2.1,3.9,2.5,7
+matus-vojtko,Matúš VojtkoLechia Gdańsk,lechia-gdansk,0,0,0,0,0,0,0,0,0,0,0,3,3,43,0,27,110,19,13,34,1,0,0,1,4,0,20,14,2767,31,498,810,812,1101,31,109,16,9,1,7,5,129,2.3,0.3,0.6,7
+micha-gogowski,Michał GłogowskiLechia Gdańsk,lechia-gdansk,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,1,0,0,0,0,0,0,2,0,133,1,17,19,32,35,1,13,2,0,1,3,0,6,0.1,0.3,0,1
+miosz-kaahur,Miłosz KałahurLechia Gdańsk,lechia-gdansk,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,9,3,12,5,0,0,0,0,0,0,0,0,284,5,45,82,77,111,5,24,4,5,0,0,0,10,0,0,0,0
+mohamed-awad-alla-hassan-ibrahim,Mohamed Awad AllaLechia Gdańsk,lechia-gdansk,0,0,0,0,0,0,0,0,0,0,0,0,3,100,1,0,2,24,2,6,1,1,0,1,1,0,1,33,195,3,29,35,46,55,3,23,1,0,0,3,1,2,0.1,0.7,0.8,0
+mohamed-awad-alla-hassan-ibrahim-1,Mohamed Awad AllaLechia Gdańsk,lechia-gdansk,0,0,0,0,0,0,0,0,0,0,0,0,2,100,1,0,2,17,2,5,1,1,0,1,1,0,1,50,155,2,22,27,34,40,2,16,1,0,0,2,1,2,0,0,0,0
+rifet-kapic,Rifet KapičLechia Gdańsk,lechia-gdansk,0,0,0,0,0,0,0,0,0,0,0,3,10,59,4,11,46,49,13,16,3,3,1,5,8,2,54,29,2774,32,912,1414,1223,1707,32,96,28,58,2,17,7,47,6.3,3.5,4.2,8
+szymon-weirauch,Szymon WeirauchLechia Gdańsk,lechia-gdansk,22,1,28,9,810,5,75,120,2,1,22,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,810,0,20,75,51,120,0,4,0,0,0,0,0,9,0,0,0,0
+tomasz-neugebauer,Tomasz NeugebauerLechia Gdańsk,lechia-gdansk,0,0,0,0,0,0,0,0,0,0,0,2,11,44,3,6,24,18,18,35,3,3,0,3,5,0,22,12,1835,24,314,465,455,620,24,85,23,7,5,25,7,21,2.5,2.2,3,8
+tomasz-wojtowicz,Tomasz WójtowiczLechia Gdańsk,lechia-gdansk,0,0,0,0,0,0,0,0,0,0,0,0,3,50,1,14,53,28,19,13,0,0,0,0,0,0,13,0,1569,24,371,535,536,700,24,92,20,0,0,6,4,47,2.5,0.4,0.2,1
+tomas-bobcek,Tomáš BobčekLechia Gdańsk,lechia-gdansk,0,0,0,0,0,0,0,0,0,0,0,6,50,52,44,2,7,38,40,59,14,19,4,20,26,5,23,21,2464,14,184,251,331,419,14,195,7,0,21,96,6,52,2.5,19.8,20.1,21
+allan-migouel-alfarela,Allan Migouel AlfarelaLegia Warszawa,legia-warszawa,0,0,0,0,0,0,0,0,0,0,0,1,4,80,2,2,8,4,3,4,1,0,0,1,2,0,1,20,276,2,35,56,54,74,2,7,2,0,2,5,2,4,0.7,1,1.1,2
+antonio-mirko-colak,Antonio-Mirko ČolakLegia Warszawa,legia-warszawa,0,0,0,0,0,0,0,0,0,0,0,0,4,57,4,0,1,0,6,5,0,3,0,3,3,0,1,43,267,0,26,43,37,55,0,13,1,0,2,7,0,4,0.1,1.4,2.4,1
+arkadiusz-reca,Arkadiusz RecaLegia Warszawa,legia-warszawa,0,0,0,0,0,0,0,0,0,0,0,1,2,40,1,14,49,18,9,21,0,0,0,0,1,0,10,0,898,20,201,303,308,401,20,56,21,0,2,5,3,29,0.9,0.3,0.7,2
+artur-marcin-jedrzejczyk,Artur Marcin JędrzejczykLegia Warszawa,legia-warszawa,0,0,0,0,0,0,0,0,0,0,0,1,4,80,1,0,0,1,4,10,1,1,0,1,2,0,3,20,499,1,93,219,127,261,1,33,4,0,0,5,2,44,0.5,0.4,1.3,2
+bartosz-kapustka,Bartosz KapustkaLegia Warszawa,legia-warszawa,0,0,0,0,0,0,0,0,0,0,0,2,13,59,2,1,22,34,30,34,1,1,1,2,4,1,29,9,1868,26,505,731,674,906,26,123,22,15,1,22,3,22,2.8,3.2,2,24
+joaquim-claude-goncalves-araujo,Claude GonçalvesLegia Warszawa,legia-warszawa,0,0,0,0,0,0,0,0,0,0,0,1,1,33,0,3,4,2,5,9,0,0,0,0,1,0,4,0,408,1,76,125,94,147,1,16,8,0,0,3,0,8,0.4,0.4,0.3,3
+damian-dawid-szymanski,Damian Dawid SzymańskiLegia Warszawa,legia-warszawa,0,0,0,0,0,0,0,0,0,0,0,0,3,43,0,11,32,16,13,35,1,1,0,1,1,0,18,14,1690,24,484,829,687,1021,24,79,27,19,1,7,3,35,3.2,0.8,0.4,6
+ermal-krasniqi,Ermal KrasniqiLegia Warszawa,legia-warszawa,0,0,0,0,0,0,0,0,0,0,0,2,7,39,0,4,32,69,9,28,1,2,0,2,4,0,18,11,1150,28,299,371,419,486,28,100,7,12,0,18,3,7,2.1,1.5,2.1,12
+henrique-miguel-sousa-arreiol,Henrique ArreiolLegia Warszawa,legia-warszawa,0,0,0,0,0,0,0,0,0,0,0,0,1,25,0,1,5,7,8,8,0,0,0,0,0,0,3,0,260,6,81,129,98,147,6,20,5,2,0,4,0,3,0.5,0.1,0,2
+ilya-shkurin,Ilya ShkurinLegia Warszawa,legia-warszawa,0,0,0,0,0,0,0,0,0,0,0,2,20,63,12,0,0,27,16,19,4,5,0,5,7,0,20,16,1343,6,126,187,187,252,6,91,2,0,10,32,4,12,0.1,0.5,0.4,8
+jakub-zewakow,Jakub ŻewłakowLegia Warszawa,legia-warszawa,0,0,0,0,0,0,0,0,0,0,0,0,4,80,0,2,5,12,5,4,0,0,0,0,0,0,7,0,264,4,59,72,73,84,4,15,1,0,0,5,2,1,0.8,0.2,0.1,1
+jan-leszczynski,Jan LeszczyńskiLegia Warszawa,legia-warszawa,0,0,0,0,0,0,0,0,0,0,0,0,1,33,1,0,1,0,3,0,0,0,0,0,0,0,0,0,181,5,36,77,50,98,5,20,4,0,0,3,0,17,0,0.4,0.1,0
+jan-ziokowski,Jan ZiółkowskiLegia Warszawa,legia-warszawa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,4,0,1,2,0,0,0,0,0,0,0,0,135,3,44,85,60,100,3,8,2,0,0,3,0,5,0.1,0.1,0,0
+jean-pierre-junior-nsame,Jean-Pierre Junior NsameLegia Warszawa,legia-warszawa,0,0,0,0,0,0,0,0,0,0,0,0,7,39,7,0,2,4,3,8,3,5,1,5,5,1,4,28,563,3,50,72,87,109,3,33,0,0,1,18,0,9,0.3,3.9,4,4
+juergen-farid-elitim-sepulveda,Juergen Farid Elitim SepúlvedaLegia Warszawa,legia-warszawa,0,0,0,0,0,0,0,0,0,0,0,3,3,21,3,11,24,36,36,24,2,2,0,2,5,0,42,14,1911,18,684,970,855,1113,18,93,26,52,0,14,6,18,4.9,1.7,1.4,4
+kacper-chodyna,Kacper ChodynaLegia Warszawa,legia-warszawa,0,0,0,0,0,0,0,0,0,0,0,1,4,57,3,5,31,20,3,13,2,2,0,2,3,0,11,29,922,6,162,227,265,307,6,32,5,20,1,7,0,17,1.6,1.1,1.4,3
+kacper-tobiasz,Kacper TobiaszLegia Warszawa,legia-warszawa,26,5,139,22,1895,8,395,638,5,0,43,0,0,0,0,0,1,0,5,1,0,0,0,0,0,0,2,0,1895,0,102,395,299,638,0,6,0,0,0,0,0,25,0.6,0,0,0
+kacper-urbanski,Kacper UrbanskiLegia Warszawa,legia-warszawa,0,0,0,0,0,0,0,0,0,0,0,1,2,14,2,4,12,21,15,10,0,0,0,0,1,0,16,0,1038,4,206,273,267,339,4,53,9,0,1,14,2,12,2.1,1.3,0.4,8
+kamil-dawid-piatkowski,Kamil Dawid PiątkowskiLegia Warszawa,legia-warszawa,0,0,0,0,0,0,0,0,0,0,0,3,6,46,3,12,31,12,29,24,0,0,0,0,3,0,9,0,2256,28,465,984,658,1227,28,141,29,0,0,13,5,110,1.4,0.9,0.5,2
+marco-burch,Marco BurchLegia Warszawa,legia-warszawa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,4,4,13,0,0,0,0,0,0,1,0,450,10,108,237,136,279,10,32,10,0,0,5,0,24,0.1,0.8,0,0
+mileta-rajovic,Mileta RajovićLegia Warszawa,legia-warszawa,0,0,0,0,0,0,0,0,0,0,0,0,30,51,17,1,4,24,13,28,4,6,1,6,6,2,20,10,2284,4,182,278,318,441,4,124,4,0,2,59,2,32,1.9,12.3,9.2,16
+noah-raphael-weihaupt,Noah Raphael WeißhauptLegia Warszawa,legia-warszawa,0,0,0,0,0,0,0,0,0,0,0,0,1,25,0,4,13,4,12,2,0,0,0,0,0,0,6,0,262,0,76,102,94,112,0,16,0,0,1,4,0,1,0.8,0.4,0,2
+otto-hindrich,Ottó HindrichLegia Warszawa,legia-warszawa,11,5,83,13,1165,5,207,334,0,0,33,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,1165,0,66,207,169,334,0,10,0,0,0,0,0,8,0.1,0,0,0
+patryk-kun,Patryk KunLegia Warszawa,legia-warszawa,0,0,0,0,0,0,0,0,0,0,0,1,1,25,1,16,45,26,25,18,0,0,0,0,1,0,15,0,1250,14,212,330,293,413,14,65,15,0,1,4,3,19,1.9,0.3,0.1,2
+pawe-marek-wszoek,Paweł Marek WszołekLegia Warszawa,legia-warszawa,0,0,0,0,0,0,0,0,0,0,0,1,4,57,4,23,91,30,17,31,0,2,1,2,3,1,27,29,1945,18,459,671,610,787,18,97,18,0,4,7,6,43,3.8,1.8,1.5,4
+petar-stojanovic,Petar StojanovićLegia Warszawa,legia-warszawa,0,0,0,0,0,0,0,0,0,0,0,1,3,38,0,4,15,20,10,11,1,1,0,1,2,0,11,13,664,6,201,290,261,347,6,37,4,5,0,8,1,14,0.8,0.7,1.2,1
+radovan-pankov,Radovan PankovLegia Warszawa,legia-warszawa,0,0,0,0,0,0,0,0,0,0,0,0,4,44,3,0,4,7,20,21,0,1,0,1,1,0,7,11,1817,17,381,847,505,1007,17,121,21,0,2,9,2,101,0.8,1.1,0.8,7
+rafa-adamski,Rafał AdamskiLegia Warszawa,legia-warszawa,0,0,0,0,0,0,0,0,0,0,0,2,10,67,6,0,1,29,19,23,2,4,0,4,6,0,9,27,886,9,95,137,138,184,9,59,2,0,4,15,4,7,1,3.3,3.5,2
+rafa-sylwester-augustyniak,Rafał Sylwester AugustyniakLegia Warszawa,legia-warszawa,0,0,0,0,0,0,0,0,0,0,0,0,2,17,2,2,8,20,17,39,0,2,1,2,2,1,10,17,1754,15,375,843,465,961,15,114,21,0,1,12,1,70,1.5,2.5,2,12
+ryoya-morishita,Ryoya MorishitaLegia Warszawa,legia-warszawa,0,0,0,0,0,0,0,0,0,0,0,0,2,50,1,0,7,6,2,4,1,1,0,1,1,0,1,25,214,0,53,65,77,85,0,7,1,0,1,4,0,4,0.1,0.5,0.7,2
+ruben-goncalo-da-silva-nascimento-vinagre,Rúben VinagreLegia Warszawa,legia-warszawa,0,0,0,0,0,0,0,0,0,0,0,1,1,13,0,16,64,30,23,9,0,0,0,0,1,0,14,0,908,8,251,374,369,451,8,59,10,20,0,8,1,21,1.5,0.4,0.1,4
+samuel-kovacik,Samuel KováčikLegia Warszawa,legia-warszawa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,4,4,2,0,0,0,0,0,0,0,0,102,0,19,23,23,28,0,5,1,0,0,0,0,2,0,0,0,1
+steve-nkanu-kapuadi,Steve Nkanu KapuadiLegia Warszawa,legia-warszawa,0,0,0,0,0,0,0,0,0,0,0,0,4,40,5,0,2,7,2,37,0,1,0,1,1,0,8,10,2310,18,468,997,584,1151,18,89,13,0,0,10,0,112,0.4,0.6,0.1,2
+vahan-bichakhchyan,Vahan BichakhchyanLegia Warszawa,legia-warszawa,0,0,0,0,0,0,0,0,0,0,0,1,17,47,4,5,31,46,24,15,2,1,0,2,3,0,23,6,1186,8,200,249,316,321,8,70,18,41,4,36,0,6,2.2,3.9,3.8,19
+wojciech-urbanski,Wojciech UrbanskiLegia Warszawa,legia-warszawa,0,0,0,0,0,0,0,0,0,0,0,0,4,80,3,4,12,37,14,20,1,1,0,1,1,0,8,20,769,7,131,185,171,230,7,50,5,2,1,5,0,11,0.7,1,0.9,5
+arkadiusz-najemski,Arkadiusz NajemskiMotor Lublin,motor-lublin,0,0,0,0,0,0,0,0,0,0,0,0,1,17,0,0,0,2,5,21,0,0,0,0,0,0,5,0,1211,16,150,570,180,640,16,53,10,0,0,6,0,67,0.1,0.4,0.1,2
+bartosz-wolski,Bartosz WolskiMotor Lublin,motor-lublin,0,0,0,0,0,0,0,0,0,0,0,6,17,63,3,16,88,28,40,28,3,4,0,6,12,1,62,22,2868,19,625,935,1005,1183,19,129,11,143,1,27,9,47,7.9,3.8,5,13
+bradly-van-hoeven,Bradly van HoevenMotor Lublin,motor-lublin,0,0,0,0,0,0,0,0,0,0,0,4,5,71,1,13,33,50,26,14,0,0,0,0,4,0,21,0,1159,17,158,195,228,255,17,79,9,1,8,7,7,9,4.9,1.3,1,3
+bright-ede,Bright EdeMotor Lublin,motor-lublin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,5,21,0,0,0,0,0,0,0,0,597,5,75,276,109,328,5,33,7,0,1,3,0,33,0,0.5,0,0
+christopher-serge-simon,Christopher Serge SimonMotor Lublin,motor-lublin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,45,0,2,3,6,6,0,2,0,0,0,0,0,1,0,0,0,0
+filip-luberecki,Filip LubereckiMotor Lublin,motor-lublin,0,0,0,0,0,0,0,0,0,0,0,1,3,33,0,11,54,35,16,48,0,0,0,0,1,0,19,0,2619,64,485,1020,641,1224,64,135,28,0,1,9,3,78,2.2,0.5,0.7,3
+filip-wojcik,Filip WójcikMotor Lublin,motor-lublin,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,5,34,9,19,18,0,0,0,0,1,0,4,0,1043,18,166,350,239,425,18,54,12,4,1,0,1,26,1.2,0.1,0,3
+florian-haxha,Florian HaxhaMotor Lublin,motor-lublin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3,1,0,2,0,0,0,0,0,0,3,0,96,0,13,14,19,21,0,2,0,0,0,0,0,1,0.1,0,0,0
+franciszek-lewandowski,Franciszek LewandowskiMotor Lublin,motor-lublin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,1,0,0,1,1,1,3,0,0,0,1,0,0,0,0,0,0
+fabio-ronaldo-da-costa-conceicao,Fábio RonaldoMotor Lublin,motor-lublin,0,0,0,0,0,0,0,0,0,0,0,3,10,56,7,9,32,79,40,17,4,4,0,4,7,0,19,22,1544,16,218,312,320,406,16,117,10,0,2,18,4,17,2.9,4.6,4.2,11
+gasper-tratnik,Gašper TratnikMotor Lublin,motor-lublin,17,2,32,8,697,2,200,253,0,0,28,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,697,0,21,200,63,253,0,5,0,0,0,0,0,5,0,0,0,0
+herve-jean-matthys,Hervé Jean MatthysMotor Lublin,motor-lublin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,5,8,19,0,0,0,0,0,0,4,0,2154,24,407,1386,531,1594,24,101,31,12,1,4,1,143,0.8,0.3,0,2
+ivan-brkic,Ivan BrkićMotor Lublin,motor-lublin,36,6,98,27,2363,15,579,784,6,1,92,0,0,0,0,0,0,2,8,0,0,0,0,0,0,0,1,0,2363,0,61,579,185,784,0,20,0,0,0,0,0,31,0,0,0,0
+ivo-tiago-dos-santos-rodrigues,Ivo RodriguesMotor Lublin,motor-lublin,0,0,0,0,0,0,0,0,0,0,0,4,8,31,5,10,46,90,99,39,2,0,0,2,6,0,21,8,2452,24,519,813,755,1049,24,216,21,15,3,26,7,59,4.6,3.2,2.2,19
+jakub-jan-abojko,Jakub Jan ŁabojkoMotor Lublin,motor-lublin,0,0,0,0,0,0,0,0,0,0,0,0,1,10,0,3,11,8,8,21,0,0,0,1,1,0,6,10,1265,16,385,630,504,778,16,50,17,0,0,10,0,50,1.4,0.5,0.4,6
+kacper-karasek,Kacper KarasekMotor Lublin,motor-lublin,0,0,0,0,0,0,0,0,0,0,0,0,2,67,0,1,7,2,5,4,1,1,0,1,1,0,3,33,214,2,26,47,46,62,2,12,1,4,0,3,1,0,0.2,0.7,0.6,5
+karol-czubak,Karol CzubakMotor Lublin,motor-lublin,0,0,0,0,0,0,0,0,0,0,0,3,38,51,26,0,2,13,22,40,12,18,3,18,21,3,12,24,2560,8,130,207,227,337,8,130,3,0,18,74,3,49,1.3,13.6,15.3,19
+krystian-palacz,Krystian PalaczMotor Lublin,motor-lublin,0,0,0,0,0,0,0,0,0,0,0,1,1,50,0,2,10,2,2,1,0,0,0,0,1,0,1,0,312,4,61,121,89,152,4,9,3,0,0,2,1,13,0.2,0.1,0.3,0
+marek-kristian-bartos,Marek Kristián BartošMotor Lublin,motor-lublin,0,0,0,0,0,0,0,0,0,0,0,1,3,20,3,0,2,5,9,26,0,1,0,1,2,0,4,7,2070,16,280,943,373,1084,16,85,12,0,1,15,2,130,1,1.7,1.5,2
+mathieu-scalet,Mathieu ScaletMotor Lublin,motor-lublin,0,0,0,0,0,0,0,0,0,0,0,0,6,60,3,2,9,13,8,14,1,2,0,2,2,0,5,20,598,6,95,166,154,233,6,39,5,0,1,10,0,22,1,1.7,1.9,6
+mbaye-jacques-ndiaye,Mbaye Jacques N'DiayeMotor Lublin,motor-lublin,0,0,0,0,0,0,0,0,0,0,0,2,18,58,13,4,21,52,13,35,7,6,0,8,10,0,23,26,1638,16,143,204,210,280,16,75,4,0,10,31,4,15,3.4,5.4,6.3,7
+micha-krol,Michał KrólMotor Lublin,motor-lublin,0,0,0,0,0,0,0,0,0,0,0,2,7,47,4,10,64,43,26,14,1,1,0,1,3,0,12,7,1494,12,168,238,268,302,12,74,12,0,10,15,4,17,1.9,2.4,1.3,9
+paskal-konrad-meyer,Paskal Konrad MeyerMotor Lublin,motor-lublin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,3,7,0,0,0,0,0,0,1,0,217,1,36,79,42,88,1,12,3,0,1,0,0,10,0.2,0,0,2
+pawe-stolarski,Paweł StolarskiMotor Lublin,motor-lublin,0,0,0,0,0,0,0,0,0,0,0,0,2,25,1,8,29,6,27,27,0,0,0,0,0,0,15,0,1912,34,278,598,371,717,34,100,19,0,0,8,2,50,1.7,0.4,0.1,2
+renat-dadasov,Renat DadaşovMotor Lublin,motor-lublin,0,0,0,0,0,0,0,0,0,0,0,0,3,50,0,1,4,9,17,18,0,0,0,0,0,0,7,0,452,1,51,70,81,105,1,50,1,0,7,6,2,8,0.4,0.7,1.5,2
+sergi-samper-montana,Sergi Samper MontañaMotor Lublin,motor-lublin,0,0,0,0,0,0,0,0,0,0,0,2,2,29,0,2,17,6,5,23,0,0,0,0,2,0,9,0,1798,25,452,919,576,1076,25,61,24,0,0,7,3,57,1.2,0.4,0.1,1
+thomas-santos-christensen-1,Thomas Santos ChristensenMotor Lublin,motor-lublin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,5,1,1,3,0,0,0,0,0,0,1,0,216,5,28,45,43,63,5,9,3,0,0,2,0,8,0.1,0.4,0,0
+adrian-chovan,Adrián ChovanNieciecza,nieciecza,41,1,213,22,1980,15,354,612,3,0,76,0,0,0,0,0,0,1,5,0,0,0,0,0,0,0,1,0,1980,0,155,354,353,612,0,17,0,0,0,0,0,30,0.1,0,0,0
+andrzej-trubeha,Andrzej TrubehaNieciecza,nieciecza,0,0,0,0,0,0,0,0,0,0,0,0,5,33,4,0,11,32,20,10,2,2,0,2,2,0,9,13,777,7,107,150,198,242,7,104,9,0,1,15,2,23,0.7,2.1,2.3,5
+arkadiusz-kasperkiewicz,Arkadiusz KasperkiewiczNieciecza,nieciecza,0,0,0,0,0,0,0,0,0,0,0,1,7,54,3,5,16,7,31,23,0,2,0,2,3,0,4,15,2278,28,415,986,517,1129,28,127,43,0,0,13,2,123,1.4,1.8,2.6,2
+artem-putivtsev,Artem PutivtsevNieciecza,nieciecza,0,0,0,0,0,0,0,0,0,0,0,0,2,33,2,4,8,2,12,19,0,1,0,1,1,0,3,17,1090,7,175,425,248,521,7,67,11,0,0,6,1,61,1.2,1.2,1.1,1
+bartosz-kopacz,Bartosz KopaczNieciecza,nieciecza,0,0,0,0,0,0,0,0,0,0,0,0,6,46,3,0,2,13,11,17,0,0,0,0,0,0,5,0,1710,18,195,509,260,606,18,90,26,0,1,13,1,119,0.3,1.2,1.3,4
+damian-hilbrycht,Damian HilbrychtNieciecza,nieciecza,0,0,0,0,0,0,0,0,0,0,0,5,11,46,2,23,93,32,31,33,3,3,0,5,10,0,46,21,2354,32,391,572,683,795,32,113,14,67,1,24,11,81,5.6,1.9,2.7,7
+diego-deisadze,Diego DeisadzeNieciecza,nieciecza,0,0,0,0,0,0,0,0,0,0,0,0,1,100,1,0,1,2,0,0,0,0,0,0,0,0,1,0,20,0,4,7,6,8,0,3,0,0,0,1,0,1,0,0.1,0.1,0
+dominik-andrzej-biniek,Dominik Andrzej BiniekNieciecza,nieciecza,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,8,5,2,0,0,0,0,0,0,4,0,178,1,48,68,69,80,1,21,0,4,0,0,0,4,0.3,0.1,0,1
+gabriel-isik,Gabriel IsikNieciecza,nieciecza,0,0,0,0,0,0,0,0,0,0,0,1,11,52,1,8,31,21,20,29,1,1,0,1,2,0,14,5,2455,23,486,1007,675,1223,23,91,29,0,1,21,4,106,2.8,1.8,1.8,12
+igor-strzaek,Igor StrzałekNieciecza,nieciecza,0,0,0,0,0,0,0,0,0,0,0,1,7,70,0,6,31,37,31,12,0,1,0,1,2,0,12,10,1289,18,181,316,260,380,18,76,5,0,1,10,1,13,1.3,1.2,1,12
+ivan-durdov,Ivan DurdovNieciecza,nieciecza,0,0,0,0,0,0,0,0,0,0,0,1,6,40,5,0,0,5,3,6,3,3,0,3,4,0,7,20,515,1,32,40,62,76,1,23,1,0,1,15,1,10,0.2,3.2,2.1,5
+jesus-jimenez-nunez,Jesús Jiménez NúñezNieciecza,nieciecza,0,0,0,0,0,0,0,0,0,0,0,2,17,63,13,5,17,44,17,30,2,5,2,5,7,2,15,19,1693,7,273,385,381,506,7,90,3,0,5,27,8,13,3.9,7.9,7.8,8
+kamil-zapolnik,Kamil ZapolnikNieciecza,nieciecza,0,0,0,0,0,0,0,0,0,0,0,0,19,54,17,0,4,11,41,42,4,6,1,6,6,1,18,17,1775,14,185,259,324,419,14,163,3,0,9,35,3,40,1.4,7.1,7.2,3
+krzysztof-kubica,Krzysztof KubicaNieciecza,nieciecza,0,0,0,0,0,0,0,0,0,0,0,1,16,43,11,0,0,26,31,44,3,5,0,5,6,0,8,14,1856,27,248,429,393,614,27,168,25,0,1,37,4,62,1.5,4.6,4.9,10
+lucas-gabriel-masoero-masi,Lucas Gabriel Masoero MasiNieciecza,nieciecza,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,3,3,4,11,0,0,0,0,1,0,1,0,1274,16,160,432,235,539,16,48,12,0,0,3,0,99,0.1,0.6,0,2
+maciej-ambrosiewicz,Maciej AmbrosiewiczNieciecza,nieciecza,0,0,0,0,0,0,0,0,0,0,0,2,8,50,2,6,27,41,34,50,0,1,1,1,3,1,40,6,2764,19,710,1121,969,1370,19,111,21,54,2,16,3,62,4.2,2.5,1.9,12
+maciej-wolski,Maciej WolskiNieciecza,nieciecza,0,0,0,0,0,0,0,0,0,0,0,1,2,50,0,8,37,18,24,20,0,0,0,0,1,0,12,0,1570,21,173,346,305,493,21,71,9,0,2,4,0,44,1,0.3,0.1,4
+miosz-matysik,Miłosz MatysikNieciecza,nieciecza,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,7,9,0,0,0,0,0,0,1,0,636,6,102,211,127,257,6,32,7,0,0,1,0,39,0.1,0.1,0,2
+miosz-stefan-mleczko,Miłosz Stefan MleczkoNieciecza,nieciecza,24,2,96,12,1080,5,190,323,1,0,47,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,1080,1,64,190,172,323,1,9,0,0,0,0,0,10,0.1,0,0,0
+morgan-kwasi-fabender,Morgan Kwasi FaßbenderNieciecza,nieciecza,0,0,0,0,0,0,0,0,0,0,0,1,11,41,5,6,36,81,14,26,3,2,0,3,4,0,20,11,1723,8,159,213,266,307,8,82,6,0,6,27,6,8,3.7,3.1,3.6,15
+radu-stefanita-boboc,Radu Ștefăniță BobocNieciecza,nieciecza,0,0,0,0,0,0,0,0,0,0,0,2,2,33,1,14,60,9,7,17,0,0,0,0,2,0,21,0,1624,20,278,395,452,553,20,49,14,3,7,6,7,43,4.4,0.7,0.3,5
+rafa-maciej-kurzawa,Rafał Maciej KurzawaNieciecza,nieciecza,0,0,0,0,0,0,0,0,0,0,0,0,10,59,3,2,17,23,16,14,4,2,0,4,4,0,18,24,1066,14,275,376,376,470,14,68,8,22,2,17,1,16,1.9,2.3,3.3,8
+sergio-guerrero-romero,Sergio Guerrero RomeroNieciecza,nieciecza,0,0,0,0,0,0,0,0,0,0,0,2,3,33,1,5,15,11,21,31,1,1,0,2,4,0,10,22,1597,8,306,567,384,659,8,54,16,0,0,9,1,29,0.9,0.9,1,7
+thiago-dombroski-moreira,Thiago DombroskiNieciecza,nieciecza,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,1,1,2,0,0,0,0,0,0,0,0,0,0
+wojciech-jakubik,Wojciech JakubikNieciecza,nieciecza,0,0,0,0,0,0,0,0,0,0,0,1,1,25,1,5,14,7,9,7,0,0,0,0,1,0,2,0,322,11,52,72,84,101,11,24,4,0,0,4,0,7,0.4,0.4,0.1,0
+adrian-dalmau-vaquer,Adrián Dalmau VaquerPiast Gliwice,piast-gliwice,0,0,0,0,0,0,0,0,0,0,0,0,6,40,7,1,2,8,8,9,0,2,0,2,2,0,6,13,543,1,41,65,66,98,1,31,0,0,2,15,2,4,0.3,2.8,2.5,6
+andreas-katsantonis,Andreas KatsantonisPiast Gliwice,piast-gliwice,0,0,0,0,0,0,0,0,0,0,0,0,2,29,3,0,2,1,2,4,1,1,0,1,1,0,3,14,187,0,15,26,30,41,0,16,0,0,0,7,0,4,0.4,1.4,0.7,2
+dominik-holec,Dominik HolecPiast Gliwice,piast-gliwice,8,1,59,6,540,1,173,244,0,0,19,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,540,0,28,173,77,244,0,1,0,0,0,0,0,8,0,0,0,0
+elton-fikaj,Elton FikajPiast Gliwice,piast-gliwice,0,0,0,0,0,0,0,0,0,0,0,0,1,50,0,0,0,2,0,4,0,0,0,0,0,0,1,0,121,3,32,58,44,76,3,5,1,0,0,2,0,3,0,0.1,0,0
+emmanuel-kapo-twumasi,Emmanuel Kapo TwumasiPiast Gliwice,piast-gliwice,0,0,0,0,0,0,0,0,0,0,0,0,1,17,0,6,45,31,13,28,1,1,0,1,1,0,19,17,2171,15,491,917,630,1049,15,68,11,0,1,6,0,51,1.3,0.6,0.2,4
+erik-jirka,Erik JirkaPiast Gliwice,piast-gliwice,0,0,0,0,0,0,0,0,0,0,0,1,12,52,4,24,91,39,14,22,3,6,1,5,6,1,32,22,2186,20,389,566,568,725,20,88,21,2,11,23,3,45,2,2.9,2.5,15
+filip-borowski,Filip BorowskiPiast Gliwice,piast-gliwice,0,0,0,0,0,0,0,0,0,0,0,0,3,60,0,2,13,15,10,12,1,1,0,1,1,0,4,20,774,3,104,204,167,282,3,33,5,0,0,5,1,29,0.9,0.4,1.2,2
+frantisek-plach,František PlachPiast Gliwice,piast-gliwice,31,7,159,24,2160,14,747,991,3,0,77,0,0,0,0,0,0,0,4,1,0,0,0,0,0,0,0,0,2160,1,114,747,297,991,1,11,0,0,0,0,0,29,0.1,0,0,0
+german-barkovskiy,German BarkovskiyPiast Gliwice,piast-gliwice,0,0,0,0,0,0,0,0,0,0,0,1,18,43,11,6,20,23,43,43,3,4,1,4,5,2,21,10,1944,5,201,274,358,439,5,178,4,0,16,42,4,17,2.2,9,7.1,14
+grzegorz-tomasiewicz,Grzegorz TomasiewiczPiast Gliwice,piast-gliwice,0,0,0,0,0,0,0,0,0,0,0,2,6,33,0,2,20,8,43,18,0,1,0,1,3,0,14,6,2224,24,585,1053,750,1228,24,90,26,6,0,18,3,58,2.8,1,0.9,11
+hugo-claudio-vallejo-aviles,Hugo Claudio Vallejo AvilésPiast Gliwice,piast-gliwice,0,0,0,0,0,0,0,0,0,0,0,2,13,59,6,2,16,60,15,8,3,4,0,4,6,0,28,18,1527,14,391,574,494,690,14,89,7,3,2,22,0,12,3.4,3.3,3.8,11
+igor-drapinski,Igor DrapińskiPiast Gliwice,piast-gliwice,0,0,0,0,0,0,0,0,0,0,0,3,6,38,3,1,4,7,12,32,0,2,0,2,5,0,13,13,2422,15,386,1160,519,1364,15,85,43,0,2,16,2,151,1.3,1.5,1.6,2
+ivan-correia-posser-lima,Ivan LimaPiast Gliwice,piast-gliwice,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,5,1,1,3,0,0,0,0,0,0,0,0,51,0,6,5,12,9,0,3,0,0,0,0,0,0,0.2,0,0,0
+jakub-czerwinski,Jakub CzerwińskiPiast Gliwice,piast-gliwice,0,0,0,0,0,0,0,0,0,0,0,0,1,13,2,0,1,3,9,23,0,0,0,0,0,0,5,0,1523,8,307,845,379,954,8,54,13,0,1,8,0,94,0.5,0.7,0.4,1
+jakub-lewicki,Jakub LewickiPiast Gliwice,piast-gliwice,0,0,0,0,0,0,0,0,0,0,0,0,5,26,0,15,72,29,24,34,0,0,0,0,0,0,21,0,2126,28,422,783,593,947,28,115,32,11,1,19,4,85,1.9,0.8,0.3,4
+jason-eyenga-lokilo,Jason Eyenga LokiloPiast Gliwice,piast-gliwice,0,0,0,0,0,0,0,0,0,0,0,3,6,55,0,10,45,23,25,9,0,0,0,0,3,0,28,0,1015,2,250,303,347,350,2,50,3,37,0,11,4,6,3.8,1.1,0.7,10
+jorge-felix-munoz-garcia,Jorge Félix Muñoz GarcíaPiast Gliwice,piast-gliwice,0,0,0,0,0,0,0,0,0,0,0,3,12,40,6,2,6,42,44,20,2,4,1,4,7,1,26,13,1891,11,421,628,523,740,11,129,13,8,3,30,3,30,3.1,4.8,4.1,11
+juan-de-dios-rivas-margalef,Juande RivasPiast Gliwice,piast-gliwice,0,0,0,0,0,0,0,0,0,0,0,1,5,26,3,0,2,7,15,39,0,3,0,3,4,0,9,16,2386,20,327,1045,449,1230,20,155,34,0,2,19,2,173,1.3,3.1,2.2,5
+karol-szymanski,Karol SzymańskiPiast Gliwice,piast-gliwice,7,0,30,4,360,3,62,124,2,0,8,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,360,0,24,62,79,124,0,1,0,0,0,0,0,5,0,0,0,0
+leandro-mario-balde-sanca,Leandro SancaPiast Gliwice,piast-gliwice,0,0,0,0,0,0,0,0,0,0,0,4,19,40,1,20,102,74,15,10,3,2,0,3,7,0,18,6,1719,31,293,411,452,516,31,112,22,0,5,47,2,21,2.1,3,3.4,20
+levis-pitan,Levis PitanPiast Gliwice,piast-gliwice,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,60,0,4,16,7,20,0,1,0,0,0,0,0,3,0,0,0,0
+micha-ukasz-chrapek,Michał Łukasz ChrapekPiast Gliwice,piast-gliwice,0,0,0,0,0,0,0,0,0,0,0,2,7,50,1,8,28,10,24,18,1,2,0,3,5,0,32,21,1080,1,383,523,504,623,1,41,4,37,2,14,2,11,2.6,1,1.2,7
+oliwier-maziarz,Oliwier MaziarzPiast Gliwice,piast-gliwice,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,10,0,7,8,10,10,0,0,0,0,0,0,0,0,0,0,0,0
+oskar-lesniak,Oskar LeśniakPiast Gliwice,piast-gliwice,0,0,0,0,0,0,0,0,0,0,0,3,4,57,0,10,21,16,12,13,0,0,0,0,3,0,24,0,962,10,272,349,378,442,10,50,3,30,2,7,4,8,2.5,1,0.5,8
+patryk-dziczek,Patryk DziczekPiast Gliwice,piast-gliwice,0,0,0,0,0,0,0,0,0,0,0,3,15,38,6,16,50,23,34,44,2,3,2,4,7,4,39,10,2880,32,850,1497,1151,1840,32,149,18,1,0,39,2,92,4.6,6.2,4.4,21
+quentin-boisgard,Quentin BoisgardPiast Gliwice,piast-gliwice,0,0,0,0,0,0,0,0,0,0,0,0,4,33,6,1,13,33,18,19,2,2,0,2,2,0,23,17,1258,9,284,386,396,461,9,66,8,48,2,12,1,12,2.1,3,1.1,9
+szczepan-mucha,Szczepan MuchaPiast Gliwice,piast-gliwice,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,2,1,1,0,0,0,0,0,0,0,0,58,1,14,16,20,20,1,2,0,0,0,0,0,0,0.1,0,0,1
+tomasz-mokwa,Tomasz MokwaPiast Gliwice,piast-gliwice,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,1,5,1,0,0,0,0,0,0,2,0,160,0,30,61,41,76,0,7,1,0,0,0,0,7,0.3,0,0,0
+adrian-przyborek,Adrian PrzyborekPogoń Szczecin,pogon-szczecin,0,0,0,0,0,0,0,0,0,0,0,2,6,40,1,3,9,17,10,7,2,0,0,2,4,0,11,13,953,7,165,252,239,338,7,35,3,0,1,15,2,13,1.1,1,1,8
+attila-arpad-szalai,Attila Árpád SzalaiPogoń Szczecin,pogon-szczecin,0,0,0,0,0,0,0,0,0,0,0,0,3,60,0,0,2,0,7,4,0,0,0,0,0,0,3,0,1260,4,188,667,297,817,4,35,12,0,0,5,0,110,0.2,0.7,0.6,2
+benjamin-mendy,Benjamin MendyPogoń Szczecin,pogon-szczecin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,8,7,2,5,0,0,0,0,0,0,4,0,371,2,113,175,143,210,2,11,4,0,0,3,2,20,0.4,0.4,0,1
+danijel-loncar,Danijel LončarPogoń Szczecin,pogon-szczecin,0,0,0,0,0,0,0,0,0,0,0,1,3,33,2,1,7,3,11,31,0,1,0,1,2,0,6,11,1863,9,231,697,324,826,9,71,27,0,1,9,2,123,1,0.9,0.8,3
+dimitris-keramitsis,Dimitris KeramitsisPogoń Szczecin,pogon-szczecin,0,0,0,0,0,0,0,0,0,0,0,1,4,27,4,2,6,6,12,18,0,1,0,1,2,0,9,7,2036,23,396,1050,495,1188,23,92,20,0,7,15,2,159,1.2,3.1,1.4,2
+efthymios-koulouris,Efthymios KoulourisPogoń Szczecin,pogon-szczecin,0,0,0,0,0,0,0,0,0,0,0,0,4,44,9,0,0,2,3,1,3,3,0,3,3,1,5,33,334,1,20,32,37,53,1,13,0,0,2,9,1,2,0.5,4.5,2.8,4
+filip-cuic,Filip ČuićPogoń Szczecin,pogon-szczecin,0,0,0,0,0,0,0,0,0,0,0,0,5,38,5,0,1,4,5,15,1,3,0,3,3,0,4,23,559,1,42,53,68,79,1,27,2,0,5,13,2,7,0,0,0,1
+fredrik-stense-ulvestad,Fredrik Stensøe UlvestadPogoń Szczecin,pogon-szczecin,0,0,0,0,0,0,0,0,0,0,0,3,13,52,8,2,15,10,48,34,1,5,3,5,8,3,24,20,2719,20,650,1091,843,1311,20,169,23,0,0,25,2,66,1.7,6.4,5.6,10
+hussein-haydar-hussein-ali,Hussein AliPogoń Szczecin,pogon-szczecin,0,0,0,0,0,0,0,0,0,0,0,0,3,100,1,4,7,7,5,12,2,2,0,2,2,0,4,67,515,5,76,143,99,173,5,24,3,0,0,3,0,20,0.4,0.4,1,0
+jacek-samuel-czaplinski,Jacek Samuel CzaplińskiPogoń Szczecin,pogon-szczecin,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,11,2,0,0,0,0,0,1,0,1,0,102,3,25,32,30,37,3,12,1,0,0,1,1,0,0.1,0.1,0,0
+jakub-lis,Jakub LisPogoń Szczecin,pogon-szczecin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,2,0,0,0,0,0,0,0,0,0,0,0,72,2,19,30,22,34,2,2,0,0,0,1,0,2,0,0,0,0
+jan-marek-bieganski,Jan Marek BiegańskiPogoń Szczecin,pogon-szczecin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,4,6,9,22,0,0,0,0,0,0,2,0,881,9,269,444,318,515,9,54,17,3,0,4,0,16,0.6,0.2,0,3
+jose-angel-pozo-la-rosa,José Ángel Pozo la RosaPogoń Szczecin,pogon-szczecin,0,0,0,0,0,0,0,0,0,0,0,1,4,33,0,0,5,33,21,13,0,2,0,2,3,0,14,17,982,8,315,508,398,605,8,64,4,4,0,12,3,5,1.5,1.3,0.6,13
+kacper-kostorz,Kacper KostorzPogoń Szczecin,pogon-szczecin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,3,4,4,0,0,0,0,0,0,2,0,201,2,11,19,18,28,2,10,0,0,1,2,0,5,0,0.3,0,0
+kacper-smolinski,Kacper SmolińskiPogoń Szczecin,pogon-szczecin,0,0,0,0,0,0,0,0,0,0,0,0,6,86,2,0,4,3,3,3,0,0,0,0,0,0,5,0,368,5,52,80,80,112,5,10,3,1,1,7,0,4,0.3,1,1.1,3
+kamil-pawe-grosicki,Kamil Paweł GrosickiPogoń Szczecin,pogon-szczecin,0,0,0,0,0,0,0,0,0,0,0,5,24,51,10,18,97,40,3,9,3,6,1,6,11,2,61,13,2184,7,322,338,599,477,7,26,6,87,15,47,17,3,7.6,8,6.8,22
+karol-jerzy-angielski,Karol Jerzy AngielskiPogoń Szczecin,pogon-szczecin,0,0,0,0,0,0,0,0,0,0,0,0,2,100,2,1,1,5,14,11,0,1,0,1,1,0,5,50,549,0,44,65,68,96,0,36,2,0,0,2,1,5,0.6,0.9,1.1,5
+kellyn-kai-perry-acosta,Kellyn Kai Perry-AcostaPogoń Szczecin,pogon-szczecin,0,0,0,0,0,0,0,0,0,0,0,1,1,25,0,5,8,4,7,13,0,0,0,1,2,0,7,25,789,6,162,294,214,348,6,27,10,9,0,4,1,16,1.2,0.4,0.1,4
+krzysztof-kaminski,Krzysztof KamińskiPogoń Szczecin,pogon-szczecin,3,0,22,4,285,3,85,110,0,0,12,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,285,0,9,85,22,110,0,2,0,0,0,0,0,4,0,0,0,0
+leonardo-pablo-koutris,Leonárdo Páblo KoútrisPogoń Szczecin,pogon-szczecin,0,0,0,0,0,0,0,0,0,0,0,2,2,25,1,14,62,17,29,12,0,0,0,0,2,0,19,0,1809,15,395,711,571,894,15,78,27,15,3,8,3,70,2,1,0,7
+leonardo-borges-da-silva,Léo BorgesPogoń Szczecin,pogon-szczecin,0,0,0,0,0,0,0,0,0,0,0,1,5,63,2,20,58,16,6,26,0,0,0,0,1,0,19,0,1196,30,250,477,367,599,30,74,25,0,1,8,2,57,2.1,0.9,0.9,3
+maciej-wojciechowski,Maciej WojciechowskiPogoń Szczecin,pogon-szczecin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,1,1,0,0,0,0,0,0,0,0,22,0,9,12,12,17,0,7,1,0,0,1,0,0,0,0.1,0,0
+mads-agger,Mads AggerPogoń Szczecin,pogon-szczecin,0,0,0,0,0,0,0,0,0,0,0,0,4,57,0,3,15,19,9,8,0,1,0,1,1,0,7,14,727,2,87,113,141,159,2,26,2,7,3,7,1,5,0,0,0,4
+marian-fernando-huja,Marian HujaPogoń Szczecin,pogon-szczecin,0,0,0,0,0,0,0,0,0,0,0,1,3,38,4,1,4,11,3,17,0,2,0,2,3,0,1,25,1190,10,215,667,286,773,10,49,12,0,0,8,0,67,0.3,1.3,0.8,1
+mor-ndiaye,Mor NdiayePogoń Szczecin,pogon-szczecin,0,0,0,0,0,0,0,0,0,0,0,0,3,30,2,0,2,5,15,14,0,1,0,1,1,0,4,10,865,11,168,371,220,440,11,62,9,0,0,10,0,19,0.4,1,0.9,5
+musa-juwara,Musa JuwaraPogoń Szczecin,pogon-szczecin,0,0,0,0,0,0,0,0,0,0,0,1,9,39,6,14,47,35,25,21,1,1,0,1,2,0,23,4,1054,11,203,267,313,352,11,68,10,12,1,23,7,17,2.6,2.6,1.9,12
+natan-awa,Natan ŁawaPogoń Szczecin,pogon-szczecin,0,0,0,0,0,0,0,0,0,0,0,0,3,43,0,1,4,13,3,7,0,0,0,0,0,0,6,0,556,5,127,185,160,223,5,18,6,2,0,7,1,7,0.4,0.8,0.3,4
+patryk-paryzek,Patryk ParyzekPogoń Szczecin,pogon-szczecin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,2,0,0,0,0,0,0,0,0,96,0,6,9,8,11,0,7,1,0,0,0,0,1,0,0,0,1
+paul-omo-mukairu,Paul Omo MukairuPogoń Szczecin,pogon-szczecin,0,0,0,0,0,0,0,0,0,0,0,0,17,50,15,0,7,97,26,30,8,7,0,8,8,0,26,24,2056,26,343,476,445,592,26,146,3,0,10,34,1,22,1.8,6.2,6.8,10
+rajmund-molnar,Rajmund MolnárPogoń Szczecin,pogon-szczecin,0,0,0,0,0,0,0,0,0,0,0,0,13,59,8,2,4,9,12,13,2,3,0,3,3,0,10,14,741,5,70,93,105,136,5,40,2,0,5,22,2,11,0.9,2.9,3.5,6
+rolf-linus-wahlqvist-egnell,Rolf Linus Wahlqvist EgnellPogoń Szczecin,pogon-szczecin,0,0,0,0,0,0,0,0,0,0,0,1,2,14,2,8,33,4,19,33,0,0,0,0,1,0,17,0,2033,10,312,609,468,777,10,72,21,0,4,14,3,95,1.9,1.4,0.2,9
+sam-greenwood,Sam GreenwoodPogoń Szczecin,pogon-szczecin,0,0,0,0,0,0,0,0,0,0,0,2,12,55,2,7,37,21,22,26,2,2,0,3,5,1,17,14,1271,10,211,342,320,418,10,46,5,30,1,22,4,9,1.7,2.6,2.6,6
+valentin-alexandru-cojocaru,Valentin Alexandru CojocaruPogoń Szczecin,pogon-szczecin,45,7,195,31,2775,22,639,976,2,1,132,0,0,0,0,0,0,3,19,0,0,0,0,0,0,0,0,0,2775,1,110,639,375,976,1,36,0,0,0,0,0,44,0.1,0,0,0
+abdoul-fessal-tapsoba,Abdoul Fessal TapsobaRadomiak Radom,radomiak-radom,0,0,0,0,0,0,0,0,0,0,0,0,13,48,10,4,19,34,28,41,6,5,0,6,6,0,6,22,1206,14,76,113,149,181,14,106,1,0,5,27,0,26,0.4,5,5.4,9
+adam-zabicki,Adam ŻabickiRadomiak Radom,radomiak-radom,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,2,3,2,3,0,0,0,0,0,0,0,0,0,0,0,0
+adrian-dieguez-grande,Adrián Diéguez GrandeRadomiak Radom,radomiak-radom,0,0,0,0,0,0,0,0,0,0,0,2,3,38,4,0,4,12,29,29,0,1,0,1,3,0,9,13,2511,24,504,1290,659,1530,24,124,36,0,2,8,3,137,1.7,1.6,1,2
+bruno-andre-cavaco-jordao,Bruno JordãoRadomiak Radom,radomiak-radom,0,0,0,0,0,0,0,0,0,0,0,2,1,33,0,0,2,8,2,4,0,0,0,0,2,0,5,0,303,4,48,73,79,100,4,19,3,6,0,3,1,5,0.5,0.1,0,1
+osvaldo-pedro-capemba,CapitaRadomiak Radom,radomiak-radom,0,0,0,0,0,0,0,0,0,0,0,1,21,47,13,4,12,48,23,26,6,5,0,6,7,0,14,13,1319,12,140,195,190,251,12,70,6,0,2,45,2,15,1.5,6.5,6.8,6
+christos-donis,Christos DonisRadomiak Radom,radomiak-radom,0,0,0,0,0,0,0,0,0,0,0,1,2,33,1,2,6,5,25,22,0,0,0,0,1,0,10,0,1384,12,344,628,416,712,12,74,15,3,0,6,1,44,1.3,0.6,0.3,2
+laurindo-dilson-maria-aurelio,DepúRadomiak Radom,radomiak-radom,0,0,0,0,0,0,0,0,0,0,0,0,3,50,1,1,1,2,6,2,1,1,0,1,1,0,1,17,173,0,11,15,15,22,0,14,0,0,1,6,0,5,0,0.9,1.2,3
+elves-umar-balde,Elves BaldéRadomiak Radom,radomiak-radom,0,0,0,0,0,0,0,0,0,0,0,3,17,55,2,9,42,36,13,13,5,5,0,5,8,0,7,16,1064,5,193,256,283,325,5,41,5,6,1,31,1,1,1.5,2.1,4.3,8
+filip-majchrowicz,Filip MajchrowiczRadomiak Radom,radomiak-radom,53,6,150,34,3060,30,550,813,6,1,97,1,0,0,0,0,0,0,9,1,0,0,0,0,1,0,0,0,3060,0,115,550,329,813,0,17,1,0,0,0,0,53,0,0,0,0
+ibrahima-camara,Ibrahima CamaráRadomiak Radom,radomiak-radom,0,0,0,0,0,0,0,0,0,0,0,1,1,11,0,3,12,10,10,27,0,0,0,0,1,0,9,0,1250,14,324,641,427,764,14,49,12,3,0,9,2,35,1.3,0.4,0,3
+jan-grzesik,Jan GrzesikRadomiak Radom,radomiak-radom,0,0,0,0,0,0,0,0,0,0,0,5,12,48,11,20,75,34,54,30,6,7,0,7,12,0,26,28,2923,31,502,852,698,1059,31,164,23,0,10,25,5,131,3.7,3.5,2.4,10
+joshua-darius-kamani-wilson-esbrand,Joshua Darius Kamani Wilson-EsbrandRadomiak Radom,radomiak-radom,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,3,14,8,10,5,0,0,0,0,1,0,3,0,449,7,91,183,128,222,7,23,5,3,0,0,1,15,0.7,0.1,0,2
+joao-pedro-reginaldo,João PedroRadomiak Radom,radomiak-radom,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,2,8,9,6,19,0,0,0,0,1,0,4,0,964,6,146,321,211,406,6,34,12,4,0,7,2,37,0.9,0.4,0,1
+jeremy-damien-blasco,Jérémy Damien BlascoRadomiak Radom,radomiak-radom,0,0,0,0,0,0,0,0,0,0,0,0,3,38,3,0,3,1,3,8,0,1,0,1,1,0,0,13,1148,8,153,465,191,524,8,37,5,0,1,8,0,86,0.1,1.1,1.4,0
+leandro-rossi-pereira,LeândroRadomiak Radom,radomiak-radom,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,13,0,2,2,2,2,0,0,0,0,1,0,0,0,0,0,0,0
+lucas-lima-linhares,LuquinhasRadomiak Radom,radomiak-radom,0,0,0,0,0,0,0,0,0,0,0,0,2,22,1,2,8,37,42,20,0,1,0,1,1,0,16,11,1300,15,252,348,337,445,15,87,12,2,0,9,0,16,1.3,1.7,1.1,7
+mateusz-cichocki,Mateusz CichockiRadomiak Radom,radomiak-radom,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,2,2,0,0,0,0,0,0,1,0,271,0,32,126,39,135,0,13,1,0,0,1,0,25,0,0.3,0,0
+maurides-roque-junior,MauridesRadomiak Radom,radomiak-radom,0,0,0,0,0,0,0,0,0,0,0,3,20,51,11,0,2,11,12,17,5,7,0,8,11,0,27,21,2213,3,217,324,347,486,3,181,1,0,15,39,6,55,4.2,7,8.1,14
+micha-kaput,Michał KaputRadomiak Radom,radomiak-radom,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,4,9,12,18,0,0,0,0,1,0,1,0,886,18,182,348,235,427,18,66,14,0,0,1,0,38,0.4,0.1,0,4
+paulius-golubickas,Paulius GolubickasRadomiak Radom,radomiak-radom,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,24,0,3,6,4,9,0,0,0,0,0,0,0,0,0,0,0,0
+rafa-wolski,Rafał WolskiRadomiak Radom,radomiak-radom,0,0,0,0,0,0,0,0,0,0,0,7,11,34,3,12,41,36,56,45,4,4,0,5,12,0,41,16,2194,17,421,573,649,755,17,119,14,57,1,32,13,32,5.8,3.6,3.3,18
+roberto-emanuel-oliveira-alves,Roberto Emanuel Oliveira AlvesRadomiak Radom,radomiak-radom,0,0,0,0,0,0,0,0,0,0,0,3,7,64,2,4,14,14,17,17,1,3,2,4,7,2,26,36,1148,13,309,470,429,559,13,51,6,50,1,11,3,11,2.8,2.8,2.7,8
+romario-manuel-silva-baro,Romário BaróRadomiak Radom,radomiak-radom,0,0,0,0,0,0,0,0,0,0,0,0,3,19,1,1,9,27,34,18,1,1,0,2,2,0,14,13,1286,16,253,397,346,499,16,84,10,17,2,16,0,13,1,2.2,0.8,9
+salifou-soumah-1,Salifou SoumahRadomiak Radom,radomiak-radom,0,0,0,0,0,0,0,0,0,0,0,0,3,50,1,4,13,9,1,4,1,1,0,1,1,0,0,17,279,4,45,49,70,66,4,15,1,0,1,6,0,1,0.2,1,0.8,6
+steve-kingue,Steve KingueRadomiak Radom,radomiak-radom,0,0,0,0,0,0,0,0,0,0,0,0,4,44,2,0,0,10,16,40,0,1,0,1,1,0,4,11,2346,12,288,904,394,1081,12,111,23,0,2,9,0,198,0.2,1.4,2,5
+vasco-rafael-fortes-lopes,Vasco LopesRadomiak Radom,radomiak-radom,0,0,0,0,0,0,0,0,0,0,0,4,6,29,1,12,61,94,35,27,0,0,0,0,4,0,23,0,1572,16,298,375,420,448,16,115,6,5,1,21,4,8,2.3,2,1.3,15
+zie-mohamed-ouattara,Zié Mohamed OuattaraRadomiak Radom,radomiak-radom,0,0,0,0,0,0,0,0,0,0,0,4,7,64,1,27,58,48,29,33,2,2,0,2,6,0,30,18,2266,33,547,973,713,1167,33,140,31,0,0,11,7,72,4.1,0.8,1.1,3
+abraham-emmanuel-ojo,Abraham Emmanuel OjoRaków Częstochowa,rakow-czestochowa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,15,0,7,15,7,15,0,4,0,0,0,0,0,0,0,0.1,0,1
+adriano-luis-amorim-santos,AdrianoRaków Częstochowa,rakow-czestochowa,0,0,0,0,0,0,0,0,0,0,0,3,3,25,3,18,68,101,67,36,1,1,0,1,4,0,25,8,1436,10,306,452,432,554,10,159,12,0,5,12,5,27,3.3,1.7,0.6,6
+apostolos-chrysovalantis-konstantopoulos,Apostolos-Chrysovalantis KonstantopoulosRaków Częstochowa,rakow-czestochowa,0,0,0,0,0,0,0,0,0,0,0,0,2,29,2,0,9,7,14,16,0,0,0,0,0,0,2,0,1159,15,210,599,278,693,15,70,9,0,1,7,1,63,0.6,0.7,1,2
+ariel-pawe-mosor,Ariel Paweł MosórRaków Częstochowa,rakow-czestochowa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,4,7,11,9,0,0,0,0,0,0,1,0,858,8,176,436,222,503,8,51,4,0,0,0,0,56,0.3,0,0,0
+bogdan-mircetic,Bogdan MirčetićRaków Częstochowa,rakow-czestochowa,0,0,0,0,0,0,0,0,0,0,0,0,1,100,0,0,1,3,1,2,0,0,0,0,0,0,2,0,96,0,15,21,22,27,0,4,1,1,0,1,0,0,0,0,0,1
+bogdan-racovitan,Bogdan RacovițanRaków Częstochowa,rakow-czestochowa,0,0,0,0,0,0,0,0,0,0,0,1,2,18,2,1,5,4,25,16,0,0,0,0,1,0,6,0,2547,12,394,1427,500,1574,12,95,18,0,2,11,2,150,0.7,1.3,1,1
+efstratios-svarnas,Efstratios SvarnasRaków Częstochowa,rakow-czestochowa,0,0,0,0,0,0,0,0,0,0,0,1,4,67,3,10,22,7,16,21,1,1,0,1,2,0,16,17,2358,29,757,1570,885,1741,29,131,28,0,2,6,3,128,3.9,1.5,1.9,0
+erick-ouma-otieno,Erick Ouma OtienoRaków Częstochowa,rakow-czestochowa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,22,1,2,3,0,0,0,0,0,0,3,0,138,1,37,42,64,48,1,4,0,2,1,0,0,4,0.2,0,0,0
+fran-tudor,Fran TudorRaków Częstochowa,rakow-czestochowa,0,0,0,0,0,0,0,0,0,0,0,0,1,17,0,14,55,30,37,20,0,0,0,0,0,0,23,0,1889,30,534,1010,717,1213,30,122,22,2,1,6,6,54,2.3,0.3,0,1
+ibrahima-seck,Ibrahima SeckRaków Częstochowa,rakow-czestochowa,0,0,0,0,0,0,0,0,0,0,0,1,1,50,2,0,2,10,4,7,0,0,0,0,1,0,1,0,250,2,50,77,65,96,2,14,6,0,0,2,1,3,0.4,0.3,0.1,3
+imad-rondic,Imad RondićRaków Częstochowa,rakow-czestochowa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,13,15,14,0,0,0,0,0,0,1,0,375,2,34,59,55,89,2,47,0,0,1,3,0,5,0.1,0.7,0,2
+isak-oliver-brusberg,Isak Oliver BrusbergRaków Częstochowa,rakow-czestochowa,0,0,0,0,0,0,0,0,0,0,0,0,1,50,0,0,1,2,4,5,0,0,0,0,0,0,2,0,216,5,19,29,27,40,5,17,1,0,0,2,0,1,0.2,0.1,0,1
+ivan-lopez-alvarez,Ivi LópezRaków Częstochowa,rakow-czestochowa,0,0,0,0,0,0,0,0,0,0,0,1,13,57,5,9,40,21,11,12,1,3,2,4,5,2,23,17,857,2,239,315,343,387,2,28,1,27,5,23,5,5,2.7,3.6,3.7,13
+jean-carlos-silva-rocha,Jean Carlos Silva RochaRaków Częstochowa,rakow-czestochowa,0,0,0,0,0,0,0,0,0,0,0,3,7,78,3,24,54,50,36,11,3,3,0,3,6,0,27,33,1489,20,315,482,428,605,20,103,16,3,5,9,2,39,3.6,1.6,2.9,7
+jonatan-braut-brunes,Jonatan Braut BrunesRaków Częstochowa,rakow-czestochowa,0,0,0,0,0,0,0,0,0,0,0,0,38,58,20,1,2,20,37,17,7,15,4,16,16,4,23,24,2462,12,153,289,237,388,12,103,5,1,7,66,3,31,1.3,14.4,14.5,14
+kacper-trelowski,Kacper TrelowskiRaków Częstochowa,rakow-czestochowa,18,5,107,16,1417,6,310,467,2,1,38,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1417,0,75,310,210,467,0,5,0,0,0,0,0,14,0.1,0,0,0
+karol-struski,Karol StruskiRaków Częstochowa,rakow-czestochowa,0,0,0,0,0,0,0,0,0,0,0,0,2,29,1,2,10,11,18,21,0,0,0,0,0,0,10,0,1208,7,296,504,381,601,7,58,10,4,0,7,1,16,1,0.6,0,3
+marko-bulat,Marko BulatRaków Częstochowa,rakow-czestochowa,0,0,0,0,0,0,0,0,0,0,0,3,15,56,3,7,23,31,13,18,3,2,0,4,7,0,29,15,1861,17,484,754,637,887,17,62,27,48,0,27,4,36,3.8,3.4,2.7,13
+michael-ameyaw,Michael AmeyawRaków Częstochowa,rakow-czestochowa,0,0,0,0,0,0,0,0,0,0,0,5,8,50,6,17,74,76,22,18,2,2,0,3,8,0,40,19,1924,16,348,519,500,614,16,112,12,39,6,16,10,50,6,3.2,3.3,7
+mitja-ilenic,Mitja IleničRaków Częstochowa,rakow-czestochowa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,9,4,1,4,0,0,0,0,0,0,1,0,99,0,19,23,32,31,0,8,1,0,0,0,0,3,0.2,0.1,0,1
+mohamed-lamine-diaby-fadiga,Mohamed Lamine Diaby-FadigaRaków Częstochowa,rakow-czestochowa,0,0,0,0,0,0,0,0,0,0,0,4,21,47,12,2,5,68,28,27,4,5,1,7,11,1,10,16,1388,17,130,198,201,282,17,127,8,1,2,45,4,6,1.6,7.7,6.3,18
+oliwier-zych,Oliwier ZychRaków Częstochowa,rakow-czestochowa,22,5,127,19,1643,4,313,563,4,0,54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1643,0,88,313,270,563,0,5,0,0,0,0,0,11,0,0,0,0
+oskar-repka,Oskar RepkaRaków Częstochowa,rakow-czestochowa,0,0,0,0,0,0,0,0,0,0,0,3,9,53,4,0,3,19,22,29,2,3,0,3,6,0,19,18,2265,22,534,969,711,1190,22,130,23,0,0,17,3,59,1.7,3.4,3.3,16
+patryk-makuch,Patryk MakuchRaków Częstochowa,rakow-czestochowa,0,0,0,0,0,0,0,0,0,0,0,1,14,58,9,4,18,9,37,22,3,4,0,4,5,0,15,17,1412,12,151,208,280,339,12,129,3,0,4,24,4,18,0.8,4.3,5.2,8
+pawe-marek-dawidowicz,Paweł Marek DawidowiczRaków Częstochowa,rakow-czestochowa,0,0,0,0,0,0,0,0,0,0,0,0,2,40,2,3,5,2,4,9,0,0,0,0,0,0,5,0,444,5,80,227,102,261,5,37,2,0,0,5,2,44,0.3,1,0.4,2
+peter-barath,Péter BaráthRaków Częstochowa,rakow-czestochowa,0,0,0,0,0,0,0,0,0,0,0,0,4,40,3,0,3,13,5,11,0,1,0,1,1,0,4,10,992,5,232,416,304,509,5,44,17,0,0,10,0,37,0.6,1,0.8,5
+sran-plavsic,Srđan PlavšićRaków Częstochowa,rakow-czestochowa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,14,3,3,1,0,0,0,0,0,0,3,0,156,2,38,59,62,69,2,8,0,4,0,0,0,1,0.2,0,0,1
+vladyslav-kochergin,Vladyslav KocherginRaków Częstochowa,rakow-czestochowa,0,0,0,0,0,0,0,0,0,0,0,0,1,100,0,2,2,0,1,0,0,0,0,0,0,0,1,0,82,0,26,40,32,46,0,1,2,2,0,1,1,0,0.7,0.1,0.2,0
+zoran-arsenic,Zoran ArsenićRaków Częstochowa,rakow-czestochowa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,2,14,11,0,0,0,0,0,0,3,0,792,12,155,502,211,577,12,58,12,0,0,0,0,56,0.2,0,0,0
+andi-avdi-zeqiri,Andi Avdi ZeqiriWidzew Łódź,widzew-lodz,0,0,0,0,0,0,0,0,0,0,0,1,7,44,6,1,3,13,18,28,0,1,0,1,2,0,7,6,753,5,71,116,109,157,5,48,1,0,3,16,2,15,0.5,3.2,2.2,9
+antoni-klukowski,Antoni KlukowskiWidzew Łódź,widzew-lodz,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,1,3,8,6,11,1,4,1,0,0,0,0,2,0,0,0,0
+bartomiej-dragowski,Bartłomiej DrągowskiWidzew Łódź,widzew-lodz,12,6,109,15,1350,11,215,445,1,0,24,0,0,0,0,0,0,0,9,0,0,0,0,0,0,0,2,0,1350,0,89,215,296,445,0,17,0,0,0,0,0,24,0,0,0,0
+bartomiej-radosaw-pawowski,Bartłomiej Radosław PawłowskiWidzew Łódź,widzew-lodz,0,0,0,0,0,0,0,0,0,0,0,1,5,42,1,0,4,9,7,6,0,1,1,1,2,1,4,8,472,8,62,85,110,127,8,24,3,14,0,12,2,13,0.7,1.7,1.1,7
+carlos-isaac-munoz-obejero,Carlos IsaacWidzew Łódź,widzew-lodz,0,0,0,0,0,0,0,0,0,0,0,0,2,40,1,5,29,6,8,16,0,1,0,1,1,0,8,20,615,15,109,186,176,248,15,35,3,0,0,5,1,16,0.9,0.5,0.8,3
+christopher-cheng,Christopher ChengWidzew Łódź,widzew-lodz,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,14,13,8,8,0,0,0,0,0,0,6,0,645,9,109,191,146,227,9,33,7,7,0,3,1,13,0.4,0.1,0,1
+dion-gallapeni,Dion GallapeniWidzew Łódź,widzew-lodz,0,0,0,0,0,0,0,0,0,0,0,3,5,71,3,12,53,31,26,17,1,1,0,1,4,0,9,14,1323,36,194,348,298,445,36,105,19,9,1,7,3,38,0.2,0.6,1.3,2
+emil-nestved-kornvig,Emil Nestved KornvigWidzew Łódź,widzew-lodz,0,0,0,0,0,0,0,0,0,0,0,1,8,36,6,3,17,23,24,27,2,2,0,2,3,0,13,9,1245,15,187,279,263,362,15,82,7,1,1,22,2,23,0.9,2.9,2,6
+francisco-javier-alvarez-rodriguez,Francisco Javier Álvarez RodríguezWidzew Łódź,widzew-lodz,0,0,0,0,0,0,0,0,0,0,0,3,17,40,7,8,49,52,37,25,6,6,0,7,10,0,52,17,2390,21,461,688,728,875,21,103,13,93,5,42,9,26,4.6,4.9,5.3,13
+juljan-shehu,Juljan ShehuWidzew Łódź,widzew-lodz,0,0,0,0,0,0,0,0,0,0,0,3,17,47,5,6,19,71,83,44,1,3,0,4,7,0,28,11,2670,47,551,1093,717,1290,47,231,28,9,6,36,5,62,2.6,3.9,4.1,18
+kamil-cybulski,Kamil CybulskiWidzew Łódź,widzew-lodz,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3,0,1,0,0,0,0,0,0,0,0,20,1,3,6,4,6,1,3,0,0,0,0,0,0,0,0,0,1
+lindon-selahi,Lindon SelahiWidzew Łódź,widzew-lodz,0,0,0,0,0,0,0,0,0,0,0,0,3,50,0,0,2,9,9,18,1,1,0,1,1,0,5,17,1275,25,269,502,332,585,25,76,32,0,0,6,0,33,0.3,0.5,1.1,5
+lukas-reiff-lerager,Lukas Reiff LeragerWidzew Łódź,widzew-lodz,0,0,0,0,0,0,0,0,0,0,0,0,1,50,1,1,9,5,9,14,1,1,0,1,1,0,4,50,782,17,157,272,239,365,17,65,17,0,0,2,1,23,0.9,0.3,0.2,1
+maciej-kikolski,Maciej KikolskiWidzew Łódź,widzew-lodz,13,2,44,9,810,6,182,275,0,0,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,810,0,17,182,81,275,0,5,0,0,0,0,0,10,0,0,0,0
+marcel-krajewski,Marcel KrajewskiWidzew Łódź,widzew-lodz,0,0,0,0,0,0,0,0,0,0,0,3,3,25,1,5,45,35,25,27,0,0,0,0,3,0,12,0,1710,26,219,470,366,629,26,110,11,0,0,12,4,60,2,0.6,0.7,5
+marek-hanousek,Marek HanousekWidzew Łódź,widzew-lodz,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,8,0,0,0,0,0,0,0,0,95,3,11,20,15,24,3,5,0,0,0,3,0,3,0,0.2,0,0
+mariusz-fornalczyk,Mariusz FornalczykWidzew Łódź,widzew-lodz,0,0,0,0,0,0,0,0,0,0,0,3,11,38,2,9,60,91,60,30,1,1,0,1,4,0,23,3,2115,5,222,291,352,388,5,122,9,1,5,29,6,13,2.9,2.3,1.8,23
+mateusz-zyro,Mateusz ŻyroWidzew Łódź,widzew-lodz,0,0,0,0,0,0,0,0,0,0,0,0,6,60,3,2,7,1,12,17,0,0,0,0,0,0,3,0,1857,18,243,838,362,987,18,82,15,0,4,10,0,141,0.5,0.9,1,1
+osman-bukari,Osman BukariWidzew Łódź,widzew-lodz,0,0,0,0,0,0,0,0,0,0,0,0,1,25,1,2,11,13,2,6,0,0,0,0,0,0,7,0,481,3,75,96,112,131,3,19,3,0,4,4,2,4,1.2,0.4,0.1,1
+pape-meissa-ba,Pape Meïssa BaWidzew Łódź,widzew-lodz,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,2,1,0,0,0,0,0,0,0,0,69,0,3,5,7,8,0,2,0,0,0,1,0,0,0,0.3,0,1
+peter-nysted-therkildsen,Peter Nysted TherkildsenWidzew Łódź,widzew-lodz,0,0,0,0,0,0,0,0,0,0,0,2,1,100,1,1,5,11,4,5,1,1,0,1,3,0,8,100,431,9,61,124,85,154,9,29,5,0,0,1,2,16,1.7,0.4,0.1,1
+przemysaw-wisniewski,Przemysław WiśniewskiWidzew Łódź,widzew-lodz,0,0,0,0,0,0,0,0,0,0,0,1,0,0,2,1,3,3,9,24,0,0,0,0,1,0,4,0,1351,8,154,499,234,618,8,102,20,0,1,7,0,113,0.4,0.6,0,1
+ricardo-visus-contreras,Ricardo Visus ContrerasWidzew Łódź,widzew-lodz,0,0,0,0,0,0,0,0,0,0,0,0,4,31,0,0,4,2,9,18,0,0,0,0,0,0,9,0,1709,10,337,962,470,1143,10,66,15,0,1,13,1,97,0.6,0.7,0.2,5
+samuel-akere,Samuel AkereWidzew Łódź,widzew-lodz,0,0,0,0,0,0,0,0,0,0,0,1,2,25,2,2,15,52,11,10,1,1,0,1,2,0,19,13,785,9,115,154,162,199,9,58,7,4,0,8,3,4,1.4,1.4,1.1,6
+samuel-kozlovsky,Samuel KozlovskýWidzew Łódź,widzew-lodz,0,0,0,0,0,0,0,0,0,0,0,1,1,17,1,8,27,9,7,9,0,0,0,0,1,0,16,0,1395,17,212,392,331,531,17,67,19,0,0,6,2,70,1,1,0.9,2
+sebastian-bergier,Sebastian BergierWidzew Łódź,widzew-lodz,0,0,0,0,0,0,0,0,0,0,0,4,25,61,18,3,12,19,27,40,8,14,4,14,18,4,21,34,2290,10,183,268,278,381,10,96,11,5,10,41,7,26,2.2,9.5,11.7,12
+stelios-andreou,Stélios AndreouWidzew Łódź,widzew-lodz,0,0,0,0,0,0,0,0,0,0,0,0,1,50,1,1,5,6,8,9,0,0,0,0,0,0,0,0,1314,13,185,493,256,597,13,45,6,0,1,2,0,73,0.1,0.4,0.2,1
+szymon-czyz,Szymon CzyżWidzew Łódź,widzew-lodz,0,0,0,0,0,0,0,0,0,0,0,0,2,40,0,0,1,7,17,9,0,0,0,0,0,0,10,0,1003,10,174,324,205,368,10,39,14,0,1,5,2,22,1,0.4,0.1,2
+tonio-teklic,Tonio TeklićWidzew Łódź,widzew-lodz,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,7,2,3,0,0,0,0,0,0,4,0,120,0,25,33,47,55,0,11,0,2,0,3,0,2,0.5,0.1,0,1
+veljko-ilic,Veljko IlićWidzew Łódź,widzew-lodz,13,1,41,8,720,4,139,222,0,0,24,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,720,0,23,139,83,222,0,4,0,0,0,0,0,12,0,0,0,0
+angel-baena-perez,Ángel Baena PérezWidzew Łódź,widzew-lodz,0,0,0,0,0,0,0,0,0,0,0,1,10,71,5,14,50,84,39,16,1,2,0,2,3,0,17,14,1345,11,181,239,291,331,11,100,7,1,3,14,2,21,1.4,2,2.1,1
+aleksandre-kalandadze,Aleksandre KalandadzeWisła Płock,wisla-plock,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,2,1,5,0,0,0,0,0,0,0,0,137,2,22,31,36,45,2,9,3,1,0,1,0,3,0.1,0.1,0,1
+andrias-edmundsson,Andrias EdmundssonWisła Płock,wisla-plock,0,0,0,0,0,0,0,0,0,0,0,0,4,31,2,3,12,6,8,20,0,1,0,1,1,0,6,8,1620,19,205,551,335,730,19,105,21,0,1,13,0,115,0.4,0.8,0.9,2
+bartosz-borowski,Bartosz BorowskiWisła Płock,wisla-plock,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,19,2,2,2,2,2,2,3,0,0,0,0,0,0,0,0,0,0
+bojan-nastic,Bojan NastićWisła Płock,wisla-plock,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,13,8,3,10,0,0,0,0,0,0,6,0,336,4,40,74,80,99,4,19,2,8,0,3,1,11,0.3,0.1,0,1
+daniel-pacheco-lobato,Dani PachecoWisła Płock,wisla-plock,0,0,0,0,0,0,0,0,0,0,0,3,8,36,0,13,44,40,21,15,0,0,0,2,5,0,43,9,2195,21,623,1067,845,1280,21,81,28,53,1,22,8,37,4.4,1.5,2.5,10
+deni-juric,Deni JuricWisła Płock,wisla-plock,0,0,0,0,0,0,0,0,0,0,0,0,10,40,8,2,7,10,12,12,4,5,0,5,5,0,7,20,1161,8,63,105,113,164,8,53,9,0,2,25,0,25,0.6,4.7,4.3,10
+dominik-kun,Dominik KunWisła Płock,wisla-plock,0,0,0,0,0,0,0,0,0,0,0,4,5,26,3,5,15,31,26,25,0,0,0,0,4,0,12,0,2467,23,335,585,455,749,23,95,18,0,0,19,5,48,1.9,2.4,0.5,11
+dominik-sarapata,Dominik SarapataWisła Płock,wisla-plock,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,1,5,0,0,0,0,0,0,2,0,226,1,31,44,39,52,1,6,0,2,0,1,1,4,0.4,0.2,0,2
+fabian-hiszpanski,Fabian HiszpańskiWisła Płock,wisla-plock,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,10,6,5,1,0,0,0,0,0,0,2,0,102,1,13,17,31,27,1,12,1,2,1,1,1,2,0.3,0.1,0,1
+giannis-niarchos,Giannis NiarchosWisła Płock,wisla-plock,0,0,0,0,0,0,0,0,0,0,0,1,6,40,9,0,0,17,13,24,1,1,0,1,2,0,5,7,793,7,56,82,87,119,7,59,2,0,6,15,1,17,0.4,3.2,1.6,3
+gustav-marcus-haglind-sangre,Gustav Marcus Haglind-SangréWisła Płock,wisla-plock,0,0,0,0,0,0,0,0,0,0,0,2,4,36,1,6,31,17,17,30,0,0,0,0,2,0,16,0,2970,34,476,1101,640,1303,34,115,14,0,1,11,2,135,1.5,1.2,0.7,6
+ivan-salvador-edu,Iván Salvador EdúWisła Płock,wisla-plock,0,0,0,0,0,0,0,0,0,0,0,0,3,33,1,4,22,19,37,27,1,0,0,2,2,0,8,22,705,3,98,128,177,196,3,71,4,0,7,9,1,12,1.2,0.8,0.5,2
+jakub-burek,Jakub BurekWisła Płock,wisla-plock,4,0,2,1,90,1,12,23,0,0,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,90,0,1,12,8,23,0,1,0,0,0,0,0,1,0,0,0,0
+jorge-jimenez-rodriguez,Jorge Jiménez RodríguezWisła Płock,wisla-plock,0,0,0,0,0,0,0,0,0,0,0,2,6,55,1,1,7,9,9,8,1,1,0,1,3,0,6,9,526,9,102,156,127,181,9,31,5,6,0,11,3,8,0.5,1.5,1.2,2
+kevin-custovic,Kevin ČustovićWisła Płock,wisla-plock,0,0,0,0,0,0,0,0,0,0,0,1,4,44,1,7,31,14,6,8,0,0,0,0,1,0,15,0,973,9,126,185,183,244,9,47,7,0,3,9,2,29,2.1,1,0.6,3
+krystian-pomorski,Krystian PomorskiWisła Płock,wisla-plock,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,2,5,0,0,0,0,0,0,1,0,244,1,56,79,80,100,1,20,3,0,0,0,0,5,0.1,0.3,0,3
+kyriakos-savvidis,Kyriakos SavvidīsWisła Płock,wisla-plock,0,0,0,0,0,0,0,0,0,0,0,0,1,33,2,0,1,6,6,10,1,1,0,1,1,0,2,33,579,13,109,198,143,244,13,37,9,3,0,3,1,24,0,0,0,1
+marcin-kaminski,Marcin KamińskiWisła Płock,wisla-plock,0,0,0,0,0,0,0,0,0,0,0,0,8,44,4,3,4,3,3,7,0,3,0,3,3,0,8,17,3004,12,429,1500,542,1654,12,79,19,0,0,18,0,172,0.6,1.9,1.3,4
+marin-karamarko,Marin KaramarkoWisła Płock,wisla-plock,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3,0,1,4,0,0,0,0,0,0,1,0,111,0,22,41,31,53,0,8,3,0,0,0,0,5,0.2,0.1,0,1
+matchoi-bobo-djalo,Matchoi DjalóWisła Płock,wisla-plock,0,0,0,0,0,0,0,0,0,0,0,1,2,40,2,1,18,14,12,6,0,0,0,0,1,0,4,0,634,5,106,167,152,197,5,40,3,3,0,5,1,5,0.9,2,0.3,9
+matvey-bokhno,Matvey BokhnoWisła Płock,wisla-plock,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+nemanja-mijuskovic,Nemanja MijuškovićWisła Płock,wisla-plock,0,0,0,0,0,0,0,0,0,0,0,0,2,18,2,0,1,3,10,15,0,0,0,0,0,1,1,0,1407,12,134,426,200,536,12,101,11,0,0,11,0,116,0.4,1.9,1.3,4
+piotr-krawczyk,Piotr KrawczykWisła Płock,wisla-plock,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,27,0,3,5,6,8,0,3,0,0,0,0,0,0,0,0,0,0
+quentin-lecoeuche,Quentin LecoeucheWisła Płock,wisla-plock,0,0,0,0,0,0,0,0,0,0,0,0,3,60,1,22,80,21,24,13,0,0,0,0,0,0,25,0,1847,17,239,389,393,479,17,67,17,46,1,5,3,66,2.9,0.4,0.5,0
+rafa-leszczynski,Rafał LeszczyńskiWisła Płock,wisla-plock,34,7,245,33,2970,17,792,1198,3,1,112,0,0,0,0,0,0,1,9,0,0,0,0,0,0,0,3,0,2970,0,168,792,512,1198,0,17,0,0,0,0,0,31,0.2,0,0,0
+said-hamulic,Saïd HamulićWisła Płock,wisla-plock,0,0,0,0,0,0,0,0,0,0,0,0,5,50,0,1,1,9,2,4,0,0,0,0,0,0,3,0,280,1,18,23,24,33,1,18,0,0,3,10,2,3,0.3,0.8,0.8,2
+tomas-franco-tavares,Tomás TavaresWisła Płock,wisla-plock,0,0,0,0,0,0,0,0,0,0,0,0,1,50,1,1,5,5,10,7,0,0,0,0,0,0,2,0,640,6,130,262,167,317,6,34,3,0,0,2,0,22,0.3,0.4,0.7,2
+wiktor-nowak,Wiktor NowakWisła Płock,wisla-plock,0,0,0,0,0,0,0,0,0,0,0,1,15,41,7,12,30,66,49,41,3,4,0,4,5,0,26,11,2603,27,277,463,401,601,27,175,20,11,8,37,3,76,4,4.6,5,17
+ukasz-sekulski,Łukasz SekulskiWisła Płock,wisla-plock,0,0,0,0,0,0,0,0,0,0,0,1,21,62,17,3,13,16,35,27,5,8,3,8,9,4,21,24,1981,10,166,264,264,377,10,103,8,0,9,34,4,39,1.2,9.1,8.8,10
+zan-rogelj,Žan RogeljWisła Płock,wisla-plock,0,0,0,0,0,0,0,0,0,0,0,1,11,50,3,21,97,40,6,22,3,2,0,3,4,0,25,14,2256,32,339,539,534,714,32,75,18,7,1,22,5,78,3.9,2.4,2.5,6
+adam-radwanski,Adam RadwańskiKGHM Zagłębie Lubin,zagebie-lubin,0,0,0,0,0,0,0,0,0,0,0,6,11,69,3,9,33,41,19,41,3,4,1,4,10,1,32,25,1628,12,213,354,374,525,12,81,15,3,4,16,5,19,2.5,2.3,3.9,10
+aleks-awniczak,Aleks ŁawniczakKGHM Zagłębie Lubin,zagebie-lubin,0,0,0,0,0,0,0,0,0,0,0,1,3,27,3,1,1,1,10,18,0,1,0,1,2,0,6,9,1518,8,119,451,208,583,8,80,20,0,1,11,1,121,0.9,1.6,1.6,3
+arkadiusz-wozniak,Arkadiusz WoźniakKGHM Zagłębie Lubin,zagebie-lubin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,0,2,2,0,2,0,0,0,1,0,0,0,0,0,0
+cyprian-popielec,Cyprian PopielecKGHM Zagłębie Lubin,zagebie-lubin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+damian-dabrowski,Damian DąbrowskiKGHM Zagłębie Lubin,zagebie-lubin,0,0,0,0,0,0,0,0,0,0,0,3,2,33,0,8,19,9,6,11,0,0,0,0,3,0,35,0,1896,26,389,692,559,831,26,69,24,81,0,6,4,59,4.4,0.2,0.2,4
+damian-michalski,Damian MichalskiKGHM Zagłębie Lubin,zagebie-lubin,0,0,0,0,0,0,0,0,0,0,0,0,3,25,2,0,2,0,13,13,0,1,0,1,1,0,8,8,1828,6,100,350,203,487,6,84,21,0,2,12,1,174,0.7,1.5,1.6,4
+dominik-hadun,Dominik HładunKGHM Zagłębie Lubin,zagebie-lubin,17,1,57,11,977,6,182,242,1,0,33,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,977,0,29,182,67,242,0,4,0,0,0,0,0,8,0,0,0,0
+filip-kocaba,Filip KocabaKGHM Zagłębie Lubin,zagebie-lubin,0,0,0,0,0,0,0,0,0,0,0,1,2,25,2,2,14,22,55,69,0,1,0,2,3,0,7,25,2539,25,230,523,394,720,25,139,26,0,4,8,1,87,0.7,1.4,0.9,7
+igor-orlikowski,Igor OrlikowskiKGHM Zagłębie Lubin,zagebie-lubin,0,0,0,0,0,0,0,0,0,0,0,1,2,22,0,2,15,5,11,21,0,0,0,0,1,0,5,0,1312,14,73,200,160,304,14,71,7,0,1,9,1,59,1.1,0.6,0.1,3
+jakub-kolan,Jakub KolanKGHM Zagłębie Lubin,zagebie-lubin,0,0,0,0,0,0,0,0,0,0,0,1,6,46,0,2,5,10,34,20,0,0,0,1,2,0,6,8,1245,10,142,256,234,378,10,85,18,3,0,13,2,36,1.1,0.5,1.1,3
+jakub-ligocki,Jakub LigockiKGHM Zagłębie Lubin,zagebie-lubin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,3,1,0,0,0,0,0,0,0,0,0,90,3,4,7,13,14,3,4,1,0,0,1,0,1,0,0,0,0
+jakub-sypek,Jakub SypekKGHM Zagłębie Lubin,zagebie-lubin,0,0,0,0,0,0,0,0,0,0,0,3,5,56,3,9,27,42,22,14,3,3,0,3,6,0,12,33,876,7,87,137,150,193,7,64,6,0,4,9,3,10,1.8,1.4,3.1,4
+jasmin-buric,Jasmin BurićKGHM Zagłębie Lubin,zagebie-lubin,21,10,156,24,2083,18,370,620,3,0,75,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,2083,0,94,370,265,620,0,13,0,0,0,0,0,30,0.1,0,0,0
+jesus-antonio-diaz-gomez,Jesús Antonio Díaz GómezKGHM Zagłębie Lubin,zagebie-lubin,0,0,0,0,0,0,0,0,0,0,0,2,4,31,1,2,16,30,11,8,0,1,0,1,3,0,5,8,584,8,103,131,142,156,8,46,5,8,1,13,2,5,0.6,1.1,0.5,4
+josip-corluka,Josip ĆorlukaKGHM Zagłębie Lubin,zagebie-lubin,0,0,0,0,0,0,0,0,0,0,0,1,3,50,1,23,65,12,12,12,1,1,0,1,2,0,14,17,1800,28,169,320,338,517,28,118,25,0,0,6,1,106,1.5,0.7,1,5
+kajetan-szmyt,Kajetan SzmytKGHM Zagłębie Lubin,zagebie-lubin,0,0,0,0,0,0,0,0,0,0,0,3,14,52,4,8,43,62,23,18,1,2,0,1,4,0,28,4,2073,13,299,413,441,519,13,77,10,23,10,27,6,10,1.8,1.3,0.6,17
+kamil-nowogonski,Kamil NowogońskiKGHM Zagłębie Lubin,zagebie-lubin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,2,2,1,0,0,0,0,0,0,1,0,51,2,2,2,3,5,2,6,0,0,0,1,0,1,0,0.1,0,0
+leonardo-miramar-rocha,Leonardo RochaKGHM Zagłębie Lubin,zagebie-lubin,0,0,0,0,0,0,0,0,0,0,0,1,26,55,13,0,2,26,24,17,4,8,1,7,8,1,11,15,1300,2,70,115,156,208,2,116,2,0,1,47,2,19,0.3,4.9,7.6,11
+levente-szabo,Levente SzabóKGHM Zagłębie Lubin,zagebie-lubin,0,0,0,0,0,0,0,0,0,0,0,1,6,35,3,2,4,6,15,16,2,3,0,3,4,0,8,18,854,4,59,85,130,169,4,89,3,0,2,17,0,20,0.3,3.3,2.8,5
+luka-lucic,Luka LučićKGHM Zagłębie Lubin,zagebie-lubin,0,0,0,0,0,0,0,0,0,0,0,1,2,29,2,14,54,12,16,18,0,0,0,0,1,0,24,0,1611,23,232,454,389,615,23,80,17,12,0,7,4,87,2.8,0.4,0.4,0
+marcel-wojciech-regua,Marcel Wojciech RegułaKGHM Zagłębie Lubin,zagebie-lubin,0,0,0,0,0,0,0,0,0,0,0,3,21,51,9,5,31,76,41,48,4,4,0,5,8,1,20,12,2162,28,160,228,284,352,28,163,23,0,13,41,5,19,2.7,4.7,4.7,9
+marek-mroz,Marek MrózKGHM Zagłębie Lubin,zagebie-lubin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,41,1,10,17,14,22,1,2,0,0,0,0,0,0,0,0,0,0
+mateusz-dziewiatowski,Mateusz DziewiatowskiKGHM Zagłębie Lubin,zagebie-lubin,0,0,0,0,0,0,0,0,0,0,0,0,4,67,3,3,4,6,10,25,1,1,0,1,1,0,2,17,549,11,52,90,78,132,11,35,8,0,0,6,0,9,0.3,0.5,1,1
+mateusz-grzybek,Mateusz GrzybekKGHM Zagłębie Lubin,zagebie-lubin,0,0,0,0,0,0,0,0,0,0,0,0,4,36,4,4,16,7,15,12,1,3,0,3,3,0,8,27,851,5,65,117,139,202,5,43,7,0,0,11,1,40,0.7,2.1,2.2,3
+mateusz-wdowiak,Mateusz WdowiakKGHM Zagłębie Lubin,zagebie-lubin,0,0,0,0,0,0,0,0,0,0,0,0,5,42,4,8,29,24,23,16,2,2,0,2,2,0,16,17,1182,12,138,192,214,260,12,63,7,0,1,12,2,10,0.3,0.5,1.2,9
+michalis-kosidis,Michalis KosidisKGHM Zagłębie Lubin,zagebie-lubin,0,0,0,0,0,0,0,0,0,0,0,1,11,48,6,1,6,22,26,18,3,6,3,6,7,3,6,26,1256,1,111,154,176,236,1,97,1,0,9,23,0,27,0.3,4.9,4.6,6
+micha-jan-nalepa,Michał Jan NalepaKGHM Zagłębie Lubin,zagebie-lubin,0,0,0,0,0,0,0,0,0,0,0,1,13,34,3,2,9,7,17,25,0,2,0,2,3,0,14,5,2660,19,210,725,394,938,19,166,40,0,0,38,2,190,1.7,3.3,4.1,10
+mihael-mlinaric,Mihael MlinarićKGHM Zagłębie Lubin,zagebie-lubin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,1,0,2,0,0,0,0,0,0,0,0,65,0,7,7,17,15,0,4,1,0,0,1,0,2,0,0,0,0
+rafa-tadeusz-gikiewicz,Rafał Tadeusz GikiewiczKGHM Zagłębie Lubin,zagebie-lubin,3,1,18,2,180,2,62,77,0,0,4,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,180,0,12,62,24,77,0,1,0,0,0,0,0,3,0,0,0,0
+roman-yakuba,Roman YakubaKGHM Zagłębie Lubin,zagebie-lubin,0,0,0,0,0,0,0,0,0,0,0,0,2,29,2,2,14,6,7,20,0,0,0,0,0,0,8,0,1683,16,142,478,298,663,16,97,25,0,0,7,1,119,0.8,1.3,0.4,4
+sebastian-oskar-kowalczyk,Sebastian Oskar KowalczykKGHM Zagłębie Lubin,zagebie-lubin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,6,8,10,9,0,0,0,0,0,0,8,0,371,5,51,82,71,102,5,26,2,2,0,2,0,7,0.3,0.2,0,3
+tomasz-makowski,Tomasz MakowskiKGHM Zagłębie Lubin,zagebie-lubin,0,0,0,0,0,0,0,0,0,0,0,1,1,33,0,3,8,4,9,8,0,0,0,0,1,0,9,0,509,11,96,146,155,202,11,34,16,11,0,3,2,17,1.4,0.2,0.3,2
+tomasz-pienko,Tomasz PieńkoKGHM Zagłębie Lubin,zagebie-lubin,0,0,0,0,0,0,0,0,0,0,0,2,5,29,2,2,10,36,33,12,2,2,0,2,4,0,14,12,1418,10,270,366,368,474,10,76,10,0,4,17,3,6,0,0,0.9,5

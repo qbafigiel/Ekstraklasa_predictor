@@ -1,0 +1,404 @@
+﻿pozycja,player_slug,klub_slug,nazwa,wartosc
+1,kamil-pawe-grosicki,pogon-szczecin,Kamil Paweł GrosickiPogoń Szczecin,152
+2,ruben-goncalo-da-silva-nascimento-vinagre,legia-warszawa,Rúben VinagreLegia Warszawa,149
+3,otar-kakabadze,cracovia,Otar KakabadzeCracovia,126
+4,joel-vieira-pereira,lech-poznan,Joel PereiraLech Poznań,121
+5,erick-ouma-otieno,rakow-czestochowa,Erick Ouma OtienoRaków Częstochowa,120
+6,erik-janza,gornik-zabrze,Erik JanžaGórnik Zabrze,116
+7,jean-carlos-silva-rocha,rakow-czestochowa,Jean Carlos Silva RochaRaków Częstochowa,110
+8,mateusz-zukowski,slask-wroclaw,Mateusz ŻukowskiŚląsk Wrocław,103
+9,dawid-abramowicz,puszcza-niepolomice,Dawid AbramowiczPuszcza Niepołomice,100
+10,leonardo-pablo-koutris,pogon-szczecin,Leonárdo Páblo KoútrisPogoń Szczecin,98
+10,marcin-wasielewski,gks-katowice,Marcin WasielewskiGKS Katowice,98
+12,pawe-marek-wszoek,legia-warszawa,Paweł Marek WszołekLegia Warszawa,88
+13,bartosz-wolski,motor-lublin,Bartosz WolskiMotor Lublin,87
+14,borja-galan-gonzalez,gks-katowice,Borja Galán GonzálezGKS Katowice,83
+15,zie-mohamed-ouattara,radomiak-radom,Zié Mohamed OuattaraRadomiak Radom,81
+16,dominik-pia,lechia-gdansk,Dominik PiłaLechia Gdańsk,76
+17,alvis-jaunzems,stal-mielec,Alvis JaunzemsStal Mielec,75
+17,davi-kristjan-olafsson,cracovia,Davíð Kristján ÓlafssonCracovia,75
+19,alan-czerwinski,gks-katowice,Alan CzerwińskiGKS Katowice,74
+20,joao-gervasio-braganca-moutinho,jagiellonia-bialystok,João MoutinhoJagiellonia Białystok,73
+21,mateusz-wdowiak,zagebie-lubin,Mateusz WdowiakKGHM Zagłębie Lubin,72
+22,micha-krol,motor-lublin,Michał KrólMotor Lublin,69
+23,ajdin-hasic,cracovia,Ajdin HasićCracovia,68
+24,adrian-bad,gks-katowice,Adrian BłądGKS Katowice,67
+24,paulo-henrique-rodrigues-cabral,radomiak-radom,Paulo HenriqueRadomiak Radom,67
+26,kacper-chodyna,legia-warszawa,Kacper ChodynaLegia Warszawa,65
+27,jan-grzesik,radomiak-radom,Jan GrzesikRadomiak Radom,64
+27,bartomiej-kudka,zagebie-lubin,Bartłomiej KłudkaKGHM Zagłębie Lubin,64
+29,fran-tudor,rakow-czestochowa,Fran TudorRaków Częstochowa,63
+30,mikkel-maigaard-jakobsen,cracovia,Mikkel Maigaard JakobsenCracovia,62
+31,tomasz-pienko,zagebie-lubin,Tomasz PieńkoKGHM Zagłębie Lubin,60
+32,krystian-getinger,stal-mielec,Krystian GetingerStal Mielec,59
+33,camilo-andres-mena-marquez,lechia-gdansk,Camilo Andrés Mena MárquezLechia Gdańsk,57
+33,ryoya-morishita,legia-warszawa,Ryoya MorishitaLegia Warszawa,57
+35,igor-drapinski,piast-gliwice,Igor DrapińskiPiast Gliwice,56
+35,samuel-kozlovsky,widzew-lodz,Samuel KozlovskýWidzew Łódź,56
+35,konrad-matuszewski,korona-kielce,Konrad MatuszewskiKorona Kielce,56
+38,piotr-ceglarz,motor-lublin,Piotr CeglarzMotor Lublin,55
+39,jakub-sypek,widzew-lodz,Jakub SypekWidzew Łódź,54
+40,ivan-lopez-alvarez,rakow-czestochowa,Ivi LópezRaków Częstochowa,52
+41,maciej-domanski,stal-mielec,Maciej DomańskiStal Mielec,51
+42,petr-schwarz,slask-wroclaw,Petr SchwarzŚląsk Wrocław,50
+43,mariusz-fornalczyk,korona-kielce,Mariusz FornalczykKorona Kielce,49
+43,jens-patrik-walemark,lech-poznan,Jens Patrik WålemarkLech Poznań,49
+45,robert-dadok,stal-mielec,Robert DadokStal Mielec,48
+46,taofeek-ajibade-ismaheel,gornik-zabrze,Taofeek Ajibade IsmaheelGórnik Zabrze,47
+46,rifet-kapic,lechia-gdansk,Rifet KapičLechia Gdańsk,47
+46,hubert-zwozny,korona-kielce,Hubert ZwoźnyKorona Kielce,47
+49,wiktor-dugosz,korona-kielce,Wiktor DługoszKorona Kielce,46
+50,vahan-bichakhchyan,legia-warszawa,Vahan BichakhchyanLegia Warszawa,45
+50,filip-wojcik,motor-lublin,Filip WójcikMotor Lublin,45
+52,serhij-krykun,piast-gliwice,Serhii Krykun WiktorowyczPiast Gliwice,44
+53,piotr-mrozinski,puszcza-niepolomice,Piotr MrozińskiPuszcza Niepołomice,43
+53,krzysztof-wokowicz,stal-mielec,Krzysztof WołkowiczStal Mielec,43
+55,micha-ukasz-chrapek,piast-gliwice,Michał Łukasz ChrapekPiast Gliwice,42
+55,miosz-kaahur,lechia-gdansk,Miłosz KałahurLechia Gdańsk,42
+55,miguel-villar-alonso,jagiellonia-bialystok,Miguel Villar AlonsoJagiellonia Białystok,42
+55,akim-zedadka,piast-gliwice,Akim ZedadkaPiast Gliwice,42
+59,sebastian-kerk,widzew-lodz,Sebastian KerkWidzew Łódź,40
+59,mbaye-jacques-ndiaye,motor-lublin,Mbaye Jacques N'DiayeMotor Lublin,40
+59,miosz-szczepanski,piast-gliwice,Miłosz SzczepańskiPiast Gliwice,40
+62,yosuke-furukawa,gornik-zabrze,Yosuke FurukawaGórnik Zabrze,39
+62,micha-gurgul,lech-poznan,Michał GurgulLech Poznań,39
+62,marcel-pieczek,korona-kielce,Marcel PięczekKorona Kielce,39
+62,ukasz-jozef-podolski,gornik-zabrze,Łukasz Józef PodolskiGórnik Zabrze,39
+62,rolf-linus-wahlqvist-egnell,pogon-szczecin,Rolf Linus Wahlqvist EgnellPogoń Szczecin,39
+67,kamil-cybulski,widzew-lodz,Kamil CybulskiWidzew Łódź,38
+67,kristoffer-hansen,jagiellonia-bialystok,Kristoffer Normann HansenJagiellonia Białystok,38
+69,francisco-javier-alvarez-rodriguez,widzew-lodz,Francisco Javier Álvarez RodríguezWidzew Łódź,37
+69,darko-churlinov,jagiellonia-bialystok,Darko ChurlinovJagiellonia Białystok,37
+69,ali-gholizadeh-nojedeh,lech-poznan,Ali Gholizadeh NojedehLech Poznań,37
+69,bartosz-kapustka,legia-warszawa,Bartosz KapustkaLegia Warszawa,37
+69,joao-peglow,radomiak-radom,PeglowRadomiak Radom,37
+69,kajetan-szmyt,zagebie-lubin,Kajetan SzmytKGHM Zagłębie Lubin,37
+69,rafa-wolski,radomiak-radom,Rafał WolskiRadomiak Radom,37
+77,maksym-khlan,lechia-gdansk,Maksym KhlanLechia Gdańsk,35
+77,jin-hyun-lee,puszcza-niepolomice,Lee Jin-HyunPuszcza Niepołomice,35
+77,krystian-palacz,motor-lublin,Krystian PalaczMotor Lublin,35
+80,erik-jirka,piast-gliwice,Erik JirkaPiast Gliwice,34
+80,marcel-krajewski,widzew-lodz,Marcel KrajewskiWidzew Łódź,34
+82,damian-dabrowski,zagebie-lubin,Damian DąbrowskiKGHM Zagłębie Lubin,33
+82,antoni-klimek,puszcza-niepolomice,Antoni KlimekPuszcza Niepołomice,33
+82,filip-luberecki,motor-lublin,Filip LubereckiMotor Lublin,33
+82,roberto-emanuel-oliveira-alves,radomiak-radom,Roberto Emanuel Oliveira AlvesRadomiak Radom,33
+82,tomasz-wojtowicz,lechia-gdansk,Tomasz WójtowiczLechia Gdańsk,33
+87,damian-kadzior,piast-gliwice,Damian KądziorPiast Gliwice,32
+88,bartosz-biedrzycki,cracovia,Bartosz BiedrzyckiCracovia,31
+88,josip-corluka,zagebie-lubin,Josip ĆorlukaKGHM Zagłębie Lubin,31
+88,fryderyk-gerbowski,stal-mielec,Fryderyk GerbowskiStal Mielec,31
+88,jesus-imaz-balleste,jagiellonia-bialystok,Jesús Imaz BallestéJagiellonia Białystok,31
+88,manuel-sanchez,gornik-zabrze,Manuel Sánchez GarcíaGórnik Zabrze,31
+93,tommaso-guercio,slask-wroclaw,Tommaso GuercioŚląsk Wrocław,30
+93,tomasz-makowski,zagebie-lubin,Tomasz MakowskiKGHM Zagłębie Lubin,30
+93,grzegorz-rogala,gks-katowice,Grzegorz RogalaGKS Katowice,30
+93,filip-rozga,cracovia,Filip Jan RózgaCracovia,30
+97,afonso-gamelas-de-pinho-sousa,lech-poznan,Afonso SousaLech Poznań,29
+97,marek-mroz,zagebie-lubin,Marek MrózKGHM Zagłębie Lubin,29
+97,michal-sacek,jagiellonia-bialystok,Michal SáčekJagiellonia Białystok,29
+97,pawe-stolarski,motor-lublin,Paweł StolarskiMotor Lublin,29
+101,leonardo-borges-da-silva,pogon-szczecin,Léo BorgesPogoń Szczecin,28
+101,patryk-dziczek,piast-gliwice,Patryk DziczekPiast Gliwice,28
+101,adrian-przyborek,pogon-szczecin,Adrian PrzyborekPogoń Szczecin,28
+101,martin-christophe-jannick-remacle,korona-kielce,Martin Christophe Jannick RemacleKorona Kielce,28
+101,maciej-rosoek,legia-warszawa,Maciej RosołekLegia Warszawa,28
+101,piotr-samiec-talar,slask-wroclaw,Piotr Samiec-TalarŚląsk Wrocław,28
+107,marc-gual-huguet,legia-warszawa,Marc Gual HuguetLegia Warszawa,27
+107,marc-llinares-barragan,slask-wroclaw,Marc Llinares BarragánŚląsk Wrocław,27
+109,mateusz-grzybek,zagebie-lubin,Mateusz GrzybekKGHM Zagłębie Lubin,26
+109,arnau-ortiz,slask-wroclaw,Arnau Ortiz SánchezŚląsk Wrocław,26
+109,jose-manuel-sanchez-guillen,gornik-zabrze,JosemaGórnik Zabrze,26
+109,mateusz-stepien,stal-mielec,Mateusz StępieńStal Mielec,26
+114,adam-radwanski,zagebie-lubin,Adam RadwańskiKGHM Zagłębie Lubin,25
+115,sylvester-jasper,slask-wroclaw,Sylvester Alexander Enitombra JasperŚląsk Wrocław,24
+115,jakub-jugas,cracovia,Jakub JugasCracovia,24
+115,rafa-maciej-kurzawa,pogon-szczecin,Rafał Maciej KurzawaPogoń Szczecin,24
+118,michael-ameyaw,piast-gliwice,Michael AmeyawPiast Gliwice,23
+118,jani-atanasov,puszcza-niepolomice,Jani AtanasovPuszcza Niepołomice,23
+118,pedro-nuno-fernandes-ferreira,korona-kielce,Pedro NunoKorona Kielce,23
+118,bartosz-nowak,rakow-czestochowa,Bartosz NowakRaków Częstochowa,23
+118,arkadiusz-pyrka,piast-gliwice,Arkadiusz PyrkaPiast Gliwice,23
+118,jakub-serafin,puszcza-niepolomice,Jakub SerafinPuszcza Niepołomice,23
+118,bradly-van-hoeven,motor-lublin,Bradly van HoevenMotor Lublin,23
+125,rasmus-carstensen,lech-poznan,Rasmus Bjerregaard CarstensenLech Poznań,22
+125,cezary-polak,jagiellonia-bialystok,Cezary PolakJagiellonia Białystok,22
+125,efstratios-svarnas,rakow-czestochowa,Efstratios SvarnasRaków Częstochowa,22
+125,norbert-wojtuszek,jagiellonia-bialystok,Norbert WojtuszekJagiellonia Białystok,22
+130,dawid-banik,korona-kielce,Dawid BłanikKorona Kielce,21
+130,hilary-gong,widzew-lodz,Hilary Chukwah GongWidzew Łódź,21
+130,luis-mata,zagebie-lubin,Luís MataKGHM Zagłębie Lubin,21
+130,marvin-senger-1,stal-mielec,Marvin SengerStal Mielec,21
+130,bohdan-viunnyk,lechia-gdansk,Bohdan ViunnykLechia Gdańsk,21
+135,pawe-mirosaw-olkowski,gornik-zabrze,Paweł Mirosław OlkowskiGórnik Zabrze,20
+136,adriano-luis-amorim-santos,rakow-czestochowa,AdrianoRaków Częstochowa,19
+136,vladyslav-kochergin,rakow-czestochowa,Vladyslav KocherginRaków Częstochowa,19
+136,peter-nysted-therkildsen,widzew-lodz,Peter Nysted TherkildsenWidzew Łódź,19
+136,sran-plavsic,rakow-czestochowa,Srđan PlavšićRaków Częstochowa,19
+136,jose-angel-pozo-la-rosa,slask-wroclaw,José Ángel Pozo la RosaŚląsk Wrocław,19
+136,fredrik-stense-ulvestad,pogon-szczecin,Fredrik Stensøe UlvestadPogoń Szczecin,19
+142,mateusz-cholewiak,puszcza-niepolomice,Mateusz CholewiakPuszcza Niepołomice,18
+142,matus-kmet,gornik-zabrze,Matúš KmeťGórnik Zabrze,18
+142,jarosaw-kubicki,jagiellonia-bialystok,Jarosław KubickiJagiellonia Białystok,18
+142,ioan-calin-revenco-1,puszcza-niepolomice,Ioan-Călin RevencoPuszcza Niepołomice,18
+142,miosz-trojak,korona-kielce,Miłosz TrojakKorona Kielce,18
+147,antoni-kozubal,lech-poznan,Antoni KozubalLech Poznań,17
+147,yehor-matsenko,slask-wroclaw,Yehor MatsenkoŚląsk Wrocław,17
+147,rafael-avelino-pereira-pinto-barbosa,radomiak-radom,Rafael BarbosaRadomiak Radom,17
+147,christopher-serge-simon,motor-lublin,Christopher Serge SimonMotor Lublin,17
+151,jesus-antonio-diaz-gomez,rakow-czestochowa,Jesús Antonio Díaz GómezRaków Częstochowa,16
+151,konrad-stepien,puszcza-niepolomice,Konrad StępieńPuszcza Niepołomice,16
+151,abdoul-fessal-tapsoba,radomiak-radom,Abdoul Fessal TapsobaRadomiak Radom,16
+151,grzegorz-tomasiewicz,piast-gliwice,Grzegorz TomasiewiczPiast Gliwice,16
+155,artur-craciun,puszcza-niepolomice,Artur CrăciunPuszcza Niepołomice,15
+155,matthew-guillaumier,stal-mielec,Matthew GuillaumierStal Mielec,15
+155,burak-ince,slask-wroclaw,Burak InceŚląsk Wrocław,15
+155,jarosaw-jach,zagebie-lubin,Jarosław Przemysław JachKGHM Zagłębie Lubin,15
+155,benjamin-kallman,cracovia,Paul Benjamin Sven-Eber KällmanCracovia,15
+155,olaf-korczakowski,pogon-szczecin,Olaf Igor KorczakowskiPogoń Szczecin,15
+161,efthymios-koulouris,pogon-szczecin,Efthymios KoulourisPogoń Szczecin,14
+161,kamil-lukoszek,gornik-zabrze,Kamil LukoszekGórnik Zabrze,14
+161,mateusz-marzec,gks-katowice,Mateusz MarzecGKS Katowice,14
+161,kamil-pestka,radomiak-radom,Kamil PestkaRadomiak Radom,14
+161,dominick-lukasz-zator,korona-kielce,Dominick Lukasz ZatorKorona Kielce,14
+166,daniel-noel-mikael-hakans,lech-poznan,Daniel Noel Mikael HåkansLech Poznań,13
+166,filip-wojciech-jagieo,lech-poznan,Filip Wojciech JagiełłoLech Poznań,13
+166,jakub-ukowski,widzew-lodz,Jakub ŁukowskiWidzew Łódź,13
+166,peter-pokorny,slask-wroclaw,Peter PokornýŚląsk Wrocław,13
+166,milan-rundic-1,rakow-czestochowa,Milan RundićRaków Częstochowa,13
+166,anton-tsarenko,lechia-gdansk,Anton TsarenkoLechia Gdańsk,13
+166,piotr-wlazo,stal-mielec,Piotr WlazłoStal Mielec,13
+166,martin-yankov-minchev,cracovia,Martin Yankov MinchevCracovia,13
+175,tomas-costa-silva,jagiellonia-bialystok,Tomás SilvaJagiellonia Białystok,12
+175,juergen-farid-elitim-sepulveda,legia-warszawa,Juergen Farid Elitim SepúlvedaLegia Warszawa,12
+175,konrad-jan-gruszkowski,gks-katowice,Konrad Jan GruszkowskiGKS Katowice,12
+175,koki-hinokio,stal-mielec,Koki HinokioStal Mielec,12
+175,tomas-huk,piast-gliwice,Tomáš HukPiast Gliwice,12
+175,jakub-lewicki,piast-gliwice,Jakub LewickiPiast Gliwice,12
+175,kornel-lisman,lech-poznan,Kornel LismanLech Poznań,12
+175,antonio-milic,lech-poznan,Antonio MilićLech Poznań,12
+175,mathieu-scalet,motor-lublin,Mathieu ScaletMotor Lublin,12
+175,kacper-sezonienko,lechia-gdansk,Kacper SezonienkoLechia Gdańsk,12
+175,marcel-wedrychowski,pogon-szczecin,Marcel WędrychowskiPogoń Szczecin,12
+186,nils-erik-elias-andersson,lech-poznan,Nils Erik Elias AnderssonLech Poznań,11
+186,peter-barath,rakow-czestochowa,Péter BaráthRaków Częstochowa,11
+186,bruno-andre-cavaco-jordao,radomiak-radom,Bruno JordãoRadomiak Radom,11
+186,szymon-czyz,widzew-lodz,Szymon CzyżWidzew Łódź,11
+186,joao-pedro-da-costa-gamboa,pogon-szczecin,João GamboaPogoń Szczecin,11
+186,vagner-dias,radomiak-radom,VagnerRadomiak Radom,11
+186,lucas-lima-linhares,legia-warszawa,LuquinhasLegia Warszawa,11
+186,michal-siplak,puszcza-niepolomice,Michal SipľakPuszcza Niepołomice,11
+186,ivan-zhelizko,lechia-gdansk,Ivan ZhelizkoLechia Gdańsk,11
+186,mateusz-zyro,widzew-lodz,Mateusz ŻyroWidzew Łódź,11
+196,rafa-sylwester-augustyniak,legia-warszawa,Rafał Sylwester AugustyniakLegia Warszawa,10
+196,adriel-ba-loua,lech-poznan,Adriel D'Avila Ba LouaLech Poznań,10
+196,kaan-caliskaner,motor-lublin,Kaan ÇalışkanerMotor Lublin,10
+196,dawid-drachal,rakow-czestochowa,Dawid DrachalRaków Częstochowa,10
+196,virgil-ghita,cracovia,Virgil Eugen GhițăCracovia,10
+196,david-gonzalez-plata,korona-kielce,NonoKorona Kielce,10
+196,mikael-ishak,lech-poznan,Mikael IshakLech Poznań,10
+196,mateusz-kowalczyk,gks-katowice,Mateusz KowalczykGKS Katowice,10
+196,dominik-marczuk,jagiellonia-bialystok,Dominik MarczukJagiellonia Białystok,10
+196,radosaw-pawe-murawski,lech-poznan,Radosław Paweł MurawskiLech Poznań,10
+196,francisco-ramos,radomiak-radom,Francisco RamosRadomiak Radom,10
+196,ivan-ricardo-neves-abreu-cavaleiro,stal-mielec,Ivan CavaleiroStal Mielec,10
+196,radovan-pankov,legia-warszawa,Radovan PankovLegia Warszawa,10
+196,dawid-tkacz,stal-mielec,Dawid TkaczStal Mielec,10
+210,lukas-ambros,gornik-zabrze,Lukáš AmbrosGórnik Zabrze,9
+210,pyry-hannola,stal-mielec,Pyry Petteri HannolaStal Mielec,9
+210,yoav-hofmeister,korona-kielce,Yoav HofmeisterKorona Kielce,9
+210,jakub-jezierski-1,slask-wroclaw,Jakub JezierskiŚląsk Wrocław,9
+210,patryk-kun,legia-warszawa,Patryk KunLegia Warszawa,9
+210,jakub-lis,pogon-szczecin,Jakub LisPogoń Szczecin,9
+210,marcin-listkowski,zagebie-lubin,Marcin ListkowskiKGHM Zagłębie Lubin,9
+210,luis-silva,widzew-lodz,Luís SilvaWidzew Łódź,9
+210,oskar-pietuszewski,jagiellonia-bialystok,Oskar PietuszewskiJagiellonia Białystok,9
+210,damian-rasak,gornik-zabrze,Damian RasakGórnik Zabrze,9
+210,leandro-rossi-pereira,radomiak-radom,LeândroRadomiak Radom,9
+210,sergi-samper-montana,motor-lublin,Sergi Samper MontañaMotor Lublin,9
+210,mick-van-buren,cracovia,Mick van BurenCracovia,9
+223,hubert-adamczyk,zagebie-lubin,Hubert AdamczykKGHM Zagłębie Lubin,8
+223,amir-fouad-aboud-al-ammari,cracovia,Amir Al AmmariCracovia,8
+223,tudor-baluta,slask-wroclaw,Tudor Cristian BăluțăŚląsk Wrocław,8
+223,jakov-blagaic,puszcza-niepolomice,Jakov BlagaićPuszcza Niepołomice,8
+223,osvaldo-pedro-capemba,radomiak-radom,CapitaRadomiak Radom,8
+223,fabio-nunes,widzew-lodz,Fábio NunesWidzew Łódź,8
+223,leon-maximilian-flach,jagiellonia-bialystok,Leon Maximilian FlachJagiellonia Białystok,8
+223,wojciech-hajda,puszcza-niepolomice,Wojciech HajdaPuszcza Niepołomice,8
+223,patryk-janasik,cracovia,Patryk JanasikCracovia,8
+223,karol-knap,stal-mielec,Karol KnapStal Mielec,8
+223,matias-nahuel-leiva-esquivel,slask-wroclaw,Matías Nahuel Leiva EsquivelŚląsk Wrocław,8
+223,patryk-makuch,rakow-czestochowa,Patryk MakuchRaków Częstochowa,8
+223,herve-jean-matthys,motor-lublin,Hervé Jean MatthysMotor Lublin,8
+223,tomasz-neugebauer,lechia-gdansk,Tomasz NeugebauerLechia Gdańsk,8
+223,igor-orlikowski,zagebie-lubin,Igor OrlikowskiKGHM Zagłębie Lubin,8
+223,juljan-shehu,widzew-lodz,Juljan ShehuWidzew Łódź,8
+223,ousmane-sow,gornik-zabrze,Ousmane SowGórnik Zabrze,8
+223,miosz-strzebonski,korona-kielce,Miłosz StrzebońskiKorona Kielce,8
+223,serafin-jan-szota,slask-wroclaw,Serafin Jan SzotaŚląsk Wrocław,8
+223,hubert-tomalski,puszcza-niepolomice,Hubert TomalskiPuszcza Niepołomice,8
+223,luka-zahovic,gornik-zabrze,Luka ZahovićGórnik Zabrze,8
+245,ukasz-gerstenstein,slask-wroclaw,Łukasz GerstensteinŚląsk Wrocław,7
+245,alexander-gorgon,pogon-szczecin,Alexander GorgonPogoń Szczecin,7
+245,patrik-hellebrand,gornik-zabrze,Patrik HellebrandGórnik Zabrze,7
+245,jakub-konstantyn,korona-kielce,Jakub KonstantynKorona Kielce,7
+245,tihomir-kostadinov,piast-gliwice,Tihomir KostadinovPiast Gliwice,7
+245,patryk-kusztal,zagebie-lubin,Patryk KusztalKGHM Zagłębie Lubin,7
+245,marten-kuusk,gks-katowice,Märten KuuskGKS Katowice,7
+245,lazaros-lamprou,rakow-czestochowa,Lazaros LamprouRaków Częstochowa,7
+245,aleks-awniczak,zagebie-lubin,Aleks ŁawniczakKGHM Zagłębie Lubin,7
+245,oskar-repka,gks-katowice,Oskar RepkaGKS Katowice,7
+245,sebastian-rudol,motor-lublin,Sebastian RudolMotor Lublin,7
+245,bryan-benjamin-solhaug-fiabema,lech-poznan,Bryan Benjamin Solhaug FiabemaLech Poznań,7
+245,ukasz-soowiej,puszcza-niepolomice,Łukasz SołowiejPuszcza Niepołomice,7
+245,dominik-jerzy-szala,gornik-zabrze,Dominik Jerzy SzalaGórnik Zabrze,7
+245,lubomir-tupta,widzew-lodz,Ľubomír TuptaWidzew Łódź,7
+261,sebastian-bergier,gks-katowice,Sebastian BergierGKS Katowice,6
+261,damian-jakubik,radomiak-radom,Damian JakubikRadomiak Radom,6
+261,kacper-ukasiak,pogon-szczecin,Kacper ŁukasiakPogoń Szczecin,6
+261,dominik-sarapata,gornik-zabrze,Dominik SarapataGórnik Zabrze,6
+261,patryk-sokoowski,cracovia,Patryk SokołowskiCracovia,6
+261,ukasz-wolsztynski,stal-mielec,Łukasz WolsztyńskiStal Mielec,6
+261,georgy-zhukov,puszcza-niepolomice,Georgy ZhukovPuszcza Niepołomice,6
+269,allan-migouel-alfarela,legia-warszawa,Allan Migouel AlfarelaLegia Warszawa,5
+269,mateusz-bochnak,cracovia,Mateusz BochnakCracovia,5
+269,christos-donis,radomiak-radom,Christos DonisRadomiak Radom,5
+269,arkadiusz-jedrych,gks-katowice,Arkadiusz JędrychGKS Katowice,5
+269,jakub-kolan,zagebie-lubin,Jakub KolanKGHM Zagłębie Lubin,5
+269,michalis-kosidis,puszcza-niepolomice,Michalis KosidisPuszcza Niepołomice,5
+269,mateusz-mak,gks-katowice,Mateusz MakGKS Katowice,5
+269,jorge-felix-munoz-garcia,piast-gliwice,Jorge Félix Muñoz GarcíaPiast Gliwice,5
+269,bartomiej-radosaw-pawowski,widzew-lodz,Bartłomiej Radosław PawłowskiWidzew Łódź,5
+269,afimico-pululu,jagiellonia-bialystok,Afimico PululuJagiellonia Białystok,5
+269,mateusz-radecki,puszcza-niepolomice,Mateusz RadeckiPuszcza Niepołomice,5
+269,micha-miosz-rakoczy,cracovia,Michał Miłosz RakoczyCracovia,5
+269,marcel-wojciech-regua,zagebie-lubin,Marcel Wojciech RegułaKGHM Zagłębie Lubin,5
+269,bartosz-salamon,lech-poznan,Bartosz SalamonLech Poznań,5
+269,antonio-sefer,motor-lublin,Antonio Valentin SeferMotor Lublin,5
+269,andreas-skovgaard-larsen,cracovia,Andreas Skovgaard LarsenCracovia,5
+269,wojciech-urbanski,legia-warszawa,Wojciech UrbanskiLegia Warszawa,5
+269,benedikt-zech,pogon-szczecin,Benedikt ZechPogoń Szczecin,5
+287,ukasz-bejger,slask-wroclaw,Łukasz BejgerŚląsk Wrocław,4
+287,tomas-bobcek,lechia-gdansk,Tomáš BobčekLechia Gdańsk,4
+287,marcin-cebula,slask-wroclaw,Marcin CebulaŚląsk Wrocław,4
+287,rui-filipe-da-cunha-correia,jagiellonia-bialystok,NenéJagiellonia Białystok,4
+287,paulius-golubickas,radomiak-radom,Paulius GolubickasRadomiak Radom,4
+287,said-hamulic,widzew-lodz,Saïd HamulićWidzew Łódź,4
+287,artur-marcin-jedrzejczyk,legia-warszawa,Artur Marcin JędrzejczykLegia Warszawa,4
+287,steve-nkanu-kapuadi,legia-warszawa,Steve Nkanu KapuadiLegia Warszawa,4
+287,andreas-katsantonis,piast-gliwice,Andreas KatsantonisPiast Gliwice,4
+287,aleks-milenov-petkov,slask-wroclaw,Aleks Milenov PetkovŚląsk Wrocław,4
+287,filipe-nascimento,gornik-zabrze,Filipe NascimentoGórnik Zabrze,4
+287,elias-oskar-olsson,lechia-gdansk,Elias Oskar OlssonLechia Gdańsk,4
+287,fabian-piasecki,piast-gliwice,Fabian PiaseckiPiast Gliwice,4
+287,taras-romanczuk,jagiellonia-bialystok,Taras RomanczukJagiellonia Białystok,4
+287,evgeni-shikavka,korona-kielce,Evgeni ShikavkaKorona Kielce,4
+287,kacper-smolinski,pogon-szczecin,Kacper SmolińskiPogoń Szczecin,4
+287,karl-sydney-wendt,lechia-gdansk,Karl Sydney WendtLechia Gdańsk,4
+287,roman-yakuba,puszcza-niepolomice,Roman YakubaPuszcza Niepołomice,4
+287,adam-zrelak,gks-katowice,Adam ZreľákGKS Katowice,4
+306,german-barkovskiy,puszcza-niepolomice,German BarkovskiyPuszcza Niepołomice,3
+306,mateusz-bartolewski,slask-wroclaw,Mateusz BartolewskiŚląsk Wrocław,3
+306,jean-david-beauguel,stal-mielec,Jean-David BeauguelStal Mielec,3
+306,karl-gustav-vilhelm-berggren,rakow-czestochowa,Karl Gustav Vilhelm BerggrenRaków Częstochowa,3
+306,marco-burch,legia-warszawa,Marco BurchLegia Warszawa,3
+306,jakub-czerwinski,piast-gliwice,Jakub CzerwińskiPiast Gliwice,3
+306,adrian-dieguez-grande,jagiellonia-bialystok,Adrián Diéguez GrandeJagiellonia Białystok,3
+306,bert-esselink,stal-mielec,Bert Johan EsselinkStal Mielec,3
+306,juan-fernandez-blanco,widzew-lodz,Juan IbizaWidzew Łódź,3
+306,thierry-gale,piast-gliwice,Thierry Mikael GalePiast Gliwice,3
+306,marek-hanousek,widzew-lodz,Marek HanousekWidzew Łódź,3
+306,aleksander-komor,gks-katowice,Aleksander KomorGKS Katowice,3
+306,peter-kovacik,jagiellonia-bialystok,Peter KováčikJagiellonia Białystok,3
+306,pawe-kwiatkowski,widzew-lodz,Paweł KwiatkowskiWidzew Łódź,3
+306,oskar-lesniak,piast-gliwice,Oskar LeśniakPiast Gliwice,3
+306,mateusz-matras,stal-mielec,Mateusz MatrasStal Mielec,3
+306,sebastian-milewski,gks-katowice,Sebastian MilewskiGKS Katowice,3
+306,wojciech-monka,lech-poznan,Wojciech MońkaLech Poznań,3
+306,shuma-nagamatsu,korona-kielce,Shuma NagamatsuKorona Kielce,3
+306,aurelien-thomas-nguiamba,jagiellonia-bialystok,Aurélien Thomas NguiambaJagiellonia Białystok,3
+306,mauro-perkovic,cracovia,Mauro PerkovićCracovia,3
+306,filip-rejczyk,slask-wroclaw,Filip RejczykŚląsk Wrocław,3
+306,imad-rondic,widzew-lodz,Imad RondićWidzew Łódź,3
+306,artur-siemaszko,puszcza-niepolomice,Artur SiemaszkoPuszcza Niepołomice,3
+306,konstantinos-sotiriou,korona-kielce,Konstantinos SotiriouKorona Kielce,3
+306,dusan-stojinovic,jagiellonia-bialystok,Dušan StojinovićJagiellonia Białystok,3
+306,kryspin-szczesniak,gornik-zabrze,Kryspin SzcześniakGórnik Zabrze,3
+306,marcus-godinho,korona-kielce,Marcus Valdez Pereira GodinhoKorona Kielce,3
+306,gisli-gottskalk-orarson,lech-poznan,Gísli Gottskálk ÞórðarsonLech Poznań,3
+336,saad-agouzoul,radomiak-radom,Saad AgouzoulRadomiak Radom,2
+336,jonatan-braut-brunes,rakow-czestochowa,Jonatan Braut BrunesRaków Częstochowa,2
+336,alan-brod,gks-katowice,Alan BródGKS Katowice,2
+336,konrad-ciszek,korona-kielce,Konrad CiszekKorona Kielce,2
+336,renat-dadasov,radomiak-radom,Renat DadaşovRadomiak Radom,2
+336,mohamed-lamine-diaby-fadiga,jagiellonia-bialystok,Mohamed Lamine Diaby-FadigaJagiellonia Białystok,2
+336,mateusz-dziewiatowski,zagebie-lubin,Mateusz DziewiatowskiKGHM Zagłębie Lubin,2
+336,bright-ede,motor-lublin,Bright EdeMotor Lublin,2
+336,joaquim-claude-goncalves-araujo,legia-warszawa,Claude GonçalvesLegia Warszawa,2
+336,jesper-karlstrom,lech-poznan,Jesper Kewe KarlströmLech Poznań,2
+336,lukas-rafael-klemenz,gks-katowice,Lukas Rafael KlemenzGKS Katowice,2
+336,bartosz-kopacz,zagebie-lubin,Bartosz KopaczKGHM Zagłębie Lubin,2
+336,krzysztof-kubica,motor-lublin,Krzysztof KubicaMotor Lublin,2
+336,dawid-kurminowski,zagebie-lubin,Dawid KurminowskiKGHM Zagłębie Lubin,2
+336,leonardo-miramar-rocha,radomiak-radom,Leonardo RochaRadomiak Radom,2
+336,tomasz-mokwa,piast-gliwice,Tomasz MokwaPiast Gliwice,2
+336,samuel-mraz,motor-lublin,Samuel MrázMotor Lublin,2
+336,sebastian-musiolik,slask-wroclaw,Sebastian Karol MusiolikŚląsk Wrocław,2
+336,micha-jan-nalepa,zagebie-lubin,Michał Jan NalepaKGHM Zagłębie Lubin,2
+336,luiz-gustavo-novaes-palhares,radomiak-radom,LuizãoRadomiak Radom,2
+336,patryk-paryzek,pogon-szczecin,Patryk ParyzekPogoń Szczecin,2
+336,maksymilian-pingot,lech-poznan,Maksymilian PingotLech Poznań,2
+336,bogdan-racovitan,rakow-czestochowa,Bogdan RacovițanRaków Częstochowa,2
+336,alan-rybak,jagiellonia-bialystok,Alan RybakJagiellonia Białystok,2
+336,ilya-shkurin,legia-warszawa,Ilya ShkurinLegia Warszawa,2
+336,kacper-smiglewski,cracovia,Kacper ŚmiglewskiCracovia,2
+336,hubert-sobol,widzew-lodz,Hubert SobolWidzew Łódź,2
+336,nikodem-stachowicz,widzew-lodz,Nikodem StachowiczWidzew Łódź,2
+336,jakub-swierczok,slask-wroclaw,Jakub ŚwierczokŚląsk Wrocław,2
+336,mateusz-szczepaniak,legia-warszawa,Mateusz SzczepaniakLegia Warszawa,2
+336,dawid-szymonowicz,puszcza-niepolomice,Dawid SzymonowiczPuszcza Niepołomice,2
+336,polydefkis-volanakis,widzew-lodz,Polydefkis VolanakisWidzew Łódź,2
+336,arkadiusz-wozniak,zagebie-lubin,Arkadiusz WoźniakKGHM Zagłębie Lubin,2
+336,nikodem-zielonka,gornik-zabrze,Nikodem ZielonkaGórnik Zabrze,2
+336,jan-ziokowski,legia-warszawa,Jan ZiółkowskiLegia Warszawa,2
+372,jakub-arak,gks-katowice,Jakub ArakGKS Katowice,1
+372,zoran-arsenic,rakow-czestochowa,Zoran ArsenićRaków Częstochowa,1
+372,marek-kristian-bartos,motor-lublin,Marek Kristián BartošMotor Lublin,1
+372,aleksander-buksa,gornik-zabrze,Aleksander BuksaGórnik Zabrze,1
+372,fabian-bzdyl,cracovia,Fabian BzdylCracovia,1
+372,jurgen-celhaka,legia-warszawa,Jurgen ÇelhakaLegia Warszawa,1
+372,adam-chojecki,korona-kielce,Adam ChojeckiKorona Kielce,1
+372,ante-crnac,rakow-czestochowa,Ante CrnacRaków Częstochowa,1
+372,guilherme-da-gama-zimovski,radomiak-radom,GuilhermeRadomiak Radom,1
+372,noah-diliberto-1,widzew-lodz,Noah DilibertoWidzew Łódź,1
+372,alex-raymond-douglas,lech-poznan,Alex Raymond DouglasLech Poznań,1
+372,enzo-ebosse,jagiellonia-bialystok,Enzo Jacques Rodolphe EbosseJagiellonia Białystok,1
+372,nils-ludvig-fritzson,zagebie-lubin,Nils Ludvig FritzsonKGHM Zagłębie Lubin,1
+372,loup-diwan-gueho,lechia-gdansk,Loup-Diwan GuéhoLechia Gdańsk,1
+372,gustav-niklas-henriksson,cracovia,Gustav Niklas HenrikssonCracovia,1
+372,arttu-hoskonen,cracovia,Arttu HoskonenCracovia,1
+372,rafa-janicki,gornik-zabrze,Rafał JanickiGórnik Zabrze,1
+372,steve-kingue,radomiak-radom,Steve KingueRadomiak Radom,1
+372,antoni-klukowski,pogon-szczecin,Antoni KlukowskiPogoń Szczecin,1
+372,mateusz-kopczynski,piast-gliwice,Mateusz KopczyńskiPiast Gliwice,1
+372,blaz-kramer,legia-warszawa,Blaž KramerLegia Warszawa,1
+372,dawid-kuda,gks-katowice,Dawid KudłaGKS Katowice,1
+372,jakub-jan-abojko,motor-lublin,Jakub Jan ŁabojkoMotor Lublin,1
+372,sondre-liseth,gornik-zabrze,Sondre LisethGórnik Zabrze,1
+372,mariusz-malec,pogon-szczecin,Mariusz MalecPogoń Szczecin,1
+372,damian-michalski,zagebie-lubin,Damian MichalskiKGHM Zagłębie Lubin,1
+372,daniel-mikoajewski-1,zagebie-lubin,Daniel MikołajewskiKGHM Zagłębie Lubin,1
+372,ariel-pawe-mosor,piast-gliwice,Ariel Paweł MosórPiast Gliwice,1
+372,miguel-nobrega,piast-gliwice,Miguel NóbregaPiast Gliwice,1
+372,kamil-nowogonski,zagebie-lubin,Kamil NowogońskiKGHM Zagłębie Lubin,1
+372,oliwier-olewinski,legia-warszawa,Oliwier OlewińskiLegia Warszawa,1
+372,luiz-gustavo-oliveira-da-silva,pogon-szczecin,LuizãoPogoń Szczecin,1
+372,bujar-pllana,lechia-gdansk,Bujar PllanaLechia Gdańsk,1
+372,filip-prebsl,gornik-zabrze,Filip PrebslGórnik Zabrze,1
+372,matej-rodin,rakow-czestochowa,Matej RodinRaków Częstochowa,1
+372,vaclav-sejk,zagebie-lubin,Václav SejkKGHM Zagłębie Lubin,1
+372,yehor-sharabura,slask-wroclaw,Yehor SharaburaŚląsk Wrocław,1
+372,mateusz-skrzypczak,jagiellonia-bialystok,Mateusz SkrzypczakJagiellonia Białystok,1
+372,igor-strzaek,legia-warszawa,Igor StrzałekLegia Warszawa,1
+372,micha-walski,puszcza-niepolomice,Michał WalskiPuszcza Niepołomice,1
+372,aleksander-woczek,slask-wroclaw,Aleksander WołczekŚląsk Wrocław,1

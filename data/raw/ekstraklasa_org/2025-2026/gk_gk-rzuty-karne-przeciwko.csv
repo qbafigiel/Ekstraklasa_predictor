@@ -1,0 +1,27 @@
+﻿pozycja,player_slug,klub_slug,nazwa,wartosc
+1,sawomir-abramowicz,jagiellonia-bialystok,Sławomir AbramowiczJagiellonia Białystok,7
+2,ivan-brkic,motor-lublin,Ivan BrkićMotor Lublin,6
+2,xavier-dziekonski,korona-kielce,Xavier DziekońskiKorona Kielce,6
+2,marcel-ubik,gornik-zabrze,Marcel ŁubikGórnik Zabrze,6
+2,filip-majchrowicz,radomiak-radom,Filip MajchrowiczRadomiak Radom,6
+6,sebastian-madejski,cracovia,Sebastian MadejskiCracovia,5
+6,bartosz-mrozek,lech-poznan,Bartosz MrozekLech Poznań,5
+6,alexander-noah-paulsen,lechia-gdansk,Alexander Noah PaulsenLechia Gdańsk,5
+6,kacper-tobiasz,legia-warszawa,Kacper TobiaszLegia Warszawa,5
+10,damian-weglarz,arka-gdynia,Damian WęglarzArka Gdynia,4
+10,oliwier-zych,rakow-czestochowa,Oliwier ZychRaków Częstochowa,4
+12,jasmin-buric,zagebie-lubin,Jasmin BurićKGHM Zagłębie Lubin,3
+12,adrian-chovan,nieciecza,Adrián ChovanNieciecza,3
+12,rafa-leszczynski,wisla-plock,Rafał LeszczyńskiWisła Płock,3
+12,frantisek-plach,piast-gliwice,František PlachPiast Gliwice,3
+16,valentin-alexandru-cojocaru,pogon-szczecin,Valentin Alexandru CojocaruPogoń Szczecin,2
+16,henrich-ravas,cracovia,Henrich RavasCracovia,2
+16,rafa-straczek,gks-katowice,Rafał StrączekGKS Katowice,2
+16,karol-szymanski,piast-gliwice,Karol SzymańskiPiast Gliwice,2
+16,kacper-trelowski,rakow-czestochowa,Kacper TrelowskiRaków Częstochowa,2
+16,szymon-weirauch,lechia-gdansk,Szymon WeirauchLechia Gdańsk,2
+22,bartomiej-dragowski,widzew-lodz,Bartłomiej DrągowskiWidzew Łódź,1
+22,jedrzej-grobelny,arka-gdynia,Jędrzej GrobelnyArka Gdynia,1
+22,dominik-hadun,zagebie-lubin,Dominik HładunKGHM Zagłębie Lubin,1
+22,dawid-kuda,gks-katowice,Dawid KudłaGKS Katowice,1
+22,miosz-stefan-mleczko,nieciecza,Miłosz Stefan MleczkoNieciecza,1

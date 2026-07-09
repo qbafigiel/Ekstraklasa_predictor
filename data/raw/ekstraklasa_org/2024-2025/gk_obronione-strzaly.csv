@@ -1,0 +1,34 @@
+﻿pozycja,player_slug,klub_slug,nazwa,wartosc
+1,kewin-komar,puszcza-niepolomice,Kewin KomarPuszcza Niepołomice,113
+1,dawid-kuda,gks-katowice,Dawid KudłaGKS Katowice,113
+1,rafa-leszczynski,slask-wroclaw,Rafał LeszczyńskiŚląsk Wrocław,113
+4,bartosz-mrozek,lech-poznan,Bartosz MrozekLech Poznań,111
+5,valentin-alexandru-cojocaru,pogon-szczecin,Valentin Alexandru CojocaruPogoń Szczecin,103
+6,sawomir-abramowicz,jagiellonia-bialystok,Sławomir AbramowiczJagiellonia Białystok,98
+6,dominik-hadun,zagebie-lubin,Dominik HładunKGHM Zagłębie Lubin,98
+8,jakub-madrzyk,stal-mielec,Jakub MądrzykStal Mielec,96
+9,rafa-tadeusz-gikiewicz,widzew-lodz,Rafał Tadeusz GikiewiczWidzew Łódź,94
+10,maciej-kikolski,radomiak-radom,Maciej KikolskiRadomiak Radom,88
+11,frantisek-plach,piast-gliwice,František PlachPiast Gliwice,85
+12,kacper-trelowski,rakow-czestochowa,Kacper TrelowskiRaków Częstochowa,84
+13,kacper-rosa,motor-lublin,Kacper RosaMotor Lublin,72
+14,henrich-ravas,cracovia,Henrich RavasCracovia,69
+15,szymon-weirauch,lechia-gdansk,Szymon WeirauchLechia Gdańsk,60
+16,kacper-tobiasz,legia-warszawa,Kacper TobiaszLegia Warszawa,55
+17,xavier-dziekonski,korona-kielce,Xavier DziekońskiKorona Kielce,51
+18,micha-szromnik,gornik-zabrze,Michał SzromnikGórnik Zabrze,50
+19,rafa-mamla,korona-kielce,Rafał MamlaKorona Kielce,42
+20,bohdan-sarnavskyi,lechia-gdansk,Bohdan SarnavskyiLechia Gdańsk,40
+21,filip-majchrowicz,gornik-zabrze,Filip MajchrowiczGórnik Zabrze,30
+22,sebastian-madejski,cracovia,Sebastian MadejskiCracovia,29
+23,ivan-brkic,motor-lublin,Ivan BrkićMotor Lublin,28
+24,gasper-tratnik,motor-lublin,Gašper TratnikMotor Lublin,24
+25,gabriel-kobylak,legia-warszawa,Gabriel KobylakLegia Warszawa,23
+26,micha-perchel,puszcza-niepolomice,Michał PerchelPuszcza Niepołomice,17
+27,jasmin-buric,zagebie-lubin,Jasmin BurićKGHM Zagłębie Lubin,10
+27,mateusz-kochalski,stal-mielec,Mateusz KochalskiStal Mielec,10
+29,vladan-kovacevic,legia-warszawa,Vladan KovačevićLegia Warszawa,9
+30,konrad-jaocha,stal-mielec,Konrad JałochaStal Mielec,6
+30,maksymilian-stryjek,jagiellonia-bialystok,Maksymilian StryjekJagiellonia Białystok,6
+32,wiktor-koptas,radomiak-radom,Wiktor KoptasRadomiak Radom,5
+33,tomasz-loska,slask-wroclaw,Tomasz LoskaŚląsk Wrocław,1

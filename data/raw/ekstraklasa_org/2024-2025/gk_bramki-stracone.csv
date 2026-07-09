@@ -1,0 +1,34 @@
+﻿pozycja,player_slug,klub_slug,nazwa,wartosc
+1,konrad-jaocha,stal-mielec,Konrad JałochaStal Mielec,2
+1,tomasz-loska,slask-wroclaw,Tomasz LoskaŚląsk Wrocław,2
+3,mateusz-kochalski,stal-mielec,Mateusz KochalskiStal Mielec,5
+4,jasmin-buric,zagebie-lubin,Jasmin BurićKGHM Zagłębie Lubin,6
+4,maksymilian-stryjek,jagiellonia-bialystok,Maksymilian StryjekJagiellonia Białystok,6
+6,wiktor-koptas,radomiak-radom,Wiktor KoptasRadomiak Radom,8
+7,vladan-kovacevic,legia-warszawa,Vladan KovačevićLegia Warszawa,9
+8,gabriel-kobylak,legia-warszawa,Gabriel KobylakLegia Warszawa,11
+9,ivan-brkic,motor-lublin,Ivan BrkićMotor Lublin,12
+9,filip-majchrowicz,gornik-zabrze,Filip MajchrowiczGórnik Zabrze,12
+9,micha-perchel,puszcza-niepolomice,Michał PerchelPuszcza Niepołomice,12
+12,gasper-tratnik,motor-lublin,Gašper TratnikMotor Lublin,13
+13,sebastian-madejski,cracovia,Sebastian MadejskiCracovia,17
+14,rafa-mamla,korona-kielce,Rafał MamlaKorona Kielce,19
+15,kacper-trelowski,rakow-czestochowa,Kacper TrelowskiRaków Częstochowa,23
+16,bohdan-sarnavskyi,lechia-gdansk,Bohdan SarnavskyiLechia Gdańsk,24
+17,kacper-tobiasz,legia-warszawa,Kacper TobiaszLegia Warszawa,25
+18,xavier-dziekonski,korona-kielce,Xavier DziekońskiKorona Kielce,26
+19,micha-szromnik,gornik-zabrze,Michał SzromnikGórnik Zabrze,27
+20,bartosz-mrozek,lech-poznan,Bartosz MrozekLech Poznań,31
+21,kacper-rosa,motor-lublin,Kacper RosaMotor Lublin,34
+22,szymon-weirauch,lechia-gdansk,Szymon WeirauchLechia Gdańsk,35
+23,sawomir-abramowicz,jagiellonia-bialystok,Sławomir AbramowiczJagiellonia Białystok,36
+23,frantisek-plach,piast-gliwice,František PlachPiast Gliwice,36
+23,henrich-ravas,cracovia,Henrich RavasCracovia,36
+26,valentin-alexandru-cojocaru,pogon-szczecin,Valentin Alexandru CojocaruPogoń Szczecin,40
+27,maciej-kikolski,radomiak-radom,Maciej KikolskiRadomiak Radom,44
+28,dominik-hadun,zagebie-lubin,Dominik HładunKGHM Zagłębie Lubin,45
+29,dawid-kuda,gks-katowice,Dawid KudłaGKS Katowice,47
+30,rafa-tadeusz-gikiewicz,widzew-lodz,Rafał Tadeusz GikiewiczWidzew Łódź,49
+30,jakub-madrzyk,stal-mielec,Jakub MądrzykStal Mielec,49
+32,kewin-komar,puszcza-niepolomice,Kewin KomarPuszcza Niepołomice,51
+32,rafa-leszczynski,slask-wroclaw,Rafał LeszczyńskiŚląsk Wrocław,51

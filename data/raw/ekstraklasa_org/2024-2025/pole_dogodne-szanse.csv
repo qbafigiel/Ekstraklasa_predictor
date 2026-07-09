@@ -1,0 +1,131 @@
+﻿pozycja,player_slug,klub_slug,nazwa,wartosc
+1,efthymios-koulouris,pogon-szczecin,Efthymios KoulourisPogoń Szczecin,37
+2,mikael-ishak,lech-poznan,Mikael IshakLech Poznań,35
+3,jesus-imaz-balleste,jagiellonia-bialystok,Jesús Imaz BallestéJagiellonia Białystok,26
+4,sebastian-bergier,gks-katowice,Sebastian BergierGKS Katowice,18
+5,afimico-pululu,jagiellonia-bialystok,Afimico PululuJagiellonia Białystok,17
+6,luka-zahovic,gornik-zabrze,Luka ZahovićGórnik Zabrze,16
+7,taofeek-ajibade-ismaheel,gornik-zabrze,Taofeek Ajibade IsmaheelGórnik Zabrze,13
+7,tomas-bobcek,lechia-gdansk,Tomáš BobčekLechia Gdańsk,13
+7,camilo-andres-mena-marquez,lechia-gdansk,Camilo Andrés Mena MárquezLechia Gdańsk,13
+10,kamil-pawe-grosicki,pogon-szczecin,Kamil Paweł GrosickiPogoń Szczecin,12
+11,michalis-kosidis,puszcza-niepolomice,Michalis KosidisPuszcza Niepołomice,11
+11,jorge-felix-munoz-garcia,piast-gliwice,Jorge Félix Muñoz GarcíaPiast Gliwice,11
+13,darko-churlinov,jagiellonia-bialystok,Darko ChurlinovJagiellonia Białystok,10
+13,afonso-gamelas-de-pinho-sousa,lech-poznan,Afonso SousaLech Poznań,10
+13,bohdan-viunnyk,lechia-gdansk,Bohdan ViunnykLechia Gdańsk,10
+16,fredrik-stense-ulvestad,pogon-szczecin,Fredrik Stensøe UlvestadPogoń Szczecin,9
+17,jakub-czerwinski,piast-gliwice,Jakub CzerwińskiPiast Gliwice,8
+17,mohamed-lamine-diaby-fadiga,jagiellonia-bialystok,Mohamed Lamine Diaby-FadigaJagiellonia Białystok,8
+17,oskar-repka,gks-katowice,Oskar RepkaGKS Katowice,8
+17,kacper-sezonienko,lechia-gdansk,Kacper SezonienkoLechia Gdańsk,8
+17,adam-zrelak,gks-katowice,Adam ZreľákGKS Katowice,8
+22,dawid-abramowicz,puszcza-niepolomice,Dawid AbramowiczPuszcza Niepołomice,7
+23,tomas-huk,piast-gliwice,Tomáš HukPiast Gliwice,6
+23,jarosaw-kubicki,jagiellonia-bialystok,Jarosław KubickiJagiellonia Białystok,6
+23,kacper-ukasiak,pogon-szczecin,Kacper ŁukasiakPogoń Szczecin,6
+23,kristoffer-hansen,jagiellonia-bialystok,Kristoffer Normann HansenJagiellonia Białystok,6
+23,maciej-rosoek,legia-warszawa,Maciej RosołekLegia Warszawa,6
+23,ousmane-sow,gornik-zabrze,Ousmane SowGórnik Zabrze,6
+23,jens-patrik-walemark,lech-poznan,Jens Patrik WålemarkLech Poznań,6
+30,artur-craciun,puszcza-niepolomice,Artur CrăciunPuszcza Niepołomice,5
+30,kamil-lukoszek,gornik-zabrze,Kamil LukoszekGórnik Zabrze,5
+32,lukas-ambros,gornik-zabrze,Lukáš AmbrosGórnik Zabrze,4
+32,michael-ameyaw,piast-gliwice,Michael AmeyawPiast Gliwice,4
+32,aleksander-buksa,gornik-zabrze,Aleksander BuksaGórnik Zabrze,4
+32,mateusz-cholewiak,puszcza-niepolomice,Mateusz CholewiakPuszcza Niepołomice,4
+32,ali-gholizadeh-nojedeh,lech-poznan,Ali Gholizadeh NojedehLech Poznań,4
+32,daniel-noel-mikael-hakans,lech-poznan,Daniel Noel Mikael HåkansLech Poznań,4
+32,filip-wojciech-jagieo,lech-poznan,Filip Wojciech JagiełłoLech Poznań,4
+32,arkadiusz-jedrych,gks-katowice,Arkadiusz JędrychGKS Katowice,4
+32,ukasz-jozef-podolski,gornik-zabrze,Łukasz Józef PodolskiGórnik Zabrze,4
+32,adrian-przyborek,pogon-szczecin,Adrian PrzyborekPogoń Szczecin,4
+32,konrad-stepien,puszcza-niepolomice,Konrad StępieńPuszcza Niepołomice,4
+32,dawid-szymonowicz,puszcza-niepolomice,Dawid SzymonowiczPuszcza Niepołomice,4
+32,rolf-linus-wahlqvist-egnell,pogon-szczecin,Rolf Linus Wahlqvist EgnellPogoń Szczecin,4
+32,marcin-wasielewski,gks-katowice,Marcin WasielewskiGKS Katowice,4
+46,vahan-bichakhchyan,legia-warszawa,Vahan BichakhchyanLegia Warszawa,3
+46,jakov-blagaic,puszcza-niepolomice,Jakov BlagaićPuszcza Niepołomice,3
+46,micha-ukasz-chrapek,piast-gliwice,Michał Łukasz ChrapekPiast Gliwice,3
+46,dawid-drachal,rakow-czestochowa,Dawid DrachalRaków Częstochowa,3
+46,patryk-dziczek,piast-gliwice,Patryk DziczekPiast Gliwice,3
+46,maksym-khlan,lechia-gdansk,Maksym KhlanLechia Gdańsk,3
+46,lukas-rafael-klemenz,gks-katowice,Lukas Rafael KlemenzGKS Katowice,3
+46,antoni-kozubal,lech-poznan,Antoni KozubalLech Poznań,3
+46,serhij-krykun,piast-gliwice,Serhii Krykun WiktorowyczPiast Gliwice,3
+46,mateusz-mak,gks-katowice,Mateusz MakGKS Katowice,3
+46,sebastian-milewski,gks-katowice,Sebastian MilewskiGKS Katowice,3
+46,antonio-milic,lech-poznan,Antonio MilićLech Poznań,3
+46,piotr-mrozinski,puszcza-niepolomice,Piotr MrozińskiPuszcza Niepołomice,3
+46,bartosz-nowak,rakow-czestochowa,Bartosz NowakRaków Częstochowa,3
+46,mateusz-radecki,puszcza-niepolomice,Mateusz RadeckiPuszcza Niepołomice,3
+46,grzegorz-rogala,gks-katowice,Grzegorz RogalaGKS Katowice,3
+46,bryan-benjamin-solhaug-fiabema,lech-poznan,Bryan Benjamin Solhaug FiabemaLech Poznań,3
+46,miguel-villar-alonso,jagiellonia-bialystok,Miguel Villar AlonsoJagiellonia Białystok,3
+46,norbert-wojtuszek,jagiellonia-bialystok,Norbert WojtuszekJagiellonia Białystok,3
+65,german-barkovskiy,puszcza-niepolomice,German BarkovskiyPuszcza Niepołomice,2
+65,adrian-bad,gks-katowice,Adrian BłądGKS Katowice,2
+65,leonardo-borges-da-silva,pogon-szczecin,Léo BorgesPogoń Szczecin,2
+65,rui-filipe-da-cunha-correia,jagiellonia-bialystok,NenéJagiellonia Białystok,2
+65,yosuke-furukawa,gornik-zabrze,Yosuke FurukawaGórnik Zabrze,2
+65,borja-galan-gonzalez,gks-katowice,Borja Galán GonzálezGKS Katowice,2
+65,mario-gonzalez,lech-poznan,Mario GonzálezLech Poznań,2
+65,rafa-janicki,gornik-zabrze,Rafał JanickiGórnik Zabrze,2
+65,erik-jirka,piast-gliwice,Erik JirkaPiast Gliwice,2
+65,damian-kadzior,piast-gliwice,Damian KądziorPiast Gliwice,2
+65,antoni-klimek,puszcza-niepolomice,Antoni KlimekPuszcza Niepołomice,2
+65,tihomir-kostadinov,piast-gliwice,Tihomir KostadinovPiast Gliwice,2
+65,mateusz-kowalczyk,gks-katowice,Mateusz KowalczykGKS Katowice,2
+65,marten-kuusk,gks-katowice,Märten KuuskGKS Katowice,2
+65,jin-hyun-lee,puszcza-niepolomice,Lee Jin-HyunPuszcza Niepołomice,2
+65,danijel-loncar,pogon-szczecin,Danijel LončarPogoń Szczecin,2
+65,miguel-munoz,piast-gliwice,Miguel Muñoz FernándezPiast Gliwice,2
+65,pawe-mirosaw-olkowski,gornik-zabrze,Paweł Mirosław OlkowskiGórnik Zabrze,2
+65,elias-oskar-olsson,lechia-gdansk,Elias Oskar OlssonLechia Gdańsk,2
+65,patryk-paryzek,pogon-szczecin,Patryk ParyzekPogoń Szczecin,2
+65,fabian-piasecki,piast-gliwice,Fabian PiaseckiPiast Gliwice,2
+65,bujar-pllana,lechia-gdansk,Bujar PllanaLechia Gdańsk,2
+65,dominik-sarapata,gornik-zabrze,Dominik SarapataGórnik Zabrze,2
+65,mateusz-skrzypczak,jagiellonia-bialystok,Mateusz SkrzypczakJagiellonia Białystok,2
+65,ukasz-soowiej,puszcza-niepolomice,Łukasz SołowiejPuszcza Niepołomice,2
+65,miosz-szczepanski,piast-gliwice,Miłosz SzczepańskiPiast Gliwice,2
+65,kryspin-szczesniak,gornik-zabrze,Kryspin SzcześniakGórnik Zabrze,2
+65,joel-vieira-pereira,lech-poznan,Joel PereiraLech Poznań,2
+65,roman-yakuba,puszcza-niepolomice,Roman YakubaPuszcza Niepołomice,2
+65,ivan-zhelizko,lechia-gdansk,Ivan ZhelizkoLechia Gdańsk,2
+96,sinan-baks,gornik-zabrze,Sinan BakışGórnik Zabrze,1
+96,rasmus-carstensen,lech-poznan,Rasmus Bjerregaard CarstensenLech Poznań,1
+96,joao-pedro-da-costa-gamboa,pogon-szczecin,João GamboaPogoń Szczecin,1
+96,adrian-dieguez-grande,jagiellonia-bialystok,Adrián Diéguez GrandeJagiellonia Białystok,1
+96,igor-drapinski,piast-gliwice,Igor DrapińskiPiast Gliwice,1
+96,thierry-gale,piast-gliwice,Thierry Mikael GalePiast Gliwice,1
+96,micha-gogowski,lechia-gdansk,Michał GłogowskiLechia Gdańsk,1
+96,alexander-gorgon,pogon-szczecin,Alexander GorgonPogoń Szczecin,1
+96,loup-diwan-gueho,lechia-gdansk,Loup-Diwan GuéhoLechia Gdańsk,1
+96,patrik-hellebrand,gornik-zabrze,Patrik HellebrandGórnik Zabrze,1
+96,rifet-kapic,lechia-gdansk,Rifet KapičLechia Gdańsk,1
+96,andreas-katsantonis,piast-gliwice,Andreas KatsantonisPiast Gliwice,1
+96,patryk-kielis-1,puszcza-niepolomice,Patryk KieliśPuszcza Niepołomice,1
+96,antoni-klukowski,pogon-szczecin,Antoni KlukowskiPogoń Szczecin,1
+96,olaf-korczakowski,pogon-szczecin,Olaf Igor KorczakowskiPogoń Szczecin,1
+96,leonardo-pablo-koutris,pogon-szczecin,Leonárdo Páblo KoútrisPogoń Szczecin,1
+96,soichiro-kozuki,gornik-zabrze,Soichiro KozukiGórnik Zabrze,1
+96,rafa-maciej-kurzawa,pogon-szczecin,Rafał Maciej KurzawaPogoń Szczecin,1
+96,jakub-lewicki,piast-gliwice,Jakub LewickiPiast Gliwice,1
+96,kornel-lisman,lech-poznan,Kornel LismanLech Poznań,1
+96,mateusz-marzec,gks-katowice,Mateusz MarzecGKS Katowice,1
+96,tomasz-mokwa,piast-gliwice,Tomasz MokwaPiast Gliwice,1
+96,ariel-pawe-mosor,piast-gliwice,Ariel Paweł MosórPiast Gliwice,1
+96,tomasz-neugebauer,lechia-gdansk,Tomasz NeugebauerLechia Gdańsk,1
+96,luiz-gustavo-oliveira-da-silva,pogon-szczecin,LuizãoPogoń Szczecin,1
+96,dominik-pia,lechia-gdansk,Dominik PiłaLechia Gdańsk,1
+96,arkadiusz-pyrka,piast-gliwice,Arkadiusz PyrkaPiast Gliwice,1
+96,damian-rasak,gornik-zabrze,Damian RasakGórnik Zabrze,1
+96,taras-romanczuk,jagiellonia-bialystok,Taras RomanczukJagiellonia Białystok,1
+96,manuel-sanchez,gornik-zabrze,Manuel Sánchez GarcíaGórnik Zabrze,1
+96,jose-manuel-sanchez-guillen,gornik-zabrze,JosemaGórnik Zabrze,1
+96,jakub-stec,puszcza-niepolomice,Jakub StecPuszcza Niepołomice,1
+96,anton-tsarenko,lechia-gdansk,Anton TsarenkoLechia Gdańsk,1
+96,kristoffer-velde,lech-poznan,Kristoffer VeldeLech Poznań,1
+96,tomasz-wojtowicz,lechia-gdansk,Tomasz WójtowiczLechia Gdańsk,1
+96,akim-zedadka,piast-gliwice,Akim ZedadkaPiast Gliwice,1

@@ -1,0 +1,45 @@
+﻿pozycja,player_slug,klub_slug,nazwa,wartosc
+1,zlatan-alomerovic,jagiellonia-bialystok,Zlatan AlomerovićJagiellonia Białystok,3060
+1,daniel-bielica,gornik-zabrze,Daniel BielicaGórnik Zabrze,3060
+3,mateusz-kochalski,stal-mielec,Mateusz KochalskiStal Mielec,2970
+3,rafa-leszczynski,slask-wroclaw,Rafał LeszczyńskiŚląsk Wrocław,2970
+5,bartosz-mrozek,lech-poznan,Bartosz MrozekLech Poznań,2790
+6,xavier-dziekonski,korona-kielce,Xavier DziekońskiKorona Kielce,2610
+6,vladan-kovacevic,rakow-czestochowa,Vladan KovačevićRaków Częstochowa,2610
+8,frantisek-plach,piast-gliwice,František PlachPiast Gliwice,2505
+9,aleksander-bobek,lks-lodz,Aleksander BobekŁKS Łódź,2430
+9,valentin-alexandru-cojocaru,pogon-szczecin,Valentin Alexandru CojocaruPogoń Szczecin,2430
+9,sebastian-madejski,cracovia,Sebastian MadejskiCracovia,2430
+12,oliwier-zych,puszcza-niepolomice,Oliwier ZychPuszcza Niepołomice,2340
+13,jedrzej-grobelny,warta-poznan,Jędrzej GrobelnyWarta Poznań,2211
+14,kacper-tobiasz,legia-warszawa,Kacper TobiaszLegia Warszawa,2070
+15,sokratis-dioudis,zagebie-lubin,Sokratis DioudisKGHM Zagłębie Lubin,1889
+16,henrich-ravas,widzew-lodz,Henrich RavasWidzew Łódź,1620
+17,dante-stipica,ruch-chorzow,Dante StipicaRuch Chorzów,1440
+18,albert-posiadaa,radomiak-radom,Albert PosiadałaRadomiak Radom,1350
+19,rafa-tadeusz-gikiewicz,widzew-lodz,Rafał Tadeusz GikiewiczWidzew Łódź,1260
+20,dominik-hadun,legia-warszawa,Dominik HładunLegia Warszawa,990
+21,gabriel-kobylak,legia-warszawa,Gabriel KobylakLegia Warszawa,931
+22,adrian-lis,warta-poznan,Adrian LisWarta Poznań,849
+23,micha-buchalik,ruch-chorzow,Michał BuchalikRuch Chorzów,720
+23,krzysztof-kaminski,ruch-chorzow,Krzysztof KamińskiRuch Chorzów,720
+23,szymon-weirauch,zagebie-lubin,Szymon WeirauchKGHM Zagłębie Lubin,720
+26,filip-majchrowicz,radomiak-radom,Filip MajchrowiczRadomiak Radom,686
+27,dawid-arndt,lks-lodz,Dawid ArndtŁKS Łódź,630
+27,lukas-hrosso,cracovia,Lukáš HroššoCracovia,630
+29,karol-szymanski,piast-gliwice,Karol SzymańskiPiast Gliwice,555
+30,kewin-komar,puszcza-niepolomice,Kewin KomarPuszcza Niepołomice,540
+31,jasmin-buric,zagebie-lubin,Jasmin BurićKGHM Zagłębie Lubin,450
+31,konrad-forenc,korona-kielce,Konrad ForencKorona Kielce,450
+31,bartosz-klebaniuk,pogon-szczecin,Bartosz KlebaniukPogoń Szczecin,450
+34,jakub-bielecki,ruch-chorzow,Jakub BieleckiRuch Chorzów,360
+35,filip-bednarek,lech-poznan,Filip BednarekLech Poznań,270
+36,kacper-bieszczad,rakow-czestochowa,Kacper BieszczadRaków Częstochowa,180
+36,jan-krzywanski,widzew-lodz,Jan KrzywańskiWidzew Łódź,180
+36,krzysztof-wroblewski,puszcza-niepolomice,Krzysztof WróblewskiPuszcza Niepołomice,180
+39,krzysztof-maciej-bakowski,radomiak-radom,Krzysztof Maciej BąkowskiRadomiak Radom,90
+39,konrad-jaocha,stal-mielec,Konrad JałochaStal Mielec,90
+39,dusan-kuciak,rakow-czestochowa,Dušan KuciakRaków Częstochowa,90
+39,muhamed-sahinovic,rakow-czestochowa,Muhamed ŠahinovićRaków Częstochowa,90
+39,kacper-trelowski,slask-wroclaw,Kacper TrelowskiŚląsk Wrocław,90
+39,antonios-tsiftsis,rakow-czestochowa,Antonis TsiftsisRaków Częstochowa,90

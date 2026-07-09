@@ -1,0 +1,44 @@
+﻿pozycja,player_slug,klub_slug,nazwa,wartosc
+1,dusan-kuciak,rakow-czestochowa,Dušan KuciakRaków Częstochowa,1
+1,muhamed-sahinovic,rakow-czestochowa,Muhamed ŠahinovićRaków Częstochowa,1
+3,krzysztof-maciej-bakowski,radomiak-radom,Krzysztof Maciej BąkowskiRadomiak Radom,2
+3,filip-bednarek,lech-poznan,Filip BednarekLech Poznań,2
+5,konrad-jaocha,stal-mielec,Konrad JałochaStal Mielec,3
+5,kacper-trelowski,slask-wroclaw,Kacper TrelowskiŚląsk Wrocław,3
+7,kacper-bieszczad,rakow-czestochowa,Kacper BieszczadRaków Częstochowa,4
+7,jan-krzywanski,widzew-lodz,Jan KrzywańskiWidzew Łódź,4
+7,krzysztof-wroblewski,puszcza-niepolomice,Krzysztof WróblewskiPuszcza Niepołomice,4
+10,karol-szymanski,piast-gliwice,Karol SzymańskiPiast Gliwice,6
+11,jakub-bielecki,ruch-chorzow,Jakub BieleckiRuch Chorzów,8
+11,konrad-forenc,korona-kielce,Konrad ForencKorona Kielce,8
+11,bartosz-klebaniuk,pogon-szczecin,Bartosz KlebaniukPogoń Szczecin,8
+14,jasmin-buric,zagebie-lubin,Jasmin BurićKGHM Zagłębie Lubin,9
+15,kewin-komar,puszcza-niepolomice,Kewin KomarPuszcza Niepołomice,10
+15,filip-majchrowicz,radomiak-radom,Filip MajchrowiczRadomiak Radom,10
+15,szymon-weirauch,zagebie-lubin,Szymon WeirauchKGHM Zagłębie Lubin,10
+18,lukas-hrosso,cracovia,Lukáš HroššoCracovia,11
+19,dominik-hadun,legia-warszawa,Dominik HładunLegia Warszawa,14
+19,krzysztof-kaminski,ruch-chorzow,Krzysztof KamińskiRuch Chorzów,14
+21,dawid-arndt,lks-lodz,Dawid ArndtŁKS Łódź,16
+21,rafa-tadeusz-gikiewicz,widzew-lodz,Rafał Tadeusz GikiewiczWidzew Łódź,16
+23,micha-buchalik,ruch-chorzow,Michał BuchalikRuch Chorzów,17
+23,dante-stipica,ruch-chorzow,Dante StipicaRuch Chorzów,17
+25,adrian-lis,warta-poznan,Adrian LisWarta Poznań,18
+25,albert-posiadaa,radomiak-radom,Albert PosiadałaRadomiak Radom,18
+27,jedrzej-grobelny,warta-poznan,Jędrzej GrobelnyWarta Poznań,25
+27,kacper-tobiasz,legia-warszawa,Kacper TobiaszLegia Warszawa,25
+29,henrich-ravas,widzew-lodz,Henrich RavasWidzew Łódź,26
+30,gabriel-kobylak,legia-warszawa,Gabriel KobylakLegia Warszawa,28
+30,rafa-leszczynski,slask-wroclaw,Rafał LeszczyńskiŚląsk Wrocław,28
+32,valentin-alexandru-cojocaru,pogon-szczecin,Valentin Alexandru CojocaruPogoń Szczecin,29
+32,frantisek-plach,piast-gliwice,František PlachPiast Gliwice,29
+34,sokratis-dioudis,zagebie-lubin,Sokratis DioudisKGHM Zagłębie Lubin,31
+35,vladan-kovacevic,rakow-czestochowa,Vladan KovačevićRaków Częstochowa,33
+36,sebastian-madejski,cracovia,Sebastian MadejskiCracovia,35
+36,oliwier-zych,puszcza-niepolomice,Oliwier ZychPuszcza Niepołomice,35
+38,xavier-dziekonski,korona-kielce,Xavier DziekońskiKorona Kielce,36
+39,bartosz-mrozek,lech-poznan,Bartosz MrozekLech Poznań,39
+40,daniel-bielica,gornik-zabrze,Daniel BielicaGórnik Zabrze,41
+41,zlatan-alomerovic,jagiellonia-bialystok,Zlatan AlomerovićJagiellonia Białystok,45
+41,mateusz-kochalski,stal-mielec,Mateusz KochalskiStal Mielec,45
+43,aleksander-bobek,lks-lodz,Aleksander BobekŁKS Łódź,59

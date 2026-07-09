@@ -1,0 +1,39 @@
+﻿pozycja,player_slug,klub_slug,nazwa,wartosc
+1,xavier-dziekonski,korona-kielce,Xavier DziekońskiKorona Kielce,34
+1,filip-majchrowicz,radomiak-radom,Filip MajchrowiczRadomiak Radom,34
+3,rafa-leszczynski,wisla-plock,Rafał LeszczyńskiWisła Płock,33
+3,marcel-ubik,gornik-zabrze,Marcel ŁubikGórnik Zabrze,33
+3,bartosz-mrozek,lech-poznan,Bartosz MrozekLech Poznań,33
+6,valentin-alexandru-cojocaru,pogon-szczecin,Valentin Alexandru CojocaruPogoń Szczecin,31
+7,sawomir-abramowicz,jagiellonia-bialystok,Sławomir AbramowiczJagiellonia Białystok,30
+7,sebastian-madejski,cracovia,Sebastian MadejskiCracovia,30
+9,ivan-brkic,motor-lublin,Ivan BrkićMotor Lublin,27
+9,damian-weglarz,arka-gdynia,Damian WęglarzArka Gdynia,27
+11,jasmin-buric,zagebie-lubin,Jasmin BurićKGHM Zagłębie Lubin,24
+11,alexander-noah-paulsen,lechia-gdansk,Alexander Noah PaulsenLechia Gdańsk,24
+11,frantisek-plach,piast-gliwice,František PlachPiast Gliwice,24
+14,adrian-chovan,nieciecza,Adrián ChovanNieciecza,22
+14,rafa-straczek,gks-katowice,Rafał StrączekGKS Katowice,22
+14,kacper-tobiasz,legia-warszawa,Kacper TobiaszLegia Warszawa,22
+17,oliwier-zych,rakow-czestochowa,Oliwier ZychRaków Częstochowa,19
+18,kacper-trelowski,rakow-czestochowa,Kacper TrelowskiRaków Częstochowa,16
+19,bartomiej-dragowski,widzew-lodz,Bartłomiej DrągowskiWidzew Łódź,15
+20,otto-hindrich,legia-warszawa,Ottó HindrichLegia Warszawa,13
+21,dawid-kuda,gks-katowice,Dawid KudłaGKS Katowice,12
+21,miosz-stefan-mleczko,nieciecza,Miłosz Stefan MleczkoNieciecza,12
+23,dominik-hadun,zagebie-lubin,Dominik HładunKGHM Zagłębie Lubin,11
+24,maciej-kikolski,widzew-lodz,Maciej KikolskiWidzew Łódź,9
+24,szymon-weirauch,lechia-gdansk,Szymon WeirauchLechia Gdańsk,9
+26,veljko-ilic,widzew-lodz,Veljko IlićWidzew Łódź,8
+26,gasper-tratnik,motor-lublin,Gašper TratnikMotor Lublin,8
+28,jedrzej-grobelny,arka-gdynia,Jędrzej GrobelnyArka Gdynia,7
+29,dominik-holec,piast-gliwice,Dominik HolecPiast Gliwice,6
+30,krzysztof-kaminski,pogon-szczecin,Krzysztof KamińskiPogoń Szczecin,4
+30,henrich-ravas,cracovia,Henrich RavasCracovia,4
+30,karol-szymanski,piast-gliwice,Karol SzymańskiPiast Gliwice,4
+33,rafa-tadeusz-gikiewicz,zagebie-lubin,Rafał Tadeusz GikiewiczKGHM Zagłębie Lubin,2
+33,tomasz-loska,gornik-zabrze,Tomasz LoskaGórnik Zabrze,2
+35,jakub-burek,wisla-plock,Jakub BurekWisła Płock,1
+35,miosz-piekutowski,jagiellonia-bialystok,Miłosz PiekutowskiJagiellonia Białystok,1
+35,plamen-plamenov-andreev,lech-poznan,Plamen Plamenov AndreevLech Poznań,1
+35,bohdan-sarnavskyi,lechia-gdansk,Bohdan SarnavskyiLechia Gdańsk,1

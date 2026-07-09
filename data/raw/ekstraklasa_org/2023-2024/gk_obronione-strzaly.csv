@@ -1,0 +1,45 @@
+﻿pozycja,player_slug,klub_slug,nazwa,wartosc
+1,mateusz-kochalski,stal-mielec,Mateusz KochalskiStal Mielec,111
+2,daniel-bielica,gornik-zabrze,Daniel BielicaGórnik Zabrze,99
+2,aleksander-bobek,lks-lodz,Aleksander BobekŁKS Łódź,99
+4,oliwier-zych,puszcza-niepolomice,Oliwier ZychPuszcza Niepołomice,98
+5,bartosz-mrozek,lech-poznan,Bartosz MrozekLech Poznań,97
+6,rafa-leszczynski,slask-wroclaw,Rafał LeszczyńskiŚląsk Wrocław,84
+7,zlatan-alomerovic,jagiellonia-bialystok,Zlatan AlomerovićJagiellonia Białystok,81
+8,sebastian-madejski,cracovia,Sebastian MadejskiCracovia,74
+9,valentin-alexandru-cojocaru,pogon-szczecin,Valentin Alexandru CojocaruPogoń Szczecin,71
+10,jedrzej-grobelny,warta-poznan,Jędrzej GrobelnyWarta Poznań,69
+11,xavier-dziekonski,korona-kielce,Xavier DziekońskiKorona Kielce,67
+12,sokratis-dioudis,zagebie-lubin,Sokratis DioudisKGHM Zagłębie Lubin,66
+12,vladan-kovacevic,rakow-czestochowa,Vladan KovačevićRaków Częstochowa,66
+14,henrich-ravas,widzew-lodz,Henrich RavasWidzew Łódź,59
+15,frantisek-plach,piast-gliwice,František PlachPiast Gliwice,50
+16,rafa-tadeusz-gikiewicz,widzew-lodz,Rafał Tadeusz GikiewiczWidzew Łódź,43
+17,albert-posiadaa,radomiak-radom,Albert PosiadałaRadomiak Radom,38
+18,dante-stipica,ruch-chorzow,Dante StipicaRuch Chorzów,36
+19,krzysztof-kaminski,ruch-chorzow,Krzysztof KamińskiRuch Chorzów,32
+20,gabriel-kobylak,legia-warszawa,Gabriel KobylakLegia Warszawa,31
+21,adrian-lis,warta-poznan,Adrian LisWarta Poznań,29
+22,szymon-weirauch,zagebie-lubin,Szymon WeirauchKGHM Zagłębie Lubin,26
+23,kacper-tobiasz,legia-warszawa,Kacper TobiaszLegia Warszawa,25
+24,dawid-arndt,lks-lodz,Dawid ArndtŁKS Łódź,24
+25,micha-buchalik,ruch-chorzow,Michał BuchalikRuch Chorzów,23
+26,dominik-hadun,legia-warszawa,Dominik HładunLegia Warszawa,22
+27,karol-szymanski,piast-gliwice,Karol SzymańskiPiast Gliwice,21
+28,konrad-forenc,korona-kielce,Konrad ForencKorona Kielce,19
+28,kewin-komar,puszcza-niepolomice,Kewin KomarPuszcza Niepołomice,19
+30,lukas-hrosso,cracovia,Lukáš HroššoCracovia,18
+31,jasmin-buric,zagebie-lubin,Jasmin BurićKGHM Zagłębie Lubin,16
+32,bartosz-klebaniuk,pogon-szczecin,Bartosz KlebaniukPogoń Szczecin,14
+33,filip-bednarek,lech-poznan,Filip BednarekLech Poznań,13
+33,filip-majchrowicz,radomiak-radom,Filip MajchrowiczRadomiak Radom,13
+35,jakub-bielecki,ruch-chorzow,Jakub BieleckiRuch Chorzów,11
+36,krzysztof-wroblewski,puszcza-niepolomice,Krzysztof WróblewskiPuszcza Niepołomice,6
+37,krzysztof-maciej-bakowski,radomiak-radom,Krzysztof Maciej BąkowskiRadomiak Radom,5
+37,kacper-bieszczad,rakow-czestochowa,Kacper BieszczadRaków Częstochowa,5
+39,kacper-trelowski,slask-wroclaw,Kacper TrelowskiŚląsk Wrocław,4
+40,jan-krzywanski,widzew-lodz,Jan KrzywańskiWidzew Łódź,3
+41,dusan-kuciak,rakow-czestochowa,Dušan KuciakRaków Częstochowa,2
+41,antonios-tsiftsis,rakow-czestochowa,Antonis TsiftsisRaków Częstochowa,2
+43,konrad-jaocha,stal-mielec,Konrad JałochaStal Mielec,1
+43,muhamed-sahinovic,rakow-czestochowa,Muhamed ŠahinovićRaków Częstochowa,1
