@@ -1,15 +1,34 @@
+"""
+Merge rankingów zawodników z ekstraklasa.org dla wybranego sezonu.
+
+Użycie:
+    python scripts/scraping/ekstraklasa_org/merge_rankings.py --season 2025-2026
+    python scripts/scraping/ekstraklasa_org/merge_rankings.py --season 2024-2025
+    python scripts/scraping/ekstraklasa_org/merge_rankings.py --season 2023-2024
+    python scripts/scraping/ekstraklasa_org/merge_rankings.py --all
+"""
+
 import csv
+import argparse
 from pathlib import Path
 from collections import defaultdict
 
-ROOT = Path(__file__).resolve().parents[3]
-IN_DIR = ROOT / "data" / "raw" / "ekstraklasa_org"
+ROOT    = Path(__file__).resolve().parents[3]
+IN_ROOT = ROOT / "data" / "raw" / "ekstraklasa_org"
 OUT_DIR = ROOT / "data" / "processed"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
+ALL_SEASONS = ["2023-2024", "2024-2025", "2025-2026"]
+
+SEASON_LABEL = {
+    "2023-2024": "2023_24",
+    "2024-2025": "2024_25",
+    "2025-2026": "2025_26",
+}
+
 
 def parsuj_wartosc(v: str):
-    """Zamień wartość ze stringa na float/int. '19.8' -> 19.8, '21%' -> 21, '–' -> 0"""
+    """'19.8' -> 19.8 | '21%' -> 21 | '–' -> 0"""
     v = v.strip()
     if not v or v in ("–", "-", "—"):
         return 0
@@ -18,77 +37,107 @@ def parsuj_wartosc(v: str):
         f = float(v)
         return int(f) if f.is_integer() else f
     except ValueError:
-        return v  # zostaw jak jest jeśli nie liczba
+        return v
 
 
-def main():
-    # Zbierz dane per zawodnik
-    # klucz: player_slug -> dict {nazwa, klub_slug, staty...}
-    zawodnicy = {}
-    kolumny_staty = []
-    
-    csv_files = sorted(IN_DIR.glob("*.csv"))
-    print(f"Znaleziono {len(csv_files)} plików CSV\n")
-    
+def merge_season(season: str) -> None:
+    in_dir = IN_ROOT / season
+
+    if not in_dir.exists():
+        print(f"[SKIP] Brak folderu: {in_dir}")
+        return
+
+    csv_files = sorted(in_dir.glob("*.csv"))
+    if not csv_files:
+        print(f"[SKIP] Brak plików CSV w: {in_dir}")
+        return
+
+    label      = SEASON_LABEL[season]
+    out_path   = OUT_DIR / f"zawodnicy_ekstraklasa_org_{label}.csv"
+
+    print(f"\n=== {season} ===")
+    print(f"Pliki CSV: {len(csv_files)}")
+
+    zawodnicy    = {}
+    kolumny_stat = []
+
     for csv_file in csv_files:
-        # Nazwa statystyki = nazwa pliku bez rozszerzenia
-        nazwa_stat = csv_file.stem  # np. "pole_xg" albo "gk_czyste-konta"
-        kolumny_staty.append(nazwa_stat)
-        
+        nazwa_stat = csv_file.stem          # np. "pole_xg", "gk_czyste-konta"
+        kolumny_stat.append(nazwa_stat)
+
         with open(csv_file, encoding="utf-8-sig") as f:
             reader = csv.DictReader(f)
             for row in reader:
-                slug = row["player_slug"]
+                slug = row.get("player_slug", "").strip()
                 if not slug:
                     continue
-                
+
                 if slug not in zawodnicy:
                     zawodnicy[slug] = {
                         "player_slug": slug,
-                        "nazwa": row["nazwa"],
-                        "klub_slug": row["klub_slug"],
+                        "nazwa":       row.get("nazwa", ""),
+                        "klub_slug":   row.get("klub_slug", ""),
                     }
-                # Zapisz wartość dla tej statystyki
-                zawodnicy[slug][nazwa_stat] = parsuj_wartosc(row["wartosc"])
-    
-    print(f"Unikalnych zawodników: {len(zawodnicy)}")
-    print(f"Kolumn statystyk: {len(kolumny_staty)}\n")
-    
-    # Uzupełnij brakujące wartości zerami
-    for slug, dane in zawodnicy.items():
-        for kol in kolumny_staty:
+
+                zawodnicy[slug][nazwa_stat] = parsuj_wartosc(row.get("wartosc", ""))
+
+    # Uzupełnij brakujące statystyki zerami
+    for dane in zawodnicy.values():
+        for kol in kolumny_stat:
             if kol not in dane:
                 dane[kol] = 0
-    
-    # Zapisz do CSV
-    out_path = OUT_DIR / "zawodnicy_ekstraklasa_org_2025_26.csv"
-    fieldnames = ["player_slug", "nazwa", "klub_slug"] + kolumny_staty
-    
-    # Sortuj po klubie i nazwie
-    sorted_zaw = sorted(zawodnicy.values(), key=lambda z: (z["klub_slug"], z["nazwa"]))
-    
+
+    # Zapis
+    fieldnames   = ["player_slug", "nazwa", "klub_slug"] + kolumny_stat
+    sorted_zaw   = sorted(zawodnicy.values(), key=lambda z: (z["klub_slug"], z["nazwa"]))
+
     with open(out_path, "w", encoding="utf-8-sig", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(sorted_zaw)
-    
-    print(f"✓ Zapisano: {out_path}")
-    print(f"  Wiersze: {len(sorted_zaw)}")
-    print(f"  Kolumny: {len(fieldnames)}")
-    
-    # Podgląd — top 5 wg xG
-    print("\nTOP 5 wg xG:")
-    top_xg = sorted(zawodnicy.values(), key=lambda z: z.get("pole_xg", 0), reverse=True)[:5]
-    for z in top_xg:
-        print(f"  {z['nazwa']:<30} {z['klub_slug']:<25} xG={z.get('pole_xg', 0)} min={z.get('pole_minuty', 0) or z.get('gk-minuty-rozegrane', 0)}")
-    
-    # Ilu zawodników per klub
-    print("\nZawodnicy per klub:")
+
+    print(f"Zawodnicy:          {len(sorted_zaw)}")
+    print(f"Kolumny statystyk:  {len(kolumny_stat)}")
+    print(f"Zapisano:           {out_path}")
+
+    # Podgląd top 5 xG
+    xg_kol = "pole_xg" if "pole_xg" in kolumny_stat else None
+    if xg_kol:
+        print("\nTop 5 wg xG:")
+        top = sorted(zawodnicy.values(), key=lambda z: z.get(xg_kol, 0), reverse=True)[:5]
+        for z in top:
+            print(f"  {z['nazwa']:<35} {z['klub_slug']:<25} xG={z.get(xg_kol, 0)}")
+
+    # Per klub
     per_klub = defaultdict(int)
     for z in zawodnicy.values():
         per_klub[z["klub_slug"]] += 1
+    print("\nZawodnicy per klub:")
     for klub, ile in sorted(per_klub.items()):
         print(f"  {klub:<30} {ile}")
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Merge rankingów ekstraklasa.org per sezon")
+    group  = parser.add_mutually_exclusive_group(required=True)
+    group.add_argument(
+        "--season",
+        choices=ALL_SEASONS,
+        help="Konkretny sezon: 2023-2024 | 2024-2025 | 2025-2026",
+    )
+    group.add_argument(
+        "--all",
+        action="store_true",
+        help="Wykonaj merge dla wszystkich 3 sezonów",
+    )
+    args = parser.parse_args()
+
+    seasons = ALL_SEASONS if args.all else [args.season]
+
+    for season in seasons:
+        merge_season(season)
+
+    print("\nGotowe.")
 
 
 if __name__ == "__main__":
