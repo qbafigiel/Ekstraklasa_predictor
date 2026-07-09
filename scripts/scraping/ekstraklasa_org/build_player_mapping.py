@@ -1,6 +1,7 @@
 import sqlite3
 import pandas as pd
 import re
+import argparse
 from pathlib import Path
 
 # ──────────────────────────────────────────────────────────────────────────────
@@ -8,17 +9,17 @@ from pathlib import Path
 # ──────────────────────────────────────────────────────────────────────────────
 
 DB_PATH = "db/ekstraklasa.db"
-TARGET_SEASON = "2025/26"
-
+PROCESSED_DIR = Path("data/processed")
 REPORT_DIR = Path("data/reports/player_identity")
-REVIEW_CSV = REPORT_DIR / "player_identity_review_2025_26.csv"
-ROSTER_CSV = Path("data/processed/ekstra_player_roster_2023_2026.csv")
+ROSTER_CSV = PROCESSED_DIR / "ekstra_player_roster_2023_2026.csv"
 
-OUTPUT_MAPPING = Path("data/processed/player_mapping.csv")
-OUTPUT_STATUS = Path("data/processed/player_mapping_status.csv")
-OUTPUT_REPORT = REPORT_DIR / "player_mapping_report.txt"
+SEASON_TO_LABEL = {
+    "2023/24": "2023_24",
+    "2024/25": "2024_25",
+    "2025/26": "2025_26",
+}
 
-TEAM_MAP = {
+ALL_TEAM_MAP = {
     "Arka Gdynia": "arka-gdynia",
     "Bruk-Bet Termalica Nieciecza": "nieciecza",
     "Cracovia": "cracovia",
@@ -32,43 +33,116 @@ TEAM_MAP = {
     "Motor Lublin": "motor-lublin",
     "Piast Gliwice": "piast-gliwice",
     "Pogoń Szczecin": "pogon-szczecin",
+    "Puszcza Niepołomice": "puszcza-niepolomice",
     "Radomiak Radom": "radomiak-radom",
     "Raków Częstochowa": "rakow-czestochowa",
+    "Ruch Chorzów": "ruch-chorzow",
+    "Stal Mielec": "stal-mielec",
+    "Warta Poznań": "warta-poznan",
     "Widzew Łódź": "widzew-lodz",
     "Wisła Płock": "wisla-plock",
     "Zagłębie Lubin": "zagebie-lubin",
+    "ŁKS Łódź": "lks-lodz",
+    "Śląsk Wrocław": "slask-wroclaw",
 }
 
-MANUAL_ACCEPT = {
-    ("Cracovia", "Skovgaard A."): (
-        "andreas-skovgaard-larsen",
-        "manual_accept_review_high_confidence",
-    ),
-    ("Jagiellonia Białystok", "Costa S. T."): (
-        "tomas-costa-silva",
-        "manual_accept_review_high_confidence",
-    ),
-    ("Legia Warszawa", "Gual M."): (
-        "marc-gual-huguet",
-        "manual_accept_review_high_confidence",
-    ),
-    ("Raków Częstochowa", "Silva J. C."): (
-        "jean-carlos-silva-rocha",
-        "manual_accept_review_needed",
-    ),
+# ──────────────────────────────────────────────────────────────────────────────
+# RĘCZNE DECYZJE — TYLKO 2025/26 NA TEN MOMENT
+# Dla 2024/25 i 2023/24 na razie pusto, dopóki ich nie zreviewujemy
+# ──────────────────────────────────────────────────────────────────────────────
+
+MANUAL_ACCEPT_BY_SEASON = {
+    "2023/24": {},
+    "2024/25": {
+        ("Jagiellonia Białystok", "Semedo E."):   (
+            "lisandro-pedro-varela-semedo",
+            "manual_accept_review_needed",
+        ),
+        ("Legia Warszawa", "Sergio Barcia"):       (
+            "sergio-barcia-laranxeira",
+            "manual_accept_review_needed",
+        ),
+        ("Puszcza Niepołomice", "Lee Jin-Hyun"):   (
+            "jin-hyun-lee",
+            "manual_accept_review_needed",
+        ),
+        ("Radomiak Radom", "Guilherme"):           (
+            "guilherme-da-gama-zimovski",
+            "manual_accept_review_needed",
+        ),
+        ("Radomiak Radom", "Leandro"):             (
+            "leandro-rossi-pereira",
+            "manual_accept_review_needed",
+        ),
+        ("Radomiak Radom", "Rossi R."):            (
+            "leandro-rossi-pereira",
+            "manual_accept_review_needed",
+        ),
+        ("Radomiak Radom", "Vagner"):              (
+            "vagner-dias",
+            "manual_accept_review_needed",
+        ),
+        ("Radomiak Radom", "Zie Ouattara"):        (
+            "zie-mohamed-ouattara",
+            "manual_accept_review_needed",
+        ),
+        ("Raków Częstochowa", "Adriano"):          (
+            "adriano-luis-amorim-santos",
+            "manual_accept_review_needed",
+        ),
+        ("Raków Częstochowa", "Rocha L."):         (
+            "jean-carlos-silva-rocha",
+            "manual_accept_review_needed",
+        ),
+        ("Radomiak Radom", "Pawłowski D."):        (
+            "bartomiej-radosaw-pawowski",
+            "manual_accept_review_high_confidence",
+        ),
+    },
+    "2025/26": {
+        ("Cracovia", "Skovgaard A."): (
+            "andreas-skovgaard-larsen",
+            "manual_accept_review_high_confidence",
+        ),
+        ("Jagiellonia Białystok", "Costa S. T."): (
+            "tomas-costa-silva",
+            "manual_accept_review_high_confidence",
+        ),
+        ("Legia Warszawa", "Gual M."): (
+            "marc-gual-huguet",
+            "manual_accept_review_high_confidence",
+        ),
+        ("Raków Częstochowa", "Silva J. C."): (
+            "jean-carlos-silva-rocha",
+            "manual_accept_review_needed",
+        ),
+    },
 }
 
-MANUAL_REJECT = {
-    ("Bruk-Bet Termalica Nieciecza", "Janicki M."):
-        "manual_reject_wrong_person_rafa_janicki_is_not_m_janicki",
-    ("Radomiak Radom", "Guilherme"):
-        "manual_reject_no_current_ekstraklasa_org_data",
-    ("Wisła Płock", "Zając F."):
-        "manual_reject_wrong_person_jedrzej_zajac_is_not_f_zajac",
-    ("Zagłębie Lubin", "Marek S."):
-        "manual_reject_wrong_person_marek_mroz_is_not_s_marek",
-    ("Zagłębie Lubin", "Urbański M."):
-        "manual_reject_wrong_person_kacper_urbanski_is_not_m_urbanski",
+MANUAL_REJECT_BY_SEASON = {
+    "2023/24": {},
+    "2024/25": {
+    ("Legia Warszawa", "Zielinski J. I."):
+        "manual_reject_wrong_person_pawel_zielinski_is_not_ji_zielinski",
+    ("Puszcza Niepołomice", "Stępień M."):
+        "manual_reject_wrong_person_konrad_stepien_is_not_m_stepien",
+    ("Raków Częstochowa", "Silva J. C."):
+        "manual_reject_wrong_person_tomas_costa_silva_is_not_jc_silva",
+    ("Widzew Łódź", "Biegański M."):
+        "manual_reject_wrong_person_jan_bieganski_is_not_m_bieganski",
+},
+    "2025/26": {
+        ("Bruk-Bet Termalica Nieciecza", "Janicki M."):
+            "manual_reject_wrong_person_rafa_janicki_is_not_m_janicki",
+        ("Radomiak Radom", "Guilherme"):
+            "manual_reject_no_current_ekstraklasa_org_data",
+        ("Wisła Płock", "Zając F."):
+            "manual_reject_wrong_person_jedrzej_zajac_is_not_f_zajac",
+        ("Zagłębie Lubin", "Marek S."):
+            "manual_reject_wrong_person_marek_mroz_is_not_s_marek",
+        ("Zagłębie Lubin", "Urbański M."):
+            "manual_reject_wrong_person_kacper_urbanski_is_not_m_urbanski",
+    },
 }
 
 # ──────────────────────────────────────────────────────────────────────────────
@@ -85,7 +159,25 @@ def norm_text(x: str) -> str:
     return str(x).strip()
 
 
-def load_flash_unique_players() -> pd.DataFrame:
+def get_label(season: str) -> str:
+    return SEASON_TO_LABEL[season]
+
+
+def get_review_path(season: str) -> Path:
+    label = get_label(season)
+    return REPORT_DIR / f"player_identity_review_{label}.csv"
+
+
+def get_outputs(season: str) -> dict:
+    label = get_label(season)
+    return {
+        "mapping": PROCESSED_DIR / f"player_mapping_{label}.csv",
+        "status": PROCESSED_DIR / f"player_mapping_status_{label}.csv",
+        "report": REPORT_DIR / f"player_mapping_report_{label}.txt",
+    }
+
+
+def load_flash_unique_players(season: str) -> pd.DataFrame:
     conn = sqlite3.connect(DB_PATH)
     df = pd.read_sql_query(
         """
@@ -94,28 +186,36 @@ def load_flash_unique_players() -> pd.DataFrame:
         WHERE sezon = ?
         """,
         conn,
-        params=(TARGET_SEASON,),
+        params=(season,),
     )
     conn.close()
 
     df["flash_name"] = df["player_name"].apply(clean_flash_name)
     df["flash_team"] = df["team_name"].astype(str).str.strip()
-    df["klub_slug"] = df["flash_team"].map(TEAM_MAP)
+    df["klub_slug"] = df["flash_team"].map(ALL_TEAM_MAP)
+
+    missing_teams = sorted(df.loc[df["klub_slug"].isna(), "flash_team"].unique())
+    if missing_teams:
+        raise RuntimeError(
+            "Brak mapowania drużyn Flashscore -> klub_slug dla:\n"
+            + "\n".join(f"  {x}" for x in missing_teams)
+        )
 
     df = df[["flash_team", "klub_slug", "flash_name"]].drop_duplicates()
     df = df.sort_values(["flash_team", "flash_name"]).reset_index(drop=True)
     return df
 
 
-def load_review() -> pd.DataFrame:
-    if not REVIEW_CSV.exists():
+def load_review(season: str) -> pd.DataFrame:
+    review_path = get_review_path(season)
+    if not review_path.exists():
         raise FileNotFoundError(
-            f"Brak pliku: {REVIEW_CSV}\n"
+            f"Brak pliku: {review_path}\n"
             f"Najpierw uruchom:\n"
-            f"python scripts/audit/build_player_identity_review.py"
+            f"python scripts/audit/build_player_identity_review.py --season {season}"
         )
 
-    df = pd.read_csv(REVIEW_CSV)
+    df = pd.read_csv(review_path)
 
     required = {
         "flash_team",
@@ -129,7 +229,7 @@ def load_review() -> pd.DataFrame:
     }
     missing = required - set(df.columns)
     if missing:
-        raise RuntimeError(f"Brakuje kolumn w {REVIEW_CSV}: {sorted(missing)}")
+        raise RuntimeError(f"Brakuje kolumn w {review_path}: {sorted(missing)}")
 
     for col in df.columns:
         df[col] = df[col].fillna("")
@@ -147,12 +247,12 @@ def load_review() -> pd.DataFrame:
     return df
 
 
-def load_roster_registry() -> dict:
+def load_roster_registry(target_season: str) -> dict:
     if not ROSTER_CSV.exists():
         raise FileNotFoundError(
             f"Brak pliku: {ROSTER_CSV}\n"
             f"Najpierw uruchom:\n"
-            f"python scripts/audit/audit_player_identity_transfers.py"
+            f"python scripts/audit/audit_player_identity_transfers.py --season {target_season}"
         )
 
     roster = pd.read_csv(ROSTER_CSV)
@@ -177,7 +277,7 @@ def load_roster_registry() -> dict:
 
         clubs_all = sorted(set(g["klub_slug"]))
         seasons_all = sorted(set(g["season"]))
-        clubs_target = sorted(set(g.loc[g["season"] == TARGET_SEASON, "klub_slug"]))
+        clubs_target = sorted(set(g.loc[g["season"] == target_season, "klub_slug"]))
 
         season_club_path = " | ".join(
             f"{row.season}:{row.klub_slug}"
@@ -204,7 +304,7 @@ def validate_review_vs_flash(flash_df: pd.DataFrame, review_df: pd.DataFrame) ->
     extra_in_review = sorted(review_keys - flash_keys)
 
     if missing_in_review or extra_in_review:
-        msg = ["Niespójność między DB lineups a player_identity_review_2025_26.csv"]
+        msg = ["Niespójność między DB lineups a review CSV"]
         if missing_in_review:
             msg.append("Brakuje w review:")
             for x in missing_in_review[:20]:
@@ -216,11 +316,18 @@ def validate_review_vs_flash(flash_df: pd.DataFrame, review_df: pd.DataFrame) ->
         raise RuntimeError("\n".join(msg))
 
 
-def decide_row(row: pd.Series) -> tuple[str, str, str]:
+def decide_row(row: pd.Series, season: str) -> tuple[str, str, str]:
     key = (row["flash_team"], row["flash_name"])
     proposed_status = row["proposed_status"]
     existing_player_slug = row["existing_player_slug"]
     proposed_player_slug = row["proposed_player_slug"]
+
+    manual_accept = MANUAL_ACCEPT_BY_SEASON.get(season, {})
+    manual_reject = MANUAL_REJECT_BY_SEASON.get(season, {})
+
+    # MANUAL REJECT ma najwyższy priorytet — zawsze przed automatami
+    if key in manual_reject:
+        return "rejected_manual", "", manual_reject[key]
 
     if proposed_status == "matched_existing":
         final_slug = existing_player_slug or proposed_player_slug
@@ -232,15 +339,12 @@ def decide_row(row: pd.Series) -> tuple[str, str, str]:
     if proposed_status == "auto_transfer_candidate":
         return "matched_auto_transfer_candidate", proposed_player_slug, "review_auto_transfer_candidate"
 
-    if key in MANUAL_ACCEPT:
-        slug, method = MANUAL_ACCEPT[key]
+    if key in manual_accept:
+        slug, method = manual_accept[key]
         return "matched_manual_review", slug, method
 
-    if key in MANUAL_REJECT:
-        return "rejected_manual", "", MANUAL_REJECT[key]
-
-    if proposed_status == "no_candidate":
-        return "no_candidate", "", "review_no_candidate"
+    if proposed_status in {"manual_no_data", "no_candidate"}:
+        return "no_candidate", "", f"review_{proposed_status}"
 
     return "unresolved_review", "", f"needs_manual_decision:{proposed_status}"
 
@@ -291,7 +395,7 @@ def validate_accepted_slugs(status_df: pd.DataFrame, registry: dict) -> None:
         )
 
 
-def build_final_status(flash_df: pd.DataFrame, review_df: pd.DataFrame, registry: dict) -> pd.DataFrame:
+def build_final_status(flash_df: pd.DataFrame, review_df: pd.DataFrame, registry: dict, season: str) -> pd.DataFrame:
     merged = flash_df.merge(
         review_df,
         on=["flash_team", "flash_name"],
@@ -309,7 +413,7 @@ def build_final_status(flash_df: pd.DataFrame, review_df: pd.DataFrame, registry
     rows = []
 
     for row in merged.to_dict("records"):
-        final_status, player_slug, match_method = decide_row(row)
+        final_status, player_slug, match_method = decide_row(row, season)
 
         rows.append({
             "flash_team": row["flash_team"],
@@ -352,10 +456,10 @@ def build_mapping_output(status_df: pd.DataFrame) -> pd.DataFrame:
     return mapping_df
 
 
-def build_report(status_df: pd.DataFrame) -> str:
+def build_report(season: str, status_df: pd.DataFrame, outputs: dict) -> str:
     lines = []
     lines.append("=" * 78)
-    lines.append("FINAL PLAYER MAPPING REPORT — FLASHSCORE <-> EKSTRAKLASA.ORG")
+    lines.append(f"FINAL PLAYER MAPPING REPORT — FLASHSCORE <-> EKSTRAKLASA.ORG [{season}]")
     lines.append("=" * 78)
     lines.append("")
 
@@ -374,9 +478,9 @@ def build_report(status_df: pd.DataFrame) -> str:
 
     lines.append("2. Podsumowanie biznesowe")
     lines.append("-" * 78)
-    lines.append(f"  Łącznie zawodników Flashscore 2025/26: {total}")
-    lines.append(f"  Finalnie dopasowanych:                {len(matched)} ({100*len(matched)/total:.1f}%)")
-    lines.append(f"  Bez dopasowania / odrzuconych:        {len(unmatched)} ({100*len(unmatched)/total:.1f}%)")
+    lines.append(f"  Łącznie zawodników Flashscore {season}: {total}")
+    lines.append(f"  Finalnie dopasowanych:        {len(matched)} ({100*len(matched)/total:.1f}%)")
+    lines.append(f"  Bez dopasowania / odrzuconych:{len(unmatched)} ({100*len(unmatched)/total:.1f}%)")
     lines.append("")
 
     lines.append("3. Akceptowane transfery")
@@ -425,40 +529,62 @@ def build_report(status_df: pd.DataFrame) -> str:
         lines.append("  brak")
     lines.append("")
 
-    lines.append("7. UWAGA DO DALSZEGO JOINA")
+    lines.append("7. Nierozstrzygnięte review")
+    lines.append("-" * 78)
+    unresolved = status_df[status_df["final_status"] == "unresolved_review"]
+    if len(unresolved):
+        for row in unresolved.itertuples(index=False):
+            lines.append(f"  {row.flash_team:30s} | {row.flash_name:22s} | {row.match_method}")
+    else:
+        lines.append("  brak")
+    lines.append("")
+
+    lines.append("8. UWAGA DO DALSZEGO JOINA")
     lines.append("-" * 78)
     lines.append("  Dla zaakceptowanych transferów downstream join ma być po player_slug,")
     lines.append("  NIE po (player_slug, klub_slug).")
     lines.append("")
 
-    lines.append("8. Zapisane pliki")
+    lines.append("9. Zapisane pliki")
     lines.append("-" * 78)
-    lines.append(f"  {OUTPUT_MAPPING}")
-    lines.append(f"  {OUTPUT_STATUS}")
-    lines.append(f"  {OUTPUT_REPORT}")
+    lines.append(f"  {outputs['mapping']}")
+    lines.append(f"  {outputs['status']}")
+    lines.append(f"  {outputs['report']}")
     lines.append("")
 
     return "\n".join(lines)
 
 
 def main():
-    flash_df = load_flash_unique_players()
-    review_df = load_review()
-    registry = load_roster_registry()
+    parser = argparse.ArgumentParser(description="Finalne mapowanie zawodników per sezon")
+    parser.add_argument("--season", required=True, choices=list(SEASON_TO_LABEL.keys()))
+    args = parser.parse_args()
+
+    season = args.season
+    outputs = get_outputs(season)
+
+    flash_df = load_flash_unique_players(season)
+    review_df = load_review(season)
+    registry = load_roster_registry(season)
 
     validate_review_vs_flash(flash_df, review_df)
 
-    status_df = build_final_status(flash_df, review_df, registry)
+    status_df = build_final_status(flash_df, review_df, registry, season)
     mapping_df = build_mapping_output(status_df)
-    report = build_report(status_df)
+    report = build_report(season, status_df, outputs)
 
-    OUTPUT_MAPPING.parent.mkdir(parents=True, exist_ok=True)
+    PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
     REPORT_DIR.mkdir(parents=True, exist_ok=True)
 
-    mapping_df.to_csv(OUTPUT_MAPPING, index=False, encoding="utf-8")
-    status_df.to_csv(OUTPUT_STATUS, index=False, encoding="utf-8")
+    mapping_df.to_csv(outputs["mapping"], index=False, encoding="utf-8")
+    status_df.to_csv(outputs["status"], index=False, encoding="utf-8")
 
-    with open(OUTPUT_REPORT, "w", encoding="utf-8") as f:
+    # Backward compatibility dla 2025/26
+    if season == "2025/26":
+        mapping_df.to_csv(PROCESSED_DIR / "player_mapping.csv", index=False, encoding="utf-8")
+        status_df.to_csv(PROCESSED_DIR / "player_mapping_status.csv", index=False, encoding="utf-8")
+
+    with open(outputs["report"], "w", encoding="utf-8") as f:
         f.write(report)
 
     print(report)

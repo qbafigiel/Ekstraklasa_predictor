@@ -1,0 +1,141 @@
+==============================================================================
+AUDYT TOŻSAMOŚCI ZAWODNIKÓW + TRANSFERY + KANDYDACI [2024/25]
+==============================================================================
+
+1. EKSTRAKLASA.ORG — roster 3 sezony
+------------------------------------------------------------------------------
+Liczba unikalnych rekordów sezon-zawodnik-klub: 1552
+  2023/24:  499 rekordów | 499 unikalnych player_slug | 18 klubów
+  2024/25:  516 rekordów | 516 unikalnych player_slug | 18 klubów
+  2025/26:  537 rekordów | 537 unikalnych player_slug | 18 klubów
+
+2. TRANSFERY / ZMIANY KLUBOWE
+------------------------------------------------------------------------------
+Zawodnicy z >1 klubem w 3 sezonach: 113
+Top 30 przykładów:
+  dawid-abramowicz                         | arka-gdynia | puszcza-niepolomice | radomiak-radom
+  filip-rejczyk                            | gks-katowice | legia-warszawa | slask-wroclaw
+  jakub-ukowski                            | gks-katowice | korona-kielce | widzew-lodz
+  maksymilian-pingot                       | gornik-zabrze | lech-poznan | stal-mielec
+  marcin-cebula                            | korona-kielce | rakow-czestochowa | slask-wroclaw
+  mariusz-fornalczyk                       | korona-kielce | pogon-szczecin | widzew-lodz
+  serafin-jan-szota                        | arka-gdynia | slask-wroclaw | widzew-lodz
+  adam-zrelak                              | gks-katowice | warta-poznan
+  adrian-dalmau-vaquer                     | korona-kielce | piast-gliwice
+  adrian-dieguez-grande                    | jagiellonia-bialystok | radomiak-radom
+  alan-czerwinski                          | gks-katowice | lech-poznan
+  aleksander-buksa                         | gks-katowice | gornik-zabrze
+  aleksander-paluszek                      | gks-katowice | slask-wroclaw
+  alvis-jaunzems                           | lechia-gdansk | stal-mielec
+  antoni-klimek                            | puszcza-niepolomice | widzew-lodz
+  antoni-klukowski                         | pogon-szczecin | widzew-lodz
+  ariel-pawe-mosor                         | piast-gliwice | rakow-czestochowa
+  aurelien-thomas-nguiamba                 | arka-gdynia | jagiellonia-bialystok
+  bartomiej-kudka                          | lechia-gdansk | zagebie-lubin
+  bartosz-kopacz                           | nieciecza | zagebie-lubin
+  bartosz-nowak                            | gks-katowice | rakow-czestochowa
+  bojan-nastic                             | jagiellonia-bialystok | wisla-plock
+  damian-rasak                             | gks-katowice | gornik-zabrze
+  daniel-pacheco-lobato                    | gornik-zabrze | wisla-plock
+  dawid-drachal                            | jagiellonia-bialystok | rakow-czestochowa
+  dawid-kurminowski                        | lechia-gdansk | zagebie-lubin
+  dawid-szymonowicz                        | puszcza-niepolomice | warta-poznan
+  dawid-tkacz                              | stal-mielec | widzew-lodz
+  dominick-lukasz-zator                    | arka-gdynia | korona-kielce
+  dominik-hadun                            | legia-warszawa | zagebie-lubin
+
+3. FLASHSCORE 2024/25 — obecnie niedopasowani
+------------------------------------------------------------------------------
+Niedopasowanych po obecnym mapowaniu: 623
+  Cracovia                       | 33
+  GKS Katowice                   | 30
+  Górnik Zabrze                  | 36
+  Jagiellonia Białystok          | 38
+  Korona Kielce                  | 33
+  Lech Poznań                    | 34
+  Lechia Gdańsk                  | 27
+  Legia Warszawa                 | 38
+  Motor Lublin                   | 33
+  Piast Gliwice                  | 34
+  Pogoń Szczecin                 | 30
+  Puszcza Niepołomice            | 36
+  Radomiak Radom                 | 39
+  Raków Częstochowa              | 36
+  Stal Mielec                    | 35
+  Widzew Łódź                    | 34
+  Zagłębie Lubin                 | 39
+  Śląsk Wrocław                  | 38
+
+4. KANDYDACI GLOBALNI DLA NIEDOPASOWANYCH
+------------------------------------------------------------------------------
+Niedopasowani z co najmniej 1 kandydatem globalnym: 544/623
+
+Top przykłady (najlepszy kandydat per zawodnik):
+  Cracovia                       | Al Ammari A.              -> amir-fouad-aboud-al-ammari          | cracovia             | 2025/26 | score=101 | future_season_same_club
+  Cracovia                       | Atanasov J.               -> jani-atanasov                       | cracovia             | 2025/26 | score=109 | future_season_same_club
+  Cracovia                       | Biedrzycki B.             -> bartosz-biedrzycki                  | cracovia             | 2025/26 | score=109 | future_season_same_club
+  Cracovia                       | Bochnak M.                -> mateusz-bochnak                     | cracovia             | 2023/24 | score=107 | past_season_same_club
+  Cracovia                       | Bzdyl F.                  -> fabian-bzdyl                        | cracovia             | 2025/26 | score=109 | future_season_same_club
+  Cracovia                       | Ghita V.                  -> virgil-ghita                        | cracovia             | 2023/24 | score=107 | past_season_same_club
+  Cracovia                       | Glik K.                   -> kamil-jacek-glik                    | cracovia             | 2025/26 | score=101 | future_season_same_club
+  Cracovia                       | Hasic A.                  -> ajdin-hasic                         | cracovia             | 2025/26 | score=109 | future_season_same_club
+  Cracovia                       | Henriksson G.             -> gustav-niklas-henriksson            | cracovia             | 2025/26 | score=101 | future_season_same_club
+  Cracovia                       | Hoskonen A.               -> arttu-hoskonen                      | cracovia             | 2023/24 | score=107 | past_season_same_club
+  Cracovia                       | Janasik P.                -> patryk-janasik                      | cracovia             | 2024/25 | score=107 | same_season_same_club
+  Cracovia                       | Jaroszynski P.            -> pawe-jaroszynski                    | cracovia             | 2023/24 | score=107 | past_season_same_club
+  Cracovia                       | Jugas J.                  -> jakub-jugas                         | cracovia             | 2023/24 | score=107 | past_season_same_club
+  Cracovia                       | Kakabadze O.              -> otar-kakabadze                      | cracovia             | 2025/26 | score=109 | future_season_same_club
+  Cracovia                       | Kallman B.                -> benjamin-kallman                    | cracovia             | 2023/24 | score=107 | past_season_same_club
+  Cracovia                       | Knap K.                   -> karol-knap                          | cracovia             | 2025/26 | score=109 | future_season_same_club
+  Cracovia                       | Lachowicz O.              -> oskar-lachowicz                     | cracovia             | 2024/25 | score=107 | same_season_same_club
+  Cracovia                       | Madejski S.               -> sebastian-madejski                  | cracovia             | 2025/26 | score=109 | future_season_same_club
+  Cracovia                       | Maigaard M.               -> mikkel-maigaard-jakobsen            | cracovia             | 2025/26 | score= 95 | future_season_same_club
+  Cracovia                       | Minchev M.                -> martin-yankov-minchev               | cracovia             | 2025/26 | score=101 | future_season_same_club
+  Cracovia                       | Olafsson D.               -> davi-kristjan-olafsson              | cracovia             | 2025/26 | score=101 | future_season_same_club
+  Cracovia                       | Perkovic M.               -> mauro-perkovic                      | cracovia             | 2025/26 | score=109 | future_season_same_club
+  Cracovia                       | Polak D.                  -> dawid-polak                         | cracovia             | 2024/25 | score=107 | same_season_same_club
+  Cracovia                       | Rakoczy M.                -> micha-miosz-rakoczy                 | cracovia             | 2025/26 | score=101 | future_season_same_club
+  Cracovia                       | Ravas H.                  -> henrich-ravas                       | cracovia             | 2025/26 | score=109 | future_season_same_club
+  Cracovia                       | Rózga F.                  -> filip-rozga                         | cracovia             | 2023/24 | score=107 | past_season_same_club
+  Cracovia                       | Skovgaard A.              -> andreas-skovgaard-larsen            | cracovia             | 2023/24 | score= 93 | past_season_same_club
+  Cracovia                       | Smiglewski K.             -> kacper-smiglewski                   | cracovia             | 2023/24 | score=107 | past_season_same_club
+  Cracovia                       | Sokołowski P.             -> patryk-sokoowski                    | cracovia             | 2024/25 | score=107 | same_season_same_club
+  Cracovia                       | Wójcik O.                 -> oskar-wojcik                        | cracovia             | 2025/26 | score=109 | future_season_same_club
+  Cracovia                       | van Buren M.              -> mick-van-buren                      | cracovia             | 2024/25 | score=107 | same_season_same_club
+  GKS Katowice                   | Antczak J.                -> aleks-awniczak                      | zagebie-lubin        | 2023/24 | score= 78 | past_season_other_club
+  GKS Katowice                   | Arak J.                   -> jakub-arak                          | gks-katowice         | 2024/25 | score=107 | same_season_same_club
+  GKS Katowice                   | Baranowicz B.             -> bartosz-baranowicz                  | gks-katowice         | 2024/25 | score=107 | same_season_same_club
+  GKS Katowice                   | Bergier S.                -> sebastian-bergier                   | gks-katowice         | 2024/25 | score=107 | same_season_same_club
+  GKS Katowice                   | Bród A.                   -> alan-brod                           | gks-katowice         | 2025/26 | score=109 | future_season_same_club
+  GKS Katowice                   | Błąd A.                   -> adrian-bad                          | gks-katowice         | 2025/26 | score=109 | future_season_same_club
+  GKS Katowice                   | Czerwiński A.             -> alan-czerwinski                     | gks-katowice         | 2025/26 | score=109 | future_season_same_club
+  GKS Katowice                   | Drachal D.                -> dawid-drachal                       | rakow-czestochowa    | 2023/24 | score=104 | past_season_other_club
+  GKS Katowice                   | Galan B.                  -> borja-galan-gonzalez                | gks-katowice         | 2025/26 | score= 95 | future_season_same_club
+  GKS Katowice                   | Gruszkowski K.            -> konrad-jan-gruszkowski              | gks-katowice         | 2025/26 | score=101 | future_season_same_club
+  GKS Katowice                   | Jaroszek B.               -> bartosz-jaroszek                    | gks-katowice         | 2024/25 | score=107 | same_season_same_club
+  GKS Katowice                   | Jędrych A.                -> arkadiusz-jedrych                   | gks-katowice         | 2025/26 | score=109 | future_season_same_club
+  GKS Katowice                   | Klemenz L.                -> lukas-rafael-klemenz                | gks-katowice         | 2025/26 | score=101 | future_season_same_club
+  GKS Katowice                   | Komor A.                  -> aleksander-komor                    | gks-katowice         | 2024/25 | score=107 | same_season_same_club
+  GKS Katowice                   | Kowalczyk M.              -> mateusz-kowalczyk                   | gks-katowice         | 2025/26 | score=109 | future_season_same_club
+  GKS Katowice                   | Kudła D.                  -> dawid-kuda                          | gks-katowice         | 2025/26 | score=109 | future_season_same_club
+  GKS Katowice                   | Kuusk M.                  -> marten-kuusk                        | gks-katowice         | 2025/26 | score=109 | future_season_same_club
+  GKS Katowice                   | Mak M.                    -> mateusz-mak                         | gks-katowice         | 2024/25 | score=107 | same_season_same_club
+  GKS Katowice                   | Marzec M.                 -> mateusz-marzec                      | gks-katowice         | 2024/25 | score=107 | same_season_same_club
+  GKS Katowice                   | Milewski S.               -> sebastian-milewski                  | gks-katowice         | 2025/26 | score=109 | future_season_same_club
+  GKS Katowice                   | Nowak B.                  -> bartosz-nowak                       | gks-katowice         | 2025/26 | score=109 | future_season_same_club
+  GKS Katowice                   | Repka O.                  -> oskar-repka                         | gks-katowice         | 2024/25 | score=107 | same_season_same_club
+  GKS Katowice                   | Rogala G.                 -> grzegorz-rogala                     | gks-katowice         | 2025/26 | score=109 | future_season_same_club
+  GKS Katowice                   | Strączek R.               -> rafa-straczek                       | gks-katowice         | 2025/26 | score=109 | future_season_same_club
+  GKS Katowice                   | Szymczak F.               -> filip-szymczak                      | lech-poznan          | 2023/24 | score=104 | past_season_other_club
+  GKS Katowice                   | Trepka L.                 -> oskar-repka                         | gks-katowice         | 2024/25 | score= 87 | same_season_same_club
+  GKS Katowice                   | Wasielewski M.            -> marcin-wasielewski                  | gks-katowice         | 2025/26 | score=109 | future_season_same_club
+  GKS Katowice                   | Zrelak A.                 -> adam-zrelak                         | gks-katowice         | 2025/26 | score=109 | future_season_same_club
+  Górnik Zabrze                  | Abdullahi A.              -> abbati-abdullahi                    | gornik-zabrze        | 2025/26 | score=109 | future_season_same_club
+
+5. WYGNEROWANE PLIKI
+------------------------------------------------------------------------------
+  data\processed\ekstra_player_roster_2023_2026.csv
+  data\processed\ekstra_player_transfers_2023_2026.csv
+  data\reports\player_identity\flash_unmatched_2024_25.csv
+  data\reports\player_identity\flash_unmatched_candidates_2024_25.csv
+  data\reports\player_identity\flash_identity_transfer_audit_report_2024_25.txt

@@ -1,6 +1,7 @@
 import sqlite3
 import pandas as pd
 import re
+import argparse
 from pathlib import Path
 from difflib import SequenceMatcher
 
@@ -10,27 +11,28 @@ from difflib import SequenceMatcher
 
 DB_PATH = "db/ekstraklasa.db"
 RAW_ROOT = Path("data/raw/ekstraklasa_org")
-MAPPING_CSV = Path("data/processed/player_mapping.csv")
-
 PROCESSED_DIR = Path("data/processed")
 REPORT_DIR = Path("data/reports/player_identity")
 
-OUTPUT_ROSTER = PROCESSED_DIR / "ekstra_player_roster_2023_2026.csv"
-OUTPUT_TRANSFERS = PROCESSED_DIR / "ekstra_player_transfers_2023_2026.csv"
-
-OUTPUT_UNMATCHED = REPORT_DIR / "flash_unmatched_2025_26.csv"
-OUTPUT_CANDIDATES = REPORT_DIR / "flash_unmatched_candidates_2025_26.csv"
-OUTPUT_REPORT = REPORT_DIR / "flash_identity_transfer_audit_report.txt"
-
-TARGET_SEASON = "2025/26"
-
-RAW_SEASONS = {
-    "2023-2024": "2023/24",
-    "2024-2025": "2024/25",
-    "2025-2026": "2025/26",
+SEASON_TO_RAW = {
+    "2023/24": "2023-2024",
+    "2024/25": "2024-2025",
+    "2025/26": "2025-2026",
 }
 
-TEAM_MAP = {
+SEASON_TO_LABEL = {
+    "2023/24": "2023_24",
+    "2024/25": "2024_25",
+    "2025/26": "2025_26",
+}
+
+SEASON_ORDER = {
+    "2023/24": 1,
+    "2024/25": 2,
+    "2025/26": 3,
+}
+
+ALL_TEAM_MAP = {
     "Arka Gdynia": "arka-gdynia",
     "Bruk-Bet Termalica Nieciecza": "nieciecza",
     "Cracovia": "cracovia",
@@ -44,12 +46,21 @@ TEAM_MAP = {
     "Motor Lublin": "motor-lublin",
     "Piast Gliwice": "piast-gliwice",
     "Pogoń Szczecin": "pogon-szczecin",
+    "Puszcza Niepołomice": "puszcza-niepolomice",
     "Radomiak Radom": "radomiak-radom",
     "Raków Częstochowa": "rakow-czestochowa",
+    "Ruch Chorzów": "ruch-chorzow",
+    "Stal Mielec": "stal-mielec",
+    "Warta Poznań": "warta-poznan",
     "Widzew Łódź": "widzew-lodz",
     "Wisła Płock": "wisla-plock",
     "Zagłębie Lubin": "zagebie-lubin",
+    "ŁKS Łódź": "lks-lodz",
+    "Śląsk Wrocław": "slask-wroclaw",
 }
+
+OUTPUT_ROSTER = PROCESSED_DIR / "ekstra_player_roster_2023_2026.csv"
+OUTPUT_TRANSFERS = PROCESSED_DIR / "ekstra_player_transfers_2023_2026.csv"
 
 # ──────────────────────────────────────────────────────────────────────────────
 # NORMALIZACJA
@@ -122,14 +133,42 @@ def flash_tokens_slugstyle(name: str) -> list[str]:
     return [t for t in toks if t]
 
 # ──────────────────────────────────────────────────────────────────────────────
-# EKSTRAKLSA.ORG ROSTER
+# ŚCIEŻKI
+# ──────────────────────────────────────────────────────────────────────────────
+
+def get_label(season: str) -> str:
+    return SEASON_TO_LABEL[season]
+
+
+def get_mapping_path(season: str) -> Path:
+    label = get_label(season)
+    specific = PROCESSED_DIR / f"player_mapping_{label}.csv"
+    legacy = PROCESSED_DIR / "player_mapping.csv"
+
+    if specific.exists():
+        return specific
+    if season == "2025/26" and legacy.exists():
+        return legacy
+    return specific
+
+
+def get_outputs(season: str) -> dict:
+    label = get_label(season)
+    return {
+        "unmatched": REPORT_DIR / f"flash_unmatched_{label}.csv",
+        "candidates": REPORT_DIR / f"flash_unmatched_candidates_{label}.csv",
+        "report": REPORT_DIR / f"flash_identity_transfer_audit_report_{label}.txt",
+    }
+
+# ──────────────────────────────────────────────────────────────────────────────
+# ROSTER EKSTRAKLASA.ORG
 # ──────────────────────────────────────────────────────────────────────────────
 
 def load_ekstra_roster() -> pd.DataFrame:
     rows = []
 
-    for raw_season, season_label in RAW_SEASONS.items():
-        folder = RAW_ROOT / raw_season
+    for season_label, raw_folder in SEASON_TO_RAW.items():
+        folder = RAW_ROOT / raw_folder
         if not folder.exists():
             continue
 
@@ -162,7 +201,9 @@ def load_ekstra_roster() -> pd.DataFrame:
     roster["slug_tokens"] = roster["player_slug"].apply(lambda s: [t for t in s.split("-") if t])
     roster["slug_first"] = roster["slug_tokens"].apply(lambda x: x[0] if x else "")
     roster["slug_last"] = roster["slug_tokens"].apply(lambda x: x[-1] if x else "")
-    roster["slug_nonfirst"] = roster["slug_tokens"].apply(lambda x: "-".join(x[1:]) if len(x) > 1 else x[0] if x else "")
+    roster["slug_nonfirst"] = roster["slug_tokens"].apply(
+        lambda x: "-".join(x[1:]) if len(x) > 1 else (x[0] if x else "")
+    )
     roster["slug_full_compact"] = roster["player_slug"].str.replace("-", "", regex=False)
     roster["slug_nonfirst_compact"] = roster["slug_nonfirst"].str.replace("-", "", regex=False)
     roster["slug_token_count"] = roster["slug_tokens"].apply(len)
@@ -171,9 +212,6 @@ def load_ekstra_roster() -> pd.DataFrame:
     roster.sort_values(["season", "klub_slug", "player_slug"]).to_csv(OUTPUT_ROSTER, index=False, encoding="utf-8")
     return roster
 
-# ──────────────────────────────────────────────────────────────────────────────
-# TABELA TRANSFERÓW / ZMIAN KLUBOWYCH
-# ──────────────────────────────────────────────────────────────────────────────
 
 def build_transfer_table(roster: pd.DataFrame) -> pd.DataFrame:
     grouped = (
@@ -209,7 +247,7 @@ def build_transfer_table(roster: pd.DataFrame) -> pd.DataFrame:
 # FLASHSCORE - NIEDOPASOWANI
 # ──────────────────────────────────────────────────────────────────────────────
 
-def load_unmatched_flash() -> pd.DataFrame:
+def load_unmatched_flash(season: str, output_unmatched: Path) -> pd.DataFrame:
     conn = sqlite3.connect(DB_PATH)
 
     flash = pd.read_sql_query(
@@ -219,18 +257,26 @@ def load_unmatched_flash() -> pd.DataFrame:
         WHERE sezon = ?
         """,
         conn,
-        params=(TARGET_SEASON,)
+        params=(season,)
     )
     conn.close()
 
     flash["flash_name"] = flash["player_name"].apply(clean_flash_name)
     flash["flash_team"] = flash["team_name"].astype(str).str.strip()
-    flash["klub_slug_expected"] = flash["flash_team"].map(TEAM_MAP)
+    flash["klub_slug_expected"] = flash["flash_team"].map(ALL_TEAM_MAP)
+
+    missing_teams = sorted(flash.loc[flash["klub_slug_expected"].isna(), "flash_team"].unique())
+    if missing_teams:
+        raise RuntimeError(
+            "Brak mapowania drużyn Flashscore -> klub_slug dla:\n"
+            + "\n".join(f"  {x}" for x in missing_teams)
+        )
 
     flash = flash[["flash_team", "klub_slug_expected", "flash_name"]].drop_duplicates()
 
-    if MAPPING_CSV.exists():
-        mapped = pd.read_csv(MAPPING_CSV)
+    mapping_path = get_mapping_path(season)
+    if mapping_path.exists():
+        mapped = pd.read_csv(mapping_path)
         mapped["flash_name"] = mapped["flash_name"].astype(str).apply(clean_flash_name)
         mapped["flash_team"] = mapped["flash_team"].astype(str).str.strip()
         mapped_pairs = set(zip(mapped["flash_team"], mapped["flash_name"]))
@@ -242,26 +288,26 @@ def load_unmatched_flash() -> pd.DataFrame:
 
     unmatched = unmatched.drop(columns=["is_mapped"], errors="ignore")
     unmatched = unmatched.sort_values(["flash_team", "flash_name"]).reset_index(drop=True)
-    unmatched.to_csv(OUTPUT_UNMATCHED, index=False, encoding="utf-8")
+    unmatched.to_csv(output_unmatched, index=False, encoding="utf-8")
     return unmatched
 
 # ──────────────────────────────────────────────────────────────────────────────
-# KANDYDACI GLOBALNI DLA NIEDOPASOWANYCH
+# KANDYDACI GLOBALNI
 # ──────────────────────────────────────────────────────────────────────────────
 
-def candidate_relation(candidate_season: str, candidate_club: str, expected_club: str) -> str:
-    same_season = candidate_season == TARGET_SEASON
+def candidate_relation(target_season: str, candidate_season: str, candidate_club: str, expected_club: str) -> str:
+    same_season = candidate_season == target_season
     same_club = candidate_club == expected_club
 
     if same_season and same_club:
         return "same_season_same_club"
     if same_season and not same_club:
         return "same_season_other_club"
-    if candidate_season < TARGET_SEASON and same_club:
+    if SEASON_ORDER[candidate_season] < SEASON_ORDER[target_season] and same_club:
         return "past_season_same_club"
-    if candidate_season < TARGET_SEASON and not same_club:
+    if SEASON_ORDER[candidate_season] < SEASON_ORDER[target_season] and not same_club:
         return "past_season_other_club"
-    if candidate_season > TARGET_SEASON and same_club:
+    if SEASON_ORDER[candidate_season] > SEASON_ORDER[target_season] and same_club:
         return "future_season_same_club"
     return "future_season_other_club"
 
@@ -270,8 +316,6 @@ def score_candidate(flash_name: str, expected_club: str, row) -> tuple[int, list
     reasons = []
 
     base = flash_base_name(flash_name)
-    f_ascii = to_ascii(base)
-    f_slug = to_slugstyle(base)
     f_ascii_comp = compact_ascii(base)
     f_slug_comp = compact_slugstyle(base)
     f_toks = flash_tokens(flash_name)
@@ -283,7 +327,6 @@ def score_candidate(flash_name: str, expected_club: str, row) -> tuple[int, list
     slug_last = row["slug_last"]
     slug_nonfirst = row["slug_nonfirst"]
     slug_full_comp = row["slug_full_compact"]
-    slug_nonfirst_comp = row["slug_nonfirst_compact"]
 
     score = 0
 
@@ -345,41 +388,70 @@ def score_candidate(flash_name: str, expected_club: str, row) -> tuple[int, list
         score += 3
         reasons.append("same_club_bonus")
 
-    if row["season"] == TARGET_SEASON and score > 0:
-        score += 2
-        reasons.append("same_season_bonus")
+    if score > 0 and row["season"] in SEASON_ORDER:
+        score += 2 if row["season"] == max(SEASON_ORDER, key=SEASON_ORDER.get) else 0
 
     return score, reasons
 
 
-def build_unmatched_candidates(roster: pd.DataFrame, unmatched: pd.DataFrame) -> pd.DataFrame:
+def build_unmatched_candidates(target_season: str, roster: pd.DataFrame, unmatched: pd.DataFrame, output_candidates: Path) -> pd.DataFrame:
     candidate_rows = []
+
+    # Buduj lookup per klub — drastycznie ogranicza przestrzeń przeszukiwania
+    # Dla każdego zawodnika szukamy kandydatów tylko w:
+    # 1. tym samym klubie (dowolny sezon)
+    # 2. CAŁYM rosterze ale tylko z poprzednich sezonów (transfery)
+    roster_records = roster.to_dict("records")
+
+    # Index: klub_slug -> lista rekordów
+    club_index = {}
+    for row in roster_records:
+        club = row["klub_slug"]
+        if club not in club_index:
+            club_index[club] = []
+        club_index[club].append(row)
 
     for u in unmatched.itertuples(index=False):
         flash_team = u.flash_team
         expected_club = u.klub_slug_expected
         flash_name = u.flash_name
 
+        # Kandydaci = ten sam klub (wszystkie sezony) + wszyscy z poprzednich sezonów
+        season_order = SEASON_ORDER[target_season]
+        past_seasons = {s for s, o in SEASON_ORDER.items() if o < season_order}
+
+        same_club_records = club_index.get(expected_club, [])
+        past_records = [r for r in roster_records if r["season"] in past_seasons]
+
+        # Połącz i deduplikuj po player_slug
+        seen = set()
+        candidates_pool = []
+        for r in same_club_records + past_records:
+            key = (r["player_slug"], r["season"])
+            if key not in seen:
+                seen.add(key)
+                candidates_pool.append(r)
+
         local_candidates = []
 
-        for row in roster.itertuples(index=False):
-            score, reasons = score_candidate(flash_name, expected_club, row._asdict())
+        for row in candidates_pool:
+            score, reasons = score_candidate(flash_name, expected_club, row)
             if score <= 0:
                 continue
 
-            relation = candidate_relation(row.season, row.klub_slug, expected_club)
+            relation = candidate_relation(target_season, row["season"], row["klub_slug"], expected_club)
 
             local_candidates.append({
                 "flash_team": flash_team,
                 "expected_klub_slug": expected_club,
                 "flash_name": flash_name,
-                "candidate_player_slug": row.player_slug,
-                "candidate_klub_slug": row.klub_slug,
-                "candidate_season": row.season,
+                "candidate_player_slug": row["player_slug"],
+                "candidate_klub_slug": row["klub_slug"],
+                "candidate_season": row["season"],
                 "relation": relation,
                 "score": score,
                 "reasons": " | ".join(reasons),
-                "candidate_nazwa": row.nazwa,
+                "candidate_nazwa": row["nazwa"],
             })
 
         local_candidates = sorted(
@@ -400,25 +472,25 @@ def build_unmatched_candidates(roster: pd.DataFrame, unmatched: pd.DataFrame) ->
     else:
         cand_df = cand_df.sort_values(["flash_team", "flash_name", "score"], ascending=[True, True, False])
 
-    cand_df.to_csv(OUTPUT_CANDIDATES, index=False, encoding="utf-8")
+    cand_df.to_csv(output_candidates, index=False, encoding="utf-8")
     return cand_df
 
 # ──────────────────────────────────────────────────────────────────────────────
 # RAPORT
 # ──────────────────────────────────────────────────────────────────────────────
 
-def build_report(roster: pd.DataFrame, transfers: pd.DataFrame, unmatched: pd.DataFrame, candidates: pd.DataFrame) -> str:
+def build_report(target_season: str, roster: pd.DataFrame, transfers: pd.DataFrame, unmatched: pd.DataFrame, candidates: pd.DataFrame, outputs: dict) -> str:
     lines = []
 
     lines.append("=" * 78)
-    lines.append("AUDYT TOŻSAMOŚCI ZAWODNIKÓW + TRANSFERY + KANDYDACI DLA NIEDOPASOWANYCH")
+    lines.append(f"AUDYT TOŻSAMOŚCI ZAWODNIKÓW + TRANSFERY + KANDYDACI [{target_season}]")
     lines.append("=" * 78)
     lines.append("")
 
     lines.append("1. EKSTRAKLASA.ORG — roster 3 sezony")
     lines.append("-" * 78)
     lines.append(f"Liczba unikalnych rekordów sezon-zawodnik-klub: {len(roster)}")
-    for season in sorted(roster["season"].unique()):
+    for season in sorted(roster["season"].unique(), key=lambda x: SEASON_ORDER[x]):
         tmp = roster[roster["season"] == season]
         lines.append(
             f"  {season}: {len(tmp):4d} rekordów | "
@@ -439,9 +511,9 @@ def build_report(roster: pd.DataFrame, transfers: pd.DataFrame, unmatched: pd.Da
         lines.append("Brak wykrytych zmian klubowych.")
     lines.append("")
 
-    lines.append("3. FLASHSCORE 2025/26 — obecnie niedopasowani")
+    lines.append(f"3. FLASHSCORE {target_season} — obecnie niedopasowani")
     lines.append("-" * 78)
-    lines.append(f"Niedopasowanych po obecnym player_mapping.csv: {len(unmatched)}")
+    lines.append(f"Niedopasowanych po obecnym mapowaniu: {len(unmatched)}")
     for team in sorted(unmatched["flash_team"].unique()):
         cnt = (unmatched["flash_team"] == team).sum()
         lines.append(f"  {team:30s} | {cnt}")
@@ -470,9 +542,9 @@ def build_report(roster: pd.DataFrame, transfers: pd.DataFrame, unmatched: pd.Da
     lines.append("-" * 78)
     lines.append(f"  {OUTPUT_ROSTER}")
     lines.append(f"  {OUTPUT_TRANSFERS}")
-    lines.append(f"  {OUTPUT_UNMATCHED}")
-    lines.append(f"  {OUTPUT_CANDIDATES}")
-    lines.append(f"  {OUTPUT_REPORT}")
+    lines.append(f"  {outputs['unmatched']}")
+    lines.append(f"  {outputs['candidates']}")
+    lines.append(f"  {outputs['report']}")
     lines.append("")
 
     return "\n".join(lines)
@@ -482,18 +554,25 @@ def build_report(roster: pd.DataFrame, transfers: pd.DataFrame, unmatched: pd.Da
 # ──────────────────────────────────────────────────────────────────────────────
 
 def main():
+    parser = argparse.ArgumentParser(description="Audyt tożsamości zawodników i transferów per sezon")
+    parser.add_argument("--season", required=True, choices=list(SEASON_TO_RAW.keys()))
+    args = parser.parse_args()
+
+    season = args.season
+    outputs = get_outputs(season)
+
     PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
     REPORT_DIR.mkdir(parents=True, exist_ok=True)
 
     roster = load_ekstra_roster()
     transfers = build_transfer_table(roster)
-    unmatched = load_unmatched_flash()
-    candidates = build_unmatched_candidates(roster, unmatched)
+    unmatched = load_unmatched_flash(season, outputs["unmatched"])
+    candidates = build_unmatched_candidates(season, roster, unmatched, outputs["candidates"])
 
-    report = build_report(roster, transfers, unmatched, candidates)
+    report = build_report(season, roster, transfers, unmatched, candidates, outputs)
     print(report)
 
-    with open(OUTPUT_REPORT, "w", encoding="utf-8") as f:
+    with open(outputs["report"], "w", encoding="utf-8") as f:
         f.write(report)
 
 
