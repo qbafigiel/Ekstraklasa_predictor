@@ -12,9 +12,11 @@ DB_PATH = "db/ekstraklasa.db"
 ROSTER_CSV = Path("data/processed/ekstra_player_roster_2023_2026.csv")
 MAPPING_CSV = Path("data/processed/player_mapping.csv")
 
-OUTPUT_REVIEW = Path("data/processed/player_identity_review_2025_26.csv")
-OUTPUT_CANDIDATES = Path("data/processed/player_identity_review_candidates_2025_26.csv")
-OUTPUT_REPORT = Path("data/processed/player_identity_review_report_2025_26.txt")
+REPORT_DIR = Path("data/reports/player_identity")
+
+OUTPUT_REVIEW = REPORT_DIR / "player_identity_review_2025_26.csv"
+OUTPUT_CANDIDATES = REPORT_DIR / "player_identity_review_candidates_2025_26.csv"
+OUTPUT_REPORT = REPORT_DIR / "player_identity_review_report_2025_26.txt"
 
 TARGET_SEASON = "2025/26"
 
@@ -39,7 +41,6 @@ TEAM_MAP = {
     "Zagłębie Lubin": "zagebie-lubin",
 }
 
-# Celowo brak danych w ekstraklasa.org — to NIE jest błąd mapowania
 MANUAL_NO_DATA = {
     ("Guilherme", "Radomiak Radom"),
     ("Costa S. T.", "Jagiellonia Białystok"),
@@ -75,7 +76,7 @@ def tokenize_text(s: str) -> list[str]:
 
 def clean_flash_name(raw: str) -> str:
     raw = str(raw).strip()
-    raw = re.sub(r"\s+\d+$", "", raw)  # "Kerk S. 2" -> "Kerk S."
+    raw = re.sub(r"\s+\d+$", "", raw)
     return raw.strip()
 
 # ──────────────────────────────────────────────────────────────────────────────
@@ -83,27 +84,17 @@ def clean_flash_name(raw: str) -> str:
 # ──────────────────────────────────────────────────────────────────────────────
 
 def parse_flash_identity(name: str) -> dict:
-    """
-    Przykłady:
-    - "Bobcek T." -> base="Bobcek", tokens=["bobcek"], initials=["t"], abbrev=""
-    - "Espiau Hernandez E. D." -> base="Espiau Hernandez", tokens=["espiau","hernandez"], initials=["e","d"]
-    - "Hanousek Mar." -> base="Hanousek", tokens=["hanousek"], abbrev="mar"
-    - "Percan" -> base="Percan", tokens=["percan"]
-    """
     raw = clean_flash_name(name)
 
     initials = []
     abbrev = ""
 
-    # 1) Końcowe pojedyncze inicjały typu "T." / "E. D."
     m = re.search(r"((?:\s+[A-ZŁŚÓŹĆĄĘŃŻ]\.)+)\s*$", raw)
     if m:
         initials = [x.lower() for x in re.findall(r"([A-ZŁŚÓŹĆĄĘŃŻ])\.", m.group(1))]
         base = raw[:m.start()].strip()
     else:
         base = raw
-
-        # 2) Skrót imienia typu "Mar." / "At."
         m2 = re.search(r"\s+([A-ZŁŚÓŹĆĄĘŃŻ][a-ząćęłńóśźż]{1,4})\.\s*$", base)
         if m2:
             abbrev = to_ascii(m2.group(1))
@@ -233,12 +224,6 @@ def any_prefix_match(prefixes: list[str], tokens: list[str]) -> bool:
     return False
 
 def score_candidate(flash: dict, expected_club: str, cand: dict) -> tuple[int, list[str], dict]:
-    """
-    Zwraca:
-    - score
-    - reasons
-    - feature flags
-    """
     flash_tokens = flash["tokens"]
     initials = flash["initials"]
     abbrev = flash["abbrev"]
@@ -256,12 +241,10 @@ def score_candidate(flash: dict, expected_club: str, cand: dict) -> tuple[int, l
 
     all_tokens_in_slug = all(t in cand_set for t in flash_tokens)
 
-    # suffix exact: tokeny Flash są końcem slugu
     suffix_exact = False
     if len(flash_tokens) <= len(cand_tokens):
         suffix_exact = (cand_tokens[-len(flash_tokens):] == flash_tokens)
 
-    # tokeny "imię" po stronie kandydata = wszystko poza tokenami flash
     remaining_tokens = cand_tokens.copy()
     for ft in flash_tokens:
         if ft in remaining_tokens:
@@ -304,11 +287,6 @@ def score_candidate(flash: dict, expected_club: str, cand: dict) -> tuple[int, l
         score += 4
         reasons.append("present_in_target_season")
 
-    # Filtr jakości:
-    # Kandydat w ogóle sensowny tylko jeśli:
-    # - wszystkie tokeny flash są w slug
-    # ORAZ
-    # - mamy dodatkowe wsparcie: suffix / initial / abbrev / same_club_history
     support = suffix_exact or initial_match or abbrev_match or same_club_any
 
     if not all_tokens_in_slug or not support:
@@ -348,7 +326,6 @@ def build_review():
 
         key = (flash_team, flash_name)
 
-        # 1. Już zmapowane
         if key in mapped_dict:
             review_rows.append({
                 "flash_team": flash_team,
@@ -363,7 +340,6 @@ def build_review():
             })
             continue
 
-        # 2. Celowy brak danych
         if key in MANUAL_NO_DATA:
             review_rows.append({
                 "flash_team": flash_team,
@@ -378,7 +354,6 @@ def build_review():
             })
             continue
 
-        # 3. Review kandydatów
         flash_parsed = parse_flash_identity(flash_name)
         candidates = []
 
@@ -451,7 +426,6 @@ def build_review():
         top2 = candidates[1] if len(candidates) > 1 else None
         gap = top1["score"] - top2["score"] if top2 else 999
 
-        # Twarde zasady propozycji
         if top1["score"] >= 100 and gap >= 8 and top1["same_club_any"] == 1:
             proposed_status = "auto_same_club_history"
         elif top1["score"] >= 95 and gap >= 10 and top1["same_club_any"] == 0:
@@ -488,7 +462,7 @@ def build_review():
     if len(cand_df):
         cand_df = cand_df.sort_values(["flash_team", "flash_name", "score"], ascending=[True, True, False]).reset_index(drop=True)
 
-    OUTPUT_REVIEW.parent.mkdir(parents=True, exist_ok=True)
+    REPORT_DIR.mkdir(parents=True, exist_ok=True)
     review_df.to_csv(OUTPUT_REVIEW, index=False, encoding="utf-8")
     cand_df.to_csv(OUTPUT_CANDIDATES, index=False, encoding="utf-8")
 

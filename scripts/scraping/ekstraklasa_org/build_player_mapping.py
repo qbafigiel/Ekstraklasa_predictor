@@ -10,12 +10,13 @@ from pathlib import Path
 DB_PATH = "db/ekstraklasa.db"
 TARGET_SEASON = "2025/26"
 
-REVIEW_CSV = Path("data/processed/player_identity_review_2025_26.csv")
+REPORT_DIR = Path("data/reports/player_identity")
+REVIEW_CSV = REPORT_DIR / "player_identity_review_2025_26.csv"
 ROSTER_CSV = Path("data/processed/ekstra_player_roster_2023_2026.csv")
 
 OUTPUT_MAPPING = Path("data/processed/player_mapping.csv")
 OUTPUT_STATUS = Path("data/processed/player_mapping_status.csv")
-OUTPUT_REPORT = Path("data/processed/player_mapping_report.txt")
+OUTPUT_REPORT = REPORT_DIR / "player_mapping_report.txt"
 
 TEAM_MAP = {
     "Arka Gdynia": "arka-gdynia",
@@ -38,13 +39,7 @@ TEAM_MAP = {
     "Zagłębie Lubin": "zagebie-lubin",
 }
 
-# ──────────────────────────────────────────────────────────────────────────────
-# RĘCZNE DECYZJE KOŃCOWE
-# TYLKO przypadki, które świadomie oceniliśmy po audycie
-# ──────────────────────────────────────────────────────────────────────────────
-
 MANUAL_ACCEPT = {
-    # review_high_confidence -> akceptujemy
     ("Cracovia", "Skovgaard A."): (
         "andreas-skovgaard-larsen",
         "manual_accept_review_high_confidence",
@@ -57,8 +52,6 @@ MANUAL_ACCEPT = {
         "marc-gual-huguet",
         "manual_accept_review_high_confidence",
     ),
-
-    # review_needed -> świadomie akceptujemy
     ("Raków Częstochowa", "Silva J. C."): (
         "jean-carlos-silva-rocha",
         "manual_accept_review_needed",
@@ -66,11 +59,8 @@ MANUAL_ACCEPT = {
 }
 
 MANUAL_REJECT = {
-    # review_high_confidence -> świadomie odrzucamy
     ("Bruk-Bet Termalica Nieciecza", "Janicki M."):
         "manual_reject_wrong_person_rafa_janicki_is_not_m_janicki",
-
-    # review_needed -> świadomie odrzucamy
     ("Radomiak Radom", "Guilherme"):
         "manual_reject_no_current_ekstraklasa_org_data",
     ("Wisła Płock", "Zając F."):
@@ -81,18 +71,13 @@ MANUAL_REJECT = {
         "manual_reject_wrong_person_kacper_urbanski_is_not_m_urbanski",
 }
 
-AUTO_ACCEPT_STATUSES = {
-    "auto_same_club_history",
-    "auto_transfer_candidate",
-}
-
 # ──────────────────────────────────────────────────────────────────────────────
 # HELPERY
 # ──────────────────────────────────────────────────────────────────────────────
 
 def clean_flash_name(raw: str) -> str:
     raw = str(raw).strip()
-    raw = re.sub(r"\s+\d+$", "", raw)  # "Kerk S. 2" -> "Kerk S."
+    raw = re.sub(r"\s+\d+$", "", raw)
     return raw.strip()
 
 
@@ -232,41 +217,31 @@ def validate_review_vs_flash(flash_df: pd.DataFrame, review_df: pd.DataFrame) ->
 
 
 def decide_row(row: pd.Series) -> tuple[str, str, str]:
-    """
-    Zwraca:
-    final_status, final_player_slug, match_method
-    """
     key = (row["flash_team"], row["flash_name"])
     proposed_status = row["proposed_status"]
     existing_player_slug = row["existing_player_slug"]
     proposed_player_slug = row["proposed_player_slug"]
 
-    # 1. To co już było pewne
     if proposed_status == "matched_existing":
         final_slug = existing_player_slug or proposed_player_slug
         return "matched_existing", final_slug, "existing_mapping"
 
-    # 2. Automaty akceptowane po audycie
     if proposed_status == "auto_same_club_history":
         return "matched_auto_same_club_history", proposed_player_slug, "review_auto_same_club_history"
 
     if proposed_status == "auto_transfer_candidate":
         return "matched_auto_transfer_candidate", proposed_player_slug, "review_auto_transfer_candidate"
 
-    # 3. Ręczne akceptacje
     if key in MANUAL_ACCEPT:
         slug, method = MANUAL_ACCEPT[key]
         return "matched_manual_review", slug, method
 
-    # 4. Ręczne odrzucenia
     if key in MANUAL_REJECT:
         return "rejected_manual", "", MANUAL_REJECT[key]
 
-    # 5. Jawny brak kandydata
     if proposed_status == "no_candidate":
         return "no_candidate", "", "review_no_candidate"
 
-    # 6. Jeśli zostało coś nierozstrzygniętego
     return "unresolved_review", "", f"needs_manual_decision:{proposed_status}"
 
 
@@ -478,6 +453,8 @@ def main():
     report = build_report(status_df)
 
     OUTPUT_MAPPING.parent.mkdir(parents=True, exist_ok=True)
+    REPORT_DIR.mkdir(parents=True, exist_ok=True)
+
     mapping_df.to_csv(OUTPUT_MAPPING, index=False, encoding="utf-8")
     status_df.to_csv(OUTPUT_STATUS, index=False, encoding="utf-8")
 

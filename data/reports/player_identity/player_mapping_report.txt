@@ -125,4 +125,4 @@ FINAL PLAYER MAPPING REPORT — FLASHSCORE <-> EKSTRAKLASA.ORG
 ------------------------------------------------------------------------------
   data\processed\player_mapping.csv
   data\processed\player_mapping_status.csv
-  data\processed\player_mapping_report.txt
+  data\reports\player_identity\player_mapping_report.txt

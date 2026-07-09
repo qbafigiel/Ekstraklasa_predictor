@@ -12,11 +12,15 @@ DB_PATH = "db/ekstraklasa.db"
 RAW_ROOT = Path("data/raw/ekstraklasa_org")
 MAPPING_CSV = Path("data/processed/player_mapping.csv")
 
-OUTPUT_ROSTER = Path("data/processed/ekstra_player_roster_2023_2026.csv")
-OUTPUT_TRANSFERS = Path("data/processed/ekstra_player_transfers_2023_2026.csv")
-OUTPUT_UNMATCHED = Path("data/processed/flash_unmatched_2025_26.csv")
-OUTPUT_CANDIDATES = Path("data/processed/flash_unmatched_candidates_2025_26.csv")
-OUTPUT_REPORT = Path("data/processed/flash_identity_transfer_audit_report.txt")
+PROCESSED_DIR = Path("data/processed")
+REPORT_DIR = Path("data/reports/player_identity")
+
+OUTPUT_ROSTER = PROCESSED_DIR / "ekstra_player_roster_2023_2026.csv"
+OUTPUT_TRANSFERS = PROCESSED_DIR / "ekstra_player_transfers_2023_2026.csv"
+
+OUTPUT_UNMATCHED = REPORT_DIR / "flash_unmatched_2025_26.csv"
+OUTPUT_CANDIDATES = REPORT_DIR / "flash_unmatched_candidates_2025_26.csv"
+OUTPUT_REPORT = REPORT_DIR / "flash_identity_transfer_audit_report.txt"
 
 TARGET_SEASON = "2025/26"
 
@@ -90,28 +94,17 @@ def compact_slugstyle(s: str) -> str:
 
 def clean_flash_name(raw: str) -> str:
     raw = str(raw).strip()
-    raw = re.sub(r"\s+\d+$", "", raw)  # "Kerk S. 2" -> "Kerk S."
+    raw = re.sub(r"\s+\d+$", "", raw)
     return raw.strip()
 
 
 def flash_base_name(name: str) -> str:
-    """
-    Usuwa końcowe inicjały:
-    'Bobcek T.' -> 'Bobcek'
-    'Espiau Hernandez E. D.' -> 'Espiau Hernandez'
-    'Hanousek Mar.' zostaje bez zmian, bo to nie inicjał typu X.
-    """
     name = clean_flash_name(name)
     cleaned = re.sub(r"(\s+[A-ZŁŚÓŹĆĄĘŃŻ]\.\s*)+$", "", name).strip()
     return cleaned
 
 
 def flash_initials(name: str) -> list[str]:
-    """
-    Zwraca listę końcowych inicjałów:
-    'Espiau Hernandez E. D.' -> ['e', 'd']
-    'Bobcek T.' -> ['t']
-    """
     name = clean_flash_name(name)
     initials = re.findall(r"\b([A-ZŁŚÓŹĆĄĘŃŻ])\.", name)
     return [x.lower() for x in initials]
@@ -127,7 +120,6 @@ def flash_tokens_slugstyle(name: str) -> list[str]:
     base = flash_base_name(name)
     toks = re.split(r"[\s\-]+", to_slugstyle(base))
     return [t for t in toks if t]
-
 
 # ──────────────────────────────────────────────────────────────────────────────
 # EKSTRAKLSA.ORG ROSTER
@@ -165,10 +157,8 @@ def load_ekstra_roster() -> pd.DataFrame:
     roster["klub_slug"] = roster["klub_slug"].astype(str).str.strip()
     roster["nazwa"] = roster["nazwa"].astype(str).fillna("").str.strip()
 
-    # deduplikacja po sezon + slug + klub
     roster = roster.drop_duplicates(subset=["season", "player_slug", "klub_slug"]).copy()
 
-    # pola pomocnicze
     roster["slug_tokens"] = roster["player_slug"].apply(lambda s: [t for t in s.split("-") if t])
     roster["slug_first"] = roster["slug_tokens"].apply(lambda x: x[0] if x else "")
     roster["slug_last"] = roster["slug_tokens"].apply(lambda x: x[-1] if x else "")
@@ -177,10 +167,9 @@ def load_ekstra_roster() -> pd.DataFrame:
     roster["slug_nonfirst_compact"] = roster["slug_nonfirst"].str.replace("-", "", regex=False)
     roster["slug_token_count"] = roster["slug_tokens"].apply(len)
 
-    OUTPUT_ROSTER.parent.mkdir(parents=True, exist_ok=True)
+    PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
     roster.sort_values(["season", "klub_slug", "player_slug"]).to_csv(OUTPUT_ROSTER, index=False, encoding="utf-8")
     return roster
-
 
 # ──────────────────────────────────────────────────────────────────────────────
 # TABELA TRANSFERÓW / ZMIAN KLUBOWYCH
@@ -204,7 +193,6 @@ def build_transfer_table(roster: pd.DataFrame) -> pd.DataFrame:
     transfers = grouped[grouped["club_count"] > 1].copy()
     transfers = transfers.sort_values(["club_count", "player_slug"], ascending=[False, True])
 
-    # Szczegóły sezon po sezonie
     details = (
         roster.groupby("player_slug")
         .apply(lambda g: " || ".join(
@@ -216,7 +204,6 @@ def build_transfer_table(roster: pd.DataFrame) -> pd.DataFrame:
     transfers = transfers.merge(details, on="player_slug", how="left")
     transfers.to_csv(OUTPUT_TRANSFERS, index=False, encoding="utf-8")
     return transfers
-
 
 # ──────────────────────────────────────────────────────────────────────────────
 # FLASHSCORE - NIEDOPASOWANI
@@ -258,7 +245,6 @@ def load_unmatched_flash() -> pd.DataFrame:
     unmatched.to_csv(OUTPUT_UNMATCHED, index=False, encoding="utf-8")
     return unmatched
 
-
 # ──────────────────────────────────────────────────────────────────────────────
 # KANDYDACI GLOBALNI DLA NIEDOPASOWANYCH
 # ──────────────────────────────────────────────────────────────────────────────
@@ -281,10 +267,6 @@ def candidate_relation(candidate_season: str, candidate_club: str, expected_club
 
 
 def score_candidate(flash_name: str, expected_club: str, row) -> tuple[int, list[str]]:
-    """
-    Zwraca (score, reasons)
-    Score służy TYLKO do audytu kandydatów, nie do automatycznego matchowania.
-    """
     reasons = []
 
     base = flash_base_name(flash_name)
@@ -305,7 +287,6 @@ def score_candidate(flash_name: str, expected_club: str, row) -> tuple[int, list
 
     score = 0
 
-    # 1) exact po całej bazie vs pełne nazwisko bez pierwszego tokena
     if f_ascii_comp and f_ascii_comp == compact_ascii(slug_nonfirst.replace("-", " ")):
         score = max(score, 100)
         reasons.append("exact_nonfirst_ascii")
@@ -314,7 +295,6 @@ def score_candidate(flash_name: str, expected_club: str, row) -> tuple[int, list
         score = max(score, 100)
         reasons.append("exact_nonfirst_slugstyle")
 
-    # 2) exact po ostatnim tokenie (nazwisko)
     if f_toks:
         last_flash_ascii = f_toks[-1]
         if last_flash_ascii == to_ascii(slug_last):
@@ -327,7 +307,6 @@ def score_candidate(flash_name: str, expected_club: str, row) -> tuple[int, list
             score = max(score, 92)
             reasons.append("last_token_slugstyle")
 
-    # 3) exact po jednym z tokenów w slug
     candidate_tokens_ascii = [to_ascii(t) for t in slug_tokens]
     candidate_tokens_slug = [to_slugstyle(t) for t in slug_tokens]
 
@@ -342,7 +321,6 @@ def score_candidate(flash_name: str, expected_club: str, row) -> tuple[int, list
         score = max(score, 86)
         reasons.append(f"token_overlap_slug:{','.join(overlap_slug)}")
 
-    # 4) podobieństwo tekstowe
     sim_nonfirst = SequenceMatcher(None, f_ascii_comp, compact_ascii(slug_nonfirst.replace("-", " "))).ratio()
     sim_full = SequenceMatcher(None, f_ascii_comp, slug_full_comp).ratio()
     sim_best = max(sim_nonfirst, sim_full)
@@ -357,14 +335,12 @@ def score_candidate(flash_name: str, expected_club: str, row) -> tuple[int, list
         score = max(score, 78)
         reasons.append(f"sim>=0.78:{sim_best:.3f}")
 
-    # 5) bonus za zgodność inicjału
     if f_initials:
         initials_match = any(slug_first.startswith(x) for x in f_initials)
         if initials_match and score > 0:
             score += 4
             reasons.append("initial_match")
 
-    # 6) bonus za klub / sezon
     if row["klub_slug"] == expected_club and score > 0:
         score += 3
         reasons.append("same_club_bonus")
@@ -426,7 +402,6 @@ def build_unmatched_candidates(roster: pd.DataFrame, unmatched: pd.DataFrame) ->
 
     cand_df.to_csv(OUTPUT_CANDIDATES, index=False, encoding="utf-8")
     return cand_df
-
 
 # ──────────────────────────────────────────────────────────────────────────────
 # RAPORT
@@ -502,13 +477,13 @@ def build_report(roster: pd.DataFrame, transfers: pd.DataFrame, unmatched: pd.Da
 
     return "\n".join(lines)
 
-
 # ──────────────────────────────────────────────────────────────────────────────
 # MAIN
 # ──────────────────────────────────────────────────────────────────────────────
 
 def main():
-    OUTPUT_REPORT.parent.mkdir(parents=True, exist_ok=True)
+    PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
+    REPORT_DIR.mkdir(parents=True, exist_ok=True)
 
     roster = load_ekstra_roster()
     transfers = build_transfer_table(roster)
