@@ -1,0 +1,29 @@
+======================================================================
+WYNIKI EKSPERYMENTU: Poisson(xG) + Lineup Offense [2025/26]
+======================================================================
+
+1. LOG-LOSS (in-sample calibration)
+----------------------------------------------------------------------
+  Model A (Baseline):          1.0571
+  Model B (Baseline + Lineup): 1.0548
+  Różnica (A - B):             +0.0023
+  Poprawa:                     TAK
+  Benchmark losowy:            1.0986
+
+2. PARAMETRY KALIBRACJI
+----------------------------------------------------------------------
+  Model A: T=1.8426, bH=0.3154, bD=0.0010, bA=-0.2645
+  Model B: T=1.9963, bH=0.3773, bD=0.0008, bA=-0.2794, gamma=0.008134
+
+3. INTERPRETACJA GAMMA
+----------------------------------------------------------------------
+  gamma=0.008134 — mierzalny efekt
+  Lineup offense dodaje informację ponad sam Poisson(xG).
+  WNIOSEK: WARTO wpiąć do modelu produkcyjnego.
+
+4. STATYSTYKI MECZU
+----------------------------------------------------------------------
+  Mecze: 303
+  Mecze z diff_lineup_offense != 0: 302
+  diff_lineup_offense mean: 0.57
+  diff_lineup_offense std:  20.83

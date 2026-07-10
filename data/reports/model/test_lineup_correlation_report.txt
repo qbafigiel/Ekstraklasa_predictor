@@ -1,0 +1,47 @@
+==============================================================================
+TEST KORELACJI — LINEUP VALUES vs WYNIKI MECZÓW
+==============================================================================
+
+1. WYKRYTE KOLUMNY MATCHES
+------------------------------------------------------------------------------
+  match_id   -> match_id
+  home_goals -> gole_gosp
+  away_goals -> gole_gosc
+  home_xg    -> xg_gosp
+  away_xg    -> xg_gosc
+
+2. LICZNOŚCI
+------------------------------------------------------------------------------
+  Mecze lineup (2024/25 + 2025/26): 612
+  Mecze po joinie:                  612
+  Mecze z goal_diff:                612
+  Mecze z xg_diff:                  612
+  Mecze xg bez beniaminków:         539
+
+3. KORELACJA Z GOAL_DIFF
+------------------------------------------------------------------------------
+  diff_lineup_offense  vs goal_diff: 0.076
+  diff_lineup_defense  vs goal_diff: 0.049
+  diff_lineup_minutes  vs goal_diff: 0.073
+
+4. KORELACJA Z xG_DIFF
+------------------------------------------------------------------------------
+  diff_lineup_offense  vs xg_diff:   0.130
+  diff_lineup_defense  vs xg_diff:   0.076
+  diff_lineup_minutes  vs xg_diff:   0.108
+
+5. KORELACJA Z xG_DIFF — BEZ BENIAMINKÓW
+------------------------------------------------------------------------------
+  diff_lineup_offense  vs xg_diff:   0.116
+  diff_lineup_defense  vs xg_diff:   0.058
+  diff_lineup_minutes  vs xg_diff:   0.087
+
+6. INTERPRETACJA
+------------------------------------------------------------------------------
+  < 0.10      -> raczej szum
+  0.10-0.20   -> umiarkowany sygnał, dobry jako feature dodatkowy
+  > 0.20      -> silny sygnał
+
+7. RAPORT
+------------------------------------------------------------------------------
+  data\reports\model\test_lineup_correlation_report.txt

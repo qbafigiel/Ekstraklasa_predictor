@@ -1,0 +1,46 @@
+==============================================================================
+OUT-OF-SAMPLE TEST — Poisson(xG) + diff_lineup_offense
+==============================================================================
+
+1. ZBIORY
+------------------------------------------------------------------------------
+  Kalibracja parametrów: 2024/25
+  Test out-of-sample:    2025/26
+  Predykcje 2024/25:     303
+  Predykcje 2025/26:     303
+
+2. KALIBRACJA NA 2024/25
+------------------------------------------------------------------------------
+  Baseline log-loss:     1.0290
+  Lineup log-loss:       1.0261
+  Delta:                 +0.0029
+
+3. TEST OOS NA 2025/26
+------------------------------------------------------------------------------
+  Baseline log-loss:     1.0738
+  Lineup log-loss:       1.0832
+  Delta (base-lineup):   -0.0094
+  Benchmark losowy:      1.0986
+
+4. PARAMETRY
+------------------------------------------------------------------------------
+  Baseline: T=0.9364, bH=-0.0237, bD=-0.0008, bA=0.0245
+  Lineup:   T=0.8546, bH=-0.0520, bD=0.0190, bA=0.0330, gamma=-0.003630
+
+5. DIFF_LINEUP_OFFENSE
+------------------------------------------------------------------------------
+  2024/25 mean: -0.36
+  2024/25 std:  22.78
+  2025/26 mean: 0.57
+  2025/26 std:  20.83
+
+6. WNIOSEK ROBOCZY
+------------------------------------------------------------------------------
+  BRAK POPRAWY OOS
+  In-sample improvement był najpewniej overfitem.
+  Nie wdrażać do produkcji.
+
+7. PLIKI
+------------------------------------------------------------------------------
+  Predykcje testowe: data\processed\backtesting_xg_lineup_oos_2025_26.csv
+  Raport:            data\reports\model\backtesting_xg_lineup_oos_report.txt
