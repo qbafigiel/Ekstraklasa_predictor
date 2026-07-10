@@ -1,0 +1,39 @@
+==============================================================================
+PREVIOUS-SEASON PRIORS REPORT [2024/25 <- 2023/24]
+==============================================================================
+
+1. INPUT
+------------------------------------------------------------------------------
+  Mapping status: data\processed\player_mapping_status_2024_25.csv
+  Previous rankings: data\processed\zawodnicy_ekstraklasa_org_2023_24.csv
+
+2. RANKINGS DEDUPE
+------------------------------------------------------------------------------
+  Raw rows:                    499
+  Unique player_slug raw:      499
+  Duplicate rows removed:      0
+  Minutes column used:         gk_gk-minuty-rozegrane
+  Final rows after dedupe:     499
+
+3. COVERAGE
+------------------------------------------------------------------------------
+  Total flash identities:      623
+  With prior stats:            299
+  Without prior stats:         324
+
+  Matched identities:          537
+  Matched with prior stats:    299
+  Matched without prior stats: 238
+  Matched prior coverage:      55.7%
+
+4. FINAL STATUS COUNTS
+------------------------------------------------------------------------------
+  matched_auto_same_club_history   |  515
+  no_candidate                     |   82
+  matched_auto_transfer_candidate  |   11
+  matched_manual_review            |   11
+  rejected_manual                  |    4
+
+5. OUTPUT
+------------------------------------------------------------------------------
+  data\processed\player_priors_2024_25.csv
