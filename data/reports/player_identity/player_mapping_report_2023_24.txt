@@ -1,0 +1,157 @@
+==============================================================================
+FINAL PLAYER MAPPING REPORT — FLASHSCORE <-> EKSTRAKLASA.ORG [2023/24]
+==============================================================================
+
+1. Statusy końcowe
+------------------------------------------------------------------------------
+  matched_auto_same_club_history   | 490 |  81.3%
+  no_candidate                     |  82 |  13.6%
+  matched_auto_transfer_candidate  |  13 |   2.2%
+  rejected_manual                  |   9 |   1.5%
+  matched_manual_review            |   9 |   1.5%
+
+2. Podsumowanie biznesowe
+------------------------------------------------------------------------------
+  Łącznie zawodników Flashscore 2023/24: 603
+  Finalnie dopasowanych:        512 (84.9%)
+  Bez dopasowania / odrzuconych:91 (15.1%)
+
+3. Akceptowane transfery
+------------------------------------------------------------------------------
+  Górnik Zabrze                  | Czyż S.                -> szymon-czyz                         | 2024/25:widzew-lodz | 2025/26:widzew-lodz
+  Górnik Zabrze                  | Dadok R.               -> robert-dadok                        | 2023/24:ruch-chorzow | 2024/25:stal-mielec
+  Górnik Zabrze                  | Paluszek A.            -> aleksander-paluszek                 | 2023/24:slask-wroclaw | 2024/25:slask-wroclaw | 2025/26:gks-katowice
+  Lech Poznań                    | Wilak F.               -> filip-wilak                         | 2023/24:ruch-chorzow
+  Pogoń Szczecin                 | Rostami Y.             -> yadegar-rostami                     | 2023/24:lks-lodz
+  Pogoń Szczecin                 | Stipica D.             -> dante-stipica                       | 2023/24:ruch-chorzow
+  Radomiak Radom                 | Kobylak G.             -> gabriel-kobylak                     | 2023/24:legia-warszawa | 2024/25:legia-warszawa
+  Raków Częstochowa              | Czyż S.                -> szymon-czyz                         | 2024/25:widzew-lodz | 2025/26:widzew-lodz
+  Raków Częstochowa              | Dominguez M.           -> maxime-dominguez                    | 2025/26:cracovia
+  Raków Częstochowa              | Piasecki F.            -> fabian-piasecki                     | 2023/24:piast-gliwice | 2024/25:piast-gliwice
+  Raków Częstochowa              | Wdowiak M.             -> mateusz-wdowiak                     | 2023/24:zagebie-lubin | 2024/25:zagebie-lubin | 2025/26:zagebie-lubin
+  Stal Mielec                    | Strzałek I.            -> igor-strzaek                        | 2023/24:legia-warszawa | 2024/25:legia-warszawa | 2025/26:nieciecza
+  Widzew Łódź                    | Hansen K.              -> kristoffer-hansen                   | 2024/25:jagiellonia-bialystok
+
+4. Ręcznie zaakceptowane review
+------------------------------------------------------------------------------
+  Legia Warszawa                 | Josue                  -> josue-pesqueira                     | manual_accept_review_needed
+  Puszcza Niepołomice            | Lee Jin-Hyun           -> jin-hyun-lee                        | manual_accept_review_needed
+  Puszcza Niepołomice            | Thiago                 -> thiago-rodrigues-de-souza           | manual_accept_review_needed
+  Radomiak Radom                 | Guilherme              -> guilherme-da-gama-zimovski          | manual_accept_review_needed
+  Radomiak Radom                 | Leandro                -> leandro-rossi-pereira               | manual_accept_review_needed
+  Radomiak Radom                 | Rossi R.               -> leandro-rossi-pereira               | manual_accept_review_needed
+  Radomiak Radom                 | Vagner                 -> vagner-dias                         | manual_accept_review_needed
+  Raków Częstochowa              | Silva J. C.            -> jean-carlos-silva-rocha             | manual_accept_review_needed
+  ŁKS Łódź                       | Monsalve N.            -> ignacio-monsalve-vicente            | manual_accept_review_needed_nacho_ignacio
+
+5. Ręcznie odrzucone
+------------------------------------------------------------------------------
+  Korona Kielce                  | Kucharczyk K.          | manual_reject_wrong_person_kacper_kucharczyk_korona_junior_not_in_data_michal_kucharczyk_legia
+  Lech Poznań                    | Douglas B.             | manual_reject_wrong_person_barry_douglas_is_not_alex_douglas
+  Ruch Chorzów                   | Kwiatkowski K.         | manual_reject_wrong_person_pawel_kwiatkowski_is_not_k_kwiatkowski
+  Ruch Chorzów                   | Stepinski P.           | manual_reject_wrong_club_patryk_stepinski_never_in_ruch
+  Stal Mielec                    | Dudek M.               | manual_reject_wrong_person_sammy_dudek_is_not_m_dudek
+  Widzew Łódź                    | Szymański J.           | manual_reject_wrong_person_karol_szymanski_is_not_j_szymanski
+  ŁKS Łódź                       | Juric S.               | manual_reject_wrong_person_deni_juric_is_not_s_juric
+  Śląsk Wrocław                  | Głogowski B.           | manual_reject_wrong_person_michal_glogowski_is_not_b_glogowski
+  Śląsk Wrocław                  | Wroblewski M.          | manual_reject_wrong_person_krzysztof_wroblewski_is_not_m_wroblewski
+
+6. Brak kandydata
+------------------------------------------------------------------------------
+  Cracovia                       | Doba S.
+  Cracovia                       | Dziewicki F.
+  Cracovia                       | Golonka K.
+  Cracovia                       | Hyla O.
+  Cracovia                       | Jodlowski K.
+  Cracovia                       | Lusiusz S.
+  Cracovia                       | Ogorzaly K.
+  Cracovia                       | Stachera M.
+  Cracovia                       | Wilk A.
+  Górnik Zabrze                  | Kolanko K.
+  Górnik Zabrze                  | Pochciol J.
+  Jagiellonia Białystok          | Haliti J.
+  Jagiellonia Białystok          | Jesús I. B.
+  Jagiellonia Białystok          | Laski W.
+  Jagiellonia Białystok          | Matheus Vinicius
+  Jagiellonia Białystok          | Nene
+  Jagiellonia Białystok          | Sáček M.
+  Korona Kielce                  | Galazka S.
+  Korona Kielce                  | Hofmayster Y.
+  Korona Kielce                  | Nono
+  Korona Kielce                  | Petrov K.
+  Korona Kielce                  | Szulc H.
+  Korona Kielce                  | Trejo D.
+  Korona Kielce                  | Turek R.
+  Lech Poznań                    | Amaral J.
+  Lech Poznań                    | Hotic D.
+  Lech Poznań                    | Kvekveskiri N.
+  Lech Poznań                    | Nadolski A.
+  Lech Poznań                    | Pacławski N.
+  Lech Poznań                    | Tomaszewski B.
+  Legia Warszawa                 | Adkonis J.
+  Legia Warszawa                 | Kharatin I.
+  Legia Warszawa                 | Zyba Q.
+  Piast Gliwice                  | Gvilia V.
+  Piast Gliwice                  | Miguelito
+  Pogoń Szczecin                 | Holewinski A.
+  Pogoń Szczecin                 | Leo Borges
+  Puszcza Niepołomice            | Firlej M.
+  Puszcza Niepołomice            | Piechota K.
+  Puszcza Niepołomice            | Sendor A.
+  Puszcza Niepołomice            | Thiakane E.
+  Radomiak Radom                 | Cestor M.
+  Radomiak Radom                 | Helder Sa
+  Radomiak Radom                 | Jardel
+  Radomiak Radom                 | Luizao
+  Radomiak Radom                 | Molendowski M.
+  Radomiak Radom                 | Posiadala A.
+  Raków Częstochowa              | Kovačević V.
+  Raków Częstochowa              | Lederman B.
+  Raków Częstochowa              | Masiak K.
+  Raków Częstochowa              | Mras T.
+  Raków Częstochowa              | Yeboah J.
+  Ruch Chorzów                   | Barnowski D.
+  Ruch Chorzów                   | Firlej M.
+  Ruch Chorzów                   | Josema
+  Ruch Chorzów                   | Podstawski T.
+  Ruch Chorzów                   | Potoczny M.
+  Stal Mielec                    | Ehmann M.
+  Stal Mielec                    | Leandro
+  Stal Mielec                    | Rafa Santos
+  Stal Mielec                    | Rozwadowski J.
+  Warta Poznań                   | Jakubowski F.
+  Warta Poznań                   | Kustosz M.
+  Warta Poznań                   | Przybylko K.
+  Warta Poznań                   | Sarbinowski S.
+  Widzew Łódź                    | Ibiza
+  Widzew Łódź                    | Kastrati L. II.
+  Widzew Łódź                    | Krajcirik I.
+  Widzew Łódź                    | Przybulek F.
+  Zagłębie Lubin                 | Terlecki K.
+  ŁKS Łódź                       | Balongo N.
+  ŁKS Łódź                       | Hoti E.
+  ŁKS Łódź                       | Kolba M.
+  ŁKS Łódź                       | Labedzki J.
+  ŁKS Łódź                       | Malachowski A.
+  ŁKS Łódź                       | Mammadov R.
+  ŁKS Łódź                       | Okhronchuk V.
+  ŁKS Łódź                       | Pirulo
+  ŁKS Łódź                       | Ricardo Goncalves
+  Śląsk Wrocław                  | Borthwick-Jackson C.
+  Śląsk Wrocław                  | Lutostański J.
+  Śląsk Wrocław                  | Petrov S.
+
+7. Nierozstrzygnięte review
+------------------------------------------------------------------------------
+  brak
+
+8. UWAGA DO DALSZEGO JOINA
+------------------------------------------------------------------------------
+  Dla zaakceptowanych transferów downstream join ma być po player_slug,
+  NIE po (player_slug, klub_slug).
+
+9. Zapisane pliki
+------------------------------------------------------------------------------
+  data\processed\player_mapping_2023_24.csv
+  data\processed\player_mapping_status_2023_24.csv
+  data\reports\player_identity\player_mapping_report_2023_24.txt

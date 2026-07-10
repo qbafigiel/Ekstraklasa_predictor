@@ -52,49 +52,86 @@ ALL_TEAM_MAP = {
 # ──────────────────────────────────────────────────────────────────────────────
 
 MANUAL_ACCEPT_BY_SEASON = {
-    "2023/24": {},
-    "2024/25": {
-        ("Jagiellonia Białystok", "Semedo E."):   (
-            "lisandro-pedro-varela-semedo",
+    "2023/24": {
+        ("Legia Warszawa", "Josue"): (
+            "josue-pesqueira",
             "manual_accept_review_needed",
         ),
-        ("Legia Warszawa", "Sergio Barcia"):       (
-            "sergio-barcia-laranxeira",
-            "manual_accept_review_needed",
-        ),
-        ("Puszcza Niepołomice", "Lee Jin-Hyun"):   (
+        ("Puszcza Niepołomice", "Lee Jin-Hyun"): (
             "jin-hyun-lee",
             "manual_accept_review_needed",
         ),
-        ("Radomiak Radom", "Guilherme"):           (
+        ("Puszcza Niepołomice", "Thiago"): (
+            "thiago-rodrigues-de-souza",
+            "manual_accept_review_needed",
+        ),
+        ("Radomiak Radom", "Guilherme"): (
             "guilherme-da-gama-zimovski",
             "manual_accept_review_needed",
         ),
-        ("Radomiak Radom", "Leandro"):             (
+        ("Radomiak Radom", "Leandro"): (
             "leandro-rossi-pereira",
             "manual_accept_review_needed",
         ),
-        ("Radomiak Radom", "Rossi R."):            (
+        ("Radomiak Radom", "Rossi R."): (
             "leandro-rossi-pereira",
             "manual_accept_review_needed",
         ),
-        ("Radomiak Radom", "Vagner"):              (
+        ("Radomiak Radom", "Vagner"): (
             "vagner-dias",
             "manual_accept_review_needed",
         ),
-        ("Radomiak Radom", "Zie Ouattara"):        (
-            "zie-mohamed-ouattara",
-            "manual_accept_review_needed",
-        ),
-        ("Raków Częstochowa", "Adriano"):          (
-            "adriano-luis-amorim-santos",
-            "manual_accept_review_needed",
-        ),
-        ("Raków Częstochowa", "Rocha L."):         (
+        ("Raków Częstochowa", "Silva J. C."): (
             "jean-carlos-silva-rocha",
             "manual_accept_review_needed",
         ),
-        ("Radomiak Radom", "Pawłowski D."):        (
+        ("ŁKS Łódź", "Monsalve N."): (
+            "ignacio-monsalve-vicente",
+            "manual_accept_review_needed_nacho_ignacio",
+        ),
+    },
+    "2024/25": {
+        ("Jagiellonia Białystok", "Semedo E."): (
+            "lisandro-pedro-varela-semedo",
+            "manual_accept_review_needed",
+        ),
+        ("Legia Warszawa", "Sergio Barcia"): (
+            "sergio-barcia-laranxeira",
+            "manual_accept_review_needed",
+        ),
+        ("Puszcza Niepołomice", "Lee Jin-Hyun"): (
+            "jin-hyun-lee",
+            "manual_accept_review_needed",
+        ),
+        ("Radomiak Radom", "Guilherme"): (
+            "guilherme-da-gama-zimovski",
+            "manual_accept_review_needed",
+        ),
+        ("Radomiak Radom", "Leandro"): (
+            "leandro-rossi-pereira",
+            "manual_accept_review_needed",
+        ),
+        ("Radomiak Radom", "Rossi R."): (
+            "leandro-rossi-pereira",
+            "manual_accept_review_needed",
+        ),
+        ("Radomiak Radom", "Vagner"): (
+            "vagner-dias",
+            "manual_accept_review_needed",
+        ),
+        ("Radomiak Radom", "Zie Ouattara"): (
+            "zie-mohamed-ouattara",
+            "manual_accept_review_needed",
+        ),
+        ("Raków Częstochowa", "Adriano"): (
+            "adriano-luis-amorim-santos",
+            "manual_accept_review_needed",
+        ),
+        ("Raków Częstochowa", "Rocha L."): (
+            "jean-carlos-silva-rocha",
+            "manual_accept_review_needed",
+        ),
+        ("Radomiak Radom", "Pawłowski D."): (
             "bartomiej-radosaw-pawowski",
             "manual_accept_review_high_confidence",
         ),
@@ -120,17 +157,36 @@ MANUAL_ACCEPT_BY_SEASON = {
 }
 
 MANUAL_REJECT_BY_SEASON = {
-    "2023/24": {},
+    "2023/24": {
+        ("Korona Kielce", "Kucharczyk K."):
+            "manual_reject_wrong_person_kacper_kucharczyk_korona_junior_not_in_data_michal_kucharczyk_legia",
+        ("Ruch Chorzów", "Stepinski P."):
+            "manual_reject_wrong_club_patryk_stepinski_never_in_ruch",
+        ("Stal Mielec", "Dudek M."):
+            "manual_reject_wrong_person_sammy_dudek_is_not_m_dudek",
+        ("Widzew Łódź", "Szymański J."):
+            "manual_reject_wrong_person_karol_szymanski_is_not_j_szymanski",
+        ("ŁKS Łódź", "Juric S."):
+            "manual_reject_wrong_person_deni_juric_is_not_s_juric",
+        ("Śląsk Wrocław", "Głogowski B."):
+            "manual_reject_wrong_person_michal_glogowski_is_not_b_glogowski",
+        ("Ruch Chorzów", "Kwiatkowski K."):
+            "manual_reject_wrong_person_pawel_kwiatkowski_is_not_k_kwiatkowski",
+        ("Śląsk Wrocław", "Wroblewski M."):
+            "manual_reject_wrong_person_krzysztof_wroblewski_is_not_m_wroblewski",
+        ("Lech Poznań", "Douglas B."):
+            "manual_reject_wrong_person_barry_douglas_is_not_alex_douglas",
+    },
     "2024/25": {
-    ("Legia Warszawa", "Zielinski J. I."):
-        "manual_reject_wrong_person_pawel_zielinski_is_not_ji_zielinski",
-    ("Puszcza Niepołomice", "Stępień M."):
-        "manual_reject_wrong_person_konrad_stepien_is_not_m_stepien",
-    ("Raków Częstochowa", "Silva J. C."):
-        "manual_reject_wrong_person_tomas_costa_silva_is_not_jc_silva",
-    ("Widzew Łódź", "Biegański M."):
-        "manual_reject_wrong_person_jan_bieganski_is_not_m_bieganski",
-},
+        ("Legia Warszawa", "Zielinski J. I."):
+            "manual_reject_wrong_person_pawel_zielinski_is_not_ji_zielinski",
+        ("Puszcza Niepołomice", "Stępień M."):
+            "manual_reject_wrong_person_konrad_stepien_is_not_m_stepien",
+        ("Raków Częstochowa", "Silva J. C."):
+            "manual_reject_wrong_person_tomas_costa_silva_is_not_jc_silva",
+        ("Widzew Łódź", "Biegański M."):
+            "manual_reject_wrong_person_jan_bieganski_is_not_m_bieganski",
+    },
     "2025/26": {
         ("Bruk-Bet Termalica Nieciecza", "Janicki M."):
             "manual_reject_wrong_person_rafa_janicki_is_not_m_janicki",
