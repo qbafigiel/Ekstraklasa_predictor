@@ -1,0 +1,5 @@
+﻿file,rows,has_xg_pair,xg_home_col,xg_away_col,season_col,flash_id_col,flash_url_col,home_team_col,away_team_col,round_col,rows_with_both_xg,rows_2023_24,matched_flash_id_2023_24,matched_flash_url_2023_24,status
+flash_2024_25.csv,306,1,xg_gosp,xg_gosc,,flash_id,url,,xg_gosc,kolejka_flash,306,,0,0,ok
+flash_2024_25_druzyny.csv,306,1,xg_gosp,xg_gosc,,flash_id,url,,xg_gosc,kolejka_flash,306,,0,0,ok
+flash_2025_26_druzyny.csv,306,1,xg_gosp,xg_gosc,,flash_id,url,,xg_gosc,kolejka_flash,306,,0,0,ok
+flash_2023_24.csv,306,1,xg_gosp,xg_gosc,,flash_id,url,,xg_gosc,kolejka_flash,192,306.0,306,306,ok

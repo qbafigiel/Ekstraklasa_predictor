@@ -1,0 +1,50 @@
+==============================================================================
+HYBRID xG 2023/24 — OOS TEST
+==============================================================================
+
+1. SETUP
+------------------------------------------------------------------------------
+  Baseline: 2023/24 = gole (fallback)
+  Hybrid:   2023/24 = observed Flash xG + constrained imputation
+  Kalibracja parametrów: 2024/25
+  Test OOS:              2025/26
+  Predykcje kalibracja:  303
+  Predykcje test:        303
+
+2. KALIBRACJA NA 2024/25
+------------------------------------------------------------------------------
+  Baseline log-loss: 1.0290
+  Hybrid log-loss:   1.0260
+  Delta:             +0.0030
+
+3. TEST OOS NA 2025/26
+------------------------------------------------------------------------------
+  Baseline log-loss: 1.0738
+  Hybrid log-loss:   1.0764
+  Delta (base-hyb):  -0.0026
+  Benchmark losowy:  1.0986
+
+4. ANALIZA WCZESNY vs PÓŹNY SEZON
+------------------------------------------------------------------------------
+  Kolejki 1-5  baseline: 1.0854
+  Kolejki 1-5  hybrid:   1.0860
+  Delta early:           -0.0006
+  Kolejki 6-34 baseline: 1.0720
+  Kolejki 6-34 hybrid:   1.0748
+  Delta late:            -0.0029
+
+5. PARAMETRY KALIBRACJI
+------------------------------------------------------------------------------
+  Baseline: T=0.9364, bH=-0.0237, bD=-0.0008, bA=0.0245
+  Hybrid:   T=0.8978, bH=0.0399, bD=0.0036, bA=-0.0435
+
+6. WNIOSEK
+------------------------------------------------------------------------------
+  BRAK POPRAWY OOS: -0.0026
+  Hybrid xG nie poprawia modelu OOS.
+  Nie aktualizujemy bazy danych.
+
+7. PLIKI
+------------------------------------------------------------------------------
+  Predykcje: data\processed\backtesting_xg_hybrid_oos_2025_26.csv
+  Raport:    data\reports\model\backtesting_xg_hybrid_oos_report.txt

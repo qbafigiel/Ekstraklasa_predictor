@@ -1,0 +1,213 @@
+==============================================================================
+PLAYER IDENTITY REVIEW 2023/24 — STRICT / TRANSFER-AWARE / ASCII+SLUGSTYLE
+==============================================================================
+
+1. Statusy ogółem
+------------------------------------------------------------------------------
+  auto_same_club_history       | 491
+  no_candidate                 | 82
+  review_needed                | 15
+  auto_transfer_candidate      | 13
+  review_high_confidence       | 2
+
+2. Tylko unresolved
+------------------------------------------------------------------------------
+  unresolved łącznie: 603
+  auto_same_club_history       | 491
+  no_candidate                 | 82
+  review_needed                | 15
+  auto_transfer_candidate      | 13
+  review_high_confidence       | 2
+
+3. Auto-propozycje SAME CLUB HISTORY
+------------------------------------------------------------------------------
+  Cracovia                       | Atanasov J.               -> jani-atanasov
+  Cracovia                       | Bitri E.                  -> eneo-bitri
+  Cracovia                       | Bochnak M.                -> mateusz-bochnak
+  Cracovia                       | Bzdyl F.                  -> fabian-bzdyl
+  Cracovia                       | Ghita V.                  -> virgil-ghita
+  Cracovia                       | Glik K.                   -> kamil-jacek-glik
+  Cracovia                       | Hoskonen A.               -> arttu-hoskonen
+  Cracovia                       | Hrosso L.                 -> lukas-hrosso
+  Cracovia                       | Jaroszynski P.            -> pawe-jaroszynski
+  Cracovia                       | Jugas J.                  -> jakub-jugas
+  Cracovia                       | Kakabadze O.              -> otar-kakabadze
+  Cracovia                       | Kallman B.                -> benjamin-kallman
+  Cracovia                       | Knap K.                   -> karol-knap
+  Cracovia                       | Kolec B.                  -> bartomiej-kolec
+  Cracovia                       | Madejski S.               -> sebastian-madejski
+  Cracovia                       | Maigaard M.               -> mikkel-maigaard-jakobsen
+  Cracovia                       | Makuch P.                 -> patryk-makuch
+  Cracovia                       | Myszor J.                 -> jakub-myszor
+  Cracovia                       | Olafsson D.               -> davi-kristjan-olafsson
+  Cracovia                       | Oshima T.                 -> takuto-oshima
+  Cracovia                       | Rakoczy M.                -> micha-miosz-rakoczy
+  Cracovia                       | Rapa C.                   -> cornel-rapa
+  Cracovia                       | Rózga F.                  -> filip-rozga
+  Cracovia                       | Skovgaard A.              -> andreas-skovgaard-larsen
+  Cracovia                       | Smiglewski K.             -> kacper-smiglewski
+  Cracovia                       | Sokołowski P.             -> patryk-sokoowski
+  Cracovia                       | Zaucha P.                 -> patryk-zaucha
+  Górnik Zabrze                  | Barczak N.                -> norbert-barczak
+  Górnik Zabrze                  | Bielica D.                -> daniel-bielica
+  Górnik Zabrze                  | Chmarek M.                -> mateusz-chmarek
+  Górnik Zabrze                  | Ennali L.                 -> lawrence-ennali
+  Górnik Zabrze                  | Janicki R.                -> rafa-janicki
+  Górnik Zabrze                  | Janza E.                  -> erik-janza
+  Górnik Zabrze                  | Jensen R.                 -> richard-jensen
+  Górnik Zabrze                  | Kapralik A.               -> adrian-kapralik
+  Górnik Zabrze                  | Kozuki S.                 -> soichiro-kozuki
+  Górnik Zabrze                  | Krawczyk P.               -> piotr-krawczyk
+  Górnik Zabrze                  | Lukoszek K.               -> kamil-lukoszek
+  Górnik Zabrze                  | Musiolik S.               -> sebastian-musiolik
+  Górnik Zabrze                  | Nascimento F.             -> filipe-nascimento
+  Górnik Zabrze                  | Olkowski P.               -> pawe-mirosaw-olkowski
+  Górnik Zabrze                  | Pacheco D.                -> daniel-pacheco-lobato
+  Górnik Zabrze                  | Podolski L.               -> ukasz-jozef-podolski
+  Górnik Zabrze                  | Rasak D.                  -> damian-rasak
+  Górnik Zabrze                  | Sekulic B.                -> boris-sekulic
+  Górnik Zabrze                  | Siplak M.                 -> michal-siplak
+  Górnik Zabrze                  | Szala D.                  -> dominik-jerzy-szala
+  Górnik Zabrze                  | Szcześniak K.             -> kryspin-szczesniak
+  Górnik Zabrze                  | Szromnik M.               -> micha-szromnik
+  Górnik Zabrze                  | Tobolik A.                -> aleksander-tobolik
+  Górnik Zabrze                  | Triantafyllopoulos K.     -> konstantinos-triantafyllopoulos
+  Górnik Zabrze                  | Wojtuszek N.              -> norbert-wojtuszek
+  Górnik Zabrze                  | Yokota D.                 -> daisuke-yokota
+  Górnik Zabrze                  | Zielonka N.               -> nikodem-zielonka
+  Jagiellonia Białystok          | Abramowicz S.             -> sawomir-abramowicz
+  Jagiellonia Białystok          | Alomerovic Z.             -> zlatan-alomerovic
+  Jagiellonia Białystok          | Caliskaner K.             -> kaan-caliskaner
+  Jagiellonia Białystok          | Dieguez A.                -> adrian-dieguez-grande
+  Jagiellonia Białystok          | Hansen K.                 -> kristoffer-hansen
+  Jagiellonia Białystok          | Kubicki J.                -> jarosaw-kubicki
+  Jagiellonia Białystok          | Kupisz T.                 -> tomasz-kupisz
+  Jagiellonia Białystok          | Lewicki J.                -> jakub-lewicki
+  Jagiellonia Białystok          | Marczuk D.                -> dominik-marczuk
+  Jagiellonia Białystok          | Matysik M.                -> miosz-matysik
+  Jagiellonia Białystok          | Naranjo J.                -> jose-naranjo
+  Jagiellonia Białystok          | Nastic B.                 -> bojan-nastic
+  Jagiellonia Białystok          | Nguiamba A.               -> aurelien-thomas-nguiamba
+  Jagiellonia Białystok          | Olszewski P.              -> pawe-olszewski
+  Jagiellonia Białystok          | Pululu A.                 -> afimico-pululu
+  Jagiellonia Białystok          | Romanczuk T.              -> taras-romanczuk
+  Jagiellonia Białystok          | Rybak A.                  -> alan-rybak
+  Jagiellonia Białystok          | Skrzypczak M.             -> mateusz-skrzypczak
+  Jagiellonia Białystok          | Stojinović D.             -> dusan-stojinovic
+  Jagiellonia Białystok          | Toporkiewicz K.           -> krzysztof-toporkiewicz
+  Jagiellonia Białystok          | Wdowik B.                 -> bartomiej-wdowik
+  Jagiellonia Białystok          | Wojdakowski D.            -> damian-wojdakowski
+  Korona Kielce                  | Briceag M.                -> marius-briceag
+  Korona Kielce                  | Bąk D.                    -> daniel-bak
+  Korona Kielce                  | Błanik D.                 -> dawid-banik
+  Korona Kielce                  | Chojecki A.               -> adam-chojecki
+
+4. Auto-propozycje TRANSFER
+------------------------------------------------------------------------------
+  Górnik Zabrze                  | Czyż S.                   -> szymon-czyz
+  Górnik Zabrze                  | Dadok R.                  -> robert-dadok
+  Górnik Zabrze                  | Paluszek A.               -> aleksander-paluszek
+  Lech Poznań                    | Wilak F.                  -> filip-wilak
+  Pogoń Szczecin                 | Rostami Y.                -> yadegar-rostami
+  Pogoń Szczecin                 | Stipica D.                -> dante-stipica
+  Radomiak Radom                 | Kobylak G.                -> gabriel-kobylak
+  Raków Częstochowa              | Czyż S.                   -> szymon-czyz
+  Raków Częstochowa              | Dominguez M.              -> maxime-dominguez
+  Raków Częstochowa              | Piasecki F.               -> fabian-piasecki
+  Raków Częstochowa              | Wdowiak M.                -> mateusz-wdowiak
+  Stal Mielec                    | Strzałek I.               -> igor-strzaek
+  Widzew Łódź                    | Hansen K.                 -> kristoffer-hansen
+
+5. Wysoki review
+------------------------------------------------------------------------------
+  Ruch Chorzów                   | Kwiatkowski K.            -> pawe-kwiatkowski                    | all_flash_tokens_in_slug_ascii | suffix_exact_ascii | present_in_target_season
+  Śląsk Wrocław                  | Wroblewski M.             -> krzysztof-wroblewski                | all_flash_tokens_in_slug_ascii | suffix_exact_ascii | present_in_target_season
+
+6. Brak kandydata
+------------------------------------------------------------------------------
+  Cracovia                       | Doba S.
+  Cracovia                       | Dziewicki F.
+  Cracovia                       | Golonka K.
+  Cracovia                       | Hyla O.
+  Cracovia                       | Jodlowski K.
+  Cracovia                       | Lusiusz S.
+  Cracovia                       | Ogorzaly K.
+  Cracovia                       | Stachera M.
+  Cracovia                       | Wilk A.
+  Górnik Zabrze                  | Kolanko K.
+  Górnik Zabrze                  | Pochciol J.
+  Jagiellonia Białystok          | Haliti J.
+  Jagiellonia Białystok          | Jesús I. B.
+  Jagiellonia Białystok          | Laski W.
+  Jagiellonia Białystok          | Matheus Vinicius
+  Jagiellonia Białystok          | Nene
+  Jagiellonia Białystok          | Sáček M.
+  Korona Kielce                  | Galazka S.
+  Korona Kielce                  | Hofmayster Y.
+  Korona Kielce                  | Nono
+  Korona Kielce                  | Petrov K.
+  Korona Kielce                  | Szulc H.
+  Korona Kielce                  | Trejo D.
+  Korona Kielce                  | Turek R.
+  Lech Poznań                    | Amaral J.
+  Lech Poznań                    | Hotic D.
+  Lech Poznań                    | Kvekveskiri N.
+  Lech Poznań                    | Nadolski A.
+  Lech Poznań                    | Pacławski N.
+  Lech Poznań                    | Tomaszewski B.
+  Legia Warszawa                 | Adkonis J.
+  Legia Warszawa                 | Kharatin I.
+  Legia Warszawa                 | Zyba Q.
+  Piast Gliwice                  | Gvilia V.
+  Piast Gliwice                  | Miguelito
+  Pogoń Szczecin                 | Holewinski A.
+  Pogoń Szczecin                 | Leo Borges
+  Puszcza Niepołomice            | Firlej M.
+  Puszcza Niepołomice            | Piechota K.
+  Puszcza Niepołomice            | Sendor A.
+  Puszcza Niepołomice            | Thiakane E.
+  Radomiak Radom                 | Cestor M.
+  Radomiak Radom                 | Helder Sa
+  Radomiak Radom                 | Jardel
+  Radomiak Radom                 | Luizao
+  Radomiak Radom                 | Molendowski M.
+  Radomiak Radom                 | Posiadala A.
+  Raków Częstochowa              | Kovačević V.
+  Raków Częstochowa              | Lederman B.
+  Raków Częstochowa              | Masiak K.
+  Raków Częstochowa              | Mras T.
+  Raków Częstochowa              | Yeboah J.
+  Ruch Chorzów                   | Barnowski D.
+  Ruch Chorzów                   | Firlej M.
+  Ruch Chorzów                   | Josema
+  Ruch Chorzów                   | Podstawski T.
+  Ruch Chorzów                   | Potoczny M.
+  Stal Mielec                    | Ehmann M.
+  Stal Mielec                    | Leandro
+  Stal Mielec                    | Rafa Santos
+  Stal Mielec                    | Rozwadowski J.
+  Warta Poznań                   | Jakubowski F.
+  Warta Poznań                   | Kustosz M.
+  Warta Poznań                   | Przybylko K.
+  Warta Poznań                   | Sarbinowski S.
+  Widzew Łódź                    | Ibiza
+  Widzew Łódź                    | Kastrati L. II.
+  Widzew Łódź                    | Krajcirik I.
+  Widzew Łódź                    | Przybulek F.
+  Zagłębie Lubin                 | Terlecki K.
+  ŁKS Łódź                       | Balongo N.
+  ŁKS Łódź                       | Hoti E.
+  ŁKS Łódź                       | Kolba M.
+  ŁKS Łódź                       | Labedzki J.
+  ŁKS Łódź                       | Malachowski A.
+  ŁKS Łódź                       | Mammadov R.
+  ŁKS Łódź                       | Okhronchuk V.
+  ŁKS Łódź                       | Pirulo
+  ŁKS Łódź                       | Ricardo Goncalves
+  Śląsk Wrocław                  | Borthwick-Jackson C.
+
+7. Pliki
+------------------------------------------------------------------------------
+  data\reports\player_identity\player_identity_review_2023_24.csv
+  data\reports\player_identity\player_identity_review_candidates_2023_24.csv
+  data\reports\player_identity\player_identity_review_report_2023_24.txt

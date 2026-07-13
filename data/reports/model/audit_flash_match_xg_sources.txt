@@ -1,0 +1,22 @@
+==========================================================================================
+AUDYT ŹRÓDEŁ MATCH xG — FLASHSCORE 2023/24
+==========================================================================================
+Plików CSV:              4
+Meczów 2023/24 w DB:     306
+
+PLIKI Z KOLUMNAMI xG (4)
+------------------------------------------------------------------------------------------
+  flash_2024_25.csv | rows=306 | both_xg=306 | rows_2023_24=nan | xg_cols=(xg_gosp, xg_gosc) | flash_id_match=0 | flash_url_match=0 | season_col=-
+  flash_2024_25_druzyny.csv | rows=306 | both_xg=306 | rows_2023_24=nan | xg_cols=(xg_gosp, xg_gosc) | flash_id_match=0 | flash_url_match=0 | season_col=-
+  flash_2025_26_druzyny.csv | rows=306 | both_xg=306 | rows_2023_24=nan | xg_cols=(xg_gosp, xg_gosc) | flash_id_match=0 | flash_url_match=0 | season_col=-
+  flash_2023_24.csv | rows=306 | both_xg=192 | rows_2023_24=306.0 | xg_cols=(xg_gosp, xg_gosc) | flash_id_match=306 | flash_url_match=306 | season_col=-
+
+WSZYSTKIE PLIKI (TOP 30)
+------------------------------------------------------------------------------------------
+  flash_2024_25.csv | xg_pair=1 | rows=306 | both_xg=306 | rows_2023_24=nan | flash_id_match=0 | status=ok
+  flash_2024_25_druzyny.csv | xg_pair=1 | rows=306 | both_xg=306 | rows_2023_24=nan | flash_id_match=0 | status=ok
+  flash_2025_26_druzyny.csv | xg_pair=1 | rows=306 | both_xg=306 | rows_2023_24=nan | flash_id_match=0 | status=ok
+  flash_2023_24.csv | xg_pair=1 | rows=306 | both_xg=192 | rows_2023_24=306.0 | flash_id_match=306 | status=ok
+
+CSV: data\reports\model\audit_flash_match_xg_sources.csv
+TXT: data\reports\model\audit_flash_match_xg_sources.txt

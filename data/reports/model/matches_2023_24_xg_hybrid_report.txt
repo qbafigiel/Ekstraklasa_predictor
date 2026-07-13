@@ -1,0 +1,69 @@
+==========================================================================================
+HYBRID xG 2023/24 — RAPORT
+==========================================================================================
+
+1. COVERAGE
+------------------------------------------------------------------------------------------
+  Mecze total:                  306
+  Mecze observed_flash:         192
+  Mecze imputed_constrained:    114
+  Coverage observed:            62.7%
+
+2. PROXY MODEL
+------------------------------------------------------------------------------------------
+  Model: LinearRegression(positive=True)
+  intercept:                    0.013293
+  coef_goals:                   0.207113
+  coef_shots:                   0.046268
+  coef_shots_on_target:         0.051107
+  coef_blocked:                 0.013107
+  R2 on observed team-rows:     0.4347
+  MAE on observed team-rows:    0.4117
+
+3. RESIDUAL TEAM TOTALS
+------------------------------------------------------------------------------------------
+  Sum attack residual before:   332.7700
+  Sum defense residual before:  332.7700
+  Target total after scaling:   332.7700
+  Scale attack:                 1.000000
+  Scale defense:                1.000000
+
+4. OPTIMIZATION
+------------------------------------------------------------------------------------------
+  success:                      True
+  objective:                    0.34429654
+  iterations:                   153
+
+5. TEAM CHECK vs OFFICIAL TOTALS
+------------------------------------------------------------------------------------------
+  max |delta_xg|:               0.000000
+  max |delta_xga|:              0.000000
+
+6. SAMPLE IMPUTED MATCHES
+------------------------------------------------------------------------------------------
+  K01 | Warta Poznań             vs Pogoń Szczecin           | gole 0:1 | xG 0.95:1.60
+  K01 | Legia Warszawa           vs ŁKS Łódź                 | gole 3:0 | xG 2.27:0.76
+  K01 | Stal Mielec              vs Cracovia                 | gole 2:2 | xG 0.98:1.82
+  K01 | Raków Częstochowa        vs Jagiellonia Białystok    | gole 3:0 | xG 1.11:0.84
+  K01 | Piast Gliwice            vs Lech Poznań              | gole 1:2 | xG 2.21:0.72
+  K01 | Górnik Zabrze            vs Radomiak Radom           | gole 0:2 | xG 0.69:2.18
+  K01 | Zagłębie Lubin           vs Ruch Chorzów             | gole 2:1 | xG 1.97:1.36
+  K01 | Widzew Łódź              vs Puszcza Niepołomice      | gole 3:2 | xG 1.85:1.66
+  K01 | Korona Kielce            vs Śląsk Wrocław            | gole 1:1 | xG 1.28:0.99
+  K02 | Jagiellonia Białystok    vs Puszcza Niepołomice      | gole 4:1 | xG 1.78:1.06
+  K02 | Ruch Chorzów             vs ŁKS Łódź                 | gole 2:0 | xG 2.48:1.40
+  K02 | Warta Poznań             vs Górnik Zabrze            | gole 2:0 | xG 1.55:1.10
+  K02 | Śląsk Wrocław            vs Zagłębie Lubin           | gole 1:2 | xG 1.95:1.38
+  K02 | Pogoń Szczecin           vs Widzew Łódź              | gole 2:1 | xG 2.72:1.12
+  K02 | Lech Poznań              vs Radomiak Radom           | gole 2:0 | xG 2.26:1.66
+  K02 | Stal Mielec              vs Piast Gliwice            | gole 0:0 | xG 0.51:2.17
+  K03 | Jagiellonia Białystok    vs Widzew Łódź              | gole 2:1 | xG 1.66:1.10
+  K03 | ŁKS Łódź                 vs Korona Kielce            | gole 2:1 | xG 1.02:1.48
+  K03 | Raków Częstochowa        vs Warta Poznań             | gole 2:2 | xG 1.17:1.23
+  K03 | Górnik Zabrze            vs Piast Gliwice            | gole 0:0 | xG 0.52:1.12
+
+7. OUTPUT
+------------------------------------------------------------------------------------------
+  Hybrid matches:               data\processed\matches_2023_24_xg_hybrid.csv
+  Team check:                   data\reports\model\matches_2023_24_xg_hybrid_team_check.csv
+  Report:                       data\reports\model\matches_2023_24_xg_hybrid_report.txt

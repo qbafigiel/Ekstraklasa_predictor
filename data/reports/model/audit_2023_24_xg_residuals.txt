@@ -1,0 +1,75 @@
+==========================================================================================
+AUDYT 2023/24 — OBSERVED MATCH xG vs OFFICIAL SEASON TOTALS
+==========================================================================================
+
+1. COVERAGE
+------------------------------------------------------------------------------------------
+  Mecze 2023/24 w DB:                  306
+  Mecze z observed xG z Flashscore:    192
+  Mecze bez xG do imputacji:           114
+  Coverage observed xG:                62.7%
+
+2. SUMY LIGOWE
+------------------------------------------------------------------------------------------
+  Official total xG (teams):           734.40
+  Official total xGA (teams):          733.30
+  Observed known total xG (team view): 446.03
+  Observed known total xGA (team view):446.03
+  Residual xG to impute:               315.73
+  Residual xGA to impute:              312.70
+  Match-level observed xG sum:         446.03
+
+3. KOMPATYBILNOŚĆ ŹRÓDEŁ
+------------------------------------------------------------------------------------------
+  Drużyn bez mapowania do official:    1
+  Drużyn z residual_xG < 0:            0
+  Drużyn z residual_xGA < 0:           0
+  Lista bez mapowania: Zagłębie Lubin
+
+4. TOP DRUŻYNY — RESIDUAL XG DO IMPUTACJI
+------------------------------------------------------------------------------------------
+  Pogoń Szczecin               | official_xg= 57.00 | known= 30.69 | residual= 26.31 | known_m=21 | missing_m=13 | share=53.8% | neg=0
+  Piast Gliwice                | official_xg= 47.90 | known= 23.38 | residual= 24.52 | known_m=21 | missing_m=13 | share=48.8% | neg=0
+  Radomiak Radom               | official_xg= 44.80 | known= 22.47 | residual= 22.33 | known_m=21 | missing_m=13 | share=50.2% | neg=0
+  Jagiellonia Białystok        | official_xg= 56.70 | known= 35.75 | residual= 20.95 | known_m=21 | missing_m=13 | share=63.1% | neg=0
+  Legia Warszawa               | official_xg= 52.00 | known= 31.63 | residual= 20.37 | known_m=22 | missing_m=12 | share=60.8% | neg=0
+  Śląsk Wrocław                | official_xg= 44.50 | known= 24.75 | residual= 19.75 | known_m=21 | missing_m=13 | share=55.6% | neg=0
+  Ruch Chorzów                 | official_xg= 42.20 | known= 22.46 | residual= 19.74 | known_m=22 | missing_m=12 | share=53.2% | neg=0
+  Lech Poznań                  | official_xg= 38.30 | known= 20.19 | residual= 18.11 | known_m=21 | missing_m=13 | share=52.7% | neg=0
+  Puszcza Niepołomice          | official_xg= 36.00 | known= 18.13 | residual= 17.87 | known_m=21 | missing_m=13 | share=50.4% | neg=0
+  Raków Częstochowa            | official_xg= 55.50 | known= 37.79 | residual= 17.71 | known_m=22 | missing_m=12 | share=68.1% | neg=0
+  Cracovia                     | official_xg= 42.70 | known= 25.09 | residual= 17.61 | known_m=22 | missing_m=12 | share=58.8% | neg=0
+  Widzew Łódź                  | official_xg= 40.10 | known= 23.47 | residual= 16.63 | known_m=22 | missing_m=12 | share=58.5% | neg=0
+  Górnik Zabrze                | official_xg= 40.30 | known= 24.00 | residual= 16.30 | known_m=21 | missing_m=13 | share=59.6% | neg=0
+  Warta Poznań                 | official_xg= 30.50 | known= 14.22 | residual= 16.28 | known_m=21 | missing_m=13 | share=46.6% | neg=0
+  Korona Kielce                | official_xg= 40.90 | known= 25.70 | residual= 15.20 | known_m=22 | missing_m=12 | share=62.8% | neg=0
+  ŁKS Łódź                     | official_xg= 33.80 | known= 20.47 | residual= 13.33 | known_m=21 | missing_m=13 | share=60.6% | neg=0
+  Stal Mielec                  | official_xg= 31.20 | known= 18.48 | residual= 12.72 | known_m=21 | missing_m=13 | share=59.2% | neg=0
+  Zagłębie Lubin               | official_xg=   nan | known= 27.36 | residual=   nan | known_m=21 | missing_m=13 | share= nan% | neg=0
+
+5. TOP DRUŻYNY — RESIDUAL XGA DO IMPUTACJI
+------------------------------------------------------------------------------------------
+  Ruch Chorzów                 | official_xga= 51.10 | known= 25.16 | residual= 25.94 | known_m=22 | missing_m=12 | share=49.2% | neg=0
+  ŁKS Łódź                     | official_xga= 63.70 | known= 38.81 | residual= 24.89 | known_m=21 | missing_m=13 | share=60.9% | neg=0
+  Radomiak Radom               | official_xga= 52.30 | known= 29.35 | residual= 22.95 | known_m=21 | missing_m=13 | share=56.1% | neg=0
+  Stal Mielec                  | official_xga= 49.90 | known= 28.22 | residual= 21.68 | known_m=21 | missing_m=13 | share=56.6% | neg=0
+  Puszcza Niepołomice          | official_xga= 48.40 | known= 26.83 | residual= 21.57 | known_m=21 | missing_m=13 | share=55.4% | neg=0
+  Widzew Łódź                  | official_xga= 45.80 | known= 24.83 | residual= 20.97 | known_m=22 | missing_m=12 | share=54.2% | neg=0
+  Górnik Zabrze                | official_xga= 42.40 | known= 21.92 | residual= 20.48 | known_m=21 | missing_m=13 | share=51.7% | neg=0
+  Lech Poznań                  | official_xga= 44.30 | known= 24.09 | residual= 20.21 | known_m=21 | missing_m=13 | share=54.4% | neg=0
+  Śląsk Wrocław                | official_xga= 38.00 | known= 18.88 | residual= 19.12 | known_m=21 | missing_m=13 | share=49.7% | neg=0
+  Cracovia                     | official_xga= 43.70 | known= 26.74 | residual= 16.96 | known_m=22 | missing_m=12 | share=61.2% | neg=0
+  Warta Poznań                 | official_xga= 39.80 | known= 23.59 | residual= 16.21 | known_m=21 | missing_m=13 | share=59.3% | neg=0
+  Korona Kielce                | official_xga= 37.50 | known= 22.53 | residual= 14.97 | known_m=22 | missing_m=12 | share=60.1% | neg=0
+  Legia Warszawa               | official_xga= 33.40 | known= 18.74 | residual= 14.66 | known_m=22 | missing_m=12 | share=56.1% | neg=0
+  Jagiellonia Białystok        | official_xga= 40.70 | known= 26.17 | residual= 14.53 | known_m=21 | missing_m=13 | share=64.3% | neg=0
+  Pogoń Szczecin               | official_xga= 38.40 | known= 24.21 | residual= 14.19 | known_m=21 | missing_m=13 | share=63.0% | neg=0
+  Raków Częstochowa            | official_xga= 33.80 | known= 19.65 | residual= 14.15 | known_m=22 | missing_m=12 | share=58.1% | neg=0
+  Piast Gliwice                | official_xga= 30.10 | known= 20.88 | residual=  9.22 | known_m=21 | missing_m=13 | share=69.4% | neg=0
+  Zagłębie Lubin               | official_xga=   nan | known= 25.43 | residual=   nan | known_m=21 | missing_m=13 | share= nan% | neg=0
+
+6. PLIKI
+------------------------------------------------------------------------------------------
+  Team residuals CSV: data\reports\model\audit_2023_24_xg_team_residuals.csv
+  Missing matches CSV:data\reports\model\audit_2023_24_xg_missing_matches.csv
+  Report TXT:         data\reports\model\audit_2023_24_xg_residuals.txt
