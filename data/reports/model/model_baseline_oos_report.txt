@@ -8,6 +8,7 @@ OFICJALNY BENCHMARK OOS — EKSTRAKLASA PREDICTOR
   Wagi sezonowe: 0.4 / 0.7 / 1.0
   Priory beniaminków (K=10)
   Softmax Calibration (L2=0.05) dla 1X2
+  BTTS additive shift: +0.0600
 
 2. KALIBRACJA 1X2 (2024/25)
 ------------------------------------------------------------------------------
@@ -22,7 +23,7 @@ OFICJALNY BENCHMARK OOS — EKSTRAKLASA PREDICTOR
   Kolejki 1-5:         1.0916
   Kolejki 6-34:        1.0607
 
-4. OVER/UNDER — KALIBRACJA (model vs rzeczywistość)
+4. OVER/UNDER — KALIBRACJA
 ------------------------------------------------------------------------------
   [2024/25 — in-sample]
   Over 0.5    : model=0.919 | rzecz=0.941 | delta=+0.022 OK
@@ -46,22 +47,28 @@ OFICJALNY BENCHMARK OOS — EKSTRAKLASA PREDICTOR
 6. BTTS — KALIBRACJA
 ------------------------------------------------------------------------------
   [2024/25 — in-sample]
-  BTTS Yes    : model=0.498 | rzecz=0.559 | delta=+0.061 BIAS
+  BTTS raw    : model=0.498 | rzecz=0.559 | delta=+0.061 BIAS
+  BTTS cal    : model=0.558 | rzecz=0.559 | delta=+0.001 OK
 
   [2025/26 — OOS]
-  BTTS Yes    : model=0.519 | rzecz=0.575 | delta=+0.056 BIAS
+  BTTS raw    : model=0.519 | rzecz=0.575 | delta=+0.056 BIAS
+  BTTS cal    : model=0.579 | rzecz=0.575 | delta=-0.004 OK
 
-7. BTTS — LOG-LOSS OOS
+7. BTTS — LOG-LOSS
 ------------------------------------------------------------------------------
-  BTTS:         VAL=0.6923 | OOS=0.6797 | bench_50/50=0.6931
+  BTTS raw:     VAL=0.6923 | OOS=0.6797
+  BTTS cal:     VAL=0.6848 | OOS=0.6732
+  Poprawa OOS:  +0.0066
+  bench 50/50:  0.6931
 
 8. PODSUMOWANIE WSZYSTKICH RYNKÓW OOS
 ------------------------------------------------------------------------------
   1X2:          1.0653
   Over 2.5:     0.6795
-  BTTS:         0.6797
+  BTTS raw:     0.6797
+  BTTS cal:     0.6732
   Benchmark:
-    1X2 losowy:   1.0986
+    1X2 losowy:    1.0986
     binarny 50/50: 0.6931
 
 9. PLIKI

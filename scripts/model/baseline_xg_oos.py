@@ -4,15 +4,9 @@ baseline_xg_oos.py
 Oficjalny Benchmark OOS — Ekstraklasa Predictor.
 
 Rynki:
-  - 1X2
+  - 1X2 (Softmax Calibration)
   - Over/Under: 0.5, 1.5, 2.5, 3.5
-  - BTTS (Both Teams To Score)
-
-Architektura:
-  - Poisson MLE na xG (fallback gole dla 23/24)
-  - Wagi sezonowe: 23/24=0.4, 24/25=0.7, 25/26=1.0
-  - Priory beniaminków
-  - Softmax Calibration (L2 reg) dla 1X2
+  - BTTS (z korekcją biasu)
 
 Schemat OOS:
   - Kalibracja: 2024/25
@@ -22,6 +16,7 @@ Schemat OOS:
 import sqlite3
 import numpy as np
 import pandas as pd
+from scipy.optimize import minimize_scalar
 from scipy.optimize import minimize
 from scipy.stats import poisson
 from pathlib import Path
@@ -120,7 +115,7 @@ def apply_priors(params, season, df_prev):
 
 
 # =============================================================================
-# PREDYKCJA — pełna macierz z O/U i BTTS
+# PREDYKCJA — pełna macierz
 # =============================================================================
 
 def predict_full(params, home, away):
@@ -140,12 +135,10 @@ def predict_full(params, home, away):
         return None
     m /= total
 
-    # 1X2
     p_home = float(np.sum(np.tril(m, -1)))
     p_draw = float(np.sum(np.diag(m)))
     p_away = float(np.sum(np.triu(m, 1)))
 
-    # Over/Under — suma goli
     p_under = {}
     for prog in [0, 1, 2, 3]:
         s = 0.0
@@ -155,7 +148,6 @@ def predict_full(params, home, away):
                     s += m[i, j]
         p_under[prog] = s
 
-    # BTTS
     p_btts_no = 0.0
     for i in range(MAX_GOLE):
         for j in range(MAX_GOLE):
@@ -166,11 +158,9 @@ def predict_full(params, home, away):
     return {
         "lambda_home": float(lh),
         "lambda_away": float(la),
-        # 1X2
         "p_home": p_home,
         "p_draw": p_draw,
         "p_away": p_away,
-        # Over/Under
         "p_over_05": 1.0 - p_under[0],
         "p_over_15": 1.0 - p_under[1],
         "p_over_25": 1.0 - p_under[2],
@@ -179,7 +169,6 @@ def predict_full(params, home, away):
         "p_under_15": p_under[1],
         "p_under_25": p_under[2],
         "p_under_35": p_under[3],
-        # BTTS
         "p_btts_yes": p_btts_yes,
         "p_btts_no": p_btts_no,
     }
@@ -203,7 +192,18 @@ def calibrate_1x2(ph, pd_, pa, T, bH, bD, bA):
     return softmax((logits + [bH, bD, bA]) / T)
 
 
-def fit_cal(df):
+def ll_binary(p_pred, actual):
+    if actual == 1:
+        return -np.log(max(p_pred, 1e-12))
+    else:
+        return -np.log(max(1.0 - p_pred, 1e-12))
+
+
+# =============================================================================
+# KALIBRATORY
+# =============================================================================
+
+def fit_cal_1x2(df):
     L2_PENALTY = 0.05
 
     def obj(p):
@@ -223,6 +223,27 @@ def fit_cal(df):
         method="L-BFGS-B",
         bounds=[(0.5, 5.0), (-1, 1), (-1, 1), (-1, 1)]
     ).x
+
+
+def fit_btts_correction(df):
+    """
+    Szuka optymalnego additive shift dla p_btts_yes
+    minimalizując log-loss BTTS na zbiorze kalibracyjnym.
+
+    p_btts_corrected = clip(p_btts_yes + shift, 0.01, 0.99)
+    """
+    p_raw = df["p_btts_yes"].values
+    y = df["btts_rzecz"].values
+
+    def obj(shift):
+        total = 0.0
+        for p, actual in zip(p_raw, y):
+            p_corr = np.clip(p + shift, 0.01, 0.99)
+            total += ll_binary(p_corr, actual)
+        return total / len(y)
+
+    result = minimize_scalar(obj, bounds=(-0.15, 0.15), method="bounded")
+    return float(result.x)
 
 
 # =============================================================================
@@ -266,7 +287,6 @@ def run_season_raw(df_all, target):
                 "over15_rzecz": int(suma > 1),
                 "over25_rzecz": int(suma > 2),
                 "over35_rzecz": int(suma > 3),
-                # surowe prawdopodobieństwa
                 "lambda_home": pred["lambda_home"],
                 "lambda_away": pred["lambda_away"],
                 "p_home_raw": pred["p_home"],
@@ -285,18 +305,6 @@ def run_season_raw(df_all, target):
             })
 
     return pd.DataFrame(rows)
-
-
-# =============================================================================
-# LOG-LOSS HELPERS
-# =============================================================================
-
-def ll_binary(p_pred, actual):
-    """Log-loss dla rynku binarnego (np. Over/Under, BTTS)."""
-    if actual == 1:
-        return -np.log(max(p_pred, 1e-12))
-    else:
-        return -np.log(max(1.0 - p_pred, 1e-12))
 
 
 # =============================================================================
@@ -321,13 +329,21 @@ def main():
     df_test = run_season_raw(df, TEST_SEASON)
     print(f"   Predykcji: {len(df_test)}")
 
+    # --- 1X2 kalibracja ---
     print("\n4. Trenowanie kalibratora 1X2 na 2024/25...")
-    cal_params = fit_cal(df_val)
-    T, bH, bD, bA = cal_params
+    cal_1x2 = fit_cal_1x2(df_val)
+    T, bH, bD, bA = cal_1x2
 
-    # Aplikuj kalibrację 1X2
+    # --- BTTS korekcja ---
+    print("5. Trenowanie korekcji BTTS na 2024/25...")
+    btts_shift = fit_btts_correction(df_val)
+    print(f"   BTTS shift: {btts_shift:+.4f}")
+
+    # --- Aplikacja kalibracji ---
     def apply_cal(df_raw):
         df_out = df_raw.copy()
+
+        # 1X2
         cal_results = df_out.apply(
             lambda r: calibrate_1x2(r.p_home_raw, r.p_draw_raw, r.p_away_raw, T, bH, bD, bA),
             axis=1
@@ -344,7 +360,21 @@ def main():
             axis=1
         )
 
-        # O/U log-loss
+        # BTTS — z korekcją
+        df_out["p_btts_yes_cal"] = np.clip(df_out["p_btts_yes"] + btts_shift, 0.01, 0.99)
+        df_out["p_btts_no_cal"] = 1.0 - df_out["p_btts_yes_cal"]
+
+        df_out["ll_btts"] = df_out.apply(
+            lambda r: ll_binary(r.p_btts_yes_cal, r.btts_rzecz),
+            axis=1
+        )
+
+        df_out["ll_btts_raw"] = df_out.apply(
+            lambda r: ll_binary(r.p_btts_yes, r.btts_rzecz),
+            axis=1
+        )
+
+        # O/U
         for line, col_pred, col_actual in [
             ("05", "p_over_05", "over05_rzecz"),
             ("15", "p_over_15", "over15_rzecz"),
@@ -356,25 +386,17 @@ def main():
                 axis=1
             )
 
-        # BTTS log-loss
-        df_out["ll_btts"] = df_out.apply(
-            lambda r: ll_binary(r.p_btts_yes, r.btts_rzecz),
-            axis=1
-        )
-
         return df_out
 
     df_val_final = apply_cal(df_val)
     df_test_final = apply_cal(df_test)
 
-    # Zapis predykcji
     df_test_final.to_csv(OUTPUT_CSV, index=False, encoding="utf-8-sig")
 
     # ==========================================================================
     # RAPORT
     # ==========================================================================
     def fmt_market(df_, col_pred, col_actual, name):
-        """Zwraca linię raportu: model avg vs rzeczywistość avg + delta."""
         p_avg = df_[col_pred].mean()
         r_avg = df_[col_actual].mean()
         delta = r_avg - p_avg
@@ -383,6 +405,11 @@ def main():
 
     ll_1x2_val = df_val_final["ll_1x2"].mean()
     ll_1x2_test = df_test_final["ll_1x2"].mean()
+
+    ll_btts_val_raw = df_val_final["ll_btts_raw"].mean()
+    ll_btts_val_cal = df_val_final["ll_btts"].mean()
+    ll_btts_test_raw = df_test_final["ll_btts_raw"].mean()
+    ll_btts_test_cal = df_test_final["ll_btts"].mean()
 
     lines = []
     lines.append("=" * 78)
@@ -395,6 +422,7 @@ def main():
     lines.append("  Wagi sezonowe: 0.4 / 0.7 / 1.0")
     lines.append("  Priory beniaminków (K=10)")
     lines.append("  Softmax Calibration (L2=0.05) dla 1X2")
+    lines.append(f"  BTTS additive shift: {btts_shift:+.4f}")
     lines.append("")
     lines.append("2. KALIBRACJA 1X2 (2024/25)")
     lines.append("-" * 78)
@@ -413,31 +441,28 @@ def main():
     lines.append(f"  Kolejki 6-34:        {late['ll_1x2'].mean():.4f}")
     lines.append("")
 
-    # O/U
-    lines.append("4. OVER/UNDER — KALIBRACJA (model vs rzeczywistość)")
+    lines.append("4. OVER/UNDER — KALIBRACJA")
     lines.append("-" * 78)
     lines.append("  [2024/25 — in-sample]")
-    for line_name, col_pred, col_actual, nice in [
-        ("05", "p_over_05", "over05_rzecz", "Over 0.5"),
-        ("15", "p_over_15", "over15_rzecz", "Over 1.5"),
-        ("25", "p_over_25", "over25_rzecz", "Over 2.5"),
-        ("35", "p_over_35", "over35_rzecz", "Over 3.5"),
+    for col_pred, col_actual, nice in [
+        ("p_over_05", "over05_rzecz", "Over 0.5"),
+        ("p_over_15", "over15_rzecz", "Over 1.5"),
+        ("p_over_25", "over25_rzecz", "Over 2.5"),
+        ("p_over_35", "over35_rzecz", "Over 3.5"),
     ]:
         lines.append(fmt_market(df_val_final, col_pred, col_actual, nice))
 
     lines.append("")
     lines.append("  [2025/26 — OOS]")
-    for line_name, col_pred, col_actual, nice in [
-        ("05", "p_over_05", "over05_rzecz", "Over 0.5"),
-        ("15", "p_over_15", "over15_rzecz", "Over 1.5"),
-        ("25", "p_over_25", "over25_rzecz", "Over 2.5"),
-        ("35", "p_over_35", "over35_rzecz", "Over 3.5"),
+    for col_pred, col_actual, nice in [
+        ("p_over_05", "over05_rzecz", "Over 0.5"),
+        ("p_over_15", "over15_rzecz", "Over 1.5"),
+        ("p_over_25", "over25_rzecz", "Over 2.5"),
+        ("p_over_35", "over35_rzecz", "Over 3.5"),
     ]:
         lines.append(fmt_market(df_test_final, col_pred, col_actual, nice))
-
     lines.append("")
 
-    # O/U log-loss
     lines.append("5. OVER/UNDER — LOG-LOSS OOS")
     lines.append("-" * 78)
     for line_name, nice in [("05", "Over 0.5"), ("15", "Over 1.5"), ("25", "Over 2.5"), ("35", "Over 3.5")]:
@@ -445,34 +470,35 @@ def main():
         ll_test_ou = df_test_final[f"ll_over_{line_name}"].mean()
         bench = -np.log(0.5)
         lines.append(f"  {nice:12s}: VAL={ll_val_ou:.4f} | OOS={ll_test_ou:.4f} | bench_50/50={bench:.4f}")
-
     lines.append("")
 
-    # BTTS
     lines.append("6. BTTS — KALIBRACJA")
     lines.append("-" * 78)
     lines.append("  [2024/25 — in-sample]")
-    lines.append(fmt_market(df_val_final, "p_btts_yes", "btts_rzecz", "BTTS Yes"))
+    lines.append(fmt_market(df_val_final, "p_btts_yes", "btts_rzecz", "BTTS raw"))
+    lines.append(fmt_market(df_val_final, "p_btts_yes_cal", "btts_rzecz", "BTTS cal"))
     lines.append("")
     lines.append("  [2025/26 — OOS]")
-    lines.append(fmt_market(df_test_final, "p_btts_yes", "btts_rzecz", "BTTS Yes"))
+    lines.append(fmt_market(df_test_final, "p_btts_yes", "btts_rzecz", "BTTS raw"))
+    lines.append(fmt_market(df_test_final, "p_btts_yes_cal", "btts_rzecz", "BTTS cal"))
     lines.append("")
 
-    ll_btts_val = df_val_final["ll_btts"].mean()
-    ll_btts_test = df_test_final["ll_btts"].mean()
-    lines.append("7. BTTS — LOG-LOSS OOS")
+    lines.append("7. BTTS — LOG-LOSS")
     lines.append("-" * 78)
-    lines.append(f"  BTTS:         VAL={ll_btts_val:.4f} | OOS={ll_btts_test:.4f} | bench_50/50={-np.log(0.5):.4f}")
+    lines.append(f"  BTTS raw:     VAL={ll_btts_val_raw:.4f} | OOS={ll_btts_test_raw:.4f}")
+    lines.append(f"  BTTS cal:     VAL={ll_btts_val_cal:.4f} | OOS={ll_btts_test_cal:.4f}")
+    lines.append(f"  Poprawa OOS:  {ll_btts_test_raw - ll_btts_test_cal:+.4f}")
+    lines.append(f"  bench 50/50:  {-np.log(0.5):.4f}")
     lines.append("")
 
-    # Podsumowanie
     lines.append("8. PODSUMOWANIE WSZYSTKICH RYNKÓW OOS")
     lines.append("-" * 78)
     lines.append(f"  1X2:          {ll_1x2_test:.4f}")
     lines.append(f"  Over 2.5:     {df_test_final['ll_over_25'].mean():.4f}")
-    lines.append(f"  BTTS:         {ll_btts_test:.4f}")
+    lines.append(f"  BTTS raw:     {ll_btts_test_raw:.4f}")
+    lines.append(f"  BTTS cal:     {ll_btts_test_cal:.4f}")
     lines.append(f"  Benchmark:")
-    lines.append(f"    1X2 losowy:   {np.log(3):.4f}")
+    lines.append(f"    1X2 losowy:    {np.log(3):.4f}")
     lines.append(f"    binarny 50/50: {-np.log(0.5):.4f}")
     lines.append("")
     lines.append("9. PLIKI")
