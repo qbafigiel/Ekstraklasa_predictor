@@ -1,0 +1,64 @@
+==============================================================================
+MODEL KORNERÓW — OOS RAPORT
+==============================================================================
+
+1. ARCHITEKTURA
+------------------------------------------------------------------------------
+  Negative Binomial
+  log(mu_home) = b_home + w_for*log(home_for_avg) + w_against*log(away_against_avg) + w_total*log(home_total_for_avg)
+  log(mu_away) = b_away + w_for*log(away_for_avg) + w_against*log(home_against_avg) + w_total*log(away_total_for_avg)
+  Pełny rozkład sumy zapisany jako p_sum_0 ... p_sum_20, p_sum_21_plus
+  Linie OU: [4.5, 5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5]
+  Rolling window: 8 meczów
+
+2. WALIDACJA 2024/25
+------------------------------------------------------------------------------
+  Meczów: 306
+  Kalibracja O/U:
+  Over  4.5: ll=0.2150 | model=0.926 | rzecz=0.944 | delta=+0.019 OK
+  Over  5.5: ll=0.3093 | model=0.867 | rzecz=0.908 | delta=+0.042 OK
+  Over  6.5: ll=0.4223 | model=0.789 | rzecz=0.853 | delta=+0.064 BIAS
+  Over  7.5: ll=0.5432 | model=0.696 | rzecz=0.775 | delta=+0.079 BIAS
+  Over  8.5: ll=0.6427 | model=0.594 | rzecz=0.663 | delta=+0.069 BIAS
+  Over  9.5: ll=0.6885 | model=0.492 | rzecz=0.549 | delta=+0.057 BIAS
+  Over 10.5: ll=0.6762 | model=0.395 | rzecz=0.431 | delta=+0.036 OK
+  Over 11.5: ll=0.6183 | model=0.308 | rzecz=0.320 | delta=+0.012 OK
+
+3. TEST OOS 2025/26
+------------------------------------------------------------------------------
+  Meczów: 306
+  Benchmark 50/50: 0.6931
+  OOS O/U:
+  Over  4.5: ll=0.2212 | model=0.933 | rzecz=0.944 | delta=+0.011 OK
+  Over  5.5: ll=0.3541 | model=0.878 | rzecz=0.886 | delta=+0.008 OK
+  Over  6.5: ll=0.4910 | model=0.803 | rzecz=0.807 | delta=+0.004 OK
+  Over  7.5: ll=0.5945 | model=0.712 | rzecz=0.719 | delta=+0.007 OK
+  Over  8.5: ll=0.6765 | model=0.612 | rzecz=0.608 | delta=-0.004 OK
+  Over  9.5: ll=0.7024 | model=0.509 | rzecz=0.490 | delta=-0.018 OK
+  Over 10.5: ll=0.6693 | model=0.410 | rzecz=0.395 | delta=-0.014 OK
+  Over 11.5: ll=0.5944 | model=0.320 | rzecz=0.284 | delta=-0.036 OK
+
+4. ŚREDNIE PARAMETRY OOS
+------------------------------------------------------------------------------
+  lambda_home mean: 5.36 | rzecz: 5.15
+  lambda_away mean: 4.60 | rzecz: 4.56
+  lambda_suma mean: 9.95 | rzecz: 9.71
+  alpha mean:       0.1150
+  coef b_home mean: 0.9739
+  coef b_away mean: 0.8467
+  coef w_for mean:  0.0790
+  coef w_against mean: 0.1716
+  coef w_total mean:   0.1607
+
+5. PRZYKŁADOWE ROZKŁADY SUMY (pierwsze 5 meczów OOS)
+------------------------------------------------------------------------------
+  K01 | Jagiellonia Białystok vs Bruk-Bet Termalica Nieciecza | suma_rzecz=11 | 5:0.057 6:0.076 7:0.092 8:0.101 9:0.103 10:0.099 11:0.089 12:0.076
+  K01 | Lech Poznań vs Cracovia | suma_rzecz=5 | 5:0.047 6:0.066 7:0.082 8:0.094 9:0.099 10:0.098 11:0.092 12:0.082
+  K01 | Widzew Łódź vs Zagłębie Lubin | suma_rzecz=14 | 5:0.045 6:0.064 7:0.080 8:0.092 9:0.098 10:0.098 11:0.092 12:0.083
+  K01 | Wisła Płock vs Korona Kielce | suma_rzecz=8 | 5:0.052 6:0.071 7:0.087 8:0.098 9:0.102 10:0.099 11:0.091 12:0.079
+  K01 | GKS Katowice vs Raków Częstochowa | suma_rzecz=9 | 5:0.048 6:0.067 7:0.083 8:0.095 9:0.100 10:0.099 11:0.092 12:0.081
+
+6. PLIKI
+------------------------------------------------------------------------------
+  data\processed\model_corners_oos_predictions.csv
+  data\reports\model\model_corners_oos_report.txt
