@@ -1,0 +1,70 @@
+==============================================================================
+OFICJALNY BENCHMARK OOS — EKSTRAKLASA PREDICTOR
+==============================================================================
+
+1. ARCHITEKTURA
+------------------------------------------------------------------------------
+  Poisson MLE na xG (fallback gole 23/24)
+  Wagi sezonowe: 0.4 / 0.7 / 1.0
+  Priory beniaminków (K=10)
+  Softmax Calibration (L2=0.05) dla 1X2
+
+2. KALIBRACJA 1X2 (2024/25)
+------------------------------------------------------------------------------
+  Log-loss in-sample:  1.0325
+  T=0.9475, bH=-0.0260, bD=-0.0009, bA=0.0269
+
+3. TEST OOS 1X2 (2025/26)
+------------------------------------------------------------------------------
+  Meczów:              306
+  LOG-LOSS OOS 1X2:    1.0653
+  Benchmark losowy:    1.0986
+  Kolejki 1-5:         1.0916
+  Kolejki 6-34:        1.0607
+
+4. OVER/UNDER — KALIBRACJA (model vs rzeczywistość)
+------------------------------------------------------------------------------
+  [2024/25 — in-sample]
+  Over 0.5    : model=0.919 | rzecz=0.941 | delta=+0.022 OK
+  Over 1.5    : model=0.721 | rzecz=0.761 | delta=+0.041 OK
+  Over 2.5    : model=0.472 | rzecz=0.497 | delta=+0.025 OK
+  Over 3.5    : model=0.260 | rzecz=0.297 | delta=+0.037 OK
+
+  [2025/26 — OOS]
+  Over 0.5    : model=0.926 | rzecz=0.925 | delta=-0.001 OK
+  Over 1.5    : model=0.737 | rzecz=0.758 | delta=+0.021 OK
+  Over 2.5    : model=0.491 | rzecz=0.520 | delta=+0.028 OK
+  Over 3.5    : model=0.276 | rzecz=0.301 | delta=+0.025 OK
+
+5. OVER/UNDER — LOG-LOSS OOS
+------------------------------------------------------------------------------
+  Over 0.5    : VAL=0.2172 | OOS=0.2621 | bench_50/50=0.6931
+  Over 1.5    : VAL=0.5481 | OOS=0.5421 | bench_50/50=0.6931
+  Over 2.5    : VAL=0.6868 | OOS=0.6795 | bench_50/50=0.6931
+  Over 3.5    : VAL=0.6022 | OOS=0.6054 | bench_50/50=0.6931
+
+6. BTTS — KALIBRACJA
+------------------------------------------------------------------------------
+  [2024/25 — in-sample]
+  BTTS Yes    : model=0.498 | rzecz=0.559 | delta=+0.061 BIAS
+
+  [2025/26 — OOS]
+  BTTS Yes    : model=0.519 | rzecz=0.575 | delta=+0.056 BIAS
+
+7. BTTS — LOG-LOSS OOS
+------------------------------------------------------------------------------
+  BTTS:         VAL=0.6923 | OOS=0.6797 | bench_50/50=0.6931
+
+8. PODSUMOWANIE WSZYSTKICH RYNKÓW OOS
+------------------------------------------------------------------------------
+  1X2:          1.0653
+  Over 2.5:     0.6795
+  BTTS:         0.6797
+  Benchmark:
+    1X2 losowy:   1.0986
+    binarny 50/50: 0.6931
+
+9. PLIKI
+------------------------------------------------------------------------------
+  Predykcje: data\processed\baseline_xg_oos_predictions.csv
+  Raport:    data\reports\model\model_baseline_oos_report.txt
