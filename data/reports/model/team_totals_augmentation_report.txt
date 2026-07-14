@@ -1,0 +1,57 @@
+==========================================================================================
+TEAM TOTALS AUGMENTATION REPORT
+==========================================================================================
+
+Kornery
+------------------------------------------------------------------------------------------
+  status: ok
+  input: data\processed\model_corners_oos_predictions.csv
+  output: data\processed\model_corners_oos_predictions_team_totals.csv
+  rows: 306
+  home_lines: 11
+  away_lines: 11
+
+Strzaly
+------------------------------------------------------------------------------------------
+  status: ok
+  input: data\processed\model_shots_oos_predictions.csv
+  output: data\processed\model_shots_oos_predictions_team_totals.csv
+  rows: 306
+  home_lines: 21
+  away_lines: 21
+
+Strzaly celne
+------------------------------------------------------------------------------------------
+  status: ok
+  input: data\processed\model_shots_on_target_oos_predictions.csv
+  output: data\processed\model_shots_on_target_oos_predictions_team_totals.csv
+  rows: 306
+  home_lines: 11
+  away_lines: 11
+
+Spalone
+------------------------------------------------------------------------------------------
+  status: ok
+  input: data\processed\model_offsides_oos_predictions.csv
+  output: data\processed\model_offsides_oos_predictions_team_totals.csv
+  rows: 306
+  home_lines: 5
+  away_lines: 5
+
+Faule
+------------------------------------------------------------------------------------------
+  status: ok
+  input: data\processed\model_fouls_oos_predictions.csv
+  output: data\processed\model_fouls_oos_predictions_team_totals.csv
+  rows: 306
+  home_lines: 15
+  away_lines: 15
+
+ZK
+------------------------------------------------------------------------------------------
+  status: ok
+  input: data\processed\model_yellow_cards_oos_predictions.csv
+  output: data\processed\model_yellow_cards_oos_predictions_team_totals.csv
+  rows: 306
+  home_lines: 6
+  away_lines: 6
