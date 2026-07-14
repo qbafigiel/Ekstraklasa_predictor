@@ -1,0 +1,96 @@
+==============================================================================
+MODEL STRZAŁÓW — OOS RAPORT
+==============================================================================
+
+1. ARCHITEKTURA
+------------------------------------------------------------------------------
+  Negative Binomial
+  log(mu_home) = b_home + w_for*log(home_for_avg) + w_against*log(away_against_avg) + w_total*log(home_total_for_avg)
+  log(mu_away) = b_away + w_for*log(away_for_avg) + w_against*log(home_against_avg) + w_total*log(away_total_for_avg)
+  Pełny rozkład sumy zapisany jako p_sum_0 ... p_sum_50, p_sum_51_plus
+  Linie OU: 12.5 ... 35.5
+  Rolling window: 8 meczów
+
+2. WALIDACJA 2024/25
+------------------------------------------------------------------------------
+  Meczów: 306
+  Kalibracja O/U:
+  Over 12.5: ll=0.0220 | model=0.991 | rzecz=0.997 | delta=+0.006 OK
+  Over 13.5: ll=0.0391 | model=0.985 | rzecz=0.993 | delta=+0.009 OK
+  Over 14.5: ll=0.0454 | model=0.976 | rzecz=0.993 | delta=+0.018 OK
+  Over 15.5: ll=0.0645 | model=0.963 | rzecz=0.990 | delta=+0.027 OK
+  Over 16.5: ll=0.1102 | model=0.946 | rzecz=0.977 | delta=+0.031 OK
+  Over 17.5: ll=0.1741 | model=0.924 | rzecz=0.958 | delta=+0.033 OK
+  Over 18.5: ll=0.2380 | model=0.897 | rzecz=0.931 | delta=+0.034 OK
+  Over 19.5: ll=0.3184 | model=0.865 | rzecz=0.895 | delta=+0.031 OK
+  Over 20.5: ll=0.3538 | model=0.827 | rzecz=0.882 | delta=+0.056 BIAS
+  Over 21.5: ll=0.3980 | model=0.783 | rzecz=0.863 | delta=+0.079 BIAS
+  Over 22.5: ll=0.4541 | model=0.736 | rzecz=0.837 | delta=+0.101 BIAS
+  Over 23.5: ll=0.5150 | model=0.684 | rzecz=0.791 | delta=+0.106 BIAS
+  Over 24.5: ll=0.5642 | model=0.630 | rzecz=0.739 | delta=+0.108 BIAS
+  Over 25.5: ll=0.6226 | model=0.575 | rzecz=0.676 | delta=+0.102 BIAS
+  Over 26.5: ll=0.6584 | model=0.519 | rzecz=0.588 | delta=+0.069 BIAS
+  Over 27.5: ll=0.6626 | model=0.463 | rzecz=0.510 | delta=+0.046 OK
+  Over 28.5: ll=0.6581 | model=0.410 | rzecz=0.438 | delta=+0.028 OK
+  Over 29.5: ll=0.6231 | model=0.359 | rzecz=0.340 | delta=-0.019 OK
+  Over 30.5: ll=0.5833 | model=0.311 | rzecz=0.284 | delta=-0.026 OK
+  Over 31.5: ll=0.5518 | model=0.266 | rzecz=0.245 | delta=-0.021 OK
+  Over 32.5: ll=0.4979 | model=0.226 | rzecz=0.203 | delta=-0.024 OK
+  Over 33.5: ll=0.4438 | model=0.190 | rzecz=0.163 | delta=-0.027 OK
+  Over 34.5: ll=0.3806 | model=0.158 | rzecz=0.131 | delta=-0.028 OK
+  Over 35.5: ll=0.2752 | model=0.131 | rzecz=0.078 | delta=-0.052 BIAS
+
+3. TEST OOS 2025/26
+------------------------------------------------------------------------------
+  Meczów: 306
+  Benchmark 50/50: 0.6931
+  OOS O/U:
+  Over 12.5: ll=0.0072 | model=0.993 | rzecz=1.000 | delta=+0.007 OK
+  Over 13.5: ll=0.0265 | model=0.988 | rzecz=0.997 | delta=+0.009 OK
+  Over 14.5: ll=0.0452 | model=0.980 | rzecz=0.993 | delta=+0.013 OK
+  Over 15.5: ll=0.0961 | model=0.969 | rzecz=0.980 | delta=+0.011 OK
+  Over 16.5: ll=0.1219 | model=0.954 | rzecz=0.974 | delta=+0.020 OK
+  Over 17.5: ll=0.1793 | model=0.934 | rzecz=0.958 | delta=+0.023 OK
+  Over 18.5: ll=0.2621 | model=0.909 | rzecz=0.928 | delta=+0.019 OK
+  Over 19.5: ll=0.3107 | model=0.879 | rzecz=0.908 | delta=+0.030 OK
+  Over 20.5: ll=0.3842 | model=0.842 | rzecz=0.869 | delta=+0.027 OK
+  Over 21.5: ll=0.4457 | model=0.800 | rzecz=0.830 | delta=+0.030 OK
+  Over 22.5: ll=0.5012 | model=0.753 | rzecz=0.794 | delta=+0.041 OK
+  Over 23.5: ll=0.5533 | model=0.702 | rzecz=0.752 | delta=+0.049 OK
+  Over 24.5: ll=0.6028 | model=0.648 | rzecz=0.699 | delta=+0.051 BIAS
+  Over 25.5: ll=0.6459 | model=0.592 | rzecz=0.641 | delta=+0.049 OK
+  Over 26.5: ll=0.6682 | model=0.534 | rzecz=0.562 | delta=+0.028 OK
+  Over 27.5: ll=0.6728 | model=0.478 | rzecz=0.464 | delta=-0.013 OK
+  Over 28.5: ll=0.6533 | model=0.422 | rzecz=0.382 | delta=-0.040 OK
+  Over 29.5: ll=0.6171 | model=0.369 | rzecz=0.310 | delta=-0.059 BIAS
+  Over 30.5: ll=0.5771 | model=0.319 | rzecz=0.265 | delta=-0.055 BIAS
+  Over 31.5: ll=0.5286 | model=0.273 | rzecz=0.222 | delta=-0.051 BIAS
+  Over 32.5: ll=0.4804 | model=0.231 | rzecz=0.190 | delta=-0.042 OK
+  Over 33.5: ll=0.4486 | model=0.194 | rzecz=0.170 | delta=-0.024 OK
+  Over 34.5: ll=0.4061 | model=0.161 | rzecz=0.144 | delta=-0.017 OK
+  Over 35.5: ll=0.3359 | model=0.132 | rzecz=0.108 | delta=-0.024 OK
+
+4. ŚREDNIE PARAMETRY OOS
+------------------------------------------------------------------------------
+  lambda_home mean: 14.76 | rzecz: 14.64
+  lambda_away mean: 12.79 | rzecz: 12.70
+  lambda_suma mean: 27.55 | rzecz: 27.33
+  alpha mean:       0.0539
+  coef b_home mean: 0.6394
+  coef b_away mean: 0.5665
+  coef w_for mean:  0.1724
+  coef w_against mean: 0.4163
+  coef w_total mean:   0.1750
+
+5. PRZYKŁADOWE ROZKŁADY SUMY (pierwsze 5 meczów OOS)
+------------------------------------------------------------------------------
+  K01 | Jagiellonia Białystok vs Bruk-Bet Termalica Nieciecza | suma_rzecz=31 | 18:0.024 19:0.030 20:0.036 21:0.041 22:0.046 23:0.051 24:0.054 25:0.057 26:0.058 27:0.058 28:0.057 29:0.054 30:0.051
+  K01 | Lech Poznań vs Cracovia | suma_rzecz=17 | 18:0.018 19:0.023 20:0.028 21:0.034 22:0.039 23:0.044 24:0.049 25:0.052 26:0.055 27:0.056 28:0.056 29:0.055 30:0.054
+  K01 | Widzew Łódź vs Zagłębie Lubin | suma_rzecz=26 | 18:0.025 19:0.031 20:0.037 21:0.043 22:0.048 23:0.052 24:0.056 25:0.058 26:0.059 27:0.058 28:0.057 29:0.054 30:0.050
+  K01 | Wisła Płock vs Korona Kielce | suma_rzecz=27 | 18:0.024 19:0.029 20:0.035 21:0.041 22:0.046 23:0.051 24:0.054 25:0.057 26:0.058 27:0.058 28:0.057 29:0.054 30:0.051
+  K01 | GKS Katowice vs Raków Częstochowa | suma_rzecz=21 | 18:0.019 19:0.024 20:0.029 21:0.035 22:0.040 23:0.045 24:0.049 25:0.053 26:0.055 27:0.056 28:0.056 29:0.055 30:0.053
+
+6. PLIKI
+------------------------------------------------------------------------------
+  data\processed\model_shots_oos_predictions.csv
+  data\reports\model\model_shots_oos_report.txt
