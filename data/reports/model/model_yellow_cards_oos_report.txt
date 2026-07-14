@@ -1,0 +1,64 @@
+==============================================================================
+MODEL ŻÓŁTYCH KARTEK — OOS RAPORT
+==============================================================================
+
+1. ARCHITEKTURA
+------------------------------------------------------------------------------
+  Poisson
+  log(mu_home) = b_home + w_for*log(home_for_avg) + w_against*log(away_against_avg) + w_total*log(home_total_for_avg)
+  log(mu_away) = b_away + w_for*log(away_for_avg) + w_against*log(home_against_avg) + w_total*log(away_total_for_avg)
+  Pełny rozkład sumy zapisany jako p_sum_0 ... p_sum_12, p_sum_13_plus
+  Linie OU: 0.5 ... 7.5
+  Rolling window: 8 meczów
+  WERSJA BEZ SĘDZIEGO (baseline)
+
+2. WALIDACJA 2024/25
+------------------------------------------------------------------------------
+  Meczów: 306
+  Kalibracja O/U:
+  Over 0.5: ll=0.1254 | model=0.986 | rzecz=0.974 | delta=-0.013 OK
+  Over 1.5: ll=0.3325 | model=0.928 | rzecz=0.899 | delta=-0.030 OK
+  Over 2.5: ll=0.5596 | model=0.803 | rzecz=0.755 | delta=-0.048 OK
+  Over 3.5: ll=0.7000 | model=0.624 | rzecz=0.546 | delta=-0.078 BIAS
+  Over 4.5: ll=0.6708 | model=0.431 | rzecz=0.386 | delta=-0.046 OK
+  Over 5.5: ll=0.5665 | model=0.265 | rzecz=0.255 | delta=-0.010 OK
+  Over 6.5: ll=0.3678 | model=0.146 | rzecz=0.118 | delta=-0.028 OK
+  Over 7.5: ll=0.2331 | model=0.072 | rzecz=0.062 | delta=-0.010 OK
+
+3. TEST OOS 2025/26
+------------------------------------------------------------------------------
+  Meczów: 306
+  Benchmark 50/50: 0.6931
+  OOS O/U:
+  Over 0.5: ll=0.1538 | model=0.985 | rzecz=0.967 | delta=-0.018 OK
+  Over 1.5: ll=0.3733 | model=0.922 | rzecz=0.882 | delta=-0.039 OK
+  Over 2.5: ll=0.5588 | model=0.790 | rzecz=0.755 | delta=-0.035 OK
+  Over 3.5: ll=0.6850 | model=0.605 | rzecz=0.569 | delta=-0.036 OK
+  Over 4.5: ll=0.6750 | model=0.410 | rzecz=0.402 | delta=-0.008 OK
+  Over 5.5: ll=0.6034 | model=0.247 | rzecz=0.284 | delta=+0.037 OK
+  Over 6.5: ll=0.4215 | model=0.133 | rzecz=0.147 | delta=+0.014 OK
+  Over 7.5: ll=0.2338 | model=0.064 | rzecz=0.062 | delta=-0.002 OK
+
+4. ŚREDNIE PARAMETRY OOS
+------------------------------------------------------------------------------
+  lambda_home mean: 1.99 | rzecz: 1.90
+  lambda_away mean: 2.21 | rzecz: 2.21
+  lambda_suma mean: 4.20 | rzecz: 4.11
+  coef b_home mean: 0.5631
+  coef b_away mean: 0.6345
+  coef w_for mean:  0.0999
+  coef w_against mean: 0.1139
+  coef w_total mean:   -0.0589
+
+5. PRZYKŁADOWE ROZKŁADY SUMY (pierwsze 5 meczów OOS)
+------------------------------------------------------------------------------
+  K01 | Jagiellonia Białystok vs Bruk-Bet Termalica Nieciecza | suma_rzecz=1 | 0:0.016 1:0.065 2:0.135 3:0.187 4:0.195 5:0.162 6:0.113 7:0.067 8:0.035 9:0.016
+  K01 | Lech Poznań vs Cracovia | suma_rzecz=3 | 0:0.018 1:0.071 2:0.144 3:0.193 4:0.195 5:0.158 6:0.106 7:0.061 8:0.031 9:0.014
+  K01 | Widzew Łódź vs Zagłębie Lubin | suma_rzecz=7 | 0:0.014 1:0.061 2:0.129 3:0.183 4:0.194 5:0.165 6:0.116 7:0.071 8:0.037 9:0.018
+  K01 | Wisła Płock vs Korona Kielce | suma_rzecz=4 | 0:0.014 1:0.060 2:0.129 3:0.182 4:0.194 5:0.165 6:0.117 7:0.071 8:0.038 9:0.018
+  K01 | GKS Katowice vs Raków Częstochowa | suma_rzecz=2 | 0:0.017 1:0.070 2:0.142 3:0.192 4:0.195 5:0.159 6:0.108 7:0.063 8:0.032 9:0.014
+
+6. PLIKI
+------------------------------------------------------------------------------
+  data\processed\model_yellow_cards_oos_predictions.csv
+  data\reports\model\model_yellow_cards_oos_report.txt
