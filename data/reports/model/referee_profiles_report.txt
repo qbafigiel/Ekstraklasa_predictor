@@ -1,0 +1,60 @@
+REFEREE PROFILES REPORT
+================================================================================
+Timestamp: 2026-07-15 12:49:42
+Mecze z profilem sędziego: 918
+Liczba unikalnych sędziów: 31
+
+Konfiguracja:
+- K_PRIOR = 10
+- DEFAULT_LEAGUE_FOULS = 25.0
+- DEFAULT_LEAGUE_YC = 4.5
+- DEFAULT_LEAGUE_DISMISSALS = 0.2
+
+Średnie ligowe na pełnej próbie:
+- faule total: 24.979
+- żółte kartki total: 4.179
+- wykluczenia total: 0.276
+
+Pliki wyjściowe:
+- D:\projects\Ekstraklasa_predictor\data\processed\referee_profiles.csv
+- D:\projects\Ekstraklasa_predictor\data\processed\referee_profiles_by_season.csv
+- D:\projects\Ekstraklasa_predictor\data\processed\referee_causal_features.csv
+
+================================================================================
+TOP 15 sędziów wg liczby meczów — overall
+
+Szymon Marciniak: n=74, fouls=24.35, yc=3.92, dismissals=0.11, rel=0.881
+Piotr Lasyk: n=68, fouls=24.74, yc=3.65, dismissals=0.19, rel=0.872
+Jaroslaw Przybyl: n=61, fouls=26.31, yc=4.43, dismissals=0.23, rel=0.859
+Pawel Raczkowski: n=61, fouls=25.10, yc=5.31, dismissals=0.38, rel=0.859
+Damian Sylwestrzak: n=60, fouls=27.12, yc=4.62, dismissals=0.43, rel=0.857
+Karol Arys: n=59, fouls=24.88, yc=3.02, dismissals=0.24, rel=0.855
+Lukasz Kuzma: n=56, fouls=25.27, yc=4.14, dismissals=0.29, rel=0.849
+Tomasz Kwiatkowski: n=53, fouls=23.32, yc=4.13, dismissals=0.30, rel=0.841
+Wojciech Myc: n=51, fouls=27.00, yc=4.06, dismissals=0.10, rel=0.836
+Bartosz Frankowski: n=48, fouls=22.48, yc=4.12, dismissals=0.23, rel=0.828
+Patryk Gryckiewicz: n=46, fouls=25.20, yc=4.63, dismissals=0.41, rel=0.821
+Daniel Stefanski: n=45, fouls=26.98, yc=5.16, dismissals=0.42, rel=0.818
+Damian Kos: n=44, fouls=25.52, yc=4.91, dismissals=0.55, rel=0.815
+Pawel Malec: n=35, fouls=21.26, yc=3.83, dismissals=0.23, rel=0.778
+Marcin Szczerbowicz: n=31, fouls=25.48, yc=4.03, dismissals=0.16, rel=0.756
+
+================================================================================
+Próbka causal features — ostatnie 10 meczów
+
+match_id=2632, sezon=2025/26, kolejka=33, ref=Lukasz Kuzma, n_before=55, fouls_shrunk=25.15, yc_shrunk=4.14, dismissals_shrunk=0.289
+match_id=2641, sezon=2025/26, kolejka=34, ref=Patryk Gryckiewicz, n_before=45, fouls_shrunk=25.07, yc_shrunk=4.51, dismissals_shrunk=0.396
+match_id=2642, sezon=2025/26, kolejka=34, ref=Jaroslaw Przybyl, n_before=60, fouls_shrunk=26.14, yc_shrunk=4.41, dismissals_shrunk=0.240
+match_id=2643, sezon=2025/26, kolejka=34, ref=Szymon Marciniak, n_before=73, fouls_shrunk=24.50, yc_shrunk=3.94, dismissals_shrunk=0.130
+match_id=2644, sezon=2025/26, kolejka=34, ref=Damian Sylwestrzak, n_before=59, fouls_shrunk=26.94, yc_shrunk=4.56, dismissals_shrunk=0.402
+match_id=2645, sezon=2025/26, kolejka=34, ref=Bartosz Frankowski, n_before=47, fouls_shrunk=22.86, yc_shrunk=4.21, dismissals_shrunk=0.242
+match_id=2646, sezon=2025/26, kolejka=34, ref=Marcin Szczerbowicz, n_before=30, fouls_shrunk=25.54, yc_shrunk=4.10, dismissals_shrunk=0.194
+match_id=2647, sezon=2025/26, kolejka=34, ref=Daniel Stefanski, n_before=44, fouls_shrunk=26.66, yc_shrunk=5.02, dismissals_shrunk=0.403
+match_id=2648, sezon=2025/26, kolejka=34, ref=Wojciech Myc, n_before=50, fouls_shrunk=26.59, yc_shrunk=4.08, dismissals_shrunk=0.129
+match_id=2649, sezon=2025/26, kolejka=34, ref=Karol Arys, n_before=58, fouls_shrunk=24.82, yc_shrunk=3.20, dismissals_shrunk=0.246
+
+================================================================================
+Sezony w profiles_by_season:
+- 2023/24: 19 profili sędzia-sezon
+- 2024/25: 27 profili sędzia-sezon
+- 2025/26: 24 profili sędzia-sezon
