@@ -1,0 +1,48 @@
+ENRICH REFEREE FULL NAMES REPORT
+================================================================================
+Timestamp: 2026-07-15 10:57:15
+DB: D:\projects\Ekstraklasa_predictor\db\ekstraklasa.db
+
+Zalozenia:
+- referee_full_name zapisany w ASCII (bez polskich znakow)
+- slownik short_name -> full_name oparty na danych zweryfikowanych przez uzytkownika
+- klucze slownika to ASCII-normalize(referee_name z bazy)
+
+Dodano nowa kolumne referee_full_name: TAK
+Uzupelnione rekordy referee_full_name: 918
+Liczba unikalnych sedziow: 31
+
+Brak nadmiarowych pozycji w slowniku wzgledem aktualnej bazy.
+
+Slownik koncowy (referee_name -> referee_full_name):
+  Marciniak S.         -> Szymon Marciniak          (key=Marciniak S.        , matches=74)
+  Lasyk P.             -> Piotr Lasyk               (key=Lasyk P.            , matches=68)
+  Przybyl J.           -> Jaroslaw Przybyl          (key=Przybyl J.          , matches=61)
+  Raczkowski P.        -> Pawel Raczkowski          (key=Raczkowski P.       , matches=61)
+  Sylwestrzak D.       -> Damian Sylwestrzak        (key=Sylwestrzak D.      , matches=60)
+  Arys K.              -> Karol Arys                (key=Arys K.             , matches=59)
+  Kuzma L.             -> Lukasz Kuzma              (key=Kuzma L.            , matches=56)
+  Kwiatkowski T.       -> Tomasz Kwiatkowski        (key=Kwiatkowski T.      , matches=53)
+  Myc W.               -> Wojciech Myc              (key=Myc W.              , matches=51)
+  Frankowski B.        -> Bartosz Frankowski        (key=Frankowski B.       , matches=48)
+  Gryckiewicz P.       -> Patryk Gryckiewicz        (key=Gryckiewicz P.      , matches=46)
+  Stefanski D.         -> Daniel Stefanski          (key=Stefanski D.        , matches=45)
+  Kos D.               -> Damian Kos                (key=Kos D.              , matches=44)
+  Malec P.             -> Pawel Malec               (key=Malec P.            , matches=35)
+  Szczerbowicz M.      -> Marcin Szczerbowicz       (key=Szczerbowicz M.     , matches=31)
+  Musiał T.            -> Tomasz Musial             (key=Musia T.            , matches=26)
+  Kochanek M.          -> Marcin Kochanek           (key=Kochanek M.         , matches=25)
+  Krasny S.            -> Sebastian Krasny          (key=Krasny S.           , matches=23)
+  Jakubik K.           -> Krzysztof Jakubik         (key=Jakubik K.          , matches=14)
+  Rzucidlo P.          -> Piotr Rzucidlo            (key=Rzucidlo P.         , matches=10)
+  Piszczelok M.        -> Mateusz Piszczelok        (key=Piszczelok M.       , matches=9)
+  Marciniak T.         -> Tomasz Marciniak          (key=Marciniak T.        , matches=4)
+  Nagamine K.          -> Koki Nagamine             (key=Nagamine K.         , matches=4)
+  Araki Y.             -> Yusuke Araki              (key=Araki Y.            , matches=3)
+  Karski L.            -> Lukasz Karski             (key=Karski L.           , matches=2)
+  Al-Emara M.          -> Mohammad Al-Emara         (key=Al-Emara M.         , matches=1)
+  Jarzebak S.          -> Sebastian Jarzebak        (key=Jarzebak S.         , matches=1)
+  Kawalko G.           -> Grzegorz Kawalko          (key=Kawalko G.          , matches=1)
+  Listkiewicz T.       -> Tomasz Listkiewicz        (key=Listkiewicz T.      , matches=1)
+  Malyszek J.          -> Jacek Malyszek            (key=Malyszek J.         , matches=1)
+  Mucha S.             -> Sebastian Mucha           (key=Mucha S.            , matches=1)
