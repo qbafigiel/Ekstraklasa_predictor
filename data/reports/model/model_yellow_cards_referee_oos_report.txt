@@ -1,0 +1,113 @@
+====================================================================================================
+MODEL ZOLTYCH KARTEK - REFEREE CHALLENGER OOS RAPORT
+====================================================================================================
+
+1. ARCHITEKTURA
+----------------------------------------------------------------------------------------------------
+  Ta sama metodologia co oficjalny baseline model_yellow_cards.py
+  Poisson
+  log(mu_home) = b_home + w_for*log(home_for_avg) + w_against*log(away_against_avg) + w_total*log(home_total_for_avg)
+  log(mu_away) = b_away + w_for*log(away_for_avg) + w_against*log(home_against_avg) + w_total*log(away_total_for_avg)
+  Challenger dodaje:
+      + w_ref * ref_yc_log_ratio
+  gdzie:
+      ref_yc_log_ratio = log(ref_yc_shrunk_before + 0.5) - log(league_yc_avg_before + 0.5)
+  Pelny rozklad sumy zapisany jako p_sum_0 ... p_sum_12, p_sum_13_plus
+  Linie OU: 0.5 ... 7.5
+  Rolling window: 8 meczow
+  Porownanie 1:1: baseline vs referee
+
+2. WALIDACJA 2024/25 - PODSUMOWANIE
+----------------------------------------------------------------------------------------------------
+  Meczow baseline: 306
+  Meczow referee:  306
+  Avg log-loss baseline: 0.44447
+  Avg log-loss referee:  0.44556
+  Delta referee-baseline: +0.00110
+  Referee wygrywa na 5/8 liniach
+
+  Walidacja per linia:
+  line  | baseline_ll | referee_ll | diff(ref-base) | base_bias | ref_bias
+  --------------------------------------------------------------------------
+   0.5 |      0.1254 |     0.1242 |        -0.0012 |    -0.013 |   -0.013
+   1.5 |      0.3325 |     0.3279 |        -0.0046 |    -0.030 |   -0.030
+   2.5 |      0.5596 |     0.5568 |        -0.0028 |    -0.048 |   -0.051
+   3.5 |      0.7000 |     0.6976 |        -0.0024 |    -0.078 |   -0.084
+   4.5 |      0.6708 |     0.6698 |        -0.0010 |    -0.046 |   -0.054
+   5.5 |      0.5665 |     0.5730 |        +0.0065 |    -0.010 |   -0.020
+   6.5 |      0.3678 |     0.3784 |        +0.0105 |    -0.028 |   -0.036
+   7.5 |      0.2331 |     0.2368 |        +0.0037 |    -0.010 |   -0.016
+
+  Walidacja O/U - referee:
+  Over 0.5: ll=0.1242 | model=0.986 | rzecz=0.974 | delta=-0.013 OK
+  Over 1.5: ll=0.3279 | model=0.929 | rzecz=0.899 | delta=-0.030 OK
+  Over 2.5: ll=0.5568 | model=0.806 | rzecz=0.755 | delta=-0.051 BIAS
+  Over 3.5: ll=0.6976 | model=0.630 | rzecz=0.546 | delta=-0.084 BIAS
+  Over 4.5: ll=0.6698 | model=0.440 | rzecz=0.386 | delta=-0.054 BIAS
+  Over 5.5: ll=0.5730 | model=0.274 | rzecz=0.255 | delta=-0.020 OK
+  Over 6.5: ll=0.3784 | model=0.154 | rzecz=0.118 | delta=-0.036 OK
+  Over 7.5: ll=0.2368 | model=0.078 | rzecz=0.062 | delta=-0.016 OK
+
+3. TEST OOS 2025/26 - PODSUMOWANIE
+----------------------------------------------------------------------------------------------------
+  Meczow baseline: 306
+  Meczow referee:  306
+  Benchmark 50/50: 0.6931
+  Avg log-loss baseline: 0.46308
+  Avg log-loss referee:  0.45076
+  Delta referee-baseline: -0.01232
+  Referee wygrywa na 7/8 liniach
+
+  Test per linia:
+  line  | baseline_ll | referee_ll | diff(ref-base) | base_bias | ref_bias
+  --------------------------------------------------------------------------
+   0.5 |      0.1538 |     0.1565 |        +0.0027 |    -0.018 |   -0.017
+   1.5 |      0.3733 |     0.3659 |        -0.0074 |    -0.039 |   -0.038
+   2.5 |      0.5588 |     0.5432 |        -0.0156 |    -0.035 |   -0.033
+   3.5 |      0.6850 |     0.6656 |        -0.0193 |    -0.036 |   -0.036
+   4.5 |      0.6750 |     0.6612 |        -0.0138 |    -0.008 |   -0.012
+   5.5 |      0.6034 |     0.5873 |        -0.0161 |    +0.037 |   +0.032
+   6.5 |      0.4215 |     0.4053 |        -0.0162 |    +0.014 |   +0.009
+   7.5 |      0.2338 |     0.2211 |        -0.0128 |    -0.002 |   -0.007
+
+  OOS O/U - referee:
+  Over 0.5: ll=0.1565 | model=0.984 | rzecz=0.967 | delta=-0.017 OK
+  Over 1.5: ll=0.3659 | model=0.920 | rzecz=0.882 | delta=-0.038 OK
+  Over 2.5: ll=0.5432 | model=0.788 | rzecz=0.755 | delta=-0.033 OK
+  Over 3.5: ll=0.6656 | model=0.605 | rzecz=0.569 | delta=-0.036 OK
+  Over 4.5: ll=0.6612 | model=0.414 | rzecz=0.402 | delta=-0.012 OK
+  Over 5.5: ll=0.5873 | model=0.253 | rzecz=0.284 | delta=+0.032 OK
+  Over 6.5: ll=0.4053 | model=0.139 | rzecz=0.147 | delta=+0.009 OK
+  Over 7.5: ll=0.2211 | model=0.069 | rzecz=0.062 | delta=-0.007 OK
+
+4. SREDNIE PARAMETRY OOS - REFEREE
+----------------------------------------------------------------------------------------------------
+  lambda_home mean: 2.00 | rzecz: 1.90
+  lambda_away mean: 2.22 | rzecz: 2.21
+  lambda_suma mean: 4.22 | rzecz: 4.11
+  coef b_home mean: 0.5483
+  coef b_away mean: 0.6190
+  coef w_for mean:  0.1091
+  coef w_against mean: 0.1138
+  coef w_total mean:   -0.0563
+  coef w_ref mean:     0.8728
+
+  Referee signal on OOS test:
+  ref_yc_shrunk_before mean:  4.267
+  league_yc_avg_before mean:  4.212
+  ref_yc_delta_raw mean:      0.055
+  ref_yc_log_ratio mean:      0.0070
+  ref_matches_before mean:    40.79
+
+5. PRZYKLADOWE ROZKLADY SUMY (pierwsze 5 meczow OOS - referee)
+----------------------------------------------------------------------------------------------------
+  K01 | Jagiellonia Białystok vs Bruk-Bet Termalica Nieciecza | ref=Malec P. | suma_rzecz=1 | 0:0.015 1:0.064 2:0.134 3:0.186 4:0.195 5:0.163 6:0.113 7:0.067 8:0.035 9:0.016
+  K01 | Lech Poznań vs Cracovia | ref=Sylwestrzak D. | suma_rzecz=3 | 0:0.016 1:0.067 2:0.137 3:0.189 4:0.195 5:0.161 6:0.111 7:0.065 8:0.034 9:0.015
+  K01 | Widzew Łódź vs Zagłębie Lubin | ref=Raczkowski P. | suma_rzecz=7 | 0:0.009 1:0.041 2:0.097 3:0.154 4:0.183 5:0.174 6:0.139 7:0.094 8:0.056 9:0.030
+  K01 | Wisła Płock vs Korona Kielce | ref=Kos D. | suma_rzecz=4 | 0:0.009 1:0.044 2:0.102 3:0.159 4:0.186 5:0.174 6:0.135 7:0.090 8:0.053 9:0.027
+  K01 | GKS Katowice vs Raków Częstochowa | ref=Przybyl J. | suma_rzecz=2 | 0:0.014 1:0.060 2:0.128 3:0.182 4:0.194 5:0.165 6:0.117 7:0.071 8:0.038 9:0.018
+
+6. PLIKI
+----------------------------------------------------------------------------------------------------
+  D:\projects\Ekstraklasa_predictor\data\processed\model_yellow_cards_referee_oos_predictions.csv
+  D:\projects\Ekstraklasa_predictor\data\reports\model\model_yellow_cards_referee_oos_report.txt

@@ -1,0 +1,158 @@
+====================================================================================================
+MODEL FAULI - REFEREE CHALLENGER OOS RAPORT
+====================================================================================================
+
+1. ARCHITEKTURA
+----------------------------------------------------------------------------------------------------
+  Ta sama metodologia co oficjalny baseline model_fouls.py
+  Negative Binomial
+  log(mu_home) = b_home + w_for*log(home_for_avg) + w_against*log(away_against_avg) + w_total*log(home_total_for_avg)
+  log(mu_away) = b_away + w_for*log(away_for_avg) + w_against*log(home_against_avg) + w_total*log(away_total_for_avg)
+  Challenger dodaje:
+      + w_ref * ref_log_ratio
+  gdzie:
+      ref_log_ratio = log(ref_fouls_shrunk_before + 0.5) - log(league_fouls_avg_before + 0.5)
+  Pelny rozklad sumy zapisany jako p_sum_0 ... p_sum_45, p_sum_46_plus
+  Linie OU: 15.5 ... 33.5
+  Rolling window: 8 meczow
+  Porownanie 1:1: baseline vs referee
+
+2. WALIDACJA 2024/25 - PODSUMOWANIE
+----------------------------------------------------------------------------------------------------
+  Meczow baseline: 306
+  Meczow referee:  306
+  Avg log-loss baseline: 0.44264
+  Avg log-loss referee:  0.43990
+  Delta referee-baseline: -0.00273
+  Referee wygrywa na 14/19 liniach
+
+  Walidacja per linia:
+  line   | baseline_ll | referee_ll | diff(ref-base) | base_bias | ref_bias
+  --------------------------------------------------------------------------
+   15.5 |      0.1700 |     0.1716 |        +0.0016 |    +0.003 |   +0.003
+   16.5 |      0.2266 |     0.2300 |        +0.0034 |    +0.008 |   +0.009
+   17.5 |      0.3139 |     0.3152 |        +0.0013 |    +0.005 |   +0.006
+   18.5 |      0.4033 |     0.4048 |        +0.0015 |    +0.002 |   +0.002
+   19.5 |      0.5012 |     0.5013 |        +0.0001 |    -0.006 |   -0.006
+   20.5 |      0.5862 |     0.5856 |        -0.0006 |    -0.025 |   -0.025
+   21.5 |      0.6204 |     0.6171 |        -0.0033 |    -0.008 |   -0.008
+   22.5 |      0.6563 |     0.6531 |        -0.0033 |    +0.001 |   +0.001
+   23.5 |      0.6726 |     0.6695 |        -0.0030 |    +0.022 |   +0.022
+   24.5 |      0.6680 |     0.6619 |        -0.0061 |    +0.014 |   +0.014
+   25.5 |      0.6438 |     0.6364 |        -0.0074 |    -0.010 |   -0.010
+   26.5 |      0.6084 |     0.6052 |        -0.0031 |    -0.002 |   -0.003
+   27.5 |      0.5428 |     0.5348 |        -0.0079 |    -0.014 |   -0.015
+   28.5 |      0.4898 |     0.4824 |        -0.0074 |    -0.010 |   -0.010
+   29.5 |      0.4053 |     0.3998 |        -0.0055 |    -0.019 |   -0.020
+   30.5 |      0.3178 |     0.3142 |        -0.0036 |    -0.024 |   -0.025
+   31.5 |      0.2573 |     0.2530 |        -0.0043 |    -0.019 |   -0.020
+   32.5 |      0.1914 |     0.1892 |        -0.0022 |    -0.024 |   -0.024
+   33.5 |      0.1350 |     0.1331 |        -0.0019 |    -0.021 |   -0.021
+
+  Walidacja O/U - referee:
+  Over 15.5: ll=0.1716 | model=0.954 | rzecz=0.958 | delta=+0.003 OK
+  Over 16.5: ll=0.2300 | model=0.929 | rzecz=0.938 | delta=+0.009 OK
+  Over 17.5: ll=0.3152 | model=0.896 | rzecz=0.902 | delta=+0.006 OK
+  Over 18.5: ll=0.4048 | model=0.854 | rzecz=0.856 | delta=+0.002 OK
+  Over 19.5: ll=0.5013 | model=0.803 | rzecz=0.797 | delta=-0.006 OK
+  Over 20.5: ll=0.5856 | model=0.744 | rzecz=0.719 | delta=-0.025 OK
+  Over 21.5: ll=0.6171 | model=0.678 | rzecz=0.670 | delta=-0.008 OK
+  Over 22.5: ll=0.6531 | model=0.607 | rzecz=0.608 | delta=+0.001 OK
+  Over 23.5: ll=0.6695 | model=0.534 | rzecz=0.556 | delta=+0.022 OK
+  Over 24.5: ll=0.6619 | model=0.460 | rzecz=0.474 | delta=+0.014 OK
+  Over 25.5: ll=0.6364 | model=0.389 | rzecz=0.379 | delta=-0.010 OK
+  Over 26.5: ll=0.6052 | model=0.323 | rzecz=0.320 | delta=-0.003 OK
+  Over 27.5: ll=0.5348 | model=0.263 | rzecz=0.248 | delta=-0.015 OK
+  Over 28.5: ll=0.4824 | model=0.210 | rzecz=0.199 | delta=-0.010 OK
+  Over 29.5: ll=0.3998 | model=0.164 | rzecz=0.144 | delta=-0.020 OK
+  Over 30.5: ll=0.3142 | model=0.126 | rzecz=0.101 | delta=-0.025 OK
+  Over 31.5: ll=0.2530 | model=0.095 | rzecz=0.075 | delta=-0.020 OK
+  Over 32.5: ll=0.1892 | model=0.070 | rzecz=0.046 | delta=-0.024 OK
+  Over 33.5: ll=0.1331 | model=0.051 | rzecz=0.029 | delta=-0.021 OK
+
+3. TEST OOS 2025/26 - PODSUMOWANIE
+----------------------------------------------------------------------------------------------------
+  Meczow baseline: 306
+  Meczow referee:  306
+  Benchmark 50/50: 0.6931
+  Avg log-loss baseline: 0.48263
+  Avg log-loss referee:  0.46889
+  Delta referee-baseline: -0.01374
+  Referee wygrywa na 19/19 liniach
+
+  Test per linia:
+  line   | baseline_ll | referee_ll | diff(ref-base) | base_bias | ref_bias
+  --------------------------------------------------------------------------
+   15.5 |      0.1928 |     0.1802 |        -0.0126 |    -0.011 |   -0.010
+   16.5 |      0.2204 |     0.2094 |        -0.0110 |    +0.000 |   +0.002
+   17.5 |      0.2818 |     0.2660 |        -0.0158 |    +0.007 |   +0.009
+   18.5 |      0.3792 |     0.3684 |        -0.0107 |    -0.008 |   -0.006
+   19.5 |      0.4701 |     0.4591 |        -0.0110 |    -0.017 |   -0.014
+   20.5 |      0.5489 |     0.5310 |        -0.0179 |    -0.020 |   -0.018
+   21.5 |      0.5876 |     0.5681 |        -0.0195 |    +0.000 |   +0.002
+   22.5 |      0.6276 |     0.6070 |        -0.0207 |    +0.000 |   +0.002
+   23.5 |      0.6448 |     0.6276 |        -0.0172 |    +0.027 |   +0.028
+   24.5 |      0.6589 |     0.6424 |        -0.0166 |    +0.041 |   +0.041
+   25.5 |      0.6573 |     0.6412 |        -0.0162 |    +0.051 |   +0.051
+   26.5 |      0.6621 |     0.6493 |        -0.0128 |    +0.064 |   +0.063
+   27.5 |      0.6273 |     0.6132 |        -0.0141 |    +0.058 |   +0.057
+   28.5 |      0.5985 |     0.5834 |        -0.0151 |    +0.069 |   +0.067
+   29.5 |      0.5648 |     0.5557 |        -0.0091 |    +0.069 |   +0.067
+   30.5 |      0.4943 |     0.4850 |        -0.0094 |    +0.049 |   +0.046
+   31.5 |      0.4060 |     0.3939 |        -0.0121 |    +0.035 |   +0.032
+   32.5 |      0.3001 |     0.2895 |        -0.0107 |    +0.013 |   +0.011
+   33.5 |      0.2473 |     0.2386 |        -0.0087 |    +0.012 |   +0.010
+
+  OOS O/U - referee:
+  Over 15.5: ll=0.1802 | model=0.961 | rzecz=0.951 | delta=-0.010 OK
+  Over 16.5: ll=0.2094 | model=0.939 | rzecz=0.941 | delta=+0.002 OK
+  Over 17.5: ll=0.2660 | model=0.910 | rzecz=0.918 | delta=+0.009 OK
+  Over 18.5: ll=0.3684 | model=0.872 | rzecz=0.866 | delta=-0.006 OK
+  Over 19.5: ll=0.4591 | model=0.825 | rzecz=0.810 | delta=-0.014 OK
+  Over 20.5: ll=0.5310 | model=0.769 | rzecz=0.752 | delta=-0.018 OK
+  Over 21.5: ll=0.5681 | model=0.707 | rzecz=0.709 | delta=+0.002 OK
+  Over 22.5: ll=0.6070 | model=0.639 | rzecz=0.641 | delta=+0.002 OK
+  Over 23.5: ll=0.6276 | model=0.567 | rzecz=0.595 | delta=+0.028 OK
+  Over 24.5: ll=0.6424 | model=0.495 | rzecz=0.536 | delta=+0.041 OK
+  Over 25.5: ll=0.6412 | model=0.423 | rzecz=0.474 | delta=+0.051 BIAS
+  Over 26.5: ll=0.6493 | model=0.356 | rzecz=0.418 | delta=+0.063 BIAS
+  Over 27.5: ll=0.6132 | model=0.293 | rzecz=0.350 | delta=+0.057 BIAS
+  Over 28.5: ll=0.5834 | model=0.237 | rzecz=0.304 | delta=+0.067 BIAS
+  Over 29.5: ll=0.5557 | model=0.188 | rzecz=0.255 | delta=+0.067 BIAS
+  Over 30.5: ll=0.4850 | model=0.147 | rzecz=0.193 | delta=+0.046 OK
+  Over 31.5: ll=0.3939 | model=0.112 | rzecz=0.144 | delta=+0.032 OK
+  Over 32.5: ll=0.2895 | model=0.084 | rzecz=0.095 | delta=+0.011 OK
+  Over 33.5: ll=0.2386 | model=0.062 | rzecz=0.072 | delta=+0.010 OK
+
+4. SREDNIE PARAMETRY OOS - REFEREE
+----------------------------------------------------------------------------------------------------
+  lambda_home mean: 12.17 | rzecz: 12.35
+  lambda_away mean: 12.51 | rzecz: 12.78
+  lambda_suma mean: 24.68 | rzecz: 25.13
+  alpha mean:       0.0090
+  coef b_home mean: 0.4110
+  coef b_away mean: 0.4189
+  coef w_for mean:  0.1732
+  coef w_against mean: 0.3371
+  coef w_total mean:   0.3120
+  coef w_ref mean:     0.8159
+
+  Referee signal on OOS test:
+  ref_fouls_shrunk_before mean: 24.927
+  league_fouls_avg_before mean: 24.938
+  ref_delta_raw mean:           -0.011
+  ref_log_ratio mean:           -0.0014
+  ref_matches_before mean:      40.79
+
+5. PRZYKLADOWE ROZKLADY SUMY (pierwsze 5 meczow OOS - referee)
+----------------------------------------------------------------------------------------------------
+  K01 | Jagiellonia Białystok vs Bruk-Bet Termalica Nieciecza | ref=Malec P. | suma_rzecz=17 | 15:0.017 16:0.024 17:0.033 18:0.043 19:0.053 20:0.062 21:0.069 22:0.075 23:0.077 24:0.077 25:0.074 26:0.068 27:0.061 28:0.053 29:0.045 30:0.037
+  K01 | Lech Poznań vs Cracovia | ref=Sylwestrzak D. | suma_rzecz=22 | 15:0.040 16:0.051 17:0.062 18:0.072 19:0.079 20:0.083 21:0.083 22:0.079 23:0.073 24:0.065 25:0.055 26:0.046 27:0.037 28:0.028 29:0.021 30:0.015
+  K01 | Widzew Łódź vs Zagłębie Lubin | ref=Raczkowski P. | suma_rzecz=28 | 15:0.019 16:0.028 17:0.037 18:0.047 19:0.057 20:0.066 21:0.073 22:0.077 23:0.078 24:0.077 25:0.072 26:0.066 27:0.058 28:0.049 29:0.041 30:0.033
+  K01 | Wisła Płock vs Korona Kielce | ref=Kos D. | suma_rzecz=25 | 15:0.010 16:0.015 17:0.021 18:0.029 19:0.038 20:0.047 21:0.056 22:0.064 23:0.070 24:0.074 25:0.075 26:0.073 27:0.069 28:0.064 29:0.057 30:0.049
+  K01 | GKS Katowice vs Raków Częstochowa | ref=Przybyl J. | suma_rzecz=21 | 15:0.029 16:0.039 17:0.050 18:0.060 19:0.070 20:0.076 21:0.080 22:0.081 23:0.078 24:0.072 25:0.065 26:0.056 27:0.047 28:0.038 29:0.030 30:0.023
+
+6. PLIKI
+----------------------------------------------------------------------------------------------------
+  D:\projects\Ekstraklasa_predictor\data\processed\model_fouls_referee_oos_predictions.csv
+  D:\projects\Ekstraklasa_predictor\data\reports\model\model_fouls_referee_oos_report.txt
