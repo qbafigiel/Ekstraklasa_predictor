@@ -1,12 +1,12 @@
 """
 summarize_model_benchmarks.py
 ==============================
-Zbiera wyniki OOS wszystkich modeli backendowych w jedną tabelę.
+Zbiera wyniki OOS wszystkich modeli backendowych w jedna tabele.
 
 Czyta pliki predykcji z data/processed/ i generuje:
-- tabelę porównawczą log-loss OOS vs benchmark
-- kalibrację (model vs rzeczywistość)
-- rekomendacje które linie są gotowe produkcyjnie
+- tabele porownawcza log-loss OOS vs benchmark
+- kalibracje (model vs rzeczywistosc)
+- rekomendacje ktore linie sa gotowe produkcyjnie
 """
 
 from pathlib import Path
@@ -29,14 +29,6 @@ def ll_binary(p, actual):
 
 
 def assess_line(ll, bench, delta, label=""):
-    """
-    Ocena jakości linii:
-      EXCELLENT — ll wyraźnie poniżej benchmarku i kalibracja dobra
-      GOOD      — ll poniżej benchmarku, kalibracja OK
-      OK        — ll poniżej benchmarku, mały bias
-      WEAK      — ll blisko benchmarku
-      POOR      — ll powyżej benchmarku
-    """
     diff = bench - ll
     abs_delta = abs(delta)
 
@@ -135,7 +127,7 @@ def analyze_ou_generic(rynek, filename, ou_lines, col_p_prefix, col_actual_prefi
     for line in ou_lines:
         key = str(line).replace(".", "_")
         col_p = f"{col_p_prefix}{key}"
-        col_a = f"over_{key}_rzecz"          # poprawny format
+        col_a = f"over_{key}_rzecz"
         col_ll = f"{col_ll_prefix}{key}"
 
         if col_ll not in df.columns:
@@ -162,6 +154,7 @@ def analyze_ou_generic(rynek, filename, ou_lines, col_p_prefix, col_actual_prefi
 
     return rows
 
+
 # =============================================================================
 # GOLE (Over/Under)
 # =============================================================================
@@ -180,10 +173,9 @@ def analyze_gole():
     for line in ou_lines:
         key = str(line).replace(".", "").replace("_", "")
         col_p = f"p_over_{key}"
-        col_a = f"over{key}_rzecz"           # format z baseline: over0_5_rzecz
+        col_a = f"over{key}_rzecz"
         col_ll = f"ll_over_{key}"
 
-        # sprawdź też alternatywny format
         if col_a not in df_test.columns:
             col_a = f"over_{key}_rzecz"
 
@@ -211,6 +203,7 @@ def analyze_gole():
 
     return rows
 
+
 # =============================================================================
 # MAIN
 # =============================================================================
@@ -220,7 +213,7 @@ def main():
 
     all_rows = []
 
-    print("Analizuję modele...")
+    print("Analizuje modele...")
 
     # 1X2
     rows = analyze_1x2()
@@ -249,7 +242,7 @@ def main():
     all_rows.extend(rows)
     print(f"  Kornery: {len(rows)} linii")
 
-    # Strzały
+    # Strzaly
     rows = analyze_ou_generic(
         rynek="Strzaly",
         filename="model_shots_oos_predictions.csv",
@@ -259,9 +252,9 @@ def main():
         col_ll_prefix="ll_over_",
     )
     all_rows.extend(rows)
-    print(f"  Strzały: {len(rows)} linii")
+    print(f"  Strzaly: {len(rows)} linii")
 
-    # Strzały celne
+    # Strzaly celne
     rows = analyze_ou_generic(
         rynek="Strzaly celne",
         filename="model_shots_on_target_oos_predictions.csv",
@@ -271,7 +264,7 @@ def main():
         col_ll_prefix="ll_over_",
     )
     all_rows.extend(rows)
-    print(f"  Strzały celne: {len(rows)} linii")
+    print(f"  Strzaly celne: {len(rows)} linii")
 
     # Spalone
     rows = analyze_ou_generic(
@@ -285,6 +278,30 @@ def main():
     all_rows.extend(rows)
     print(f"  Spalone: {len(rows)} linii")
 
+    # Faule (referee challenger - nowy oficjalny)
+    rows = analyze_ou_generic(
+        rynek="Faule",
+        filename="model_fouls_referee_oos_predictions.csv",
+        ou_lines=[x + 0.5 for x in range(15, 34)],
+        col_p_prefix="p_over_",
+        col_actual_prefix="over_",
+        col_ll_prefix="ll_over_",
+    )
+    all_rows.extend(rows)
+    print(f"  Faule: {len(rows)} linii")
+
+    # Zolte kartki (referee challenger - nowy oficjalny)
+    rows = analyze_ou_generic(
+        rynek="Zolte kartki",
+        filename="model_yellow_cards_referee_oos_predictions.csv",
+        ou_lines=[x + 0.5 for x in range(0, 8)],
+        col_p_prefix="p_over_",
+        col_actual_prefix="over_",
+        col_ll_prefix="ll_over_",
+    )
+    all_rows.extend(rows)
+    print(f"  Zolte kartki: {len(rows)} linii")
+
     df = pd.DataFrame(all_rows)
     df.to_csv(REPORT_CSV, index=False, encoding="utf-8-sig")
 
@@ -294,15 +311,15 @@ def main():
 
     lines = []
     lines.append("=" * 90)
-    lines.append("BENCHMARK WSZYSTKICH MODELI — OOS 2025/26")
+    lines.append("BENCHMARK WSZYSTKICH MODELI - OOS 2025/26")
     lines.append("=" * 90)
     lines.append("")
     lines.append("LEGENDA OCEN:")
-    lines.append("  EXCELLENT — ll >> benchmark, kalibracja świetna (delta < 3%)")
-    lines.append("  GOOD      — ll < benchmark, kalibracja dobra (delta < 5%)")
-    lines.append("  OK        — ll < benchmark, mały bias (delta < 7%)")
-    lines.append("  WEAK      — ll ledwo poniżej benchmarku")
-    lines.append("  POOR      — ll >= benchmark, nie używać")
+    lines.append("  EXCELLENT - ll >> benchmark, kalibracja swietna (delta < 3%)")
+    lines.append("  GOOD      - ll < benchmark, kalibracja dobra (delta < 5%)")
+    lines.append("  OK        - ll < benchmark, maly bias (delta < 7%)")
+    lines.append("  WEAK      - ll ledwo ponizej benchmarku")
+    lines.append("  POOR      - ll >= benchmark, nie uzywac")
     lines.append("")
 
     rynki_order = [
@@ -313,6 +330,8 @@ def main():
         "Strzaly",
         "Strzaly celne",
         "Spalone",
+        "Faule",
+        "Zolte kartki",
     ]
 
     for rynek in rynki_order:
@@ -320,9 +339,9 @@ def main():
         if len(subset) == 0:
             continue
 
-        lines.append(f"{'─' * 90}")
+        lines.append("-" * 90)
         lines.append(f"  {rynek.upper()}")
-        lines.append(f"{'─' * 90}")
+        lines.append("-" * 90)
         lines.append(
             f"  {'Linia':12s} {'ll_oos':>7s} {'bench':>7s} {'diff':>7s} "
             f"{'model':>7s} {'rzecz':>7s} {'delta_kal':>9s} {'Ocena':>10s}"
@@ -336,11 +355,11 @@ def main():
 
             ocena = row.ocena
             ocena_icon = {
-                "EXCELLENT": "★★★",
-                "GOOD": "★★ ",
-                "OK": "★  ",
-                "WEAK": "·  ",
-                "POOR": "✗  ",
+                "EXCELLENT": "***",
+                "GOOD":      "** ",
+                "OK":        "*  ",
+                "WEAK":      ".  ",
+                "POOR":      "x  ",
             }.get(ocena, "   ")
 
             lines.append(
@@ -383,7 +402,7 @@ def main():
 
     lines.append("")
     lines.append("=" * 90)
-    lines.append("TOP 10 LINII OOS (najniższy ll_oos)")
+    lines.append("TOP 10 LINII OOS (najnizszy ll_oos)")
     lines.append("=" * 90)
     top10 = df.nsmallest(10, "ll_oos")
     lines.append(
@@ -400,9 +419,8 @@ def main():
         )
 
     lines.append("")
-    lines.append("TOP 10 LINII OOS — WŚRÓD LINII SENSOWNYCH RYNKOWO (50-70% over)")
+    lines.append("TOP 10 LINII OOS - WSROD LINII SENSOWNYCH RYNKOWO (25-75% over)")
     lines.append("=" * 90)
-    # sensowne rynkowo = model_avg między 0.25 a 0.75
     sensowne = df[
         (df["model_avg"].notna()) &
         (df["model_avg"] >= 0.25) &
