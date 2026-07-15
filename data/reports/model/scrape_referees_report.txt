@@ -1,0 +1,12 @@
+SCRAPE START: 2026-07-15T08:58:37.311598
+Season filter: 2025/26
+Total: 306 | Already: 918 | To scrape: 0
+
+
+============================================================
+SCRAPE END: 2026-07-15T08:58:41.593348
+OK:        0
+NOT_FOUND: 0
+ERROR:     0
+SKIPPED:   918
+Coverage:  0/306 (0.0%)
