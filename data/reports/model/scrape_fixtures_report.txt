@@ -1,0 +1,57 @@
+SCRAPE FIXTURES REPORT
+================================================================================
+Timestamp: 2026-07-16 15:24:58
+Sezon:     2026/27
+
+Fixture zescrapowanych:   306
+Insert:                   306
+Update:                   0
+Kolejki:                  34
+
+PROBKA (pierwsze 10 fixture):
+  K01 Radomiak Radom               vs Wieczysta Kraków             | 2026-07-24 16:00 | uuid=e9f22718
+  K01 Pogoń Szczecin               vs Legia Warszawa               | 2026-07-24 18:30 | uuid=ecc62abe
+  K01 Jagiellonia Białystok        vs Korona Kielce                | 2026-07-25 12:45 | uuid=cfb7cf6b
+  K01 Górnik Zabrze                vs Śląsk Wrocław                | 2026-07-25 15:30 | uuid=48ee4085
+  K01 Lech Poznań                  vs Cracovia                     | 2026-07-25 18:15 | uuid=775976a3
+  K01 Raków Częstochowa            vs Wisła Płock                  | 2026-07-26 12:45 | uuid=b61fc4b9
+  K01 Widzew Łódź                  vs Motor Lublin                 | 2026-07-26 15:30 | uuid=14341c23
+  K01 Wisła Kraków                 vs GKS Katowice                 | 2026-07-26 18:15 | uuid=bc55bd1a
+  K01 Zagłębie Lubin               vs Piast Gliwice                | 2026-07-27 17:00 | uuid=6047e736
+  K02 Wisła Płock                  vs Widzew Łódź                  | 2026-07-31 16:00 | uuid=9e4e3e84
+
+PODZIAL PER KOLEJKA:
+  Kolejka  1: 9 meczow
+  Kolejka  2: 9 meczow
+  Kolejka  3: 9 meczow
+  Kolejka  4: 9 meczow
+  Kolejka  5: 9 meczow
+  Kolejka  6: 9 meczow
+  Kolejka  7: 9 meczow
+  Kolejka  8: 9 meczow
+  Kolejka  9: 9 meczow
+  Kolejka 10: 9 meczow
+  Kolejka 11: 9 meczow
+  Kolejka 12: 9 meczow
+  Kolejka 13: 9 meczow
+  Kolejka 14: 9 meczow
+  Kolejka 15: 9 meczow
+  Kolejka 16: 9 meczow
+  Kolejka 17: 9 meczow
+  Kolejka 18: 9 meczow
+  Kolejka 19: 9 meczow
+  Kolejka 20: 9 meczow
+  Kolejka 21: 9 meczow
+  Kolejka 22: 9 meczow
+  Kolejka 23: 9 meczow
+  Kolejka 24: 9 meczow
+  Kolejka 25: 9 meczow
+  Kolejka 26: 9 meczow
+  Kolejka 27: 9 meczow
+  Kolejka 28: 9 meczow
+  Kolejka 29: 9 meczow
+  Kolejka 30: 9 meczow
+  Kolejka 31: 9 meczow
+  Kolejka 32: 9 meczow
+  Kolejka 33: 9 meczow
+  Kolejka 34: 9 meczow
