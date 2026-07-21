@@ -36,7 +36,7 @@ OUTPUT_PATH = Path("data/processed/backtesting_xg_time_decay_oos_best.csv")
 VAL_SEASON = "2024/25"
 TEST_SEASON = "2025/26"
 MAX_GOLE = 10
-BASELINE_BEST = 1.0571
+BASELINE_BEST = 1.0653  # POPRAWKA: prawdziwy OOS (nie in-sample)
 
 WAGI_SEZONOW = {
     "2023/24": 0.4,
