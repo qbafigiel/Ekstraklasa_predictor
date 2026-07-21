@@ -1,0 +1,44 @@
+SCRAPE REFEREES PZPN REPORT
+================================================================================
+Timestamp: 2026-07-21 10:11:16
+Sezon:     2025/26
+Dry run:   True
+
+Artykulow znalezionych:     8
+Artykulow z PDF:             8
+Fixtures sparsowanych:       54
+Fixtures zmatchowanych:      0
+Fixtures zaktualizowanych:   0
+Nieznanych klubow (skips):   0
+
+NIEZMATCHOWANE Z FIXTURES_UPCOMING (54) - pierwsze 30:
+  K34 Raków Częstochowa vs Arka Gdynia -> Daniel Stefański
+  K34 Lech Poznań vs Wisła Płock -> Marcin Szczerbowicz
+  K34 Bruk-Bet Termalica Nieciecza vs Lechia Gdańsk -> Patryk Gryckiewicz
+  K34 Legia Warszawa vs Motor Lublin -> Jarosław Przybył
+  K34 Jagiellonia Białystok vs Zagłębie Lubin -> Wojciech Myć
+  K34 Górnik Zabrze vs Radomiak Radom -> Szymon Marciniak
+  K34 Cracovia vs Korona Kielce -> Bartosz Frankowski
+  K34 Pogoń Szczecin vs GKS Katowice -> Damian Sylwestrzak
+  K34 Widzew Łódź vs Piast Gliwice -> Karol Arys
+  K31 Arka Gdynia vs Górnik Zabrze -> Marcin Szczerbowicz
+  K31 Raków Częstochowa vs Jagiellonia Białystok -> Szymon Marciniak
+  K32 Raków Częstochowa vs Korona Kielce -> Łukasz Kuźma
+  K32 Lech Poznań vs Arka Gdynia -> Bartosz Frankowski
+  K32 Widzew Łódź vs Lechia Gdańsk -> Jarosław Przybył
+  K32 Jagiellonia Białystok vs Pogoń Szczecin -> Wojciech Myć
+  K32 Górnik Zabrze vs Zagłębie Lubin -> Szymon Marciniak
+  K32 Piast Gliwice vs GKS Katowice -> Damian Sylwestrzak
+  K32 Wisła Płock vs Motor Lublin -> Paweł Raczkowski
+  K32 Bruk-Bet Termalica Nieciecza vs Legia Warszawa -> Karol Arys
+  K32 Cracovia vs Radomiak Radom -> Daniel Stefański
+  K31 Korona Kielce vs Piast Gliwice -> Patryk Gryckiewicz
+  K31 Legia Warszawa vs Widzew Łódź -> Wojciech Myć
+  K31 Motor Lublin vs Lech Poznań -> Karol Arys
+  K31 GKS Katowice vs Bruk-Bet Termalica Nieciecza -> Paweł Malec
+  K31 Zagłębie Lubin vs Cracovia -> Tomasz Kwiatkowski
+  K31 Pogoń Szczecin vs Wisła Płock -> Paweł Raczkowski
+  K31 Radomiak Radom vs Lechia Gdańsk -> Szymon Marciniak
+  K29 GKS Katowice vs Motor Lublin -> Tomasz Marciniak
+  K29 Legia Warszawa vs Zagłębie Lubin -> Koki Nagamine
+  K29 Radomiak Radom vs Widzew Łódź -> Jarosław Przybył
