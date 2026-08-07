@@ -46,6 +46,153 @@ FILE_RE = re.compile(r"^predict_round_(\d{4}-\d{2})_K(\d{2})\.csv$")
 # HELPERS
 # =============================================================================
 
+# =============================================================================
+# VALUE BETS SECTION
+# =============================================================================
+
+# Realne linie oferowane przez Superbet dla Ekstraklasy
+RELIABLE_LINES_VB = {
+    "corners": [5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5],
+    "shots": [],  # Superbet rzadko wystawia - pomijamy
+    "sot": [],    # Superbet rzadko wystawia - pomijamy
+    "offsides": [1.5, 2.5, 3.5],
+    "yc": [0.5, 1.5, 2.5, 3.5, 4.5],
+}
+
+MU_RANGE_VB = {
+    "corners": 3.0,   # rozszerzone bo Superbet daje 5.5-11.5
+    "shots": 3.0,
+    "sot": 1.5,
+    "offsides": 1.5,
+    "yc": 2.0,        # rozszerzone bo Superbet daje 0.5-4.5
+}
+
+MARKET_LABELS_VB = {
+    "corners": ("Kornery", "mu_corners"),
+    "shots": ("Strzały", "mu_shots"),
+    "sot": ("Strzały celne", "mu_sot"),
+    "offsides": ("Spalone", "mu_offsides"),
+    "yc": ("Żółte kartki", "mu_yc"),
+}
+
+MIN_CENTRAL_CONFIDENCE_VB = 0.58
+
+
+def get_value_bets(df: pd.DataFrame) -> pd.DataFrame:
+    """Zwraca DataFrame z rekomendowanymi value bets."""
+    picks = []
+    
+    for _, row in df.iterrows():
+        home = row["gospodarz"]
+        away = row["gosc"]
+        sedzia = row.get("referee_full_name", "")
+        if pd.isna(sedzia):
+            sedzia = "brak"
+        
+        for prefix, (label, mu_col) in MARKET_LABELS_VB.items():
+            mu = row.get(mu_col)
+            if pd.isna(mu):
+                continue
+            
+            reliable_lines = RELIABLE_LINES_VB.get(prefix, [])
+            mu_range = MU_RANGE_VB.get(prefix, 2.0)
+            
+            for line in reliable_lines:
+                if abs(line - float(mu)) > mu_range:
+                    continue
+                
+                line_int = int(line)
+                line_dec = int(round((line - line_int) * 10))
+                col_over = f"{prefix}_p_over_{line_int}_{line_dec}"
+                col_under = f"{prefix}_p_under_{line_int}_{line_dec}"
+                
+                p_over = row.get(col_over)
+                p_under = row.get(col_under)
+                
+                if pd.isna(p_over) or pd.isna(p_under):
+                    continue
+                
+                if p_over > p_under:
+                    side = "OVER"
+                    p = p_over
+                else:
+                    side = "UNDER"
+                    p = p_under
+                
+                if p < MIN_CENTRAL_CONFIDENCE_VB:
+                    continue
+                
+                picks.append({
+                    "Mecz": f"{home} vs {away}",
+                    "Sędzia": sedzia,
+                    "Rynek": label,
+                    "Typ": f"{side} {line:.1f}",
+                    "Pewność": p,
+                    "μ modelu": mu,
+                })
+    
+    if not picks:
+        return pd.DataFrame()
+    
+    return pd.DataFrame(picks).sort_values("Pewność", ascending=False).reset_index(drop=True)
+
+
+def render_value_bets_section(df: pd.DataFrame):
+    """Renderuje sekcję value bets w Streamlit."""
+    st.markdown("---")
+    st.markdown("## 🎯 Rekomendowane Value Bets")
+    st.caption("Linie centralne (blisko μ modelu) - tam gdzie kursy są opłacalne. Filtr: pewność ≥58%, rynki >=75% trafności w K1+K2.")
+    st.caption("**UWAGA:** Faule pominięte - w K1+K2 środkowe linie (22-25) miały tylko 30% trafności.")
+    
+    vb_df = get_value_bets(df)
+    
+    if vb_df.empty:
+        st.info("Brak rekomendacji value bets dla tej kolejki.")
+        return
+    
+    # Filtruj
+    col1, col2 = st.columns(2)
+    with col1:
+        min_p = st.slider("Min. pewność modelu (%)", 58, 90, 65, 1)
+    with col2:
+        rynki = st.multiselect(
+            "Rynki",
+            options=vb_df["Rynek"].unique().tolist(),
+            default=vb_df["Rynek"].unique().tolist()
+        )
+    
+    filtered = vb_df[
+        (vb_df["Pewność"] >= min_p / 100) &
+        (vb_df["Rynek"].isin(rynki))
+    ]
+    
+    st.markdown(f"### Znaleziono: {len(filtered)} typów")
+    
+    if len(filtered) == 0:
+        st.warning("Brak typów spełniających filtry.")
+        return
+    
+    # Format do wyświetlania
+    display = filtered.copy()
+    display["Pewność"] = display["Pewność"].apply(lambda x: f"{x*100:.1f}%")
+    display["μ modelu"] = display["μ modelu"].apply(lambda x: f"{x:.2f}")
+    
+    st.dataframe(display, use_container_width=True, hide_index=True)
+    
+    # Podsumowanie per mecz
+    st.markdown("### Podsumowanie per mecz")
+    for mecz in filtered["Mecz"].unique():
+        match_picks = filtered[filtered["Mecz"] == mecz]
+        sedzia = match_picks.iloc[0]["Sędzia"]
+        
+        with st.expander(f"🎲 {mecz} — {len(match_picks)} typów (sędzia: {sedzia})"):
+            for _, p in match_picks.iterrows():
+                pct_val = p["Pewność"] if isinstance(p["Pewność"], float) else float(p["Pewność"].rstrip("%")) / 100
+                st.write(
+                    f"**{p['Rynek']}:** {p['Typ']} — {pct_val*100:.1f}% pewności (μ={p['μ modelu']:.2f})"
+                )
+
+
 def fmt_pct(x) -> str:
     if x is None or pd.isna(x):
         return "-"
@@ -319,4 +466,8 @@ for _, row in df.iterrows():
 
         st.markdown("---")
 
+render_value_bets_section(df)
+
 st.success("Raport załadowany.")
+
+
