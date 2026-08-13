@@ -35,6 +35,18 @@ DB_PATH = ROOT / "db" / "ekstraklasa.db"
 REPORT_PATH = ROOT / "data" / "reports" / "model" / "scrape_referees_pzpn_report.txt"
 
 BASE_URL = "https://pzpn.pl/federacja/sedziowie/obsada-sedziowska/ekstraklasa"
+
+POLISH_L_MAP = str.maketrans({"ł": "l", "Ł": "L"})
+
+
+def to_ascii_name(text: str) -> str:
+    """Normalizuje imie do ASCII (Pawel zamiast Paweł, Lukasz zamiast Łukasz)."""
+    import unicodedata as _ud
+    if not text:
+        return text
+    text = str(text).translate(POLISH_L_MAP)
+    text = _ud.normalize("NFKD", text).encode("ascii", "ignore").decode("ascii")
+    return text.strip()
 POLISH_L_MAP = str.maketrans({"ł": "l", "Ł": "L"})
 
 # Aliasy nazw klubow z PDF PZPN -> nazwy w naszej bazie
@@ -103,12 +115,37 @@ def resolve_club(raw: str) -> str | None:
     # PDF czasem ma \n w srodku nazwy (np. 'RKS RAKÓW\nCZĘSTOCHOWA S.A.')
     cleaned = raw.replace("\n", " ").replace("\r", " ")
     norm = normalize_ascii(cleaned)
+    
     if norm in CLUB_ALIASES_PZPN:
         return CLUB_ALIASES_PZPN[norm]
-    # Fallback: usun sufiksy S.A., SA, SSA
-    cleaned2 = re.sub(r"\s+(s\.?a\.?|ssa|sa)$", "", norm)
+    
+    # Fallback 1: usun sufiksy prawne (spolka akcyjna, s.a., sa, ssa, sp z oo)
+    suffixes = [
+        r"\s+spolka\s+akcyjna$",
+        r"\s+s\.?a\.?$",
+        r"\s+ssa$",
+        r"\s+sa$",
+        r"\s+sp\.?\s+z\s+o\.?o\.?$",
+        r"\s+kks$",
+        r"\s+rks$",
+        r"\s+mks$",
+    ]
+    cleaned2 = norm
+    for pattern in suffixes:
+        cleaned2 = re.sub(pattern, "", cleaned2).strip()
+    
     if cleaned2 in CLUB_ALIASES_PZPN:
         return CLUB_ALIASES_PZPN[cleaned2]
+    
+    # Fallback 2: usun prefiksy (kks lech, rks rakow, mks korona)
+    prefixes = [r"^kks\s+", r"^rks\s+", r"^mks\s+", r"^ks\s+"]
+    cleaned3 = cleaned2
+    for pattern in prefixes:
+        cleaned3 = re.sub(pattern, "", cleaned3).strip()
+    
+    if cleaned3 in CLUB_ALIASES_PZPN:
+        return CLUB_ALIASES_PZPN[cleaned3]
+    
     return None
 
 
@@ -317,9 +354,10 @@ def load_fixtures_map(conn: sqlite3.Connection, sezon: str) -> dict:
 
 def update_referee(conn: sqlite3.Connection, fixture_id: str, referee: str) -> None:
     now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    referee_ascii = to_ascii_name(referee)
     conn.execute(
         "UPDATE fixtures_upcoming SET referee_full_name = ?, updated_at = ? WHERE fixture_id = ?",
-        (referee, now, fixture_id)
+        (referee_ascii, now, fixture_id)
     )
 
 

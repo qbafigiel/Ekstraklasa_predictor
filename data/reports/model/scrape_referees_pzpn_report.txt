@@ -1,16 +1,12 @@
 SCRAPE REFEREES PZPN REPORT
 ================================================================================
-Timestamp: 2026-07-24 08:48:43
+Timestamp: 2026-08-07 08:19:33
 Sezon:     2026/27
 Dry run:   False
 
-Artykulow znalezionych:     1
-Artykulow z PDF:             1
-Fixtures sparsowanych:       8
-Fixtures zmatchowanych:      8
-Fixtures zaktualizowanych:   8
-Nieznanych klubow (skips):   1
-
-NIEZNANE KLUBY (pierwsze 20):
-  home='RADOMIAK S.A.' away='WIECZYSTA KRAKÓW
-SPÓŁKA AKCYJNA' -> (Radomiak Radom, None)
+Artykulow znalezionych:     3
+Artykulow z PDF:             3
+Fixtures sparsowanych:       24
+Fixtures zmatchowanych:      24
+Fixtures zaktualizowanych:   24
+Nieznanych klubow (skips):   0

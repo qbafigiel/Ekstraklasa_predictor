@@ -1,0 +1,307 @@
+﻿fixture_id,sezon,kolejka,gospodarz,gosc,data_planowana,matched,flash_mid,flash_url,gole_home,gole_away,current_status
+e9f22718-cea5-4b0f-9ea5-6f842ff0a79f,2026/27,1,Radomiak Radom,Wieczysta Kraków,2026-07-24,True,ARE8CveM,https://www.flashscore.pl/mecz/pilka-nozna/ks-wieczysta-krakow-ImhQf1z6/radomiak-radom-zD5nYhAT/?mid=ARE8CveM&mid=ARE8CveM,2.0,1.0,scheduled
+ecc62abe-b65c-4b3f-8acc-51e9917b24c7,2026/27,1,Pogoń Szczecin,Legia Warszawa,2026-07-24,True,6c0v7IIq,https://www.flashscore.pl/mecz/pilka-nozna/legia-warszawa-K6kUepBs/pogon-szczecin-Um9YwPQ0/?mid=6c0v7IIq&mid=6c0v7IIq,0.0,1.0,scheduled
+cfb7cf6b-185a-4cc4-bde8-d04e5df1c61d,2026/27,1,Jagiellonia Białystok,Korona Kielce,2026-07-25,True,hYltRwAF,https://www.flashscore.pl/mecz/pilka-nozna/jagiellonia-bialystok-lIDaZJTc/korona-kielce-pp78XcbA/?mid=hYltRwAF&mid=hYltRwAF,1.0,0.0,scheduled
+48ee4085-6ff6-413e-ac32-c2530a174b87,2026/27,1,Górnik Zabrze,Śląsk Wrocław,2026-07-25,True,bXGD8Vgl,https://www.flashscore.pl/mecz/pilka-nozna/gornik-zabrze-2LH3Ywq4/slask-wroclaw-E1Oxemse/?mid=bXGD8Vgl&mid=bXGD8Vgl,2.0,1.0,scheduled
+775976a3-63bc-4286-aa53-79346951d721,2026/27,1,Lech Poznań,Cracovia,2026-07-25,True,OhXS4mgD,https://www.flashscore.pl/mecz/pilka-nozna/cracovia-KvXSf2A6/lech-poznan-OpNH7Ouf/?mid=OhXS4mgD&mid=OhXS4mgD,0.0,0.0,scheduled
+b61fc4b9-79d2-4163-8776-58e73788927a,2026/27,1,Raków Częstochowa,Wisła Płock,2026-07-26,True,hEbn5dmd,https://www.flashscore.pl/mecz/pilka-nozna/rakow-czestochowa-SQOrbYim/wisla-plock-QoZYVU3E/?mid=hEbn5dmd&mid=hEbn5dmd,1.0,2.0,scheduled
+14341c23-fd9f-4f63-a3c9-dbc3e2e8b441,2026/27,1,Widzew Łódź,Motor Lublin,2026-07-26,True,KKjYSau3,https://www.flashscore.pl/mecz/pilka-nozna/motor-lublin-IoLk2VlL/widzew-lodz-rNOIW3uC/?mid=KKjYSau3&mid=KKjYSau3,2.0,2.0,scheduled
+bc55bd1a-f5c2-4009-b34c-73680cd7f009,2026/27,1,Wisła Kraków,GKS Katowice,2026-07-26,True,21B0E0Q9,https://www.flashscore.pl/mecz/pilka-nozna/gks-katowice-K4AgRmS1/wisla-krakow-rob20Q2Q/?mid=21B0E0Q9&mid=21B0E0Q9,2.0,1.0,scheduled
+6047e736-e720-426d-a7fd-a339bc706290,2026/27,1,Zagłębie Lubin,Piast Gliwice,2026-07-27,True,juZK69O0,https://www.flashscore.pl/mecz/pilka-nozna/piast-gliwice-ve2oT9ck/zaglebie-lubin-tlYOere0/?mid=juZK69O0&mid=juZK69O0,2.0,0.0,scheduled
+9e4e3e84-4e5d-43e9-b62c-93fc4ba8806c,2026/27,2,Wisła Płock,Widzew Łódź,2026-07-31,True,jPftWPiC,https://www.flashscore.pl/mecz/pilka-nozna/widzew-lodz-rNOIW3uC/wisla-plock-QoZYVU3E/?mid=jPftWPiC&mid=jPftWPiC,0.0,0.0,scheduled
+e31c297a-12ad-4cc8-a6e5-fd3c91231421,2026/27,2,Motor Lublin,Jagiellonia Białystok,2026-07-31,True,jaPESjoK,https://www.flashscore.pl/mecz/pilka-nozna/jagiellonia-bialystok-lIDaZJTc/motor-lublin-IoLk2VlL/?mid=jaPESjoK&mid=jaPESjoK,1.0,2.0,scheduled
+9da13f9b-de95-47ae-a56b-e8fdc0ddd002,2026/27,2,Piast Gliwice,Wisła Kraków,2026-08-01,True,IBdYXoNa,https://www.flashscore.pl/mecz/pilka-nozna/piast-gliwice-ve2oT9ck/wisla-krakow-rob20Q2Q/?mid=IBdYXoNa&mid=IBdYXoNa,4.0,3.0,scheduled
+b812f378-8eed-4faa-b65e-a039bd34c16d,2026/27,2,Wieczysta Kraków,Lech Poznań,2026-08-01,True,feEhL8wf,https://www.flashscore.pl/mecz/pilka-nozna/ks-wieczysta-krakow-ImhQf1z6/lech-poznan-OpNH7Ouf/?mid=feEhL8wf&mid=feEhL8wf,1.0,2.0,scheduled
+f9842734-5bd2-4e6d-918f-6f6c3afe7602,2026/27,2,Korona Kielce,Górnik Zabrze,2026-08-01,False,,,,,scheduled
+db573558-0843-4195-8397-ca451f0cdd35,2026/27,2,Legia Warszawa,Zagłębie Lubin,2026-08-02,True,lxG8HQxJ,https://www.flashscore.pl/mecz/pilka-nozna/legia-warszawa-K6kUepBs/zaglebie-lubin-tlYOere0/?mid=lxG8HQxJ&mid=lxG8HQxJ,3.0,1.0,scheduled
+0675f551-0983-4eca-bdd4-1af5a4955bcd,2026/27,2,Śląsk Wrocław,Raków Częstochowa,2026-08-02,True,CEgQZ7hm,https://www.flashscore.pl/mecz/pilka-nozna/rakow-czestochowa-SQOrbYim/slask-wroclaw-E1Oxemse/?mid=CEgQZ7hm&mid=CEgQZ7hm,2.0,1.0,scheduled
+63e20eb4-3b86-49f2-a90c-d0166b60f7a2,2026/27,2,GKS Katowice,Radomiak Radom,2026-08-02,True,tW2fuUUP,https://www.flashscore.pl/mecz/pilka-nozna/gks-katowice-K4AgRmS1/radomiak-radom-zD5nYhAT/?mid=tW2fuUUP&mid=tW2fuUUP,3.0,1.0,scheduled
+d7b5b262-d2cc-474c-ae7e-48b5e8a058dd,2026/27,2,Cracovia,Pogoń Szczecin,2026-08-03,False,,,,,scheduled
+77ef6827-2f22-402e-94c8-61910d061be2,2026/27,3,Pogoń Szczecin,Motor Lublin,2026-08-07,False,,,,,scheduled
+50843b1d-685f-4183-993e-ce2afef41dab,2026/27,3,Wisła Kraków,Wisła Płock,2026-08-07,False,,,,,scheduled
+6e5a9481-4834-4831-8c27-fa6021704d26,2026/27,3,Radomiak Radom,Górnik Zabrze,2026-08-08,False,,,,,scheduled
+8cbcdfc7-b172-426a-8191-759e587b1d10,2026/27,3,Lech Poznań,Piast Gliwice,2026-08-08,False,,,,,scheduled
+f8187518-e628-4db8-9382-d753c62e6352,2026/27,3,Korona Kielce,Legia Warszawa,2026-08-08,False,,,,,scheduled
+8d32401c-6f94-46eb-89f2-a43edba950b5,2026/27,3,Raków Częstochowa,Zagłębie Lubin,2026-08-09,False,,,,,scheduled
+b8dd3f0e-d41f-4653-943d-c0ba65078f9b,2026/27,3,GKS Katowice,Wieczysta Kraków,2026-08-09,False,,,,,scheduled
+13d3576c-dc45-4661-84d2-46f5ad71ab7c,2026/27,3,Jagiellonia Białystok,Widzew Łódź,2026-08-09,False,,,,,scheduled
+c66737a7-109d-4ea0-ba6e-aa8229a86b3f,2026/27,3,Śląsk Wrocław,Cracovia,2026-08-10,False,,,,,scheduled
+422aba03-2b0e-46c5-9afc-879e667e70f6,2026/27,4,Widzew Łódź,Korona Kielce,2026-08-14,False,,,,,scheduled
+9216df55-88fd-445a-80c3-d0edf8c51951,2026/27,4,Legia Warszawa,Radomiak Radom,2026-08-14,False,,,,,scheduled
+873812ee-a3d1-4ced-937a-468e8fb5d4b7,2026/27,4,Zagłębie Lubin,Śląsk Wrocław,2026-08-15,False,,,,,scheduled
+26ddf991-db47-4d2e-b5e2-9bad5e29d4b5,2026/27,4,Wisła Płock,Lech Poznań,2026-08-15,False,,,,,scheduled
+beb2a238-7659-42e7-b542-4333f366dce9,2026/27,4,Górnik Zabrze,Wisła Kraków,2026-08-15,False,,,,,scheduled
+3c11ccc8-1b16-4fd1-8c21-4d17fadb2020,2026/27,4,Motor Lublin,GKS Katowice,2026-08-16,False,,,,,scheduled
+1dd7e99b-6754-4e60-b11e-0cfff498471d,2026/27,4,Jagiellonia Białystok,Pogoń Szczecin,2026-08-16,False,,,,,scheduled
+054eff8d-65fc-4bfb-b9ab-fcf6be8bc01c,2026/27,4,Cracovia,Raków Częstochowa,2026-08-16,False,,,,,scheduled
+e8a1c0da-0bbd-4514-9e1e-3ea5e41bcb50,2026/27,4,Piast Gliwice,Wieczysta Kraków,2026-08-17,False,,,,,scheduled
+f77198e6-2454-4f6a-aac7-093baa89aa5b,2026/27,5,Radomiak Radom,Zagłębie Lubin,,False,,,,,scheduled
+e6d6ac49-ac27-4f4f-bd45-fae9d490082a,2026/27,5,Pogoń Szczecin,Wisła Kraków,,False,,,,,scheduled
+281f8041-be62-4d6a-a32f-75da0fa75a59,2026/27,5,Śląsk Wrocław,Widzew Łódź,,False,,,,,scheduled
+3b372d1d-f1b0-4d97-aee6-60c001d31825,2026/27,5,GKS Katowice,Wisła Płock,,False,,,,,scheduled
+c02cfb8f-3b6b-4461-9677-b2c650a4f068,2026/27,5,Lech Poznań,Jagiellonia Białystok,,False,,,,,scheduled
+3847def2-68f6-4b1e-88b1-f29f501979b3,2026/27,5,Raków Częstochowa,Górnik Zabrze,,False,,,,,scheduled
+0957b098-28c2-4c70-80e5-52e9f76ce897,2026/27,5,Piast Gliwice,Legia Warszawa,,False,,,,,scheduled
+70eb334c-11a9-4cb5-8879-f388d34fa4d2,2026/27,5,Cracovia,Wieczysta Kraków,,False,,,,,scheduled
+c08fcaf9-4170-4dcd-b37d-1169a6003bff,2026/27,5,Korona Kielce,Motor Lublin,,False,,,,,scheduled
+0b560fc3-e1be-46de-b978-ce9a0265a12f,2026/27,6,Motor Lublin,Piast Gliwice,,False,,,,,scheduled
+618e3d05-4a71-456a-9060-dece872d28a8,2026/27,6,Zagłębie Lubin,Pogoń Szczecin,,False,,,,,scheduled
+90fbaf8b-3431-46e0-94e8-be1fa4b07ffe,2026/27,6,Wisła Kraków,Wieczysta Kraków,,False,,,,,scheduled
+1af1f376-82d9-4745-8e3d-638a0195e232,2026/27,6,Widzew Łódź,Lech Poznań,,False,,,,,scheduled
+825acd00-2517-47ba-b8b7-5c490be53d27,2026/27,6,Radomiak Radom,Cracovia,,False,,,,,scheduled
+db81433c-7103-4617-a5eb-1123a0148f66,2026/27,6,Raków Częstochowa,Jagiellonia Białystok,,False,,,,,scheduled
+4d57c027-71f3-457d-b1fb-ecdafbcc9aa8,2026/27,6,Górnik Zabrze,GKS Katowice,,False,,,,,scheduled
+9cd9ff19-626c-4ae5-9c92-3cf0f77a4cfb,2026/27,6,Wisła Płock,Korona Kielce,,False,,,,,scheduled
+ec0d1b2b-bdac-41ac-9c4a-dfe83c4d6243,2026/27,6,Legia Warszawa,Śląsk Wrocław,,False,,,,,scheduled
+253cd7fb-18eb-4e33-b4dc-3ce4fe1414a4,2026/27,7,Cracovia,Górnik Zabrze,,False,,,,,scheduled
+d6538ee6-8314-4b6c-808f-8a2b570688fb,2026/27,7,Widzew Łódź,Radomiak Radom,,False,,,,,scheduled
+995879cc-cb3f-43f1-b333-31e71bda3399,2026/27,7,Jagiellonia Białystok,Śląsk Wrocław,,False,,,,,scheduled
+96b42eb7-560f-44a1-a860-351e200b4415,2026/27,7,Piast Gliwice,GKS Katowice,,False,,,,,scheduled
+373dfb72-1e61-4a0a-aaee-425cf65ada10,2026/27,7,Korona Kielce,Wisła Kraków,,False,,,,,scheduled
+1d9a8182-3495-426f-9ddc-e264f3327cd7,2026/27,7,Wieczysta Kraków,Zagłębie Lubin,,False,,,,,scheduled
+d14e56d5-b541-49e0-91ad-2f31db0dfd9b,2026/27,7,Pogoń Szczecin,Wisła Płock,,False,,,,,scheduled
+3e64fc8b-0855-4e1b-850a-10213f8c7407,2026/27,7,Lech Poznań,Raków Częstochowa,,False,,,,,scheduled
+890d17d3-879f-4967-a101-b144d96897b0,2026/27,7,Motor Lublin,Legia Warszawa,,False,,,,,scheduled
+a85aa7d6-b45e-400c-bae0-9b94fcbaaede,2026/27,8,Śląsk Wrocław,Korona Kielce,,False,,,,,scheduled
+4d9b8151-0e85-4c50-95a5-8a29e8e2e399,2026/27,8,Legia Warszawa,Widzew Łódź,,False,,,,,scheduled
+f2fccac5-4e48-458f-866b-d26a0bbb11f3,2026/27,8,Pogoń Szczecin,Wieczysta Kraków,,False,,,,,scheduled
+58d481cc-043d-42d8-9463-7730a4d98caa,2026/27,8,Raków Częstochowa,Motor Lublin,,False,,,,,scheduled
+f5e46162-6a74-474e-bfc8-057a6dfb83f9,2026/27,8,Radomiak Radom,Piast Gliwice,,False,,,,,scheduled
+7713ac03-6441-4c38-bb69-200e41d5cd43,2026/27,8,Wisła Płock,Cracovia,,False,,,,,scheduled
+4b2e1167-cef2-42cc-a5d6-4893330513e0,2026/27,8,Górnik Zabrze,Lech Poznań,,False,,,,,scheduled
+3698547e-3daf-4477-8e3f-17ffeaf7f731,2026/27,8,Zagłębie Lubin,GKS Katowice,,False,,,,,scheduled
+b652dc60-085f-40f1-9e21-a8511c7f0bbd,2026/27,8,Wisła Kraków,Jagiellonia Białystok,,False,,,,,scheduled
+32727d50-6b75-40e1-908b-b98c73b3120d,2026/27,9,Piast Gliwice,Pogoń Szczecin,,False,,,,,scheduled
+7b0bb918-1d72-4920-af8e-1a2613c071a0,2026/27,9,Wisła Kraków,Śląsk Wrocław,,False,,,,,scheduled
+1434a4dc-50b9-4587-ac17-20fe74a6fd83,2026/27,9,Widzew Łódź,Wieczysta Kraków,,False,,,,,scheduled
+58d5f99c-3025-4c7c-9161-91fa9be35e21,2026/27,9,Zagłębie Lubin,Wisła Płock,,False,,,,,scheduled
+803173cc-6444-470d-bba3-d070af364f9d,2026/27,9,Jagiellonia Białystok,Legia Warszawa,,False,,,,,scheduled
+8e18d16b-0a9e-42db-a7b4-8cc88777ade7,2026/27,9,Lech Poznań,Radomiak Radom,,False,,,,,scheduled
+d4641c59-db5f-404b-94f9-86301210eb68,2026/27,9,Motor Lublin,Górnik Zabrze,,False,,,,,scheduled
+30eeffee-73af-40eb-9bb7-46941110bbec,2026/27,9,Korona Kielce,Raków Częstochowa,,False,,,,,scheduled
+37b6427b-9610-431f-a891-15af824a7225,2026/27,9,GKS Katowice,Cracovia,,False,,,,,scheduled
+8a00630d-e35f-4793-9009-db52fee9bf82,2026/27,10,Legia Warszawa,Wisła Kraków,,False,,,,,scheduled
+1cb078f8-8ab2-4a1d-b9e7-ddf731a7236f,2026/27,10,Śląsk Wrocław,Lech Poznań,,False,,,,,scheduled
+ebf03d72-59bb-4e9f-970c-e473ce3de78a,2026/27,10,Radomiak Radom,Motor Lublin,,False,,,,,scheduled
+a13db505-4ced-450d-ac8a-67d95b6b5769,2026/27,10,Wieczysta Kraków,Wisła Płock,,False,,,,,scheduled
+287d0093-26fc-425f-a872-6db5292b8c50,2026/27,10,Cracovia,Zagłębie Lubin,,False,,,,,scheduled
+a32d9a83-e258-4e03-96f9-b342facf45cc,2026/27,10,Jagiellonia Białystok,Górnik Zabrze,,False,,,,,scheduled
+a71604cb-4a52-413d-a58b-f564a2154f90,2026/27,10,Raków Częstochowa,GKS Katowice,,False,,,,,scheduled
+4a5b91d8-b6f6-460c-a0ed-4e2115c8002d,2026/27,10,Pogoń Szczecin,Korona Kielce,,False,,,,,scheduled
+f320d756-413a-4b52-b1fe-cb6cf42676d6,2026/27,10,Piast Gliwice,Widzew Łódź,,False,,,,,scheduled
+13349cc9-a693-4ed7-a448-f5c69b568d05,2026/27,11,Górnik Zabrze,Piast Gliwice,,False,,,,,scheduled
+28029ea5-9ae9-40bd-95bc-b1a95e1c3b28,2026/27,11,Wieczysta Kraków,Raków Częstochowa,,False,,,,,scheduled
+ad3b9801-f247-45fe-aacc-c725690af805,2026/27,11,GKS Katowice,Pogoń Szczecin,,False,,,,,scheduled
+ce6eb6fc-433f-4187-bbc5-59e1729773bd,2026/27,11,Motor Lublin,Śląsk Wrocław,,False,,,,,scheduled
+6ff55bb0-751e-4c4c-bc6d-8ee9c036d2a8,2026/27,11,Widzew Łódź,Wisła Kraków,,False,,,,,scheduled
+d4f04954-b6c4-40c3-9653-45dd47c25375,2026/27,11,Lech Poznań,Korona Kielce,,False,,,,,scheduled
+e35bef4d-1dfc-4619-b50d-627feb9d2bf0,2026/27,11,Wisła Płock,Radomiak Radom,,False,,,,,scheduled
+2948fb30-8d91-44aa-8e53-e9ddf406ab17,2026/27,11,Cracovia,Legia Warszawa,,False,,,,,scheduled
+bff22b76-e90b-46ff-98e8-e5fc823a42f2,2026/27,11,Zagłębie Lubin,Jagiellonia Białystok,,False,,,,,scheduled
+6bf139a0-2114-48af-81ba-b4755714599f,2026/27,12,Śląsk Wrocław,Wieczysta Kraków,,False,,,,,scheduled
+e568cd83-5f01-40f7-a2ae-073c5a5810b8,2026/27,12,Wisła Kraków,Raków Częstochowa,,False,,,,,scheduled
+405bd504-7ce1-4ccb-b317-ae4446b9967e,2026/27,12,Pogoń Szczecin,Radomiak Radom,,False,,,,,scheduled
+72289ea6-f744-4e8b-8919-76212264610a,2026/27,12,Legia Warszawa,Lech Poznań,,False,,,,,scheduled
+341b0114-539b-44f5-9047-ca0f24420107,2026/27,12,Piast Gliwice,Cracovia,,False,,,,,scheduled
+6b497895-2249-4414-8db9-7bc2972955c6,2026/27,12,Motor Lublin,Zagłębie Lubin,,False,,,,,scheduled
+efd811c9-3341-42cf-9f95-a36a4d871c08,2026/27,12,Korona Kielce,GKS Katowice,,False,,,,,scheduled
+8e76e65d-9825-45f9-8bd1-427fc6074a40,2026/27,12,Widzew Łódź,Górnik Zabrze,,False,,,,,scheduled
+82ca9316-4d68-4ee2-a62c-34b634556e00,2026/27,12,Jagiellonia Białystok,Wisła Płock,,False,,,,,scheduled
+416866af-c10e-4390-acab-fdae783deca5,2026/27,13,Zagłębie Lubin,Korona Kielce,,False,,,,,scheduled
+6807e500-def3-4c13-abe4-7b84d402a546,2026/27,13,Raków Częstochowa,Pogoń Szczecin,,False,,,,,scheduled
+42b84d2c-ed49-43ec-8baa-da622df92125,2026/27,13,GKS Katowice,Widzew Łódź,,False,,,,,scheduled
+57f602e6-9024-4a23-b944-7aadb9f12e15,2026/27,13,Cracovia,Motor Lublin,,False,,,,,scheduled
+78c0970a-099e-43d4-b6b9-a7ac69a02a3b,2026/27,13,Wisła Płock,Piast Gliwice,,False,,,,,scheduled
+d66afaff-29dd-4597-b82d-db0a3f7b430e,2026/27,13,Górnik Zabrze,Legia Warszawa,,False,,,,,scheduled
+0e3f3ebd-022e-4342-adb0-b440e5c294df,2026/27,13,Wieczysta Kraków,Jagiellonia Białystok,,False,,,,,scheduled
+c9baf534-b684-4395-be92-f3e2bdefa337,2026/27,13,Radomiak Radom,Śląsk Wrocław,,False,,,,,scheduled
+de39766a-9b0c-4b73-a64a-a2f2fd9325fc,2026/27,13,Lech Poznań,Wisła Kraków,,False,,,,,scheduled
+9984ffce-6e8b-4493-97ca-abe9dfb959ea,2026/27,14,Jagiellonia Białystok,GKS Katowice,,False,,,,,scheduled
+64038d89-b0b3-4f04-9c18-fd9df7c01d1f,2026/27,14,Motor Lublin,Wisła Płock,,False,,,,,scheduled
+75af4fea-a83b-4d31-8308-d1c5a783b5b7,2026/27,14,Wisła Kraków,Cracovia,,False,,,,,scheduled
+fce41e0c-8af4-41a4-8091-0e3b7b6e2b08,2026/27,14,Legia Warszawa,Raków Częstochowa,,False,,,,,scheduled
+59b32bf1-a09c-4b73-be45-53864f1d2b10,2026/27,14,Lech Poznań,Zagłębie Lubin,,False,,,,,scheduled
+c1dcbabe-a5ed-45db-bbe1-9e1085347f6e,2026/27,14,Korona Kielce,Radomiak Radom,,False,,,,,scheduled
+09b9d2cb-d4fe-498a-95a0-abd09ebd8b74,2026/27,14,Śląsk Wrocław,Piast Gliwice,,False,,,,,scheduled
+29e4a607-bc3d-4f17-8c35-9aab94de4a21,2026/27,14,Widzew Łódź,Pogoń Szczecin,,False,,,,,scheduled
+0e5676e5-9f36-42e0-8616-0f224242e047,2026/27,14,Górnik Zabrze,Wieczysta Kraków,,False,,,,,scheduled
+3141ed0a-7da2-482a-8126-065afd29c91d,2026/27,15,Radomiak Radom,Wisła Kraków,,False,,,,,scheduled
+b7bf3ea6-78b8-433b-a5db-b1d3a96d8fe0,2026/27,15,Wisła Płock,Legia Warszawa,,False,,,,,scheduled
+8b682ede-74e6-451c-a277-8914cef6139e,2026/27,15,Zagłębie Lubin,Górnik Zabrze,,False,,,,,scheduled
+fbc9685c-bbc3-4074-926e-6643e109b9e4,2026/27,15,Wieczysta Kraków,Motor Lublin,,False,,,,,scheduled
+7b654cb9-5edc-47c6-8dcf-b8f1ceb1ad9e,2026/27,15,Raków Częstochowa,Widzew Łódź,,False,,,,,scheduled
+6a33a43f-1e2d-4fc6-9265-4ea37de87140,2026/27,15,Piast Gliwice,Korona Kielce,,False,,,,,scheduled
+2143d594-ad18-427c-b526-2e43c2fd1ea3,2026/27,15,GKS Katowice,Lech Poznań,,False,,,,,scheduled
+73cf84c5-b60c-4387-8757-f5b7d7e3fad8,2026/27,15,Pogoń Szczecin,Śląsk Wrocław,,False,,,,,scheduled
+0ac80736-4d3f-49ed-8dbb-83f761fd833d,2026/27,15,Cracovia,Jagiellonia Białystok,,False,,,,,scheduled
+b103f5dd-4561-4bbd-84ec-70f601a089bc,2026/27,16,Raków Częstochowa,Piast Gliwice,,False,,,,,scheduled
+08bde349-0c7f-4104-bbf0-f7cb1389f382,2026/27,16,Górnik Zabrze,Wisła Płock,,False,,,,,scheduled
+af2cc918-8ac3-437f-b910-e3c98bee90ff,2026/27,16,Wisła Kraków,Motor Lublin,,False,,,,,scheduled
+3430d024-5d97-4f8e-ba7e-2fb0f5993ba2,2026/27,16,Jagiellonia Białystok,Radomiak Radom,,False,,,,,scheduled
+4adbe3dd-6dd5-436f-969b-e2088b2eb470,2026/27,16,Widzew Łódź,Zagłębie Lubin,,False,,,,,scheduled
+d62017ec-3d57-41fa-be8a-0ff7f3d8b0ed,2026/27,16,Lech Poznań,Pogoń Szczecin,,False,,,,,scheduled
+1e014a8d-cd1b-4830-86ab-15ea50d4f963,2026/27,16,Legia Warszawa,Wieczysta Kraków,,False,,,,,scheduled
+ac91b426-ed97-4e76-a409-17189e3528b2,2026/27,16,Śląsk Wrocław,GKS Katowice,,False,,,,,scheduled
+0415788c-fbbf-498c-91f0-6b8ffe0b62a2,2026/27,16,Korona Kielce,Cracovia,,False,,,,,scheduled
+131e25e0-003b-49fa-892e-0b2d2f467ba3,2026/27,17,Wieczysta Kraków,Korona Kielce,,False,,,,,scheduled
+ddf3ed19-9885-49ca-a3cf-3b4acd91cfbd,2026/27,17,Pogoń Szczecin,Górnik Zabrze,,False,,,,,scheduled
+1959619a-0515-478f-b500-f40b1154ca9b,2026/27,17,Zagłębie Lubin,Wisła Kraków,,False,,,,,scheduled
+5af69180-574a-4e4a-987c-63ae73c8e2fc,2026/27,17,Wisła Płock,Śląsk Wrocław,,False,,,,,scheduled
+dde3f5a1-2679-4b63-981f-8299e93eae1f,2026/27,17,Cracovia,Widzew Łódź,,False,,,,,scheduled
+fa82f1b4-ebf6-4d81-93f1-3626a39ffc2f,2026/27,17,Motor Lublin,Lech Poznań,,False,,,,,scheduled
+c596503a-ca6c-4488-ad4b-43e5cf9c0280,2026/27,17,Piast Gliwice,Jagiellonia Białystok,,False,,,,,scheduled
+512c8b1b-519e-4ebc-96ba-893877f6ec6f,2026/27,17,Radomiak Radom,Raków Częstochowa,,False,,,,,scheduled
+3b9fd34c-5174-458c-8f1c-c5ac60700181,2026/27,17,GKS Katowice,Legia Warszawa,,False,,,,,scheduled
+06937e9d-2a84-49ae-8b2f-a4412daf4395,2026/27,18,Wieczysta Kraków,Radomiak Radom,,False,,,,,scheduled
+085de838-4607-457d-a881-f584b20a17a1,2026/27,18,Cracovia,Lech Poznań,,False,,,,,scheduled
+fb0948ec-e4ed-4a7e-bb04-6c2907772541,2026/27,18,Legia Warszawa,Pogoń Szczecin,,False,,,,,scheduled
+2283d814-4fd4-45fa-9ce5-49ca479e59fd,2026/27,18,Korona Kielce,Jagiellonia Białystok,,False,,,,,scheduled
+1e06dc48-bbea-4fd5-95c6-636aec04e218,2026/27,18,GKS Katowice,Wisła Kraków,,False,,,,,scheduled
+870007ca-ca65-4328-9674-bcef616edc63,2026/27,18,Wisła Płock,Raków Częstochowa,,False,,,,,scheduled
+77696e7b-ca87-4248-9494-1fd5e52a494b,2026/27,18,Śląsk Wrocław,Górnik Zabrze,,False,,,,,scheduled
+87fc6b59-4dae-43fd-8513-4443996b23db,2026/27,18,Piast Gliwice,Zagłębie Lubin,,False,,,,,scheduled
+59a31aa3-3bb5-447b-9cb9-fc231839a4de,2026/27,18,Motor Lublin,Widzew Łódź,,False,,,,,scheduled
+f74bac92-c9fb-4700-bb5e-bffd346b21b6,2026/27,19,Jagiellonia Białystok,Motor Lublin,,False,,,,,scheduled
+d532c42c-9269-4dbf-8b38-668bf91cdbc5,2026/27,19,Widzew Łódź,Wisła Płock,,False,,,,,scheduled
+af6baf7d-36a5-439a-a8e0-bfc9d52d0e4f,2026/27,19,Lech Poznań,Wieczysta Kraków,,False,,,,,scheduled
+3fc9bc25-a6fd-48f5-b09c-ef1690df2e9b,2026/27,19,Radomiak Radom,GKS Katowice,,False,,,,,scheduled
+84b9f27c-fa3e-4411-a656-516802097f08,2026/27,19,Pogoń Szczecin,Cracovia,,False,,,,,scheduled
+2acba381-03f7-4076-b665-0756a68f04bd,2026/27,19,Wisła Kraków,Piast Gliwice,,False,,,,,scheduled
+6362b3e8-31b6-4fbf-b828-03825228b27e,2026/27,19,Górnik Zabrze,Korona Kielce,,False,,,,,scheduled
+0cd7abe4-45f5-4116-9ae7-65d13b31dc5f,2026/27,19,Zagłębie Lubin,Legia Warszawa,,False,,,,,scheduled
+4d4e44db-6d21-470e-b912-de1100731170,2026/27,19,Raków Częstochowa,Śląsk Wrocław,,False,,,,,scheduled
+2702c62c-e794-4c79-ba01-09f79a6b19ca,2026/27,20,Cracovia,Śląsk Wrocław,,False,,,,,scheduled
+bb13864e-6e94-4526-b513-2d99b0ea39f9,2026/27,20,Piast Gliwice,Lech Poznań,,False,,,,,scheduled
+ebbffb2a-1848-4c97-9d24-3e5bcbca7585,2026/27,20,Górnik Zabrze,Radomiak Radom,,False,,,,,scheduled
+2b5d467a-324e-4497-a17a-d3a6ea977579,2026/27,20,Widzew Łódź,Jagiellonia Białystok,,False,,,,,scheduled
+9e8082c0-78b4-4ef3-8f29-809eec78d63b,2026/27,20,Motor Lublin,Pogoń Szczecin,,False,,,,,scheduled
+93c7de4f-b7c6-4c30-8e50-1561f1be831f,2026/27,20,Wisła Płock,Wisła Kraków,,False,,,,,scheduled
+62ccfce2-571f-4349-9a1d-71642f70c93e,2026/27,20,Zagłębie Lubin,Raków Częstochowa,,False,,,,,scheduled
+a17744fa-4660-49e9-b9fb-8b4881bb5ac0,2026/27,20,Legia Warszawa,Korona Kielce,,False,,,,,scheduled
+d66a5ae5-3d14-4e85-a737-4b5b831954aa,2026/27,20,Wieczysta Kraków,GKS Katowice,,False,,,,,scheduled
+0491d5ea-4461-49fa-8675-04ccda05d6ba,2026/27,21,Radomiak Radom,Legia Warszawa,,False,,,,,scheduled
+ed911a11-0963-48d0-a3e7-9fef5d461c10,2026/27,21,Korona Kielce,Widzew Łódź,,False,,,,,scheduled
+9fe7c93d-a865-47e8-82c8-463c7dfafcca,2026/27,21,Pogoń Szczecin,Jagiellonia Białystok,,False,,,,,scheduled
+706df8d7-153a-4fad-83e0-6332f5b0a560,2026/27,21,Wisła Kraków,Górnik Zabrze,,False,,,,,scheduled
+44ecfe37-1c8d-457b-8219-7a483f554af6,2026/27,21,Raków Częstochowa,Cracovia,,False,,,,,scheduled
+fc76eee6-9053-4154-9b85-0d6b6a79cef2,2026/27,21,GKS Katowice,Motor Lublin,,False,,,,,scheduled
+b3a1579f-6813-44fe-a915-92ad1bdbe557,2026/27,21,Śląsk Wrocław,Zagłębie Lubin,,False,,,,,scheduled
+21d153cb-26e5-4234-ad4d-9dfe637e7075,2026/27,21,Lech Poznań,Wisła Płock,,False,,,,,scheduled
+1b077adf-153e-41e3-8332-a3d73f1310a4,2026/27,21,Wieczysta Kraków,Piast Gliwice,,False,,,,,scheduled
+cba6ff7a-9849-45e6-a8f5-6a98ec6ba1af,2026/27,22,Zagłębie Lubin,Radomiak Radom,,False,,,,,scheduled
+d247f56b-4b41-4466-bf09-55ba4c81d57c,2026/27,22,Motor Lublin,Korona Kielce,,False,,,,,scheduled
+7d844694-5c08-4816-a90a-a62bd64c95fa,2026/27,22,Legia Warszawa,Piast Gliwice,,False,,,,,scheduled
+f945ed67-9dd8-46d1-bb8d-f2d42f59baae,2026/27,22,Wieczysta Kraków,Cracovia,,False,,,,,scheduled
+1d53060e-b254-4d29-b278-eda743f59bbb,2026/27,22,Jagiellonia Białystok,Lech Poznań,,False,,,,,scheduled
+f42983af-383f-4dda-9c6e-00f13a3fba44,2026/27,22,Wisła Płock,GKS Katowice,,False,,,,,scheduled
+342b0565-fa1f-462b-b4c0-88906b36de9c,2026/27,22,Wisła Kraków,Pogoń Szczecin,,False,,,,,scheduled
+a01af6c0-eec7-49b6-a3dd-1f1d7920e8b0,2026/27,22,Widzew Łódź,Śląsk Wrocław,,False,,,,,scheduled
+1f31a24b-1bad-4bd1-8c6a-6639e3d5513f,2026/27,22,Górnik Zabrze,Raków Częstochowa,,False,,,,,scheduled
+4730b5be-5305-4399-b207-dcfb1913974f,2026/27,23,Śląsk Wrocław,Legia Warszawa,,False,,,,,scheduled
+5a11111c-a2fe-462e-b0f4-1b08f17a5378,2026/27,23,GKS Katowice,Górnik Zabrze,,False,,,,,scheduled
+5a89a350-1020-4c61-b958-beeb7e8bde0f,2026/27,23,Jagiellonia Białystok,Raków Częstochowa,,False,,,,,scheduled
+2925465b-0388-443c-97d5-812df222a95d,2026/27,23,Lech Poznań,Widzew Łódź,,False,,,,,scheduled
+13534bc8-25a0-4fb4-a067-64acdf9fdf95,2026/27,23,Wieczysta Kraków,Wisła Kraków,,False,,,,,scheduled
+1521dfe6-4793-4c59-a97e-0bd2ba0b493a,2026/27,23,Piast Gliwice,Motor Lublin,,False,,,,,scheduled
+169dfdb8-4f6e-4dfd-814f-281c3e28cf05,2026/27,23,Korona Kielce,Wisła Płock,,False,,,,,scheduled
+5c244962-3017-4402-89af-7af9492d0b35,2026/27,23,Pogoń Szczecin,Zagłębie Lubin,,False,,,,,scheduled
+aac0820a-d172-42b2-99fd-ecd9a8b195de,2026/27,23,Cracovia,Radomiak Radom,,False,,,,,scheduled
+6cad1325-06fb-4a5b-aacd-a7c65ade9bd3,2026/27,24,GKS Katowice,Piast Gliwice,,False,,,,,scheduled
+d9e58410-c584-4a05-b576-48ba14c978a3,2026/27,24,Wisła Kraków,Korona Kielce,,False,,,,,scheduled
+908bd8d8-ee1d-4a7e-ad24-1d5e1951f109,2026/27,24,Górnik Zabrze,Cracovia,,False,,,,,scheduled
+f885b800-15f2-472d-9c68-3d2adddcdf9d,2026/27,24,Śląsk Wrocław,Jagiellonia Białystok,,False,,,,,scheduled
+10d2764f-8970-48b7-a010-5cad2d26e59b,2026/27,24,Raków Częstochowa,Lech Poznań,,False,,,,,scheduled
+ac086b70-1302-4dc0-b94c-6a8e2791c793,2026/27,24,Wisła Płock,Pogoń Szczecin,,False,,,,,scheduled
+f533c677-0ff0-4e54-b104-f43de729fe23,2026/27,24,Radomiak Radom,Widzew Łódź,,False,,,,,scheduled
+995dba41-9005-4b38-ab12-48694aea1b16,2026/27,24,Zagłębie Lubin,Wieczysta Kraków,,False,,,,,scheduled
+c35d4389-ef38-4df8-8ffe-73b1cf7ba491,2026/27,24,Legia Warszawa,Motor Lublin,,False,,,,,scheduled
+e483d5fc-3033-466a-adf7-f201d7902ef1,2026/27,25,GKS Katowice,Zagłębie Lubin,,False,,,,,scheduled
+bdcb12b5-36a8-4b15-9f80-a6bf5437426f,2026/27,25,Motor Lublin,Raków Częstochowa,,False,,,,,scheduled
+5f6ef350-27e4-41dc-9edf-df73f15544fd,2026/27,25,Widzew Łódź,Legia Warszawa,,False,,,,,scheduled
+fa289b4a-45ce-4ee2-a900-de4777a75746,2026/27,25,Wieczysta Kraków,Pogoń Szczecin,,False,,,,,scheduled
+b41a4e2e-3474-4184-bf96-0aebaa841fa3,2026/27,25,Lech Poznań,Górnik Zabrze,,False,,,,,scheduled
+3ed66b31-0ee2-4a13-8efe-e378dde56122,2026/27,25,Korona Kielce,Śląsk Wrocław,,False,,,,,scheduled
+49be8815-88ff-413a-a584-e9ee0fb2dfa4,2026/27,25,Jagiellonia Białystok,Wisła Kraków,,False,,,,,scheduled
+9e2d1533-2d82-4511-b7c5-0dc5025c13e3,2026/27,25,Cracovia,Wisła Płock,,False,,,,,scheduled
+928cd4fb-791f-4833-83e6-cb7810eec58b,2026/27,25,Piast Gliwice,Radomiak Radom,,False,,,,,scheduled
+ad3a558a-2084-432c-b881-f44159a4a6c0,2026/27,26,Wisła Płock,Zagłębie Lubin,,False,,,,,scheduled
+45f962c0-2edb-4010-97fc-3cf5537146e6,2026/27,26,Śląsk Wrocław,Wisła Kraków,,False,,,,,scheduled
+9089ccf6-f220-48da-94bb-5305eb763bb1,2026/27,26,Cracovia,GKS Katowice,,False,,,,,scheduled
+54e36bff-dcf2-4944-b93b-b0f039e40f4c,2026/27,26,Legia Warszawa,Jagiellonia Białystok,,False,,,,,scheduled
+dc677a03-46a0-4f37-b903-1b407ab9aabb,2026/27,26,Górnik Zabrze,Motor Lublin,,False,,,,,scheduled
+1fb95681-3eaf-491c-a4de-240f3282ce95,2026/27,26,Pogoń Szczecin,Piast Gliwice,,False,,,,,scheduled
+303a5b66-d856-42cb-822c-aa5bfd6b208d,2026/27,26,Wieczysta Kraków,Widzew Łódź,,False,,,,,scheduled
+74ae1560-cb59-4e4c-8a30-b695dc33130c,2026/27,26,Radomiak Radom,Lech Poznań,,False,,,,,scheduled
+7bddd01b-7bb4-4cf2-9caa-57c873427d18,2026/27,26,Raków Częstochowa,Korona Kielce,,False,,,,,scheduled
+74e00d15-a410-47be-8b07-3f0d4163d96a,2026/27,27,Widzew Łódź,Piast Gliwice,,False,,,,,scheduled
+d768059f-3c25-46c2-9b54-0b6834e32db2,2026/27,27,Wisła Płock,Wieczysta Kraków,,False,,,,,scheduled
+1e608786-7e47-4b37-935f-b29fce6c41bc,2026/27,27,Zagłębie Lubin,Cracovia,,False,,,,,scheduled
+e37743a5-d177-415e-a3d8-72e58f109cfd,2026/27,27,Górnik Zabrze,Jagiellonia Białystok,,False,,,,,scheduled
+ba34009a-14c7-4b6a-90b6-b6482bcf3697,2026/27,27,Wisła Kraków,Legia Warszawa,,False,,,,,scheduled
+7183c5fc-395f-4c7c-b12b-5b87baca7e9b,2026/27,27,Motor Lublin,Radomiak Radom,,False,,,,,scheduled
+b9c899b5-a7a0-43f4-9259-9d44c4219c9b,2026/27,27,Korona Kielce,Pogoń Szczecin,,False,,,,,scheduled
+85f088cd-11c3-4ec8-900e-2968a9e5d098,2026/27,27,Lech Poznań,Śląsk Wrocław,,False,,,,,scheduled
+e16cefee-e83d-4fc4-88d6-e0bfa65340c7,2026/27,27,GKS Katowice,Raków Częstochowa,,False,,,,,scheduled
+d638b480-397c-4a73-b1e1-a4641cb659b4,2026/27,28,Pogoń Szczecin,GKS Katowice,,False,,,,,scheduled
+d4b13b64-5fa8-4e6c-8e3d-ca871cd08828,2026/27,28,Korona Kielce,Lech Poznań,,False,,,,,scheduled
+32dfa6a8-c892-4703-8f59-0a0e2c2de91e,2026/27,28,Śląsk Wrocław,Motor Lublin,,False,,,,,scheduled
+1af74f76-96f0-4151-8174-d11e1a254b21,2026/27,28,Raków Częstochowa,Wieczysta Kraków,,False,,,,,scheduled
+0d655d57-7101-4e13-abfe-dab37dcc41dc,2026/27,28,Legia Warszawa,Cracovia,,False,,,,,scheduled
+67de1e3c-eed5-410f-9bd3-296208cb6f2a,2026/27,28,Wisła Kraków,Widzew Łódź,,False,,,,,scheduled
+c2b3536f-f85c-49f0-87e3-d59e5d7eabfa,2026/27,28,Radomiak Radom,Wisła Płock,,False,,,,,scheduled
+1ac7f929-3489-484b-ab95-090a4f1a0ef9,2026/27,28,Piast Gliwice,Górnik Zabrze,,False,,,,,scheduled
+ca30ecef-9c4d-49aa-9965-7564b9397a92,2026/27,28,Jagiellonia Białystok,Zagłębie Lubin,,False,,,,,scheduled
+b5370036-1401-4fa0-b1a9-1f3afbfa19df,2026/27,29,Górnik Zabrze,Widzew Łódź,,False,,,,,scheduled
+bc23d7de-460c-4583-a456-b10c9c5cf9a5,2026/27,29,Wisła Płock,Jagiellonia Białystok,,False,,,,,scheduled
+1b7fb4b3-468d-4860-a163-eee82de721f2,2026/27,29,Cracovia,Piast Gliwice,,False,,,,,scheduled
+ebb67638-8065-4ccc-8db2-6821e90705f5,2026/27,29,Radomiak Radom,Pogoń Szczecin,,False,,,,,scheduled
+d3efbca4-2fe9-404f-bda4-ab1ac5da915a,2026/27,29,Wieczysta Kraków,Śląsk Wrocław,,False,,,,,scheduled
+8a8030cd-ad2e-47e7-9e07-2900bd9262c5,2026/27,29,GKS Katowice,Korona Kielce,,False,,,,,scheduled
+aed04347-8cc4-4182-b048-7577a8e851d4,2026/27,29,Raków Częstochowa,Wisła Kraków,,False,,,,,scheduled
+a463ba65-8b04-484c-9a63-f19e99823336,2026/27,29,Zagłębie Lubin,Motor Lublin,,False,,,,,scheduled
+b8831586-86a5-46b1-b876-963229befda0,2026/27,29,Lech Poznań,Legia Warszawa,,False,,,,,scheduled
+5c200bc0-2223-40b1-b6f7-35ea2bbbb5a6,2026/27,30,Jagiellonia Białystok,Wieczysta Kraków,,False,,,,,scheduled
+0b2f4eb8-c8f8-4c79-bff6-2a9d5c493857,2026/27,30,Widzew Łódź,GKS Katowice,,False,,,,,scheduled
+e35535ca-c1eb-40eb-b93c-80019f6dcffc,2026/27,30,Wisła Kraków,Lech Poznań,,False,,,,,scheduled
+b71371d8-4704-476a-aea4-071eb65fc2e4,2026/27,30,Motor Lublin,Cracovia,,False,,,,,scheduled
+edd4d326-9e15-417e-91ab-8aed7f65904f,2026/27,30,Śląsk Wrocław,Radomiak Radom,,False,,,,,scheduled
+ed4a61f5-8214-4b9e-9965-45e5d432da5b,2026/27,30,Legia Warszawa,Górnik Zabrze,,False,,,,,scheduled
+64bdf84d-50e3-4c74-a516-bcfff15832f6,2026/27,30,Pogoń Szczecin,Raków Częstochowa,,False,,,,,scheduled
+3a6fdd20-84d5-45a0-8e17-c2e9da49242d,2026/27,30,Korona Kielce,Zagłębie Lubin,,False,,,,,scheduled
+e8d1bfab-a9fc-42ed-8b96-62b2ee363f22,2026/27,30,Piast Gliwice,Wisła Płock,,False,,,,,scheduled
+91990ec2-e5f5-4fcb-ab34-11253ebb70c3,2026/27,31,GKS Katowice,Jagiellonia Białystok,,False,,,,,scheduled
+c020f057-869b-4ed5-b09f-e18a4adc422b,2026/27,31,Piast Gliwice,Śląsk Wrocław,,False,,,,,scheduled
+495a4ab8-55ed-461a-aa61-c7dc55dc69ba,2026/27,31,Cracovia,Wisła Kraków,,False,,,,,scheduled
+a2af895a-71e5-402d-88e3-40068defb78c,2026/27,31,Pogoń Szczecin,Widzew Łódź,,False,,,,,scheduled
+b7b6500d-b37e-4abc-8108-68a804c977ea,2026/27,31,Radomiak Radom,Korona Kielce,,False,,,,,scheduled
+c344b2ec-dffe-41c2-bc72-01e9a0de0c22,2026/27,31,Zagłębie Lubin,Lech Poznań,,False,,,,,scheduled
+869212ae-e1c0-4075-a116-c9de9050af05,2026/27,31,Raków Częstochowa,Legia Warszawa,,False,,,,,scheduled
+85335212-6e99-4195-bd67-c25a59f0f543,2026/27,31,Wieczysta Kraków,Górnik Zabrze,,False,,,,,scheduled
+8e85e35e-9e80-4997-9c65-eba1b266f592,2026/27,31,Wisła Płock,Motor Lublin,,False,,,,,scheduled
+293c26c6-e508-41c8-aa82-74d3028b34ba,2026/27,32,Śląsk Wrocław,Pogoń Szczecin,,False,,,,,scheduled
+ea2c606e-9911-43c8-9412-8c45a488203e,2026/27,32,Korona Kielce,Piast Gliwice,,False,,,,,scheduled
+856c67ef-78c3-4fe9-8fa4-8511e628a7d8,2026/27,32,Lech Poznań,GKS Katowice,,False,,,,,scheduled
+500a3b54-fab2-4e0d-bac3-3d4f1af86900,2026/27,32,Wisła Kraków,Radomiak Radom,,False,,,,,scheduled
+8a0b1776-9f3c-4a3f-85ca-8b2cc8995c55,2026/27,32,Legia Warszawa,Wisła Płock,,False,,,,,scheduled
+cf939a99-aa56-4b67-9539-4e64e6843025,2026/27,32,Górnik Zabrze,Zagłębie Lubin,,False,,,,,scheduled
+24985108-f6c1-491a-95bc-af5f3e63de2f,2026/27,32,Widzew Łódź,Raków Częstochowa,,False,,,,,scheduled
+f7f3f032-b0d0-40c2-b26f-372b842a9269,2026/27,32,Jagiellonia Białystok,Cracovia,,False,,,,,scheduled
+7ec250d9-779c-4546-a326-c874f4f56f57,2026/27,32,Motor Lublin,Wieczysta Kraków,,False,,,,,scheduled
+e5d38866-3ca9-48bc-bf01-2f7c0ed786b8,2026/27,33,Motor Lublin,Wisła Kraków,,False,,,,,scheduled
+067f094f-ac30-4088-a750-6944e9f31500,2026/27,33,GKS Katowice,Śląsk Wrocław,,False,,,,,scheduled
+0c238eb8-3db7-42ce-8867-26e5ad5e7a87,2026/27,33,Piast Gliwice,Raków Częstochowa,,False,,,,,scheduled
+8774f8c7-d1da-476b-b631-3745327ef121,2026/27,33,Cracovia,Korona Kielce,,False,,,,,scheduled
+265d3e57-752f-4ef7-a9cd-dfa43d2e4bbe,2026/27,33,Pogoń Szczecin,Lech Poznań,,False,,,,,scheduled
+facc3afd-0b79-4a16-a42b-4698a2167303,2026/27,33,Zagłębie Lubin,Widzew Łódź,,False,,,,,scheduled
+656db81c-18ee-4b8f-91f9-62a73abf12f2,2026/27,33,Wieczysta Kraków,Legia Warszawa,,False,,,,,scheduled
+f7528239-14b6-4e44-a412-d12576d4c90c,2026/27,33,Radomiak Radom,Jagiellonia Białystok,,False,,,,,scheduled
+56448692-1581-4d6a-9f9e-ef0cf6611f82,2026/27,33,Wisła Płock,Górnik Zabrze,,False,,,,,scheduled
+457ab32f-e965-4119-b4cd-d730a89b50b5,2026/27,34,Korona Kielce,Wieczysta Kraków,,False,,,,,scheduled
+9f427455-0869-4824-8a68-b1face866249,2026/27,34,Śląsk Wrocław,Wisła Płock,,False,,,,,scheduled
+9c1efb4b-dabf-4ffd-ac52-1628f7962af5,2026/27,34,Legia Warszawa,GKS Katowice,,False,,,,,scheduled
+b08ba34e-d89b-472f-874b-992ce70acb5c,2026/27,34,Lech Poznań,Motor Lublin,,False,,,,,scheduled
+41b379a3-e204-4e81-9909-70f4c769fddb,2026/27,34,Widzew Łódź,Cracovia,,False,,,,,scheduled
+2685fe8c-2dfa-4d64-8e3e-c5b48b9d71ff,2026/27,34,Raków Częstochowa,Radomiak Radom,,False,,,,,scheduled
+e443b7da-5301-43b9-af4f-42793b2b58a8,2026/27,34,Górnik Zabrze,Pogoń Szczecin,,False,,,,,scheduled
+ff997727-06f2-47cc-a0fc-82c29691700c,2026/27,34,Jagiellonia Białystok,Piast Gliwice,,False,,,,,scheduled
+c4cb23e1-d162-4766-90bf-104f8b863eb0,2026/27,34,Wisła Kraków,Zagłębie Lubin,,False,,,,,scheduled
