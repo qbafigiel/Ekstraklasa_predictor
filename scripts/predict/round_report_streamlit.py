@@ -137,6 +137,127 @@ def get_value_bets(df: pd.DataFrame) -> pd.DataFrame:
     return pd.DataFrame(picks).sort_values("Pewność", ascending=False).reset_index(drop=True)
 
 
+
+
+# =============================================================================
+# KALKULATOR EV
+# =============================================================================
+
+def render_ev_calculator():
+    """Kalkulator opłacalności zakładu."""
+    st.markdown("---")
+    st.markdown("## 🧮 Kalkulator EV (Expected Value)")
+    st.caption("Sprawdź czy zakład jest opłacalny. Wpisz kurs bukmachera i porównaj z pewnością modelu.")
+    
+    tab1, tab2 = st.tabs(["📊 Z predykcji modelu", "✍️ Ręczny wpis"])
+    
+    with tab1:
+        st.markdown("### Wybierz zakład z predykcji")
+        
+        files = discover_prediction_files()
+        if not files:
+            st.error("Brak predykcji")
+            return
+        
+        labels = [x["label"] for x in files]
+        selected_label = st.selectbox("Kolejka", labels, index=len(labels)-1, key="calc_kolejka")
+        selected = next(x for x in files if x["label"] == selected_label)
+        df_calc = load_predictions(str(selected["path"]))
+        
+        matches = df_calc.apply(lambda r: f"{r['gospodarz']} vs {r['gosc']}", axis=1).tolist()
+        selected_match = st.selectbox("Mecz", matches, key="calc_match")
+        
+        match_row = df_calc[df_calc.apply(lambda r: f"{r['gospodarz']} vs {r['gosc']}", axis=1) == selected_match].iloc[0]
+        
+        market_options = {
+            "1X2 - Wygrana gospodarza (1)": "p_H",
+            "1X2 - Remis (X)": "p_D",
+            "1X2 - Wygrana gościa (2)": "p_A",
+            "BTTS - TAK": "p_btts_yes",
+            "BTTS - NIE": "p_btts_no",
+            "Gole - Over 0.5": "p_over_05",
+            "Gole - Over 1.5": "p_over_15",
+            "Gole - Over 2.5": "p_over_25",
+            "Gole - Over 3.5": "p_over_35",
+        }
+        
+        for prefix, (label, _) in MARKET_LABELS_VB.items():
+            for line in RELIABLE_LINES_VB.get(prefix, []):
+                line_int = int(line)
+                line_dec = int(round((line - line_int) * 10))
+                market_options[f"{label} - Over {line:.1f}"] = f"{prefix}_p_over_{line_int}_{line_dec}"
+                market_options[f"{label} - Under {line:.1f}"] = f"{prefix}_p_under_{line_int}_{line_dec}"
+        
+        selected_market = st.selectbox("Rynek", list(market_options.keys()), key="calc_market")
+        col_name = market_options[selected_market]
+        
+        pewnosc = match_row.get(col_name)
+        if pewnosc is None or pd.isna(pewnosc):
+            st.warning("Brak danych dla tego rynku w predykcjach")
+            return
+        
+        pewnosc = float(pewnosc)
+        st.metric("Pewność modelu", f"{pewnosc*100:.1f}%")
+        
+        kurs = st.number_input("Kurs bukmachera", min_value=1.01, max_value=100.0, value=1.85, step=0.01, key="calc_odds")
+        
+        ev = (pewnosc * kurs) - 1
+        breakeven = 1 / pewnosc
+        implied_prob = 1 / kurs
+        margin = pewnosc - implied_prob
+        
+        b = kurs - 1
+        q = 1 - pewnosc
+        kelly = max(0, (pewnosc * b - q) / b) if b > 0 else 0
+        kelly_conservative = kelly / 4
+        
+        st.markdown("### Wyniki")
+        col1, col2, col3, col4 = st.columns(4)
+        col1.metric("EV", f"{ev*100:+.1f}%")
+        col2.metric("Breakeven kurs", f"{breakeven:.3f}")
+        col3.metric("Edge vs bukmacher", f"{margin*100:+.1f}pp")
+        col4.metric("Kelly (÷4)", f"{kelly_conservative*100:.2f}%")
+        
+        if ev > 0.05:
+            st.success(f"✅ **Value bet!** Model: {pewnosc*100:.1f}%, kurs implikuje: {implied_prob*100:.1f}%. Edge = {margin*100:.1f}pp. Sugerowany zakład: {kelly_conservative*100:.2f}% bankrolla.")
+        elif ev > 0:
+            st.info(f"🟡 **Marginalny value.** EV +{ev*100:.1f}%.")
+        else:
+            st.error(f"❌ **Nie graj.** Kurs za niski. Potrzeba min. {breakeven:.3f}.")
+    
+    with tab2:
+        st.markdown("### Ręczny wpis")
+        col1, col2 = st.columns(2)
+        with col1:
+            manual_prob = st.slider("Pewność (%)", 1, 99, 65, 1, key="manual_prob") / 100
+        with col2:
+            manual_kurs = st.number_input("Kurs", min_value=1.01, max_value=100.0, value=1.85, step=0.01, key="manual_kurs")
+        
+        ev_m = (manual_prob * manual_kurs) - 1
+        breakeven_m = 1 / manual_prob
+        implied_m = 1 / manual_kurs
+        margin_m = manual_prob - implied_m
+        
+        b_m = manual_kurs - 1
+        q_m = 1 - manual_prob
+        kelly_m = max(0, (manual_prob * b_m - q_m) / b_m) if b_m > 0 else 0
+        kelly_conservative_m = kelly_m / 4
+        
+        col1, col2, col3, col4 = st.columns(4)
+        col1.metric("EV", f"{ev_m*100:+.1f}%")
+        col2.metric("Breakeven kurs", f"{breakeven_m:.3f}")
+        col3.metric("Edge", f"{margin_m*100:+.1f}pp")
+        col4.metric("Kelly (÷4)", f"{kelly_conservative_m*100:.2f}%")
+        
+        if ev_m > 0.05:
+            st.success(f"✅ Value bet! Sugerowany zakład: {kelly_conservative_m*100:.2f}% bankrolla.")
+        elif ev_m > 0:
+            st.info(f"🟡 Marginalny value: +{ev_m*100:.1f}%")
+        else:
+            st.error(f"❌ Nie graj. Kurs min. {breakeven_m:.3f}")
+
+
+
 def render_value_bets_section(df: pd.DataFrame):
     """Renderuje sekcję value bets w Streamlit."""
     st.markdown("---")
@@ -474,6 +595,8 @@ for _, row in df.iterrows():
         st.markdown("---")
 
 render_value_bets_section(df)
+
+render_ev_calculator()
 
 st.success("Raport załadowany.")
 
