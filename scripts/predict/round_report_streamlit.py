@@ -151,7 +151,7 @@ def render_value_bets_section(df: pd.DataFrame):
         return
     
     # Filtruj
-    col1, col2 = st.columns(2)
+    col1, col2, col3 = st.columns(3)
     with col1:
         min_p = st.slider("Min. pewność modelu (%)", 58, 90, 65, 1)
     with col2:
@@ -160,11 +160,18 @@ def render_value_bets_section(df: pd.DataFrame):
             options=vb_df["Rynek"].unique().tolist(),
             default=vb_df["Rynek"].unique().tolist()
         )
+    with col3:
+        side_filter = st.radio("Strona", ["Wszystkie", "Tylko OVER", "Tylko UNDER"], index=0, horizontal=True)
     
     filtered = vb_df[
         (vb_df["Pewność"] >= min_p / 100) &
         (vb_df["Rynek"].isin(rynki))
     ]
+    
+    if side_filter == "Tylko OVER":
+        filtered = filtered[filtered["Typ"].str.startswith("OVER")]
+    elif side_filter == "Tylko UNDER":
+        filtered = filtered[filtered["Typ"].str.startswith("UNDER")]
     
     st.markdown(f"### Znaleziono: {len(filtered)} typów")
     

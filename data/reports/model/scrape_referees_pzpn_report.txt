@@ -1,12 +1,12 @@
 SCRAPE REFEREES PZPN REPORT
 ================================================================================
-Timestamp: 2026-08-07 08:19:33
+Timestamp: 2026-08-13 23:26:16
 Sezon:     2026/27
 Dry run:   False
 
-Artykulow znalezionych:     3
-Artykulow z PDF:             3
-Fixtures sparsowanych:       24
-Fixtures zmatchowanych:      24
-Fixtures zaktualizowanych:   24
+Artykulow znalezionych:     4
+Artykulow z PDF:             4
+Fixtures sparsowanych:       31
+Fixtures zmatchowanych:      31
+Fixtures zaktualizowanych:   31
 Nieznanych klubow (skips):   0
